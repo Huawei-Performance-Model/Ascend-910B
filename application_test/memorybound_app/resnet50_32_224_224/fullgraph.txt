@@ -1,0 +1,4090 @@
+1	Default/GetNext-op113
+2	Default/TupleGetItem-op6931
+1 cst1
+3	Default/network-TrainOneStepCell/network-WithLossCell/_backbone-ResNet/Cast-op116
+2
+4	Default/network-TrainOneStepCell/network-WithLossCell/_backbone-ResNet/TransData-op4126
+3
+5	conv1.weight
+conv1.weight cst2
+6	Default/network-TrainOneStepCell/network-WithLossCell/_backbone-ResNet/conv1-Conv2d/Cast-op119
+5
+7	Default/network-TrainOneStepCell/network-WithLossCell/_backbone-ResNet/bn1-BatchNorm2d/FusionOp_Conv2D_BNTrainingReduce-op9132
+4 6
+8	Default/TupleGetItem-op9218
+7 cst3
+9	Default/TupleGetItem-op9219
+7 cst4
+10	Default/TupleGetItem-op9220
+7 cst5
+11	bn1.gamma
+bn1.gamma cst2
+12	bn1.beta
+bn1.beta cst2
+13	bn1.moving_mean
+bn1.moving_mean cst2
+14	bn1.moving_variance
+bn1.moving_variance cst2
+15	Default/network-TrainOneStepCell/network-WithLossCell/_backbone-ResNet/FusionOp_BNTrainingUpdate_ReLUV2-op9130
+8 9 10 11 12 13 14
+16	Default/TupleGetItem-op9221
+15 cst6
+17	Default/network-TrainOneStepCell/network-WithLossCell/_backbone-ResNet/maxpool-MaxPool2d/MaxPoolWithArgmax-op2110
+16
+18	Default/TupleGetItem-op6946
+17 cst7
+19	layer1.0.conv1.weight
+layer1.0.conv1.weight cst2
+20	Default/network-TrainOneStepCell/network-WithLossCell/_backbone-ResNet/layer1-SequentialCell/0-ResidualBlock/conv1-Conv2d/Cast-op130
+19
+21	Default/network-TrainOneStepCell/network-WithLossCell/_backbone-ResNet/bn1-BatchNorm2d/FusionOp_Conv2D_BNTrainingReduce-op9127
+18 20
+22	Default/TupleGetItem-op9222
+21 cst8
+23	Default/TupleGetItem-op9223
+21 cst9
+24	Default/TupleGetItem-op9224
+21 cst10
+25	layer1.0.bn1.gamma
+layer1.0.bn1.gamma cst2
+26	layer1.0.bn1.beta
+layer1.0.bn1.beta cst2
+27	layer1.0.bn1.moving_mean
+layer1.0.bn1.moving_mean cst2
+28	layer1.0.bn1.moving_variance
+layer1.0.bn1.moving_variance cst2
+29	Default/network-TrainOneStepCell/network-WithLossCell/_backbone-ResNet/layer1-SequentialCell/0-ResidualBlock/relu-ReLU/FusionOp_BNTrainingUpdate_ReLUV2-op9125
+22 23 24 25 26 27 28
+30	Default/TupleGetItem-op9225
+29 cst11
+31	layer1.0.conv2.weight
+layer1.0.conv2.weight cst2
+32	Default/network-TrainOneStepCell/network-WithLossCell/_backbone-ResNet/layer1-SequentialCell/0-ResidualBlock/conv2-Conv2d/Cast-op141
+31
+33	Default/network-TrainOneStepCell/network-WithLossCell/_backbone-ResNet/bn1-BatchNorm2d/FusionOp_Conv2D_BNTrainingReduce-op9122
+30 32
+34	Default/TupleGetItem-op9226
+33 cst12
+35	Default/TupleGetItem-op9227
+33 cst13
+36	Default/TupleGetItem-op9228
+33 cst14
+37	layer1.0.bn2.gamma
+layer1.0.bn2.gamma cst2
+38	layer1.0.bn2.beta
+layer1.0.bn2.beta cst2
+39	layer1.0.bn2.moving_mean
+layer1.0.bn2.moving_mean cst2
+40	layer1.0.bn2.moving_variance
+layer1.0.bn2.moving_variance cst2
+41	Default/network-TrainOneStepCell/network-WithLossCell/_backbone-ResNet/layer1-SequentialCell/0-ResidualBlock/relu-ReLU/FusionOp_BNTrainingUpdate_ReLUV2-op9120
+34 35 36 37 38 39 40
+42	Default/TupleGetItem-op9229
+41 cst15
+43	layer1.0.conv3.weight
+layer1.0.conv3.weight cst2
+44	Default/network-TrainOneStepCell/network-WithLossCell/_backbone-ResNet/layer1-SequentialCell/0-ResidualBlock/conv3-Conv2d/Cast-op151
+43
+45	Default/network-TrainOneStepCell/network-WithLossCell/_backbone-ResNet/layer3-SequentialCell/0-ResidualBlock/bn2-BatchNorm2d/FusionOp_Conv2D_BNTrainingReduce-op9119
+42 44
+46	Default/TupleGetItem-op9230
+45 cst16
+47	Default/TupleGetItem-op9231
+45 cst17
+48	Default/TupleGetItem-op9232
+45 cst18
+49	layer1.0.bn3.gamma
+layer1.0.bn3.gamma cst2
+50	layer1.0.bn3.beta
+layer1.0.bn3.beta cst2
+51	layer1.0.bn3.moving_mean
+layer1.0.bn3.moving_mean cst2
+52	layer1.0.bn3.moving_variance
+layer1.0.bn3.moving_variance cst2
+53	layer1.0.down_sample_layer.0.weight
+layer1.0.down_sample_layer.0.weight cst2
+54	Default/network-TrainOneStepCell/network-WithLossCell/_backbone-ResNet/layer1-SequentialCell/0-ResidualBlock/down_sample_layer-SequentialCell/0-Conv2d/Cast-op159
+53
+55	Default/network-TrainOneStepCell/network-WithLossCell/_backbone-ResNet/layer3-SequentialCell/0-ResidualBlock/bn2-BatchNorm2d/FusionOp_Conv2D_BNTrainingReduce-op9117
+18 54
+56	Default/TupleGetItem-op9233
+55 cst19
+57	Default/TupleGetItem-op9234
+55 cst20
+58	Default/TupleGetItem-op9235
+55 cst21
+59	layer1.0.down_sample_layer.1.gamma
+layer1.0.down_sample_layer.1.gamma cst2
+60	layer1.0.down_sample_layer.1.beta
+layer1.0.down_sample_layer.1.beta cst2
+61	layer1.0.down_sample_layer.1.moving_mean
+layer1.0.down_sample_layer.1.moving_mean cst2
+62	layer1.0.down_sample_layer.1.moving_variance
+layer1.0.down_sample_layer.1.moving_variance cst2
+63	Default/network-TrainOneStepCell/network-WithLossCell/_backbone-ResNet/layer3-SequentialCell/0-ResidualBlock/bn2-BatchNorm2d/BNTrainingUpdate-op2517
+56 57 58 59 60 61 62
+64	Default/network-TrainOneStepCell/network-WithLossCell/_backbone-ResNet/layer3-SequentialCell/0-ResidualBlock/bn2-BatchNorm2d/TupleGetItem-op8290
+63 cst22
+65	Default/network-TrainOneStepCell/network-WithLossCell/_backbone-ResNet/layer1-SequentialCell/0-ResidualBlock/relu-ReLU/FusionOp_BNTrainingUpdate_Add_ReLUV2-op9111
+46 47 48 49 50 51 52 64
+66	Default/TupleGetItem-op9236
+65 cst23
+67	layer1.1.conv1.weight
+layer1.1.conv1.weight cst2
+68	Default/network-TrainOneStepCell/network-WithLossCell/_backbone-ResNet/layer1-SequentialCell/1-ResidualBlock/conv1-Conv2d/Cast-op170
+67
+69	Default/network-TrainOneStepCell/network-WithLossCell/_backbone-ResNet/bn1-BatchNorm2d/FusionOp_Conv2D_BNTrainingReduce-op9114
+66 68
+70	Default/TupleGetItem-op9237
+69 cst24
+71	Default/TupleGetItem-op9238
+69 cst25
+72	Default/TupleGetItem-op9239
+69 cst26
+73	layer1.1.bn1.gamma
+layer1.1.bn1.gamma cst2
+74	layer1.1.bn1.beta
+layer1.1.bn1.beta cst2
+75	layer1.1.bn1.moving_mean
+layer1.1.bn1.moving_mean cst2
+76	layer1.1.bn1.moving_variance
+layer1.1.bn1.moving_variance cst2
+77	Default/network-TrainOneStepCell/network-WithLossCell/_backbone-ResNet/layer1-SequentialCell/1-ResidualBlock/relu-ReLU/FusionOp_BNTrainingUpdate_ReLUV2-op9115
+70 71 72 73 74 75 76
+78	Default/TupleGetItem-op9240
+77 cst27
+79	layer1.1.conv2.weight
+layer1.1.conv2.weight cst2
+80	Default/network-TrainOneStepCell/network-WithLossCell/_backbone-ResNet/layer1-SequentialCell/1-ResidualBlock/conv2-Conv2d/Cast-op181
+79
+81	Default/network-TrainOneStepCell/network-WithLossCell/_backbone-ResNet/bn1-BatchNorm2d/FusionOp_Conv2D_BNTrainingReduce-op9108
+78 80
+82	Default/TupleGetItem-op9241
+81 cst28
+83	Default/TupleGetItem-op9242
+81 cst29
+84	Default/TupleGetItem-op9243
+81 cst30
+85	layer1.1.bn2.gamma
+layer1.1.bn2.gamma cst2
+86	layer1.1.bn2.beta
+layer1.1.bn2.beta cst2
+87	layer1.1.bn2.moving_mean
+layer1.1.bn2.moving_mean cst2
+88	layer1.1.bn2.moving_variance
+layer1.1.bn2.moving_variance cst2
+89	Default/network-TrainOneStepCell/network-WithLossCell/_backbone-ResNet/layer1-SequentialCell/1-ResidualBlock/relu-ReLU/FusionOp_BNTrainingUpdate_ReLUV2-op9109
+82 83 84 85 86 87 88
+90	Default/TupleGetItem-op9244
+89 cst31
+91	layer1.1.conv3.weight
+layer1.1.conv3.weight cst2
+92	Default/network-TrainOneStepCell/network-WithLossCell/_backbone-ResNet/layer1-SequentialCell/1-ResidualBlock/conv3-Conv2d/Cast-op191
+91
+93	Default/network-TrainOneStepCell/network-WithLossCell/_backbone-ResNet/layer3-SequentialCell/0-ResidualBlock/bn2-BatchNorm2d/FusionOp_Conv2D_BNTrainingReduce-op9138
+90 92
+94	Default/TupleGetItem-op9245
+93 cst32
+95	Default/TupleGetItem-op9246
+93 cst33
+96	Default/TupleGetItem-op9247
+93 cst34
+97	layer1.1.bn3.gamma
+layer1.1.bn3.gamma cst2
+98	layer1.1.bn3.beta
+layer1.1.bn3.beta cst2
+99	layer1.1.bn3.moving_mean
+layer1.1.bn3.moving_mean cst2
+100	layer1.1.bn3.moving_variance
+layer1.1.bn3.moving_variance cst2
+101	Default/network-TrainOneStepCell/network-WithLossCell/_backbone-ResNet/layer1-SequentialCell/1-ResidualBlock/relu-ReLU/FusionOp_BNTrainingUpdate_Add_ReLUV2-op9134
+94 95 96 97 98 99 100 66
+102	Default/TupleGetItem-op9248
+101 cst35
+103	layer1.2.conv1.weight
+layer1.2.conv1.weight cst2
+104	Default/network-TrainOneStepCell/network-WithLossCell/_backbone-ResNet/layer1-SequentialCell/2-ResidualBlock/conv1-Conv2d/Cast-op201
+103
+105	Default/network-TrainOneStepCell/network-WithLossCell/_backbone-ResNet/bn1-BatchNorm2d/FusionOp_Conv2D_BNTrainingReduce-op9140
+102 104
+106	Default/TupleGetItem-op9249
+105 cst36
+107	Default/TupleGetItem-op9250
+105 cst37
+108	Default/TupleGetItem-op9251
+105 cst38
+109	layer1.2.bn1.gamma
+layer1.2.bn1.gamma cst2
+110	layer1.2.bn1.beta
+layer1.2.bn1.beta cst2
+111	layer1.2.bn1.moving_mean
+layer1.2.bn1.moving_mean cst2
+112	layer1.2.bn1.moving_variance
+layer1.2.bn1.moving_variance cst2
+113	Default/network-TrainOneStepCell/network-WithLossCell/_backbone-ResNet/layer1-SequentialCell/2-ResidualBlock/relu-ReLU/FusionOp_BNTrainingUpdate_ReLUV2-op9136
+106 107 108 109 110 111 112
+114	Default/TupleGetItem-op9252
+113 cst39
+115	layer1.2.conv2.weight
+layer1.2.conv2.weight cst2
+116	Default/network-TrainOneStepCell/network-WithLossCell/_backbone-ResNet/layer1-SequentialCell/2-ResidualBlock/conv2-Conv2d/Cast-op212
+115
+117	Default/network-TrainOneStepCell/network-WithLossCell/_backbone-ResNet/bn1-BatchNorm2d/FusionOp_Conv2D_BNTrainingReduce-op9142
+114 116
+118	Default/TupleGetItem-op9253
+117 cst40
+119	Default/TupleGetItem-op9254
+117 cst41
+120	Default/TupleGetItem-op9255
+117 cst42
+121	layer1.2.bn2.gamma
+layer1.2.bn2.gamma cst2
+122	layer1.2.bn2.beta
+layer1.2.bn2.beta cst2
+123	layer1.2.bn2.moving_mean
+layer1.2.bn2.moving_mean cst2
+124	layer1.2.bn2.moving_variance
+layer1.2.bn2.moving_variance cst2
+125	Default/network-TrainOneStepCell/network-WithLossCell/_backbone-ResNet/layer1-SequentialCell/2-ResidualBlock/relu-ReLU/FusionOp_BNTrainingUpdate_ReLUV2-op9131
+118 119 120 121 122 123 124
+126	Default/TupleGetItem-op9256
+125 cst43
+127	layer1.2.conv3.weight
+layer1.2.conv3.weight cst2
+128	Default/network-TrainOneStepCell/network-WithLossCell/_backbone-ResNet/layer1-SequentialCell/2-ResidualBlock/conv3-Conv2d/Cast-op222
+127
+129	Default/network-TrainOneStepCell/network-WithLossCell/_backbone-ResNet/layer3-SequentialCell/0-ResidualBlock/bn2-BatchNorm2d/FusionOp_Conv2D_BNTrainingReduce-op9144
+126 128
+130	Default/TupleGetItem-op9257
+129 cst44
+131	Default/TupleGetItem-op9258
+129 cst45
+132	Default/TupleGetItem-op9259
+129 cst46
+133	layer1.2.bn3.gamma
+layer1.2.bn3.gamma cst2
+134	layer1.2.bn3.beta
+layer1.2.bn3.beta cst2
+135	layer1.2.bn3.moving_mean
+layer1.2.bn3.moving_mean cst2
+136	layer1.2.bn3.moving_variance
+layer1.2.bn3.moving_variance cst2
+137	Default/network-TrainOneStepCell/network-WithLossCell/_backbone-ResNet/layer1-SequentialCell/2-ResidualBlock/relu-ReLU/FusionOp_BNTrainingUpdate_Add_ReLUV2-op9129
+130 131 132 133 134 135 136 102
+138	Default/TupleGetItem-op9260
+137 cst47
+139	layer2.0.conv1.weight
+layer2.0.conv1.weight cst2
+140	Default/network-TrainOneStepCell/network-WithLossCell/_backbone-ResNet/layer2-SequentialCell/0-ResidualBlock/conv1-Conv2d/Cast-op232
+139
+141	Default/network-TrainOneStepCell/network-WithLossCell/_backbone-ResNet/layer2-SequentialCell/0-ResidualBlock/bn2-BatchNorm2d/FusionOp_Conv2D_BNTrainingReduce-op9146
+138 140
+142	Default/TupleGetItem-op9261
+141 cst48
+143	Default/TupleGetItem-op9262
+141 cst49
+144	Default/TupleGetItem-op9263
+141 cst50
+145	layer2.0.bn1.gamma
+layer2.0.bn1.gamma cst2
+146	layer2.0.bn1.beta
+layer2.0.bn1.beta cst2
+147	layer2.0.bn1.moving_mean
+layer2.0.bn1.moving_mean cst2
+148	layer2.0.bn1.moving_variance
+layer2.0.bn1.moving_variance cst2
+149	Default/network-TrainOneStepCell/network-WithLossCell/_backbone-ResNet/layer2-SequentialCell/0-ResidualBlock/relu-ReLU/FusionOp_BNTrainingUpdate_ReLUV2-op9126
+142 143 144 145 146 147 148
+150	Default/TupleGetItem-op9264
+149 cst51
+151	layer2.0.conv2.weight
+layer2.0.conv2.weight cst2
+152	Default/network-TrainOneStepCell/network-WithLossCell/_backbone-ResNet/layer2-SequentialCell/0-ResidualBlock/conv2-Conv2d/Cast-op243
+151
+153	Default/network-TrainOneStepCell/network-WithLossCell/_backbone-ResNet/layer2-SequentialCell/0-ResidualBlock/bn2-BatchNorm2d/FusionOp_Conv2D_BNTrainingReduce-op9148
+150 152
+154	Default/TupleGetItem-op9265
+153 cst52
+155	Default/TupleGetItem-op9266
+153 cst53
+156	Default/TupleGetItem-op9267
+153 cst54
+157	layer2.0.bn2.gamma
+layer2.0.bn2.gamma cst2
+158	layer2.0.bn2.beta
+layer2.0.bn2.beta cst2
+159	layer2.0.bn2.moving_mean
+layer2.0.bn2.moving_mean cst2
+160	layer2.0.bn2.moving_variance
+layer2.0.bn2.moving_variance cst2
+161	Default/network-TrainOneStepCell/network-WithLossCell/_backbone-ResNet/layer2-SequentialCell/0-ResidualBlock/relu-ReLU/FusionOp_BNTrainingUpdate_ReLUV2-op9121
+154 155 156 157 158 159 160
+162	Default/TupleGetItem-op9268
+161 cst55
+163	layer2.0.conv3.weight
+layer2.0.conv3.weight cst2
+164	Default/network-TrainOneStepCell/network-WithLossCell/_backbone-ResNet/layer2-SequentialCell/0-ResidualBlock/conv3-Conv2d/Cast-op253
+163
+165	Default/network-TrainOneStepCell/network-WithLossCell/_backbone-ResNet/layer4-SequentialCell/0-ResidualBlock/bn2-BatchNorm2d/FusionOp_Conv2D_BNTrainingReduce-op9149
+162 164
+166	Default/TupleGetItem-op9269
+165 cst56
+167	Default/TupleGetItem-op9270
+165 cst57
+168	Default/TupleGetItem-op9271
+165 cst58
+169	layer2.0.bn3.gamma
+layer2.0.bn3.gamma cst2
+170	layer2.0.bn3.beta
+layer2.0.bn3.beta cst2
+171	layer2.0.bn3.moving_mean
+layer2.0.bn3.moving_mean cst2
+172	layer2.0.bn3.moving_variance
+layer2.0.bn3.moving_variance cst2
+173	layer2.0.down_sample_layer.0.weight
+layer2.0.down_sample_layer.0.weight cst2
+174	Default/network-TrainOneStepCell/network-WithLossCell/_backbone-ResNet/layer2-SequentialCell/0-ResidualBlock/down_sample_layer-SequentialCell/0-Conv2d/Cast-op261
+173
+175	Default/network-TrainOneStepCell/network-WithLossCell/_backbone-ResNet/layer4-SequentialCell/0-ResidualBlock/bn2-BatchNorm2d/FusionOp_Conv2D_BNTrainingReduce-op9150
+138 174
+176	Default/TupleGetItem-op9272
+175 cst59
+177	Default/TupleGetItem-op9273
+175 cst60
+178	Default/TupleGetItem-op9274
+175 cst61
+179	layer2.0.down_sample_layer.1.gamma
+layer2.0.down_sample_layer.1.gamma cst2
+180	layer2.0.down_sample_layer.1.beta
+layer2.0.down_sample_layer.1.beta cst2
+181	layer2.0.down_sample_layer.1.moving_mean
+layer2.0.down_sample_layer.1.moving_mean cst2
+182	layer2.0.down_sample_layer.1.moving_variance
+layer2.0.down_sample_layer.1.moving_variance cst2
+183	Default/network-TrainOneStepCell/network-WithLossCell/_backbone-ResNet/layer4-SequentialCell/0-ResidualBlock/bn2-BatchNorm2d/BNTrainingUpdate-op2557
+176 177 178 179 180 181 182
+184	Default/network-TrainOneStepCell/network-WithLossCell/_backbone-ResNet/layer4-SequentialCell/0-ResidualBlock/bn2-BatchNorm2d/TupleGetItem-op8350
+183 cst62
+185	Default/network-TrainOneStepCell/network-WithLossCell/_backbone-ResNet/layer2-SequentialCell/0-ResidualBlock/relu-ReLU/FusionOp_BNTrainingUpdate_Add_ReLUV2-op9124
+166 167 168 169 170 171 172 184
+186	Default/TupleGetItem-op9275
+185 cst63
+187	layer2.1.conv1.weight
+layer2.1.conv1.weight cst2
+188	Default/network-TrainOneStepCell/network-WithLossCell/_backbone-ResNet/layer2-SequentialCell/1-ResidualBlock/conv1-Conv2d/Cast-op272
+187
+189	Default/network-TrainOneStepCell/network-WithLossCell/_backbone-ResNet/layer2-SequentialCell/0-ResidualBlock/bn2-BatchNorm2d/FusionOp_Conv2D_BNTrainingReduce-op9151
+186 188
+190	Default/TupleGetItem-op9276
+189 cst64
+191	Default/TupleGetItem-op9277
+189 cst65
+192	Default/TupleGetItem-op9278
+189 cst66
+193	layer2.1.bn1.gamma
+layer2.1.bn1.gamma cst2
+194	layer2.1.bn1.beta
+layer2.1.bn1.beta cst2
+195	layer2.1.bn1.moving_mean
+layer2.1.bn1.moving_mean cst2
+196	layer2.1.bn1.moving_variance
+layer2.1.bn1.moving_variance cst2
+197	Default/network-TrainOneStepCell/network-WithLossCell/_backbone-ResNet/layer2-SequentialCell/1-ResidualBlock/relu-ReLU/FusionOp_BNTrainingUpdate_ReLUV2-op9118
+190 191 192 193 194 195 196
+198	Default/TupleGetItem-op9279
+197 cst67
+199	layer2.1.conv2.weight
+layer2.1.conv2.weight cst2
+200	Default/network-TrainOneStepCell/network-WithLossCell/_backbone-ResNet/layer2-SequentialCell/1-ResidualBlock/conv2-Conv2d/Cast-op283
+199
+201	Default/network-TrainOneStepCell/network-WithLossCell/_backbone-ResNet/layer2-SequentialCell/0-ResidualBlock/bn2-BatchNorm2d/FusionOp_Conv2D_BNTrainingReduce-op9106
+198 200
+202	Default/TupleGetItem-op9280
+201 cst68
+203	Default/TupleGetItem-op9281
+201 cst69
+204	Default/TupleGetItem-op9282
+201 cst70
+205	layer2.1.bn2.gamma
+layer2.1.bn2.gamma cst2
+206	layer2.1.bn2.beta
+layer2.1.bn2.beta cst2
+207	layer2.1.bn2.moving_mean
+layer2.1.bn2.moving_mean cst2
+208	layer2.1.bn2.moving_variance
+layer2.1.bn2.moving_variance cst2
+209	Default/network-TrainOneStepCell/network-WithLossCell/_backbone-ResNet/layer2-SequentialCell/1-ResidualBlock/relu-ReLU/FusionOp_BNTrainingUpdate_ReLUV2-op9116
+202 203 204 205 206 207 208
+210	Default/TupleGetItem-op9283
+209 cst71
+211	layer2.1.conv3.weight
+layer2.1.conv3.weight cst2
+212	Default/network-TrainOneStepCell/network-WithLossCell/_backbone-ResNet/layer2-SequentialCell/1-ResidualBlock/conv3-Conv2d/Cast-op293
+211
+213	Default/network-TrainOneStepCell/network-WithLossCell/_backbone-ResNet/layer4-SequentialCell/0-ResidualBlock/bn2-BatchNorm2d/FusionOp_Conv2D_BNTrainingReduce-op9105
+210 212
+214	Default/TupleGetItem-op9284
+213 cst72
+215	Default/TupleGetItem-op9285
+213 cst73
+216	Default/TupleGetItem-op9286
+213 cst74
+217	layer2.1.bn3.gamma
+layer2.1.bn3.gamma cst2
+218	layer2.1.bn3.beta
+layer2.1.bn3.beta cst2
+219	layer2.1.bn3.moving_mean
+layer2.1.bn3.moving_mean cst2
+220	layer2.1.bn3.moving_variance
+layer2.1.bn3.moving_variance cst2
+221	Default/network-TrainOneStepCell/network-WithLossCell/_backbone-ResNet/layer2-SequentialCell/1-ResidualBlock/relu-ReLU/FusionOp_BNTrainingUpdate_Add_ReLUV2-op9104
+214 215 216 217 218 219 220 186
+222	Default/TupleGetItem-op9287
+221 cst75
+223	layer2.2.conv1.weight
+layer2.2.conv1.weight cst2
+224	Default/network-TrainOneStepCell/network-WithLossCell/_backbone-ResNet/layer2-SequentialCell/2-ResidualBlock/conv1-Conv2d/Cast-op303
+223
+225	Default/network-TrainOneStepCell/network-WithLossCell/_backbone-ResNet/layer2-SequentialCell/0-ResidualBlock/bn2-BatchNorm2d/FusionOp_Conv2D_BNTrainingReduce-op9103
+222 224
+226	Default/TupleGetItem-op9288
+225 cst76
+227	Default/TupleGetItem-op9289
+225 cst77
+228	Default/TupleGetItem-op9290
+225 cst78
+229	layer2.2.bn1.gamma
+layer2.2.bn1.gamma cst2
+230	layer2.2.bn1.beta
+layer2.2.bn1.beta cst2
+231	layer2.2.bn1.moving_mean
+layer2.2.bn1.moving_mean cst2
+232	layer2.2.bn1.moving_variance
+layer2.2.bn1.moving_variance cst2
+233	Default/network-TrainOneStepCell/network-WithLossCell/_backbone-ResNet/layer2-SequentialCell/2-ResidualBlock/relu-ReLU/FusionOp_BNTrainingUpdate_ReLUV2-op9113
+226 227 228 229 230 231 232
+234	Default/TupleGetItem-op9291
+233 cst79
+235	layer2.2.conv2.weight
+layer2.2.conv2.weight cst2
+236	Default/network-TrainOneStepCell/network-WithLossCell/_backbone-ResNet/layer2-SequentialCell/2-ResidualBlock/conv2-Conv2d/Cast-op314
+235
+237	Default/network-TrainOneStepCell/network-WithLossCell/_backbone-ResNet/layer2-SequentialCell/0-ResidualBlock/bn2-BatchNorm2d/FusionOp_Conv2D_BNTrainingReduce-op9102
+234 236
+238	Default/TupleGetItem-op9292
+237 cst80
+239	Default/TupleGetItem-op9293
+237 cst81
+240	Default/TupleGetItem-op9294
+237 cst82
+241	layer2.2.bn2.gamma
+layer2.2.bn2.gamma cst2
+242	layer2.2.bn2.beta
+layer2.2.bn2.beta cst2
+243	layer2.2.bn2.moving_mean
+layer2.2.bn2.moving_mean cst2
+244	layer2.2.bn2.moving_variance
+layer2.2.bn2.moving_variance cst2
+245	Default/network-TrainOneStepCell/network-WithLossCell/_backbone-ResNet/layer2-SequentialCell/2-ResidualBlock/relu-ReLU/FusionOp_BNTrainingUpdate_ReLUV2-op9107
+238 239 240 241 242 243 244
+246	Default/TupleGetItem-op9295
+245 cst83
+247	layer2.2.conv3.weight
+layer2.2.conv3.weight cst2
+248	Default/network-TrainOneStepCell/network-WithLossCell/_backbone-ResNet/layer2-SequentialCell/2-ResidualBlock/conv3-Conv2d/Cast-op324
+247
+249	Default/network-TrainOneStepCell/network-WithLossCell/_backbone-ResNet/layer4-SequentialCell/0-ResidualBlock/bn2-BatchNorm2d/FusionOp_Conv2D_BNTrainingReduce-op9101
+246 248
+250	Default/TupleGetItem-op9296
+249 cst84
+251	Default/TupleGetItem-op9297
+249 cst85
+252	Default/TupleGetItem-op9298
+249 cst86
+253	layer2.2.bn3.gamma
+layer2.2.bn3.gamma cst2
+254	layer2.2.bn3.beta
+layer2.2.bn3.beta cst2
+255	layer2.2.bn3.moving_mean
+layer2.2.bn3.moving_mean cst2
+256	layer2.2.bn3.moving_variance
+layer2.2.bn3.moving_variance cst2
+257	Default/network-TrainOneStepCell/network-WithLossCell/_backbone-ResNet/layer2-SequentialCell/2-ResidualBlock/relu-ReLU/FusionOp_BNTrainingUpdate_Add_ReLUV2-op9100
+250 251 252 253 254 255 256 222
+258	Default/TupleGetItem-op9299
+257 cst87
+259	layer2.3.conv1.weight
+layer2.3.conv1.weight cst2
+260	Default/network-TrainOneStepCell/network-WithLossCell/_backbone-ResNet/layer2-SequentialCell/3-ResidualBlock/conv1-Conv2d/Cast-op334
+259
+261	Default/network-TrainOneStepCell/network-WithLossCell/_backbone-ResNet/layer2-SequentialCell/0-ResidualBlock/bn2-BatchNorm2d/FusionOp_Conv2D_BNTrainingReduce-op9099
+258 260
+262	Default/TupleGetItem-op9300
+261 cst88
+263	Default/TupleGetItem-op9301
+261 cst89
+264	Default/TupleGetItem-op9302
+261 cst90
+265	layer2.3.bn1.gamma
+layer2.3.bn1.gamma cst2
+266	layer2.3.bn1.beta
+layer2.3.bn1.beta cst2
+267	layer2.3.bn1.moving_mean
+layer2.3.bn1.moving_mean cst2
+268	layer2.3.bn1.moving_variance
+layer2.3.bn1.moving_variance cst2
+269	Default/network-TrainOneStepCell/network-WithLossCell/_backbone-ResNet/layer2-SequentialCell/3-ResidualBlock/relu-ReLU/FusionOp_BNTrainingUpdate_ReLUV2-op9137
+262 263 264 265 266 267 268
+270	Default/TupleGetItem-op9303
+269 cst91
+271	layer2.3.conv2.weight
+layer2.3.conv2.weight cst2
+272	Default/network-TrainOneStepCell/network-WithLossCell/_backbone-ResNet/layer2-SequentialCell/3-ResidualBlock/conv2-Conv2d/Cast-op345
+271
+273	Default/network-TrainOneStepCell/network-WithLossCell/_backbone-ResNet/layer2-SequentialCell/0-ResidualBlock/bn2-BatchNorm2d/FusionOp_Conv2D_BNTrainingReduce-op9098
+270 272
+274	Default/TupleGetItem-op9304
+273 cst92
+275	Default/TupleGetItem-op9305
+273 cst93
+276	Default/TupleGetItem-op9306
+273 cst94
+277	layer2.3.bn2.gamma
+layer2.3.bn2.gamma cst2
+278	layer2.3.bn2.beta
+layer2.3.bn2.beta cst2
+279	layer2.3.bn2.moving_mean
+layer2.3.bn2.moving_mean cst2
+280	layer2.3.bn2.moving_variance
+layer2.3.bn2.moving_variance cst2
+281	Default/network-TrainOneStepCell/network-WithLossCell/_backbone-ResNet/layer2-SequentialCell/3-ResidualBlock/relu-ReLU/FusionOp_BNTrainingUpdate_ReLUV2-op9139
+274 275 276 277 278 279 280
+282	Default/TupleGetItem-op9307
+281 cst95
+283	layer2.3.conv3.weight
+layer2.3.conv3.weight cst2
+284	Default/network-TrainOneStepCell/network-WithLossCell/_backbone-ResNet/layer2-SequentialCell/3-ResidualBlock/conv3-Conv2d/Cast-op355
+283
+285	Default/network-TrainOneStepCell/network-WithLossCell/_backbone-ResNet/layer4-SequentialCell/0-ResidualBlock/bn2-BatchNorm2d/FusionOp_Conv2D_BNTrainingReduce-op9097
+282 284
+286	Default/TupleGetItem-op9308
+285 cst96
+287	Default/TupleGetItem-op9309
+285 cst97
+288	Default/TupleGetItem-op9310
+285 cst98
+289	layer2.3.bn3.gamma
+layer2.3.bn3.gamma cst2
+290	layer2.3.bn3.beta
+layer2.3.bn3.beta cst2
+291	layer2.3.bn3.moving_mean
+layer2.3.bn3.moving_mean cst2
+292	layer2.3.bn3.moving_variance
+layer2.3.bn3.moving_variance cst2
+293	Default/network-TrainOneStepCell/network-WithLossCell/_backbone-ResNet/layer2-SequentialCell/3-ResidualBlock/relu-ReLU/FusionOp_BNTrainingUpdate_Add_ReLUV2-op9096
+286 287 288 289 290 291 292 258
+294	Default/TupleGetItem-op9311
+293 cst99
+295	layer3.0.conv1.weight
+layer3.0.conv1.weight cst2
+296	Default/network-TrainOneStepCell/network-WithLossCell/_backbone-ResNet/layer3-SequentialCell/0-ResidualBlock/conv1-Conv2d/Cast-op365
+295
+297	Default/network-TrainOneStepCell/network-WithLossCell/_backbone-ResNet/layer3-SequentialCell/0-ResidualBlock/bn2-BatchNorm2d/FusionOp_Conv2D_BNTrainingReduce-op9095
+294 296
+298	Default/TupleGetItem-op9312
+297 cst100
+299	Default/TupleGetItem-op9313
+297 cst101
+300	Default/TupleGetItem-op9314
+297 cst102
+301	layer3.0.bn1.gamma
+layer3.0.bn1.gamma cst2
+302	layer3.0.bn1.beta
+layer3.0.bn1.beta cst2
+303	layer3.0.bn1.moving_mean
+layer3.0.bn1.moving_mean cst2
+304	layer3.0.bn1.moving_variance
+layer3.0.bn1.moving_variance cst2
+305	Default/network-TrainOneStepCell/network-WithLossCell/_backbone-ResNet/layer3-SequentialCell/0-ResidualBlock/relu-ReLU/FusionOp_BNTrainingUpdate_ReLUV2-op9141
+298 299 300 301 302 303 304
+306	Default/TupleGetItem-op9315
+305 cst103
+307	layer3.0.conv2.weight
+layer3.0.conv2.weight cst2
+308	Default/network-TrainOneStepCell/network-WithLossCell/_backbone-ResNet/layer3-SequentialCell/0-ResidualBlock/conv2-Conv2d/Cast-op376
+307
+309	Default/network-TrainOneStepCell/network-WithLossCell/_backbone-ResNet/layer3-SequentialCell/0-ResidualBlock/bn2-BatchNorm2d/FusionOp_Conv2D_BNTrainingReduce-op9094
+306 308
+310	Default/TupleGetItem-op9316
+309 cst104
+311	Default/TupleGetItem-op9317
+309 cst105
+312	Default/TupleGetItem-op9318
+309 cst106
+313	layer3.0.bn2.gamma
+layer3.0.bn2.gamma cst2
+314	layer3.0.bn2.beta
+layer3.0.bn2.beta cst2
+315	layer3.0.bn2.moving_mean
+layer3.0.bn2.moving_mean cst2
+316	layer3.0.bn2.moving_variance
+layer3.0.bn2.moving_variance cst2
+317	Default/network-TrainOneStepCell/network-WithLossCell/_backbone-ResNet/layer3-SequentialCell/0-ResidualBlock/relu-ReLU/FusionOp_BNTrainingUpdate_ReLUV2-op9143
+310 311 312 313 314 315 316
+318	Default/TupleGetItem-op9319
+317 cst107
+319	layer3.0.conv3.weight
+layer3.0.conv3.weight cst2
+320	Default/network-TrainOneStepCell/network-WithLossCell/_backbone-ResNet/layer3-SequentialCell/0-ResidualBlock/conv3-Conv2d/Cast-op386
+319
+321	Default/network-TrainOneStepCell/network-WithLossCell/_backbone-ResNet/layer3-SequentialCell/0-ResidualBlock/bn3-BatchNorm2d/FusionOp_Conv2D_BNTrainingReduce-op9093
+318 320
+322	Default/TupleGetItem-op9320
+321 cst108
+323	Default/TupleGetItem-op9321
+321 cst109
+324	Default/TupleGetItem-op9322
+321 cst110
+325	layer3.0.bn3.gamma
+layer3.0.bn3.gamma cst2
+326	layer3.0.bn3.beta
+layer3.0.bn3.beta cst2
+327	layer3.0.bn3.moving_mean
+layer3.0.bn3.moving_mean cst2
+328	layer3.0.bn3.moving_variance
+layer3.0.bn3.moving_variance cst2
+329	layer3.0.down_sample_layer.0.weight
+layer3.0.down_sample_layer.0.weight cst2
+330	Default/network-TrainOneStepCell/network-WithLossCell/_backbone-ResNet/layer3-SequentialCell/0-ResidualBlock/down_sample_layer-SequentialCell/0-Conv2d/Cast-op394
+329
+331	Default/network-TrainOneStepCell/network-WithLossCell/_backbone-ResNet/layer3-SequentialCell/0-ResidualBlock/bn3-BatchNorm2d/FusionOp_Conv2D_BNTrainingReduce-op9110
+294 330
+332	Default/TupleGetItem-op9323
+331 cst111
+333	Default/TupleGetItem-op9324
+331 cst112
+334	Default/TupleGetItem-op9325
+331 cst113
+335	layer3.0.down_sample_layer.1.gamma
+layer3.0.down_sample_layer.1.gamma cst2
+336	layer3.0.down_sample_layer.1.beta
+layer3.0.down_sample_layer.1.beta cst2
+337	layer3.0.down_sample_layer.1.moving_mean
+layer3.0.down_sample_layer.1.moving_mean cst2
+338	layer3.0.down_sample_layer.1.moving_variance
+layer3.0.down_sample_layer.1.moving_variance cst2
+339	Default/network-TrainOneStepCell/network-WithLossCell/_backbone-ResNet/layer3-SequentialCell/0-ResidualBlock/bn3-BatchNorm2d/BNTrainingUpdate-op2609
+332 333 334 335 336 337 338
+340	Default/network-TrainOneStepCell/network-WithLossCell/_backbone-ResNet/layer3-SequentialCell/0-ResidualBlock/bn3-BatchNorm2d/TupleGetItem-op8428
+339 cst114
+341	Default/network-TrainOneStepCell/network-WithLossCell/_backbone-ResNet/layer3-SequentialCell/0-ResidualBlock/relu-ReLU/FusionOp_BNTrainingUpdate_Add_ReLUV2-op9092
+322 323 324 325 326 327 328 340
+342	Default/TupleGetItem-op9326
+341 cst115
+343	layer3.1.conv1.weight
+layer3.1.conv1.weight cst2
+344	Default/network-TrainOneStepCell/network-WithLossCell/_backbone-ResNet/layer3-SequentialCell/1-ResidualBlock/conv1-Conv2d/Cast-op405
+343
+345	Default/network-TrainOneStepCell/network-WithLossCell/_backbone-ResNet/layer3-SequentialCell/0-ResidualBlock/bn2-BatchNorm2d/FusionOp_Conv2D_BNTrainingReduce-op9133
+342 344
+346	Default/TupleGetItem-op9327
+345 cst116
+347	Default/TupleGetItem-op9328
+345 cst117
+348	Default/TupleGetItem-op9329
+345 cst118
+349	layer3.1.bn1.gamma
+layer3.1.bn1.gamma cst2
+350	layer3.1.bn1.beta
+layer3.1.bn1.beta cst2
+351	layer3.1.bn1.moving_mean
+layer3.1.bn1.moving_mean cst2
+352	layer3.1.bn1.moving_variance
+layer3.1.bn1.moving_variance cst2
+353	Default/network-TrainOneStepCell/network-WithLossCell/_backbone-ResNet/layer3-SequentialCell/1-ResidualBlock/relu-ReLU/FusionOp_BNTrainingUpdate_ReLUV2-op9145
+346 347 348 349 350 351 352
+354	Default/TupleGetItem-op9330
+353 cst119
+355	layer3.1.conv2.weight
+layer3.1.conv2.weight cst2
+356	Default/network-TrainOneStepCell/network-WithLossCell/_backbone-ResNet/layer3-SequentialCell/1-ResidualBlock/conv2-Conv2d/Cast-op416
+355
+357	Default/network-TrainOneStepCell/network-WithLossCell/_backbone-ResNet/layer3-SequentialCell/0-ResidualBlock/bn2-BatchNorm2d/FusionOp_Conv2D_BNTrainingReduce-op9128
+354 356
+358	Default/TupleGetItem-op9331
+357 cst120
+359	Default/TupleGetItem-op9332
+357 cst121
+360	Default/TupleGetItem-op9333
+357 cst122
+361	layer3.1.bn2.gamma
+layer3.1.bn2.gamma cst2
+362	layer3.1.bn2.beta
+layer3.1.bn2.beta cst2
+363	layer3.1.bn2.moving_mean
+layer3.1.bn2.moving_mean cst2
+364	layer3.1.bn2.moving_variance
+layer3.1.bn2.moving_variance cst2
+365	Default/network-TrainOneStepCell/network-WithLossCell/_backbone-ResNet/layer3-SequentialCell/1-ResidualBlock/relu-ReLU/FusionOp_BNTrainingUpdate_ReLUV2-op9147
+358 359 360 361 362 363 364
+366	Default/TupleGetItem-op9334
+365 cst123
+367	layer3.1.conv3.weight
+layer3.1.conv3.weight cst2
+368	Default/network-TrainOneStepCell/network-WithLossCell/_backbone-ResNet/layer3-SequentialCell/1-ResidualBlock/conv3-Conv2d/Cast-op426
+367
+369	Default/network-TrainOneStepCell/network-WithLossCell/_backbone-ResNet/layer3-SequentialCell/0-ResidualBlock/bn3-BatchNorm2d/FusionOp_Conv2D_BNTrainingReduce-op9123
+366 368
+370	Default/TupleGetItem-op9335
+369 cst124
+371	Default/TupleGetItem-op9336
+369 cst125
+372	Default/TupleGetItem-op9337
+369 cst126
+373	layer3.1.bn3.gamma
+layer3.1.bn3.gamma cst2
+374	layer3.1.bn3.beta
+layer3.1.bn3.beta cst2
+375	layer3.1.bn3.moving_mean
+layer3.1.bn3.moving_mean cst2
+376	layer3.1.bn3.moving_variance
+layer3.1.bn3.moving_variance cst2
+377	Default/network-TrainOneStepCell/network-WithLossCell/_backbone-ResNet/layer3-SequentialCell/1-ResidualBlock/relu-ReLU/FusionOp_BNTrainingUpdate_Add_ReLUV2-op9091
+370 371 372 373 374 375 376 342
+378	Default/TupleGetItem-op9338
+377 cst127
+379	layer3.2.conv1.weight
+layer3.2.conv1.weight cst2
+380	Default/network-TrainOneStepCell/network-WithLossCell/_backbone-ResNet/layer3-SequentialCell/2-ResidualBlock/conv1-Conv2d/Cast-op436
+379
+381	Default/network-TrainOneStepCell/network-WithLossCell/_backbone-ResNet/layer3-SequentialCell/0-ResidualBlock/bn2-BatchNorm2d/FusionOp_Conv2D_BNTrainingReduce-op9152
+378 380
+382	Default/TupleGetItem-op9339
+381 cst128
+383	Default/TupleGetItem-op9340
+381 cst129
+384	Default/TupleGetItem-op9341
+381 cst130
+385	layer3.2.bn1.gamma
+layer3.2.bn1.gamma cst2
+386	layer3.2.bn1.beta
+layer3.2.bn1.beta cst2
+387	layer3.2.bn1.moving_mean
+layer3.2.bn1.moving_mean cst2
+388	layer3.2.bn1.moving_variance
+layer3.2.bn1.moving_variance cst2
+389	Default/network-TrainOneStepCell/network-WithLossCell/_backbone-ResNet/layer3-SequentialCell/2-ResidualBlock/relu-ReLU/FusionOp_BNTrainingUpdate_ReLUV2-op9153
+382 383 384 385 386 387 388
+390	Default/TupleGetItem-op9342
+389 cst131
+391	layer3.2.conv2.weight
+layer3.2.conv2.weight cst2
+392	Default/network-TrainOneStepCell/network-WithLossCell/_backbone-ResNet/layer3-SequentialCell/2-ResidualBlock/conv2-Conv2d/Cast-op447
+391
+393	Default/network-TrainOneStepCell/network-WithLossCell/_backbone-ResNet/layer3-SequentialCell/0-ResidualBlock/bn2-BatchNorm2d/FusionOp_Conv2D_BNTrainingReduce-op9154
+390 392
+394	Default/TupleGetItem-op9343
+393 cst132
+395	Default/TupleGetItem-op9344
+393 cst133
+396	Default/TupleGetItem-op9345
+393 cst134
+397	layer3.2.bn2.gamma
+layer3.2.bn2.gamma cst2
+398	layer3.2.bn2.beta
+layer3.2.bn2.beta cst2
+399	layer3.2.bn2.moving_mean
+layer3.2.bn2.moving_mean cst2
+400	layer3.2.bn2.moving_variance
+layer3.2.bn2.moving_variance cst2
+401	Default/network-TrainOneStepCell/network-WithLossCell/_backbone-ResNet/layer3-SequentialCell/2-ResidualBlock/relu-ReLU/FusionOp_BNTrainingUpdate_ReLUV2-op9155
+394 395 396 397 398 399 400
+402	Default/TupleGetItem-op9346
+401 cst135
+403	layer3.2.conv3.weight
+layer3.2.conv3.weight cst2
+404	Default/network-TrainOneStepCell/network-WithLossCell/_backbone-ResNet/layer3-SequentialCell/2-ResidualBlock/conv3-Conv2d/Cast-op457
+403
+405	Default/network-TrainOneStepCell/network-WithLossCell/_backbone-ResNet/layer3-SequentialCell/0-ResidualBlock/bn3-BatchNorm2d/FusionOp_Conv2D_BNTrainingReduce-op9156
+402 404
+406	Default/TupleGetItem-op9347
+405 cst136
+407	Default/TupleGetItem-op9348
+405 cst137
+408	Default/TupleGetItem-op9349
+405 cst138
+409	layer3.2.bn3.gamma
+layer3.2.bn3.gamma cst2
+410	layer3.2.bn3.beta
+layer3.2.bn3.beta cst2
+411	layer3.2.bn3.moving_mean
+layer3.2.bn3.moving_mean cst2
+412	layer3.2.bn3.moving_variance
+layer3.2.bn3.moving_variance cst2
+413	Default/network-TrainOneStepCell/network-WithLossCell/_backbone-ResNet/layer3-SequentialCell/2-ResidualBlock/relu-ReLU/FusionOp_BNTrainingUpdate_Add_ReLUV2-op9157
+406 407 408 409 410 411 412 378
+414	Default/TupleGetItem-op9350
+413 cst139
+415	layer3.3.conv1.weight
+layer3.3.conv1.weight cst2
+416	Default/network-TrainOneStepCell/network-WithLossCell/_backbone-ResNet/layer3-SequentialCell/3-ResidualBlock/conv1-Conv2d/Cast-op467
+415
+417	Default/network-TrainOneStepCell/network-WithLossCell/_backbone-ResNet/layer3-SequentialCell/0-ResidualBlock/bn2-BatchNorm2d/FusionOp_Conv2D_BNTrainingReduce-op9159
+414 416
+418	Default/TupleGetItem-op9351
+417 cst140
+419	Default/TupleGetItem-op9352
+417 cst141
+420	Default/TupleGetItem-op9353
+417 cst142
+421	layer3.3.bn1.gamma
+layer3.3.bn1.gamma cst2
+422	layer3.3.bn1.beta
+layer3.3.bn1.beta cst2
+423	layer3.3.bn1.moving_mean
+layer3.3.bn1.moving_mean cst2
+424	layer3.3.bn1.moving_variance
+layer3.3.bn1.moving_variance cst2
+425	Default/network-TrainOneStepCell/network-WithLossCell/_backbone-ResNet/layer3-SequentialCell/3-ResidualBlock/relu-ReLU/FusionOp_BNTrainingUpdate_ReLUV2-op9160
+418 419 420 421 422 423 424
+426	Default/TupleGetItem-op9354
+425 cst143
+427	layer3.3.conv2.weight
+layer3.3.conv2.weight cst2
+428	Default/network-TrainOneStepCell/network-WithLossCell/_backbone-ResNet/layer3-SequentialCell/3-ResidualBlock/conv2-Conv2d/Cast-op478
+427
+429	Default/network-TrainOneStepCell/network-WithLossCell/_backbone-ResNet/layer3-SequentialCell/0-ResidualBlock/bn2-BatchNorm2d/FusionOp_Conv2D_BNTrainingReduce-op9161
+426 428
+430	Default/TupleGetItem-op9355
+429 cst144
+431	Default/TupleGetItem-op9356
+429 cst145
+432	Default/TupleGetItem-op9357
+429 cst146
+433	layer3.3.bn2.gamma
+layer3.3.bn2.gamma cst2
+434	layer3.3.bn2.beta
+layer3.3.bn2.beta cst2
+435	layer3.3.bn2.moving_mean
+layer3.3.bn2.moving_mean cst2
+436	layer3.3.bn2.moving_variance
+layer3.3.bn2.moving_variance cst2
+437	Default/network-TrainOneStepCell/network-WithLossCell/_backbone-ResNet/layer3-SequentialCell/3-ResidualBlock/relu-ReLU/FusionOp_BNTrainingUpdate_ReLUV2-op9162
+430 431 432 433 434 435 436
+438	Default/TupleGetItem-op9358
+437 cst147
+439	layer3.3.conv3.weight
+layer3.3.conv3.weight cst2
+440	Default/network-TrainOneStepCell/network-WithLossCell/_backbone-ResNet/layer3-SequentialCell/3-ResidualBlock/conv3-Conv2d/Cast-op488
+439
+441	Default/network-TrainOneStepCell/network-WithLossCell/_backbone-ResNet/layer3-SequentialCell/0-ResidualBlock/bn3-BatchNorm2d/FusionOp_Conv2D_BNTrainingReduce-op9163
+438 440
+442	Default/TupleGetItem-op9359
+441 cst148
+443	Default/TupleGetItem-op9360
+441 cst149
+444	Default/TupleGetItem-op9361
+441 cst150
+445	layer3.3.bn3.gamma
+layer3.3.bn3.gamma cst2
+446	layer3.3.bn3.beta
+layer3.3.bn3.beta cst2
+447	layer3.3.bn3.moving_mean
+layer3.3.bn3.moving_mean cst2
+448	layer3.3.bn3.moving_variance
+layer3.3.bn3.moving_variance cst2
+449	Default/network-TrainOneStepCell/network-WithLossCell/_backbone-ResNet/layer3-SequentialCell/3-ResidualBlock/relu-ReLU/FusionOp_BNTrainingUpdate_Add_ReLUV2-op9164
+442 443 444 445 446 447 448 414
+450	Default/TupleGetItem-op9362
+449 cst151
+451	layer3.4.conv1.weight
+layer3.4.conv1.weight cst2
+452	Default/network-TrainOneStepCell/network-WithLossCell/_backbone-ResNet/layer3-SequentialCell/4-ResidualBlock/conv1-Conv2d/Cast-op498
+451
+453	Default/network-TrainOneStepCell/network-WithLossCell/_backbone-ResNet/layer3-SequentialCell/0-ResidualBlock/bn2-BatchNorm2d/FusionOp_Conv2D_BNTrainingReduce-op9166
+450 452
+454	Default/TupleGetItem-op9363
+453 cst152
+455	Default/TupleGetItem-op9364
+453 cst153
+456	Default/TupleGetItem-op9365
+453 cst154
+457	layer3.4.bn1.gamma
+layer3.4.bn1.gamma cst2
+458	layer3.4.bn1.beta
+layer3.4.bn1.beta cst2
+459	layer3.4.bn1.moving_mean
+layer3.4.bn1.moving_mean cst2
+460	layer3.4.bn1.moving_variance
+layer3.4.bn1.moving_variance cst2
+461	Default/network-TrainOneStepCell/network-WithLossCell/_backbone-ResNet/layer3-SequentialCell/4-ResidualBlock/relu-ReLU/FusionOp_BNTrainingUpdate_ReLUV2-op9167
+454 455 456 457 458 459 460
+462	Default/TupleGetItem-op9366
+461 cst155
+463	layer3.4.conv2.weight
+layer3.4.conv2.weight cst2
+464	Default/network-TrainOneStepCell/network-WithLossCell/_backbone-ResNet/layer3-SequentialCell/4-ResidualBlock/conv2-Conv2d/Cast-op509
+463
+465	Default/network-TrainOneStepCell/network-WithLossCell/_backbone-ResNet/layer3-SequentialCell/0-ResidualBlock/bn2-BatchNorm2d/FusionOp_Conv2D_BNTrainingReduce-op9168
+462 464
+466	Default/TupleGetItem-op9367
+465 cst156
+467	Default/TupleGetItem-op9368
+465 cst157
+468	Default/TupleGetItem-op9369
+465 cst158
+469	layer3.4.bn2.gamma
+layer3.4.bn2.gamma cst2
+470	layer3.4.bn2.beta
+layer3.4.bn2.beta cst2
+471	layer3.4.bn2.moving_mean
+layer3.4.bn2.moving_mean cst2
+472	layer3.4.bn2.moving_variance
+layer3.4.bn2.moving_variance cst2
+473	Default/network-TrainOneStepCell/network-WithLossCell/_backbone-ResNet/layer3-SequentialCell/4-ResidualBlock/relu-ReLU/FusionOp_BNTrainingUpdate_ReLUV2-op9169
+466 467 468 469 470 471 472
+474	Default/TupleGetItem-op9370
+473 cst159
+475	layer3.4.conv3.weight
+layer3.4.conv3.weight cst2
+476	Default/network-TrainOneStepCell/network-WithLossCell/_backbone-ResNet/layer3-SequentialCell/4-ResidualBlock/conv3-Conv2d/Cast-op519
+475
+477	Default/network-TrainOneStepCell/network-WithLossCell/_backbone-ResNet/layer3-SequentialCell/0-ResidualBlock/bn3-BatchNorm2d/FusionOp_Conv2D_BNTrainingReduce-op9170
+474 476
+478	Default/TupleGetItem-op9371
+477 cst160
+479	Default/TupleGetItem-op9372
+477 cst161
+480	Default/TupleGetItem-op9373
+477 cst162
+481	layer3.4.bn3.gamma
+layer3.4.bn3.gamma cst2
+482	layer3.4.bn3.beta
+layer3.4.bn3.beta cst2
+483	layer3.4.bn3.moving_mean
+layer3.4.bn3.moving_mean cst2
+484	layer3.4.bn3.moving_variance
+layer3.4.bn3.moving_variance cst2
+485	Default/network-TrainOneStepCell/network-WithLossCell/_backbone-ResNet/layer3-SequentialCell/4-ResidualBlock/relu-ReLU/FusionOp_BNTrainingUpdate_Add_ReLUV2-op9171
+478 479 480 481 482 483 484 450
+486	Default/TupleGetItem-op9374
+485 cst163
+487	layer3.5.conv1.weight
+layer3.5.conv1.weight cst2
+488	Default/network-TrainOneStepCell/network-WithLossCell/_backbone-ResNet/layer3-SequentialCell/5-ResidualBlock/conv1-Conv2d/Cast-op529
+487
+489	Default/network-TrainOneStepCell/network-WithLossCell/_backbone-ResNet/layer3-SequentialCell/0-ResidualBlock/bn2-BatchNorm2d/FusionOp_Conv2D_BNTrainingReduce-op9173
+486 488
+490	Default/TupleGetItem-op9375
+489 cst164
+491	Default/TupleGetItem-op9376
+489 cst165
+492	Default/TupleGetItem-op9377
+489 cst166
+493	layer3.5.bn1.gamma
+layer3.5.bn1.gamma cst2
+494	layer3.5.bn1.beta
+layer3.5.bn1.beta cst2
+495	layer3.5.bn1.moving_mean
+layer3.5.bn1.moving_mean cst2
+496	layer3.5.bn1.moving_variance
+layer3.5.bn1.moving_variance cst2
+497	Default/network-TrainOneStepCell/network-WithLossCell/_backbone-ResNet/layer3-SequentialCell/5-ResidualBlock/relu-ReLU/FusionOp_BNTrainingUpdate_ReLUV2-op9174
+490 491 492 493 494 495 496
+498	Default/TupleGetItem-op9378
+497 cst167
+499	layer3.5.conv2.weight
+layer3.5.conv2.weight cst2
+500	Default/network-TrainOneStepCell/network-WithLossCell/_backbone-ResNet/layer3-SequentialCell/5-ResidualBlock/conv2-Conv2d/Cast-op540
+499
+501	Default/network-TrainOneStepCell/network-WithLossCell/_backbone-ResNet/layer3-SequentialCell/0-ResidualBlock/bn2-BatchNorm2d/FusionOp_Conv2D_BNTrainingReduce-op9175
+498 500
+502	Default/TupleGetItem-op9379
+501 cst168
+503	Default/TupleGetItem-op9380
+501 cst169
+504	Default/TupleGetItem-op9381
+501 cst170
+505	layer3.5.bn2.gamma
+layer3.5.bn2.gamma cst2
+506	layer3.5.bn2.beta
+layer3.5.bn2.beta cst2
+507	layer3.5.bn2.moving_mean
+layer3.5.bn2.moving_mean cst2
+508	layer3.5.bn2.moving_variance
+layer3.5.bn2.moving_variance cst2
+509	Default/network-TrainOneStepCell/network-WithLossCell/_backbone-ResNet/layer3-SequentialCell/5-ResidualBlock/relu-ReLU/FusionOp_BNTrainingUpdate_ReLUV2-op9176
+502 503 504 505 506 507 508
+510	Default/TupleGetItem-op9382
+509 cst171
+511	layer3.5.conv3.weight
+layer3.5.conv3.weight cst2
+512	Default/network-TrainOneStepCell/network-WithLossCell/_backbone-ResNet/layer3-SequentialCell/5-ResidualBlock/conv3-Conv2d/Cast-op550
+511
+513	Default/network-TrainOneStepCell/network-WithLossCell/_backbone-ResNet/layer3-SequentialCell/0-ResidualBlock/bn3-BatchNorm2d/FusionOp_Conv2D_BNTrainingReduce-op9177
+510 512
+514	Default/TupleGetItem-op9383
+513 cst172
+515	Default/TupleGetItem-op9384
+513 cst173
+516	Default/TupleGetItem-op9385
+513 cst174
+517	layer3.5.bn3.gamma
+layer3.5.bn3.gamma cst2
+518	layer3.5.bn3.beta
+layer3.5.bn3.beta cst2
+519	layer3.5.bn3.moving_mean
+layer3.5.bn3.moving_mean cst2
+520	layer3.5.bn3.moving_variance
+layer3.5.bn3.moving_variance cst2
+521	Default/network-TrainOneStepCell/network-WithLossCell/_backbone-ResNet/layer3-SequentialCell/5-ResidualBlock/relu-ReLU/FusionOp_BNTrainingUpdate_Add_ReLUV2-op9178
+514 515 516 517 518 519 520 486
+522	Default/TupleGetItem-op9386
+521 cst175
+523	layer4.0.conv1.weight
+layer4.0.conv1.weight cst2
+524	Default/network-TrainOneStepCell/network-WithLossCell/_backbone-ResNet/layer4-SequentialCell/0-ResidualBlock/conv1-Conv2d/Cast-op560
+523
+525	Default/network-TrainOneStepCell/network-WithLossCell/_backbone-ResNet/layer4-SequentialCell/0-ResidualBlock/bn2-BatchNorm2d/FusionOp_Conv2D_BNTrainingReduce-op9180
+522 524
+526	Default/TupleGetItem-op9387
+525 cst176
+527	Default/TupleGetItem-op9388
+525 cst177
+528	Default/TupleGetItem-op9389
+525 cst178
+529	layer4.0.bn1.gamma
+layer4.0.bn1.gamma cst2
+530	layer4.0.bn1.beta
+layer4.0.bn1.beta cst2
+531	layer4.0.bn1.moving_mean
+layer4.0.bn1.moving_mean cst2
+532	layer4.0.bn1.moving_variance
+layer4.0.bn1.moving_variance cst2
+533	Default/network-TrainOneStepCell/network-WithLossCell/_backbone-ResNet/layer4-SequentialCell/0-ResidualBlock/relu-ReLU/FusionOp_BNTrainingUpdate_ReLUV2-op9181
+526 527 528 529 530 531 532
+534	Default/TupleGetItem-op9390
+533 cst179
+535	layer4.0.conv2.weight
+layer4.0.conv2.weight cst2
+536	Default/network-TrainOneStepCell/network-WithLossCell/_backbone-ResNet/layer4-SequentialCell/0-ResidualBlock/conv2-Conv2d/Cast-op571
+535
+537	Default/network-TrainOneStepCell/network-WithLossCell/_backbone-ResNet/layer4-SequentialCell/0-ResidualBlock/bn2-BatchNorm2d/FusionOp_Conv2D_BNTrainingReduce-op9183
+534 536
+538	Default/TupleGetItem-op9391
+537 cst180
+539	Default/TupleGetItem-op9392
+537 cst181
+540	Default/TupleGetItem-op9393
+537 cst182
+541	layer4.0.bn2.gamma
+layer4.0.bn2.gamma cst2
+542	layer4.0.bn2.beta
+layer4.0.bn2.beta cst2
+543	layer4.0.bn2.moving_mean
+layer4.0.bn2.moving_mean cst2
+544	layer4.0.bn2.moving_variance
+layer4.0.bn2.moving_variance cst2
+545	Default/network-TrainOneStepCell/network-WithLossCell/_backbone-ResNet/layer4-SequentialCell/0-ResidualBlock/relu-ReLU/FusionOp_BNTrainingUpdate_ReLUV2-op9184
+538 539 540 541 542 543 544
+546	Default/TupleGetItem-op9394
+545 cst183
+547	layer4.0.conv3.weight
+layer4.0.conv3.weight cst2
+548	Default/network-TrainOneStepCell/network-WithLossCell/_backbone-ResNet/layer4-SequentialCell/0-ResidualBlock/conv3-Conv2d/Cast-op581
+547
+549	Default/network-TrainOneStepCell/network-WithLossCell/_backbone-ResNet/layer4-SequentialCell/0-ResidualBlock/bn3-BatchNorm2d/FusionOp_Conv2D_BNTrainingReduce-op9186
+546 548
+550	Default/TupleGetItem-op9395
+549 cst184
+551	Default/TupleGetItem-op9396
+549 cst185
+552	Default/TupleGetItem-op9397
+549 cst186
+553	layer4.0.bn3.gamma
+layer4.0.bn3.gamma cst2
+554	layer4.0.bn3.beta
+layer4.0.bn3.beta cst2
+555	layer4.0.bn3.moving_mean
+layer4.0.bn3.moving_mean cst2
+556	layer4.0.bn3.moving_variance
+layer4.0.bn3.moving_variance cst2
+557	layer4.0.down_sample_layer.0.weight
+layer4.0.down_sample_layer.0.weight cst2
+558	Default/network-TrainOneStepCell/network-WithLossCell/_backbone-ResNet/layer4-SequentialCell/0-ResidualBlock/down_sample_layer-SequentialCell/0-Conv2d/Cast-op589
+557
+559	Default/network-TrainOneStepCell/network-WithLossCell/_backbone-ResNet/layer4-SequentialCell/0-ResidualBlock/bn3-BatchNorm2d/FusionOp_Conv2D_BNTrainingReduce-op9189
+522 558
+560	Default/TupleGetItem-op9398
+559 cst187
+561	Default/TupleGetItem-op9399
+559 cst188
+562	Default/TupleGetItem-op9400
+559 cst189
+563	layer4.0.down_sample_layer.1.gamma
+layer4.0.down_sample_layer.1.gamma cst2
+564	layer4.0.down_sample_layer.1.beta
+layer4.0.down_sample_layer.1.beta cst2
+565	layer4.0.down_sample_layer.1.moving_mean
+layer4.0.down_sample_layer.1.moving_mean cst2
+566	layer4.0.down_sample_layer.1.moving_variance
+layer4.0.down_sample_layer.1.moving_variance cst2
+567	Default/network-TrainOneStepCell/network-WithLossCell/_backbone-ResNet/layer4-SequentialCell/0-ResidualBlock/bn3-BatchNorm2d/BNTrainingUpdate-op2685
+560 561 562 563 564 565 566
+568	Default/network-TrainOneStepCell/network-WithLossCell/_backbone-ResNet/layer4-SequentialCell/0-ResidualBlock/bn3-BatchNorm2d/TupleGetItem-op8542
+567 cst190
+569	Default/network-TrainOneStepCell/network-WithLossCell/_backbone-ResNet/layer4-SequentialCell/0-ResidualBlock/relu-ReLU/FusionOp_BNTrainingUpdate_Add_ReLUV2-op9187
+550 551 552 553 554 555 556 568
+570	Default/TupleGetItem-op9401
+569 cst191
+571	layer4.1.conv1.weight
+layer4.1.conv1.weight cst2
+572	Default/network-TrainOneStepCell/network-WithLossCell/_backbone-ResNet/layer4-SequentialCell/1-ResidualBlock/conv1-Conv2d/Cast-op600
+571
+573	Default/network-TrainOneStepCell/network-WithLossCell/_backbone-ResNet/layer4-SequentialCell/0-ResidualBlock/bn2-BatchNorm2d/FusionOp_Conv2D_BNTrainingReduce-op9190
+570 572
+574	Default/TupleGetItem-op9402
+573 cst192
+575	Default/TupleGetItem-op9403
+573 cst193
+576	Default/TupleGetItem-op9404
+573 cst194
+577	layer4.1.bn1.gamma
+layer4.1.bn1.gamma cst2
+578	layer4.1.bn1.beta
+layer4.1.bn1.beta cst2
+579	layer4.1.bn1.moving_mean
+layer4.1.bn1.moving_mean cst2
+580	layer4.1.bn1.moving_variance
+layer4.1.bn1.moving_variance cst2
+581	Default/network-TrainOneStepCell/network-WithLossCell/_backbone-ResNet/layer4-SequentialCell/1-ResidualBlock/relu-ReLU/FusionOp_BNTrainingUpdate_ReLUV2-op9191
+574 575 576 577 578 579 580
+582	Default/TupleGetItem-op9405
+581 cst195
+583	layer4.1.conv2.weight
+layer4.1.conv2.weight cst2
+584	Default/network-TrainOneStepCell/network-WithLossCell/_backbone-ResNet/layer4-SequentialCell/1-ResidualBlock/conv2-Conv2d/Cast-op611
+583
+585	Default/network-TrainOneStepCell/network-WithLossCell/_backbone-ResNet/layer4-SequentialCell/0-ResidualBlock/bn2-BatchNorm2d/FusionOp_Conv2D_BNTrainingReduce-op9193
+582 584
+586	Default/TupleGetItem-op9406
+585 cst196
+587	Default/TupleGetItem-op9407
+585 cst197
+588	Default/TupleGetItem-op9408
+585 cst198
+589	layer4.1.bn2.gamma
+layer4.1.bn2.gamma cst2
+590	layer4.1.bn2.beta
+layer4.1.bn2.beta cst2
+591	layer4.1.bn2.moving_mean
+layer4.1.bn2.moving_mean cst2
+592	layer4.1.bn2.moving_variance
+layer4.1.bn2.moving_variance cst2
+593	Default/network-TrainOneStepCell/network-WithLossCell/_backbone-ResNet/layer4-SequentialCell/1-ResidualBlock/relu-ReLU/FusionOp_BNTrainingUpdate_ReLUV2-op9194
+586 587 588 589 590 591 592
+594	Default/TupleGetItem-op9409
+593 cst199
+595	layer4.1.conv3.weight
+layer4.1.conv3.weight cst2
+596	Default/network-TrainOneStepCell/network-WithLossCell/_backbone-ResNet/layer4-SequentialCell/1-ResidualBlock/conv3-Conv2d/Cast-op621
+595
+597	Default/network-TrainOneStepCell/network-WithLossCell/_backbone-ResNet/layer4-SequentialCell/0-ResidualBlock/bn3-BatchNorm2d/FusionOp_Conv2D_BNTrainingReduce-op9196
+594 596
+598	Default/TupleGetItem-op9410
+597 cst200
+599	Default/TupleGetItem-op9411
+597 cst201
+600	Default/TupleGetItem-op9412
+597 cst202
+601	layer4.1.bn3.gamma
+layer4.1.bn3.gamma cst2
+602	layer4.1.bn3.beta
+layer4.1.bn3.beta cst2
+603	layer4.1.bn3.moving_mean
+layer4.1.bn3.moving_mean cst2
+604	layer4.1.bn3.moving_variance
+layer4.1.bn3.moving_variance cst2
+605	Default/network-TrainOneStepCell/network-WithLossCell/_backbone-ResNet/layer4-SequentialCell/1-ResidualBlock/relu-ReLU/FusionOp_BNTrainingUpdate_Add_ReLUV2-op9197
+598 599 600 601 602 603 604 570
+606	Default/TupleGetItem-op9413
+605 cst203
+607	layer4.2.conv1.weight
+layer4.2.conv1.weight cst2
+608	Default/network-TrainOneStepCell/network-WithLossCell/_backbone-ResNet/layer4-SequentialCell/2-ResidualBlock/conv1-Conv2d/Cast-op631
+607
+609	Default/network-TrainOneStepCell/network-WithLossCell/_backbone-ResNet/layer4-SequentialCell/0-ResidualBlock/bn2-BatchNorm2d/FusionOp_Conv2D_BNTrainingReduce-op9199
+606 608
+610	Default/TupleGetItem-op9414
+609 cst204
+611	Default/TupleGetItem-op9415
+609 cst205
+612	Default/TupleGetItem-op9416
+609 cst206
+613	layer4.2.bn1.gamma
+layer4.2.bn1.gamma cst2
+614	layer4.2.bn1.beta
+layer4.2.bn1.beta cst2
+615	layer4.2.bn1.moving_mean
+layer4.2.bn1.moving_mean cst2
+616	layer4.2.bn1.moving_variance
+layer4.2.bn1.moving_variance cst2
+617	Default/network-TrainOneStepCell/network-WithLossCell/_backbone-ResNet/layer4-SequentialCell/2-ResidualBlock/relu-ReLU/FusionOp_BNTrainingUpdate_ReLUV2-op9200
+610 611 612 613 614 615 616
+618	Default/TupleGetItem-op9417
+617 cst207
+619	layer4.2.conv2.weight
+layer4.2.conv2.weight cst2
+620	Default/network-TrainOneStepCell/network-WithLossCell/_backbone-ResNet/layer4-SequentialCell/2-ResidualBlock/conv2-Conv2d/Cast-op642
+619
+621	Default/network-TrainOneStepCell/network-WithLossCell/_backbone-ResNet/layer4-SequentialCell/0-ResidualBlock/bn2-BatchNorm2d/FusionOp_Conv2D_BNTrainingReduce-op9202
+618 620
+622	Default/TupleGetItem-op9418
+621 cst208
+623	Default/TupleGetItem-op9419
+621 cst209
+624	Default/TupleGetItem-op9420
+621 cst210
+625	layer4.2.bn2.gamma
+layer4.2.bn2.gamma cst2
+626	layer4.2.bn2.beta
+layer4.2.bn2.beta cst2
+627	layer4.2.bn2.moving_mean
+layer4.2.bn2.moving_mean cst2
+628	layer4.2.bn2.moving_variance
+layer4.2.bn2.moving_variance cst2
+629	Default/network-TrainOneStepCell/network-WithLossCell/_backbone-ResNet/layer4-SequentialCell/2-ResidualBlock/relu-ReLU/FusionOp_BNTrainingUpdate_ReLUV2-op9203
+622 623 624 625 626 627 628
+630	Default/TupleGetItem-op9421
+629 cst211
+631	layer4.2.conv3.weight
+layer4.2.conv3.weight cst2
+632	Default/network-TrainOneStepCell/network-WithLossCell/_backbone-ResNet/layer4-SequentialCell/2-ResidualBlock/conv3-Conv2d/Cast-op652
+631
+633	Default/network-TrainOneStepCell/network-WithLossCell/_backbone-ResNet/layer4-SequentialCell/0-ResidualBlock/bn3-BatchNorm2d/FusionOp_Conv2D_BNTrainingReduce-op9205
+630 632
+634	Default/TupleGetItem-op9422
+633 cst212
+635	Default/TupleGetItem-op9423
+633 cst213
+636	Default/TupleGetItem-op9424
+633 cst214
+637	layer4.2.bn3.gamma
+layer4.2.bn3.gamma cst2
+638	layer4.2.bn3.beta
+layer4.2.bn3.beta cst2
+639	layer4.2.bn3.moving_mean
+layer4.2.bn3.moving_mean cst2
+640	layer4.2.bn3.moving_variance
+layer4.2.bn3.moving_variance cst2
+641	Default/network-TrainOneStepCell/network-WithLossCell/_backbone-ResNet/layer4-SequentialCell/2-ResidualBlock/relu-ReLU/FusionOp_BNTrainingUpdate_Add_ReLUV2-op9206
+634 635 636 637 638 639 640 606
+642	Default/TupleGetItem-op9425
+641 cst215
+643	Default/network-TrainOneStepCell/network-WithLossCell/_backbone-ResNet/ReduceMean-op660
+642
+644	Default/network-TrainOneStepCell/network-WithLossCell/_backbone-ResNet/TransData-op4832
+643
+645	Default/network-TrainOneStepCell/network-WithLossCell/_backbone-ResNet/flatten-Flatten/Reshape-op661
+644
+646	Default/network-TrainOneStepCell/network-WithLossCell/_backbone-ResNet/flatten-Flatten/TransData-op4001
+645
+647	end_point.weight
+end_point.weight cst2
+648	Default/network-TrainOneStepCell/network-WithLossCell/_backbone-ResNet/end_point-Dense/Cast-op664
+647
+649	Default/network-TrainOneStepCell/network-WithLossCell/_backbone-ResNet/end_point-Dense/TransData-op4002
+648
+650	end_point.bias
+end_point.bias cst2
+651	Default/network-TrainOneStepCell/network-WithLossCell/_backbone-ResNet/end_point-Dense/Cast-op667
+650
+652	Default/network-TrainOneStepCell/network-WithLossCell/_backbone-ResNet/end_point-Dense/MatMul-op3351
+646 649 651
+653	Default/network-TrainOneStepCell/network-WithLossCell/_backbone-ResNet/end_point-Dense/TransData-op4003
+652
+654	Default/network-TrainOneStepCell/network-WithLossCell/Cast-op668
+653
+655	Default/TupleGetItem-op6932
+1 cst216
+656	Default/TensorMove-op3611
+655
+657	Gradients/Default/network-TrainOneStepCell/network-WithLossCell/_loss_fn-SoftmaxCrossEntropyWithLogits/gradSparseSoftmaxCrossEntropyWithLogits/OneHot-op2275
+656 cst217 cst218
+658	Gradients/Default/network-TrainOneStepCell/network-WithLossCell/_loss_fn-SoftmaxCrossEntropyWithLogits/gradSparseSoftmaxCrossEntropyWithLogits/SoftmaxCrossEntropyWithLogits-op2276
+654 657
+659	Default/TupleGetItem-op7561
+658 cst219
+660	Gradients/Default/network-TrainOneStepCell/network-WithLossCell/_loss_fn-SoftmaxCrossEntropyWithLogits/gradSparseSoftmaxCrossEntropyWithLogits/ReduceMean-op2278
+659
+661	learning_rate
+learning_rate cst2
+662	Default/network-TrainOneStepCell/network-WithLossCell/_backbone-ResNet/end_point-Dense/MakeTuple-op672
+647 631 619 607 595 583 571 557 547 535 523 511 499 487 475 463 451 439 427 415 403 391 379 367 355 343 329 319 307 295 283 271 259 247 235 223 211 199 187 173 163 151 139 127 115 103 91 79 67 53 43 31 19 5 14 13 12 11 28 27 26 25 40 39 38 37 52 51 50 49 62 61 60 59 76 75 74 73 88 87 86 85 100 99 98 97 112 111 110 109 124 123 122 121 136 135 134 133 148 147 146 145 160 159 158 157 172 171 170 169 182 181 180 179 196 195 194 193 208 207 206 205 220 219 218 217 232 231 230 229 244 243 242 241 256 255 254 253 268 267 266 265 280 279 278 277 292 291 290 289 304 303 302 301 316 315 314 313 328 327 326 325 338 337 336 335 352 351 350 349 364 363 362 361 376 375 374 373 388 387 386 385 400 399 398 397 412 411 410 409 424 423 422 421 436 435 434 433 448 447 446 445 460 459 458 457 472 471 470 469 484 483 482 481 496 495 494 493 508 507 506 505 520 519 518 517 532 531 530 529 544 543 542 541 556 555 554 553 566 565 564 563 580 579 578 577 592 591 590 589 604 603 602 601 616 615 614 613 628 627 626 625 640 639 638 637 650
+663	Default/network-TrainOneStepCell/network-WithLossCell/_backbone-ResNet/end_point-Dense/UpdateState-op673
+cst2 662
+664	global_step
+global_step 663
+665	Default/network-TrainOneStepCell/optimizer-Momentum/learning_rate-_IteratorLearningRate/Gather-op676
+661 664
+666	Default/TupleGetItem-op7562
+658 cst220
+667	Gradients/Default/network-TrainOneStepCell/network-WithLossCell/_loss_fn-SoftmaxCrossEntropyWithLogits/gradSparseSoftmaxCrossEntropyWithLogits/Tile-op2280
+cst221
+668	Gradients/Default/network-TrainOneStepCell/network-WithLossCell/_loss_fn-SoftmaxCrossEntropyWithLogits/gradSparseSoftmaxCrossEntropyWithLogits/RealDiv-op2281
+667 cst222
+669	Gradients/Default/network-TrainOneStepCell/network-WithLossCell/_loss_fn-SoftmaxCrossEntropyWithLogits/gradSparseSoftmaxCrossEntropyWithLogits/ExpandDims-op2282
+668
+670	Gradients/Default/network-TrainOneStepCell/network-WithLossCell/_loss_fn-SoftmaxCrossEntropyWithLogits/gradSparseSoftmaxCrossEntropyWithLogits/Mul-op2283
+666 669
+671	Gradients/Default/network-TrainOneStepCell/network-WithLossCell/gradCast/Cast-op681
+670
+672	Gradients/Default/network-TrainOneStepCell/network-WithLossCell/gradCast/TransData-op5545
+671
+673	Gradients/Default/network-TrainOneStepCell/network-WithLossCell/_backbone-ResNet/end_point-Dense/gradMatMul/MatMul-op682
+672 649
+674	Gradients/Default/network-TrainOneStepCell/network-WithLossCell/_backbone-ResNet/end_point-Dense/gradMatMul/TransData-op5547
+673
+675	Gradients/Default/network-TrainOneStepCell/network-WithLossCell/_backbone-ResNet/flatten-Flatten/gradReshape/Reshape-op683
+674
+676	Gradients/Default/network-TrainOneStepCell/network-WithLossCell/_backbone-ResNet/gradReduceMean/Tile-op684
+675
+677	Gradients/Default/network-TrainOneStepCell/network-WithLossCell/_backbone-ResNet/gradReduceMean/RealDiv-op685
+676 cst223
+678	Gradients/Default/network-TrainOneStepCell/network-WithLossCell/_backbone-ResNet/gradReduceMean/TransData-op5186
+677
+679	Default/TupleGetItem-op9426
+641 cst224
+680	Gradients/Default/network-TrainOneStepCell/network-WithLossCell/_backbone-ResNet/gradReLU/ReluGradV2-op3451
+678 679
+681	Default/TupleGetItem-op9427
+641 cst225
+682	Default/TupleGetItem-op9428
+641 cst226
+683	Gradients/Default/network-TrainOneStepCell/network-WithLossCell/_backbone-ResNet/bn1-BatchNorm2d/gradBatchNorm/BNTrainingUpdateGrad-op2710
+680 634 681 682
+684	Default/TupleGetItem-op7564
+683 cst227
+685	Default/TupleGetItem-op7565
+683 cst228
+686	Gradients/Default/network-TrainOneStepCell/network-WithLossCell/_backbone-ResNet/bn1-BatchNorm2d/gradBatchNorm/BNTrainingReduceGrad-op2713
+680 634 684 685 637 681 682
+687	Default/TupleGetItem-op9429
+629 cst229
+688	Gradients/Default/network-TrainOneStepCell/network-WithLossCell/_backbone-ResNet/gradReLU/FusionOp_Conv2DBackpropInput_ReluGradV2-op9158
+686 632 687
+689	Default/TupleGetItem-op9430
+629 cst230
+690	Default/TupleGetItem-op9431
+629 cst231
+691	Gradients/Default/network-TrainOneStepCell/network-WithLossCell/_backbone-ResNet/bn1-BatchNorm2d/gradBatchNorm/BNTrainingUpdateGrad-op2715
+688 622 689 690
+692	Default/TupleGetItem-op7567
+691 cst232
+693	Default/TupleGetItem-op7568
+691 cst233
+694	Gradients/Default/network-TrainOneStepCell/network-WithLossCell/_backbone-ResNet/bn1-BatchNorm2d/gradBatchNorm/BNTrainingReduceGrad-op2718
+688 622 692 693 625 689 690
+695	Default/TupleGetItem-op9432
+617 cst234
+696	Gradients/Default/network-TrainOneStepCell/network-WithLossCell/_backbone-ResNet/gradReLU/FusionOp_Conv2DBackpropInput_ReluGradV2-op9165
+694 620 695
+697	Default/TupleGetItem-op9433
+617 cst235
+698	Default/TupleGetItem-op9434
+617 cst236
+699	Gradients/Default/network-TrainOneStepCell/network-WithLossCell/_backbone-ResNet/bn1-BatchNorm2d/gradBatchNorm/BNTrainingUpdateGrad-op2720
+696 610 697 698
+700	Default/TupleGetItem-op7570
+699 cst237
+701	Default/TupleGetItem-op7571
+699 cst238
+702	Gradients/Default/network-TrainOneStepCell/network-WithLossCell/_backbone-ResNet/bn1-BatchNorm2d/gradBatchNorm/BNTrainingReduceGrad-op2723
+696 610 700 701 613 697 698
+703	Default/TupleGetItem-op9435
+605 cst239
+704	Gradients/Default/network-TrainOneStepCell/network-WithLossCell/_backbone-ResNet/gradReLU/FusionOp_Conv2DBackpropInput_AddN_ReluGradV2-op9182
+702 608 680 703
+705	Default/TupleGetItem-op9436
+605 cst240
+706	Default/TupleGetItem-op9437
+605 cst241
+707	Gradients/Default/network-TrainOneStepCell/network-WithLossCell/_backbone-ResNet/bn1-BatchNorm2d/gradBatchNorm/BNTrainingUpdateGrad-op2725
+704 598 705 706
+708	Default/TupleGetItem-op7573
+707 cst242
+709	Default/TupleGetItem-op7574
+707 cst243
+710	Gradients/Default/network-TrainOneStepCell/network-WithLossCell/_backbone-ResNet/bn1-BatchNorm2d/gradBatchNorm/BNTrainingReduceGrad-op2728
+704 598 708 709 601 705 706
+711	Default/TupleGetItem-op9438
+593 cst244
+712	Gradients/Default/network-TrainOneStepCell/network-WithLossCell/_backbone-ResNet/gradReLU/FusionOp_Conv2DBackpropInput_ReluGradV2-op9172
+710 596 711
+713	Default/TupleGetItem-op9439
+593 cst245
+714	Default/TupleGetItem-op9440
+593 cst246
+715	Gradients/Default/network-TrainOneStepCell/network-WithLossCell/_backbone-ResNet/bn1-BatchNorm2d/gradBatchNorm/BNTrainingUpdateGrad-op2730
+712 586 713 714
+716	Default/TupleGetItem-op7576
+715 cst247
+717	Default/TupleGetItem-op7577
+715 cst248
+718	Gradients/Default/network-TrainOneStepCell/network-WithLossCell/_backbone-ResNet/bn1-BatchNorm2d/gradBatchNorm/BNTrainingReduceGrad-op2733
+712 586 716 717 589 713 714
+719	Default/TupleGetItem-op9441
+581 cst249
+720	Gradients/Default/network-TrainOneStepCell/network-WithLossCell/_backbone-ResNet/gradReLU/FusionOp_Conv2DBackpropInput_ReluGradV2-op9179
+718 584 719
+721	Default/TupleGetItem-op9442
+581 cst250
+722	Default/TupleGetItem-op9443
+581 cst251
+723	Gradients/Default/network-TrainOneStepCell/network-WithLossCell/_backbone-ResNet/bn1-BatchNorm2d/gradBatchNorm/BNTrainingUpdateGrad-op2735
+720 574 721 722
+724	Default/TupleGetItem-op7579
+723 cst252
+725	Default/TupleGetItem-op7580
+723 cst253
+726	Gradients/Default/network-TrainOneStepCell/network-WithLossCell/_backbone-ResNet/bn1-BatchNorm2d/gradBatchNorm/BNTrainingReduceGrad-op2738
+720 574 724 725 577 721 722
+727	Default/TupleGetItem-op9444
+569 cst254
+728	Gradients/Default/network-TrainOneStepCell/network-WithLossCell/_backbone-ResNet/gradReLU/FusionOp_Conv2DBackpropInput_AddN_ReluGradV2-op9185
+726 572 704 727
+729	Default/network-TrainOneStepCell/network-WithLossCell/_backbone-ResNet/layer4-SequentialCell/0-ResidualBlock/bn3-BatchNorm2d/TupleGetItem-op8545
+567 cst255
+730	Default/network-TrainOneStepCell/network-WithLossCell/_backbone-ResNet/layer4-SequentialCell/0-ResidualBlock/bn3-BatchNorm2d/TupleGetItem-op8546
+567 cst256
+731	Gradients/Default/network-TrainOneStepCell/network-WithLossCell/_backbone-ResNet/bn1-BatchNorm2d/gradBatchNorm/BNTrainingUpdateGrad-op2755
+728 560 729 730
+732	Default/TupleGetItem-op7591
+731 cst257
+733	Default/TupleGetItem-op7592
+731 cst258
+734	Gradients/Default/network-TrainOneStepCell/network-WithLossCell/_backbone-ResNet/bn1-BatchNorm2d/gradBatchNorm/BNTrainingReduceGrad-op2758
+728 560 732 733 563 729 730
+735	Default/TupleGetItem-op9445
+569 cst259
+736	Default/TupleGetItem-op9446
+569 cst260
+737	Gradients/Default/network-TrainOneStepCell/network-WithLossCell/_backbone-ResNet/bn1-BatchNorm2d/gradBatchNorm/BNTrainingUpdateGrad-op2740
+728 550 735 736
+738	Default/TupleGetItem-op7582
+737 cst261
+739	Default/TupleGetItem-op7583
+737 cst262
+740	Gradients/Default/network-TrainOneStepCell/network-WithLossCell/_backbone-ResNet/bn1-BatchNorm2d/gradBatchNorm/BNTrainingReduceGrad-op2743
+728 550 738 739 553 735 736
+741	Default/TupleGetItem-op9447
+545 cst263
+742	Gradients/Default/network-TrainOneStepCell/network-WithLossCell/_backbone-ResNet/gradReLU/FusionOp_Conv2DBackpropInput_ReluGradV2-op9188
+740 548 741
+743	Default/TupleGetItem-op9448
+545 cst264
+744	Default/TupleGetItem-op9449
+545 cst265
+745	Gradients/Default/network-TrainOneStepCell/network-WithLossCell/_backbone-ResNet/bn1-BatchNorm2d/gradBatchNorm/BNTrainingUpdateGrad-op2745
+742 538 743 744
+746	Default/TupleGetItem-op7585
+745 cst266
+747	Default/TupleGetItem-op7586
+745 cst267
+748	Gradients/Default/network-TrainOneStepCell/network-WithLossCell/_backbone-ResNet/bn1-BatchNorm2d/gradBatchNorm/BNTrainingReduceGrad-op2748
+742 538 746 747 541 743 744
+749	Default/TupleGetItem-op9450
+533 cst268
+750	Gradients/Default/network-TrainOneStepCell/network-WithLossCell/_backbone-ResNet/gradReLU/FusionOp_Conv2DBackpropInput_ReluGradV2-op9198
+748 536 749
+751	Default/TupleGetItem-op9451
+533 cst269
+752	Default/TupleGetItem-op9452
+533 cst270
+753	Gradients/Default/network-TrainOneStepCell/network-WithLossCell/_backbone-ResNet/bn1-BatchNorm2d/gradBatchNorm/BNTrainingUpdateGrad-op2750
+750 526 751 752
+754	Default/TupleGetItem-op7588
+753 cst271
+755	Default/TupleGetItem-op7589
+753 cst272
+756	Gradients/Default/network-TrainOneStepCell/network-WithLossCell/_backbone-ResNet/bn1-BatchNorm2d/gradBatchNorm/BNTrainingReduceGrad-op2753
+750 526 754 755 529 751 752
+757	Gradients/Default/network-TrainOneStepCell/network-WithLossCell/_backbone-ResNet/layer4-SequentialCell/1-ResidualBlock/conv1-Conv2d/gradConv2D/Conv2DBackpropInput-op752
+756 524
+758	Default/TupleGetItem-op9453
+521 cst273
+759	Gradients/Default/network-TrainOneStepCell/network-WithLossCell/_backbone-ResNet/gradReLU/FusionOp_Conv2DBackpropInput_AddN_ReluGradV2-op9192
+734 558 757 758
+760	Default/TupleGetItem-op9454
+521 cst274
+761	Default/TupleGetItem-op9455
+521 cst275
+762	Gradients/Default/network-TrainOneStepCell/network-WithLossCell/_backbone-ResNet/bn1-BatchNorm2d/gradBatchNorm/BNTrainingUpdateGrad-op2760
+759 514 760 761
+763	Default/TupleGetItem-op7594
+762 cst276
+764	Default/TupleGetItem-op7595
+762 cst277
+765	Gradients/Default/network-TrainOneStepCell/network-WithLossCell/_backbone-ResNet/bn1-BatchNorm2d/gradBatchNorm/BNTrainingReduceGrad-op2763
+759 514 763 764 517 760 761
+766	Default/TupleGetItem-op9456
+509 cst278
+767	Gradients/Default/network-TrainOneStepCell/network-WithLossCell/_backbone-ResNet/gradReLU/FusionOp_Conv2DBackpropInput_ReluGradV2-op9207
+765 512 766
+768	Default/TupleGetItem-op9457
+509 cst279
+769	Default/TupleGetItem-op9458
+509 cst280
+770	Gradients/Default/network-TrainOneStepCell/network-WithLossCell/_backbone-ResNet/bn1-BatchNorm2d/gradBatchNorm/BNTrainingUpdateGrad-op2765
+767 502 768 769
+771	Default/TupleGetItem-op7597
+770 cst281
+772	Default/TupleGetItem-op7598
+770 cst282
+773	Gradients/Default/network-TrainOneStepCell/network-WithLossCell/_backbone-ResNet/bn1-BatchNorm2d/gradBatchNorm/BNTrainingReduceGrad-op2768
+767 502 771 772 505 768 769
+774	Default/TupleGetItem-op9459
+497 cst283
+775	Gradients/Default/network-TrainOneStepCell/network-WithLossCell/_backbone-ResNet/gradReLU/FusionOp_Conv2DBackpropInput_ReluGradV2-op9210
+773 500 774
+776	Default/TupleGetItem-op9460
+497 cst284
+777	Default/TupleGetItem-op9461
+497 cst285
+778	Gradients/Default/network-TrainOneStepCell/network-WithLossCell/_backbone-ResNet/bn1-BatchNorm2d/gradBatchNorm/BNTrainingUpdateGrad-op2770
+775 490 776 777
+779	Default/TupleGetItem-op7600
+778 cst286
+780	Default/TupleGetItem-op7601
+778 cst287
+781	Gradients/Default/network-TrainOneStepCell/network-WithLossCell/_backbone-ResNet/bn1-BatchNorm2d/gradBatchNorm/BNTrainingReduceGrad-op2773
+775 490 779 780 493 776 777
+782	Default/TupleGetItem-op9462
+485 cst288
+783	Gradients/Default/network-TrainOneStepCell/network-WithLossCell/_backbone-ResNet/gradReLU/FusionOp_Conv2DBackpropInput_AddN_ReluGradV2-op9195
+781 488 759 782
+784	Default/TupleGetItem-op9463
+485 cst289
+785	Default/TupleGetItem-op9464
+485 cst290
+786	Gradients/Default/network-TrainOneStepCell/network-WithLossCell/_backbone-ResNet/bn1-BatchNorm2d/gradBatchNorm/BNTrainingUpdateGrad-op2775
+783 478 784 785
+787	Default/TupleGetItem-op7603
+786 cst291
+788	Default/TupleGetItem-op7604
+786 cst292
+789	Gradients/Default/network-TrainOneStepCell/network-WithLossCell/_backbone-ResNet/bn1-BatchNorm2d/gradBatchNorm/BNTrainingReduceGrad-op2778
+783 478 787 788 481 784 785
+790	Default/TupleGetItem-op9465
+473 cst293
+791	Gradients/Default/network-TrainOneStepCell/network-WithLossCell/_backbone-ResNet/gradReLU/FusionOp_Conv2DBackpropInput_ReluGradV2-op9209
+789 476 790
+792	Default/TupleGetItem-op9466
+473 cst294
+793	Default/TupleGetItem-op9467
+473 cst295
+794	Gradients/Default/network-TrainOneStepCell/network-WithLossCell/_backbone-ResNet/bn1-BatchNorm2d/gradBatchNorm/BNTrainingUpdateGrad-op2780
+791 466 792 793
+795	Default/TupleGetItem-op7606
+794 cst296
+796	Default/TupleGetItem-op7607
+794 cst297
+797	Gradients/Default/network-TrainOneStepCell/network-WithLossCell/_backbone-ResNet/bn1-BatchNorm2d/gradBatchNorm/BNTrainingReduceGrad-op2783
+791 466 795 796 469 792 793
+798	Default/TupleGetItem-op9468
+461 cst298
+799	Gradients/Default/network-TrainOneStepCell/network-WithLossCell/_backbone-ResNet/gradReLU/FusionOp_Conv2DBackpropInput_ReluGradV2-op9211
+797 464 798
+800	Default/TupleGetItem-op9469
+461 cst299
+801	Default/TupleGetItem-op9470
+461 cst300
+802	Gradients/Default/network-TrainOneStepCell/network-WithLossCell/_backbone-ResNet/bn1-BatchNorm2d/gradBatchNorm/BNTrainingUpdateGrad-op2785
+799 454 800 801
+803	Default/TupleGetItem-op7609
+802 cst301
+804	Default/TupleGetItem-op7610
+802 cst302
+805	Gradients/Default/network-TrainOneStepCell/network-WithLossCell/_backbone-ResNet/bn1-BatchNorm2d/gradBatchNorm/BNTrainingReduceGrad-op2788
+799 454 803 804 457 800 801
+806	Default/TupleGetItem-op9471
+449 cst303
+807	Gradients/Default/network-TrainOneStepCell/network-WithLossCell/_backbone-ResNet/gradReLU/FusionOp_Conv2DBackpropInput_AddN_ReluGradV2-op9201
+805 452 783 806
+808	Default/TupleGetItem-op9472
+449 cst304
+809	Default/TupleGetItem-op9473
+449 cst305
+810	Gradients/Default/network-TrainOneStepCell/network-WithLossCell/_backbone-ResNet/bn1-BatchNorm2d/gradBatchNorm/BNTrainingUpdateGrad-op2790
+807 442 808 809
+811	Default/TupleGetItem-op7612
+810 cst306
+812	Default/TupleGetItem-op7613
+810 cst307
+813	Gradients/Default/network-TrainOneStepCell/network-WithLossCell/_backbone-ResNet/bn1-BatchNorm2d/gradBatchNorm/BNTrainingReduceGrad-op2793
+807 442 811 812 445 808 809
+814	Default/TupleGetItem-op9474
+437 cst308
+815	Gradients/Default/network-TrainOneStepCell/network-WithLossCell/_backbone-ResNet/gradReLU/FusionOp_Conv2DBackpropInput_ReluGradV2-op9212
+813 440 814
+816	Default/TupleGetItem-op9475
+437 cst309
+817	Default/TupleGetItem-op9476
+437 cst310
+818	Gradients/Default/network-TrainOneStepCell/network-WithLossCell/_backbone-ResNet/bn1-BatchNorm2d/gradBatchNorm/BNTrainingUpdateGrad-op2795
+815 430 816 817
+819	Default/TupleGetItem-op7615
+818 cst311
+820	Default/TupleGetItem-op7616
+818 cst312
+821	Gradients/Default/network-TrainOneStepCell/network-WithLossCell/_backbone-ResNet/bn1-BatchNorm2d/gradBatchNorm/BNTrainingReduceGrad-op2798
+815 430 819 820 433 816 817
+822	Default/TupleGetItem-op9477
+425 cst313
+823	Gradients/Default/network-TrainOneStepCell/network-WithLossCell/_backbone-ResNet/gradReLU/FusionOp_Conv2DBackpropInput_ReluGradV2-op9213
+821 428 822
+824	Default/TupleGetItem-op9478
+425 cst314
+825	Default/TupleGetItem-op9479
+425 cst315
+826	Gradients/Default/network-TrainOneStepCell/network-WithLossCell/_backbone-ResNet/bn1-BatchNorm2d/gradBatchNorm/BNTrainingUpdateGrad-op2800
+823 418 824 825
+827	Default/TupleGetItem-op7618
+826 cst316
+828	Default/TupleGetItem-op7619
+826 cst317
+829	Gradients/Default/network-TrainOneStepCell/network-WithLossCell/_backbone-ResNet/bn1-BatchNorm2d/gradBatchNorm/BNTrainingReduceGrad-op2803
+823 418 827 828 421 824 825
+830	Default/TupleGetItem-op9480
+413 cst318
+831	Gradients/Default/network-TrainOneStepCell/network-WithLossCell/_backbone-ResNet/gradReLU/FusionOp_Conv2DBackpropInput_AddN_ReluGradV2-op9204
+829 416 807 830
+832	Default/TupleGetItem-op9481
+413 cst319
+833	Default/TupleGetItem-op9482
+413 cst320
+834	Gradients/Default/network-TrainOneStepCell/network-WithLossCell/_backbone-ResNet/bn1-BatchNorm2d/gradBatchNorm/BNTrainingUpdateGrad-op2805
+831 406 832 833
+835	Default/TupleGetItem-op7621
+834 cst321
+836	Default/TupleGetItem-op7622
+834 cst322
+837	Gradients/Default/network-TrainOneStepCell/network-WithLossCell/_backbone-ResNet/bn1-BatchNorm2d/gradBatchNorm/BNTrainingReduceGrad-op2808
+831 406 835 836 409 832 833
+838	Default/TupleGetItem-op9483
+401 cst323
+839	Gradients/Default/network-TrainOneStepCell/network-WithLossCell/_backbone-ResNet/gradReLU/FusionOp_Conv2DBackpropInput_ReluGradV2-op9214
+837 404 838
+840	Default/TupleGetItem-op9484
+401 cst324
+841	Default/TupleGetItem-op9485
+401 cst325
+842	Gradients/Default/network-TrainOneStepCell/network-WithLossCell/_backbone-ResNet/bn1-BatchNorm2d/gradBatchNorm/BNTrainingUpdateGrad-op2810
+839 394 840 841
+843	Default/TupleGetItem-op7624
+842 cst326
+844	Default/TupleGetItem-op7625
+842 cst327
+845	Gradients/Default/network-TrainOneStepCell/network-WithLossCell/_backbone-ResNet/bn1-BatchNorm2d/gradBatchNorm/BNTrainingReduceGrad-op2813
+839 394 843 844 397 840 841
+846	Default/TupleGetItem-op9486
+389 cst328
+847	Gradients/Default/network-TrainOneStepCell/network-WithLossCell/_backbone-ResNet/gradReLU/FusionOp_Conv2DBackpropInput_ReluGradV2-op9215
+845 392 846
+848	Default/TupleGetItem-op9487
+389 cst329
+849	Default/TupleGetItem-op9488
+389 cst330
+850	Gradients/Default/network-TrainOneStepCell/network-WithLossCell/_backbone-ResNet/bn1-BatchNorm2d/gradBatchNorm/BNTrainingUpdateGrad-op2815
+847 382 848 849
+851	Default/TupleGetItem-op7627
+850 cst331
+852	Default/TupleGetItem-op7628
+850 cst332
+853	Gradients/Default/network-TrainOneStepCell/network-WithLossCell/_backbone-ResNet/bn1-BatchNorm2d/gradBatchNorm/BNTrainingReduceGrad-op2818
+847 382 851 852 385 848 849
+854	Default/TupleGetItem-op9489
+377 cst333
+855	Gradients/Default/network-TrainOneStepCell/network-WithLossCell/_backbone-ResNet/gradReLU/FusionOp_Conv2DBackpropInput_AddN_ReluGradV2-op9112
+853 380 831 854
+856	Default/TupleGetItem-op9490
+377 cst334
+857	Default/TupleGetItem-op9491
+377 cst335
+858	Gradients/Default/network-TrainOneStepCell/network-WithLossCell/_backbone-ResNet/bn1-BatchNorm2d/gradBatchNorm/BNTrainingUpdateGrad-op2820
+855 370 856 857
+859	Default/TupleGetItem-op7630
+858 cst336
+860	Default/TupleGetItem-op7631
+858 cst337
+861	Gradients/Default/network-TrainOneStepCell/network-WithLossCell/_backbone-ResNet/bn1-BatchNorm2d/gradBatchNorm/BNTrainingReduceGrad-op2823
+855 370 859 860 373 856 857
+862	Default/TupleGetItem-op9492
+365 cst338
+863	Gradients/Default/network-TrainOneStepCell/network-WithLossCell/_backbone-ResNet/gradReLU/FusionOp_Conv2DBackpropInput_ReluGradV2-op9216
+861 368 862
+864	Default/TupleGetItem-op9493
+365 cst339
+865	Default/TupleGetItem-op9494
+365 cst340
+866	Gradients/Default/network-TrainOneStepCell/network-WithLossCell/_backbone-ResNet/bn1-BatchNorm2d/gradBatchNorm/BNTrainingUpdateGrad-op2825
+863 358 864 865
+867	Default/TupleGetItem-op7633
+866 cst341
+868	Default/TupleGetItem-op7634
+866 cst342
+869	Gradients/Default/network-TrainOneStepCell/network-WithLossCell/_backbone-ResNet/bn1-BatchNorm2d/gradBatchNorm/BNTrainingReduceGrad-op2828
+863 358 867 868 361 864 865
+870	Default/TupleGetItem-op9495
+353 cst343
+871	Gradients/Default/network-TrainOneStepCell/network-WithLossCell/_backbone-ResNet/gradReLU/FusionOp_Conv2DBackpropInput_ReluGradV2-op9217
+869 356 870
+872	Default/TupleGetItem-op9496
+353 cst344
+873	Default/TupleGetItem-op9497
+353 cst345
+874	Gradients/Default/network-TrainOneStepCell/network-WithLossCell/_backbone-ResNet/bn1-BatchNorm2d/gradBatchNorm/BNTrainingUpdateGrad-op2830
+871 346 872 873
+875	Default/TupleGetItem-op7636
+874 cst346
+876	Default/TupleGetItem-op7637
+874 cst347
+877	Gradients/Default/network-TrainOneStepCell/network-WithLossCell/_backbone-ResNet/bn1-BatchNorm2d/gradBatchNorm/BNTrainingReduceGrad-op2833
+871 346 875 876 349 872 873
+878	Default/TupleGetItem-op9498
+341 cst348
+879	Gradients/Default/network-TrainOneStepCell/network-WithLossCell/_backbone-ResNet/gradReLU/FusionOp_Conv2DBackpropInput_AddN_ReluGradV2-op9135
+877 344 855 878
+880	Default/network-TrainOneStepCell/network-WithLossCell/_backbone-ResNet/layer3-SequentialCell/0-ResidualBlock/bn3-BatchNorm2d/TupleGetItem-op8431
+339 cst349
+881	Default/network-TrainOneStepCell/network-WithLossCell/_backbone-ResNet/layer3-SequentialCell/0-ResidualBlock/bn3-BatchNorm2d/TupleGetItem-op8432
+339 cst350
+882	Gradients/Default/network-TrainOneStepCell/network-WithLossCell/_backbone-ResNet/bn1-BatchNorm2d/gradBatchNorm/BNTrainingUpdateGrad-op2850
+879 332 880 881
+883	Default/TupleGetItem-op7648
+882 cst351
+884	Default/TupleGetItem-op7649
+882 cst352
+885	Gradients/Default/network-TrainOneStepCell/network-WithLossCell/_backbone-ResNet/bn1-BatchNorm2d/gradBatchNorm/BNTrainingReduceGrad-op2853
+879 332 883 884 335 880 881
+886	Default/TupleGetItem-op9499
+341 cst353
+887	Default/TupleGetItem-op9500
+341 cst354
+888	Gradients/Default/network-TrainOneStepCell/network-WithLossCell/_backbone-ResNet/bn1-BatchNorm2d/gradBatchNorm/BNTrainingUpdateGrad-op2835
+879 322 886 887
+889	Default/TupleGetItem-op7639
+888 cst355
+890	Default/TupleGetItem-op7640
+888 cst356
+891	Gradients/Default/network-TrainOneStepCell/network-WithLossCell/_backbone-ResNet/bn1-BatchNorm2d/gradBatchNorm/BNTrainingReduceGrad-op2838
+879 322 889 890 325 886 887
+892	Default/TupleGetItem-op9501
+317 cst357
+893	Gradients/Default/network-TrainOneStepCell/network-WithLossCell/_backbone-ResNet/gradReLU/FusionOp_Conv2DBackpropInput_ReluGradV2-op9090
+891 320 892
+894	Default/TupleGetItem-op9502
+317 cst358
+895	Default/TupleGetItem-op9503
+317 cst359
+896	Gradients/Default/network-TrainOneStepCell/network-WithLossCell/_backbone-ResNet/bn1-BatchNorm2d/gradBatchNorm/BNTrainingUpdateGrad-op2840
+893 310 894 895
+897	Default/TupleGetItem-op7642
+896 cst360
+898	Default/TupleGetItem-op7643
+896 cst361
+899	Gradients/Default/network-TrainOneStepCell/network-WithLossCell/_backbone-ResNet/bn1-BatchNorm2d/gradBatchNorm/BNTrainingReduceGrad-op2843
+893 310 897 898 313 894 895
+900	Default/TupleGetItem-op9504
+305 cst362
+901	Gradients/Default/network-TrainOneStepCell/network-WithLossCell/_backbone-ResNet/gradReLU/FusionOp_Conv2DBackpropInput_ReluGradV2-op9089
+899 308 900
+902	Default/TupleGetItem-op9505
+305 cst363
+903	Default/TupleGetItem-op9506
+305 cst364
+904	Gradients/Default/network-TrainOneStepCell/network-WithLossCell/_backbone-ResNet/bn1-BatchNorm2d/gradBatchNorm/BNTrainingUpdateGrad-op2845
+901 298 902 903
+905	Default/TupleGetItem-op7645
+904 cst365
+906	Default/TupleGetItem-op7646
+904 cst366
+907	Gradients/Default/network-TrainOneStepCell/network-WithLossCell/_backbone-ResNet/bn1-BatchNorm2d/gradBatchNorm/BNTrainingReduceGrad-op2848
+901 298 905 906 301 902 903
+908	Gradients/Default/network-TrainOneStepCell/network-WithLossCell/_backbone-ResNet/layer3-SequentialCell/1-ResidualBlock/conv1-Conv2d/gradConv2D/Conv2DBackpropInput-op896
+907 296
+909	Default/TupleGetItem-op9507
+293 cst367
+910	Gradients/Default/network-TrainOneStepCell/network-WithLossCell/_backbone-ResNet/gradReLU/FusionOp_Conv2DBackpropInput_AddN_ReluGradV2-op9088
+885 330 908 909
+911	Default/TupleGetItem-op9508
+293 cst368
+912	Default/TupleGetItem-op9509
+293 cst369
+913	Gradients/Default/network-TrainOneStepCell/network-WithLossCell/_backbone-ResNet/bn1-BatchNorm2d/gradBatchNorm/BNTrainingUpdateGrad-op2855
+910 286 911 912
+914	Default/TupleGetItem-op7651
+913 cst370
+915	Default/TupleGetItem-op7652
+913 cst371
+916	Gradients/Default/network-TrainOneStepCell/network-WithLossCell/_backbone-ResNet/bn1-BatchNorm2d/gradBatchNorm/FusedDbnDw-op3548
+282 910 286 914 915 289 911 912
+917	Default/TupleGetItem-op7654
+916 cst372
+918	Default/TupleGetItem-op9510
+281 cst373
+919	Gradients/Default/network-TrainOneStepCell/network-WithLossCell/_backbone-ResNet/gradReLU/FusionOp_Conv2DBackpropInput_ReluGradV2-op9087
+917 284 918
+920	Default/TupleGetItem-op9511
+281 cst374
+921	Default/TupleGetItem-op9512
+281 cst375
+922	Gradients/Default/network-TrainOneStepCell/network-WithLossCell/_backbone-ResNet/bn1-BatchNorm2d/gradBatchNorm/BNTrainingUpdateGrad-op2860
+919 274 920 921
+923	Default/TupleGetItem-op7657
+922 cst376
+924	Default/TupleGetItem-op7658
+922 cst377
+925	Gradients/Default/network-TrainOneStepCell/network-WithLossCell/_backbone-ResNet/bn1-BatchNorm2d/gradBatchNorm/BNTrainingReduceGrad-op2863
+919 274 923 924 277 920 921
+926	Default/TupleGetItem-op9513
+269 cst378
+927	Gradients/Default/network-TrainOneStepCell/network-WithLossCell/_backbone-ResNet/gradReLU/FusionOp_Conv2DBackpropInput_ReluGradV2-op9086
+925 272 926
+928	Default/TupleGetItem-op9514
+269 cst379
+929	Default/TupleGetItem-op9515
+269 cst380
+930	Gradients/Default/network-TrainOneStepCell/network-WithLossCell/_backbone-ResNet/bn1-BatchNorm2d/gradBatchNorm/BNTrainingUpdateGrad-op2865
+927 262 928 929
+931	Default/TupleGetItem-op7660
+930 cst381
+932	Default/TupleGetItem-op7661
+930 cst382
+933	Gradients/Default/network-TrainOneStepCell/network-WithLossCell/_backbone-ResNet/bn1-BatchNorm2d/gradBatchNorm/FusedDbnDw-op3550
+258 927 262 931 932 265 928 929
+934	Default/TupleGetItem-op7663
+933 cst383
+935	Default/TupleGetItem-op9516
+257 cst384
+936	Gradients/Default/network-TrainOneStepCell/network-WithLossCell/_backbone-ResNet/gradReLU/FusionOp_Conv2DBackpropInput_AddN_ReluGradV2-op9085
+934 260 910 935
+937	Default/TupleGetItem-op9517
+257 cst385
+938	Default/TupleGetItem-op9518
+257 cst386
+939	Gradients/Default/network-TrainOneStepCell/network-WithLossCell/_backbone-ResNet/bn1-BatchNorm2d/gradBatchNorm/BNTrainingUpdateGrad-op2870
+936 250 937 938
+940	Default/TupleGetItem-op7666
+939 cst387
+941	Default/TupleGetItem-op7667
+939 cst388
+942	Gradients/Default/network-TrainOneStepCell/network-WithLossCell/_backbone-ResNet/bn1-BatchNorm2d/gradBatchNorm/FusedDbnDw-op3552
+246 936 250 940 941 253 937 938
+943	Default/TupleGetItem-op7669
+942 cst389
+944	Default/TupleGetItem-op9519
+245 cst390
+945	Gradients/Default/network-TrainOneStepCell/network-WithLossCell/_backbone-ResNet/gradReLU/FusionOp_Conv2DBackpropInput_ReluGradV2-op9084
+943 248 944
+946	Default/TupleGetItem-op9520
+245 cst391
+947	Default/TupleGetItem-op9521
+245 cst392
+948	Gradients/Default/network-TrainOneStepCell/network-WithLossCell/_backbone-ResNet/bn1-BatchNorm2d/gradBatchNorm/BNTrainingUpdateGrad-op2875
+945 238 946 947
+949	Default/TupleGetItem-op7672
+948 cst393
+950	Default/TupleGetItem-op7673
+948 cst394
+951	Gradients/Default/network-TrainOneStepCell/network-WithLossCell/_backbone-ResNet/bn1-BatchNorm2d/gradBatchNorm/BNTrainingReduceGrad-op2878
+945 238 949 950 241 946 947
+952	Default/TupleGetItem-op9522
+233 cst395
+953	Gradients/Default/network-TrainOneStepCell/network-WithLossCell/_backbone-ResNet/gradReLU/FusionOp_Conv2DBackpropInput_ReluGradV2-op9083
+951 236 952
+954	Default/TupleGetItem-op9523
+233 cst396
+955	Default/TupleGetItem-op9524
+233 cst397
+956	Gradients/Default/network-TrainOneStepCell/network-WithLossCell/_backbone-ResNet/bn1-BatchNorm2d/gradBatchNorm/BNTrainingUpdateGrad-op2880
+953 226 954 955
+957	Default/TupleGetItem-op7675
+956 cst398
+958	Default/TupleGetItem-op7676
+956 cst399
+959	Gradients/Default/network-TrainOneStepCell/network-WithLossCell/_backbone-ResNet/bn1-BatchNorm2d/gradBatchNorm/FusedDbnDw-op3554
+222 953 226 957 958 229 954 955
+960	Default/TupleGetItem-op7678
+959 cst400
+961	Default/TupleGetItem-op9525
+221 cst401
+962	Gradients/Default/network-TrainOneStepCell/network-WithLossCell/_backbone-ResNet/gradReLU/FusionOp_Conv2DBackpropInput_AddN_ReluGradV2-op9082
+960 224 936 961
+963	Default/TupleGetItem-op9526
+221 cst402
+964	Default/TupleGetItem-op9527
+221 cst403
+965	Gradients/Default/network-TrainOneStepCell/network-WithLossCell/_backbone-ResNet/bn1-BatchNorm2d/gradBatchNorm/BNTrainingUpdateGrad-op2885
+962 214 963 964
+966	Default/TupleGetItem-op7681
+965 cst404
+967	Default/TupleGetItem-op7682
+965 cst405
+968	Gradients/Default/network-TrainOneStepCell/network-WithLossCell/_backbone-ResNet/bn1-BatchNorm2d/gradBatchNorm/FusedDbnDw-op3556
+210 962 214 966 967 217 963 964
+969	Default/TupleGetItem-op7684
+968 cst406
+970	Default/TupleGetItem-op9528
+209 cst407
+971	Gradients/Default/network-TrainOneStepCell/network-WithLossCell/_backbone-ResNet/gradReLU/FusionOp_Conv2DBackpropInput_ReluGradV2-op9081
+969 212 970
+972	Default/TupleGetItem-op9529
+209 cst408
+973	Default/TupleGetItem-op9530
+209 cst409
+974	Gradients/Default/network-TrainOneStepCell/network-WithLossCell/_backbone-ResNet/bn1-BatchNorm2d/gradBatchNorm/BNTrainingUpdateGrad-op2890
+971 202 972 973
+975	Default/TupleGetItem-op7687
+974 cst410
+976	Default/TupleGetItem-op7688
+974 cst411
+977	Gradients/Default/network-TrainOneStepCell/network-WithLossCell/_backbone-ResNet/bn1-BatchNorm2d/gradBatchNorm/BNTrainingReduceGrad-op2893
+971 202 975 976 205 972 973
+978	Default/TupleGetItem-op9531
+197 cst412
+979	Gradients/Default/network-TrainOneStepCell/network-WithLossCell/_backbone-ResNet/gradReLU/FusionOp_Conv2DBackpropInput_ReluGradV2-op9080
+977 200 978
+980	Default/TupleGetItem-op9532
+197 cst413
+981	Default/TupleGetItem-op9533
+197 cst414
+982	Gradients/Default/network-TrainOneStepCell/network-WithLossCell/_backbone-ResNet/bn1-BatchNorm2d/gradBatchNorm/BNTrainingUpdateGrad-op2895
+979 190 980 981
+983	Default/TupleGetItem-op7690
+982 cst415
+984	Default/TupleGetItem-op7691
+982 cst416
+985	Gradients/Default/network-TrainOneStepCell/network-WithLossCell/_backbone-ResNet/bn1-BatchNorm2d/gradBatchNorm/FusedDbnDw-op3558
+186 979 190 983 984 193 980 981
+986	Default/TupleGetItem-op7693
+985 cst417
+987	Default/TupleGetItem-op9534
+185 cst418
+988	Gradients/Default/network-TrainOneStepCell/network-WithLossCell/_backbone-ResNet/gradReLU/FusionOp_Conv2DBackpropInput_AddN_ReluGradV2-op9079
+986 188 962 987
+989	Default/network-TrainOneStepCell/network-WithLossCell/_backbone-ResNet/layer4-SequentialCell/0-ResidualBlock/bn2-BatchNorm2d/TupleGetItem-op8353
+183 cst419
+990	Default/network-TrainOneStepCell/network-WithLossCell/_backbone-ResNet/layer4-SequentialCell/0-ResidualBlock/bn2-BatchNorm2d/TupleGetItem-op8354
+183 cst420
+991	Gradients/Default/network-TrainOneStepCell/network-WithLossCell/_backbone-ResNet/bn1-BatchNorm2d/gradBatchNorm/BNTrainingUpdateGrad-op2915
+988 176 989 990
+992	Default/TupleGetItem-op7711
+991 cst421
+993	Default/TupleGetItem-op7712
+991 cst422
+994	Gradients/Default/network-TrainOneStepCell/network-WithLossCell/_backbone-ResNet/bn1-BatchNorm2d/gradBatchNorm/FusedDbnDw-op3564
+138 988 176 992 993 179 989 990
+995	Default/TupleGetItem-op7714
+994 cst423
+996	Default/TupleGetItem-op9535
+185 cst424
+997	Default/TupleGetItem-op9536
+185 cst425
+998	Gradients/Default/network-TrainOneStepCell/network-WithLossCell/_backbone-ResNet/bn1-BatchNorm2d/gradBatchNorm/BNTrainingUpdateGrad-op2900
+988 166 996 997
+999	Default/TupleGetItem-op7696
+998 cst426
+1000	Default/TupleGetItem-op7697
+998 cst427
+1001	Gradients/Default/network-TrainOneStepCell/network-WithLossCell/_backbone-ResNet/bn1-BatchNorm2d/gradBatchNorm/FusedDbnDw-op3560
+162 988 166 999 1000 169 996 997
+1002	Default/TupleGetItem-op7699
+1001 cst428
+1003	Default/TupleGetItem-op9537
+161 cst429
+1004	Gradients/Default/network-TrainOneStepCell/network-WithLossCell/_backbone-ResNet/gradReLU/FusionOp_Conv2DBackpropInput_ReluGradV2-op9078
+1002 164 1003
+1005	Default/TupleGetItem-op9538
+161 cst430
+1006	Default/TupleGetItem-op9539
+161 cst431
+1007	Gradients/Default/network-TrainOneStepCell/network-WithLossCell/_backbone-ResNet/bn1-BatchNorm2d/gradBatchNorm/BNTrainingUpdateGrad-op2905
+1004 154 1005 1006
+1008	Default/TupleGetItem-op7702
+1007 cst432
+1009	Default/TupleGetItem-op7703
+1007 cst433
+1010	Gradients/Default/network-TrainOneStepCell/network-WithLossCell/_backbone-ResNet/bn1-BatchNorm2d/gradBatchNorm/BNTrainingReduceGrad-op2908
+1004 154 1008 1009 157 1005 1006
+1011	Default/TupleGetItem-op9540
+149 cst434
+1012	Gradients/Default/network-TrainOneStepCell/network-WithLossCell/_backbone-ResNet/gradReLU/FusionOp_Conv2DBackpropInput_ReluGradV2-op9077
+1010 152 1011
+1013	Default/TupleGetItem-op9541
+149 cst435
+1014	Default/TupleGetItem-op9542
+149 cst436
+1015	Gradients/Default/network-TrainOneStepCell/network-WithLossCell/_backbone-ResNet/bn1-BatchNorm2d/gradBatchNorm/BNTrainingUpdateGrad-op2910
+1012 142 1013 1014
+1016	Default/TupleGetItem-op7705
+1015 cst437
+1017	Default/TupleGetItem-op7706
+1015 cst438
+1018	Gradients/Default/network-TrainOneStepCell/network-WithLossCell/_backbone-ResNet/bn1-BatchNorm2d/gradBatchNorm/FusedDbnDw-op3562
+138 1012 142 1016 1017 145 1013 1014
+1019	Default/TupleGetItem-op7708
+1018 cst439
+1020	Gradients/Default/network-TrainOneStepCell/network-WithLossCell/_backbone-ResNet/layer2-SequentialCell/1-ResidualBlock/conv1-Conv2d/gradConv2D/Conv2DBackpropInput-op994
+1019 140
+1021	Default/TupleGetItem-op9543
+137 cst440
+1022	Gradients/Default/network-TrainOneStepCell/network-WithLossCell/_backbone-ResNet/gradReLU/FusionOp_Conv2DBackpropInput_AddN_ReluGradV2-op9076
+995 174 1020 1021
+1023	Default/TupleGetItem-op9544
+137 cst441
+1024	Default/TupleGetItem-op9545
+137 cst442
+1025	Gradients/Default/network-TrainOneStepCell/network-WithLossCell/_backbone-ResNet/bn1-BatchNorm2d/gradBatchNorm/BNTrainingUpdateGrad-op2920
+1022 130 1023 1024
+1026	Default/TupleGetItem-op7717
+1025 cst443
+1027	Default/TupleGetItem-op7718
+1025 cst444
+1028	Gradients/Default/network-TrainOneStepCell/network-WithLossCell/_backbone-ResNet/bn1-BatchNorm2d/gradBatchNorm/FusedDbnDw-op3566
+126 1022 130 1026 1027 133 1023 1024
+1029	Default/TupleGetItem-op7720
+1028 cst445
+1030	Default/TupleGetItem-op9546
+125 cst446
+1031	Gradients/Default/network-TrainOneStepCell/network-WithLossCell/_backbone-ResNet/gradReLU/FusionOp_Conv2DBackpropInput_ReluGradV2-op9075
+1029 128 1030
+1032	Default/TupleGetItem-op9547
+125 cst447
+1033	Default/TupleGetItem-op9548
+125 cst448
+1034	Gradients/Default/network-TrainOneStepCell/network-WithLossCell/_backbone-ResNet/bn1-BatchNorm2d/gradBatchNorm/BNTrainingUpdateGrad-op2925
+1031 118 1032 1033
+1035	Default/TupleGetItem-op7723
+1034 cst449
+1036	Default/TupleGetItem-op7724
+1034 cst450
+1037	Gradients/Default/network-TrainOneStepCell/network-WithLossCell/_backbone-ResNet/bn1-BatchNorm2d/gradBatchNorm/FusedDbnDw-op3568
+114 1031 118 1035 1036 121 1032 1033
+1038	Default/TupleGetItem-op7726
+1037 cst451
+1039	Default/TupleGetItem-op9549
+113 cst452
+1040	Gradients/Default/network-TrainOneStepCell/network-WithLossCell/_backbone-ResNet/gradReLU/FusionOp_Conv2DBackpropInput_ReluGradV2-op9074
+1038 116 1039
+1041	Default/TupleGetItem-op9550
+113 cst453
+1042	Default/TupleGetItem-op9551
+113 cst454
+1043	Gradients/Default/network-TrainOneStepCell/network-WithLossCell/_backbone-ResNet/bn1-BatchNorm2d/gradBatchNorm/BNTrainingUpdateGrad-op2930
+1040 106 1041 1042
+1044	Default/TupleGetItem-op7729
+1043 cst455
+1045	Default/TupleGetItem-op7730
+1043 cst456
+1046	Gradients/Default/network-TrainOneStepCell/network-WithLossCell/_backbone-ResNet/bn1-BatchNorm2d/gradBatchNorm/FusedDbnDw-op3570
+102 1040 106 1044 1045 109 1041 1042
+1047	Default/TupleGetItem-op7732
+1046 cst457
+1048	Default/TupleGetItem-op9552
+101 cst458
+1049	Gradients/Default/network-TrainOneStepCell/network-WithLossCell/_backbone-ResNet/gradReLU/FusionOp_Conv2DBackpropInput_AddN_ReluGradV2-op9073
+1047 104 1022 1048
+1050	Default/TupleGetItem-op9553
+101 cst459
+1051	Default/TupleGetItem-op9554
+101 cst460
+1052	Gradients/Default/network-TrainOneStepCell/network-WithLossCell/_backbone-ResNet/bn1-BatchNorm2d/gradBatchNorm/BNTrainingUpdateGrad-op2935
+1049 94 1050 1051
+1053	Default/TupleGetItem-op7735
+1052 cst461
+1054	Default/TupleGetItem-op7736
+1052 cst462
+1055	Gradients/Default/network-TrainOneStepCell/network-WithLossCell/_backbone-ResNet/bn1-BatchNorm2d/gradBatchNorm/FusedDbnDw-op3572
+90 1049 94 1053 1054 97 1050 1051
+1056	Default/TupleGetItem-op7738
+1055 cst463
+1057	Default/TupleGetItem-op9555
+89 cst464
+1058	Gradients/Default/network-TrainOneStepCell/network-WithLossCell/_backbone-ResNet/gradReLU/FusionOp_Conv2DBackpropInput_ReluGradV2-op9072
+1056 92 1057
+1059	Default/TupleGetItem-op9556
+89 cst465
+1060	Default/TupleGetItem-op9557
+89 cst466
+1061	Gradients/Default/network-TrainOneStepCell/network-WithLossCell/_backbone-ResNet/bn1-BatchNorm2d/gradBatchNorm/BNTrainingUpdateGrad-op2940
+1058 82 1059 1060
+1062	Default/TupleGetItem-op7741
+1061 cst467
+1063	Default/TupleGetItem-op7742
+1061 cst468
+1064	Gradients/Default/network-TrainOneStepCell/network-WithLossCell/_backbone-ResNet/bn1-BatchNorm2d/gradBatchNorm/FusedDbnDw-op3574
+78 1058 82 1062 1063 85 1059 1060
+1065	Default/TupleGetItem-op7744
+1064 cst469
+1066	Default/TupleGetItem-op9558
+77 cst470
+1067	Gradients/Default/network-TrainOneStepCell/network-WithLossCell/_backbone-ResNet/gradReLU/FusionOp_Conv2DBackpropInput_ReluGradV2-op9071
+1065 80 1066
+1068	Default/TupleGetItem-op9559
+77 cst471
+1069	Default/TupleGetItem-op9560
+77 cst472
+1070	Gradients/Default/network-TrainOneStepCell/network-WithLossCell/_backbone-ResNet/bn1-BatchNorm2d/gradBatchNorm/BNTrainingUpdateGrad-op2945
+1067 70 1068 1069
+1071	Default/TupleGetItem-op7747
+1070 cst473
+1072	Default/TupleGetItem-op7748
+1070 cst474
+1073	Gradients/Default/network-TrainOneStepCell/network-WithLossCell/_backbone-ResNet/bn1-BatchNorm2d/gradBatchNorm/FusedDbnDw-op3576
+66 1067 70 1071 1072 73 1068 1069
+1074	Default/TupleGetItem-op7750
+1073 cst475
+1075	Default/TupleGetItem-op9561
+65 cst476
+1076	Gradients/Default/network-TrainOneStepCell/network-WithLossCell/_backbone-ResNet/gradReLU/FusionOp_Conv2DBackpropInput_AddN_ReluGradV2-op9070
+1074 68 1049 1075
+1077	Default/TupleGetItem-op9562
+65 cst477
+1078	Default/TupleGetItem-op9563
+65 cst478
+1079	Gradients/Default/network-TrainOneStepCell/network-WithLossCell/_backbone-ResNet/bn1-BatchNorm2d/gradBatchNorm/BNTrainingUpdateGrad-op2950
+1076 46 1077 1078
+1080	Default/TupleGetItem-op7753
+1079 cst479
+1081	Default/TupleGetItem-op7754
+1079 cst480
+1082	Gradients/Default/network-TrainOneStepCell/network-WithLossCell/_backbone-ResNet/bn1-BatchNorm2d/gradBatchNorm/FusedDbnDw-op3578
+42 1076 46 1080 1081 49 1077 1078
+1083	Default/TupleGetItem-op7756
+1082 cst481
+1084	Default/TupleGetItem-op9564
+41 cst482
+1085	Gradients/Default/network-TrainOneStepCell/network-WithLossCell/_backbone-ResNet/gradReLU/FusionOp_Conv2DBackpropInput_ReluGradV2-op9069
+1083 44 1084
+1086	Default/TupleGetItem-op9565
+41 cst483
+1087	Default/TupleGetItem-op9566
+41 cst484
+1088	Gradients/Default/network-TrainOneStepCell/network-WithLossCell/_backbone-ResNet/bn1-BatchNorm2d/gradBatchNorm/BNTrainingUpdateGrad-op2955
+1085 34 1086 1087
+1089	Default/TupleGetItem-op7759
+1088 cst485
+1090	Default/TupleGetItem-op7760
+1088 cst486
+1091	Gradients/Default/network-TrainOneStepCell/network-WithLossCell/_backbone-ResNet/bn1-BatchNorm2d/gradBatchNorm/FusedDbnDw-op3580
+30 1085 34 1089 1090 37 1086 1087
+1092	Default/TupleGetItem-op7762
+1091 cst487
+1093	Default/TupleGetItem-op9567
+29 cst488
+1094	Gradients/Default/network-TrainOneStepCell/network-WithLossCell/_backbone-ResNet/gradReLU/FusionOp_Conv2DBackpropInput_ReluGradV2-op9068
+1092 32 1093
+1095	Default/TupleGetItem-op9568
+29 cst489
+1096	Default/TupleGetItem-op9569
+29 cst490
+1097	Gradients/Default/network-TrainOneStepCell/network-WithLossCell/_backbone-ResNet/bn1-BatchNorm2d/gradBatchNorm/BNTrainingUpdateGrad-op2960
+1094 22 1095 1096
+1098	Default/TupleGetItem-op7765
+1097 cst491
+1099	Default/TupleGetItem-op7766
+1097 cst492
+1100	Gradients/Default/network-TrainOneStepCell/network-WithLossCell/_backbone-ResNet/bn1-BatchNorm2d/gradBatchNorm/FusedDbnDw-op3582
+18 1094 22 1098 1099 25 1095 1096
+1101	Default/TupleGetItem-op7768
+1100 cst493
+1102	Gradients/Default/network-TrainOneStepCell/network-WithLossCell/_backbone-ResNet/layer1-SequentialCell/1-ResidualBlock/conv1-Conv2d/gradConv2D/Conv2DBackpropInput-op1069
+1101 20
+1103	Default/network-TrainOneStepCell/network-WithLossCell/_backbone-ResNet/layer3-SequentialCell/0-ResidualBlock/bn2-BatchNorm2d/TupleGetItem-op8293
+63 cst494
+1104	Default/network-TrainOneStepCell/network-WithLossCell/_backbone-ResNet/layer3-SequentialCell/0-ResidualBlock/bn2-BatchNorm2d/TupleGetItem-op8294
+63 cst495
+1105	Gradients/Default/network-TrainOneStepCell/network-WithLossCell/_backbone-ResNet/bn1-BatchNorm2d/gradBatchNorm/BNTrainingUpdateGrad-op2965
+1076 56 1103 1104
+1106	Default/TupleGetItem-op7771
+1105 cst496
+1107	Default/TupleGetItem-op7772
+1105 cst497
+1108	Gradients/Default/network-TrainOneStepCell/network-WithLossCell/_backbone-ResNet/bn1-BatchNorm2d/gradBatchNorm/FusedDbnDw-op3584
+18 1076 56 1106 1107 59 1103 1104
+1109	Default/TupleGetItem-op7774
+1108 cst498
+1110	Gradients/Default/network-TrainOneStepCell/network-WithLossCell/_backbone-ResNet/layer3-SequentialCell/1-ResidualBlock/conv1-Conv2d/gradConv2D/Conv2DBackpropInput-op1075
+1109 54
+1111	Default/network-TrainOneStepCell/network-WithLossCell/_backbone-ResNet/layer1-SequentialCell/0-ResidualBlock/down_sample_layer-SequentialCell/0-Conv2d/AddN-op1077
+1102 1110
+1112	Default/TupleGetItem-op6947
+17 cst499
+1113	Gradients/Default/network-TrainOneStepCell/network-WithLossCell/_backbone-ResNet/maxpool-MaxPool2d/gradMaxPool/MaxPoolGradWithArgmax-op2113
+16 1111 1112
+1114	Default/TupleGetItem-op9570
+15 cst500
+1115	Gradients/Default/network-TrainOneStepCell/network-WithLossCell/_backbone-ResNet/gradReLU/ReluGradV2-op3547
+1113 1114
+1116	Default/TupleGetItem-op9571
+15 cst501
+1117	Default/TupleGetItem-op9572
+15 cst502
+1118	Gradients/Default/network-TrainOneStepCell/network-WithLossCell/_backbone-ResNet/bn1-BatchNorm2d/gradBatchNorm/BNTrainingUpdateGrad-op2970
+1115 8 1116 1117
+1119	Default/TupleGetItem-op7777
+1118 cst503
+1120	Default/TupleGetItem-op7778
+1118 cst504
+1121	Gradients/Default/network-TrainOneStepCell/network-WithLossCell/_backbone-ResNet/bn1-BatchNorm2d/gradBatchNorm/FusedDbnDw-op3586
+4 1115 8 1119 1120 11 1116 1117
+1122	Default/TupleGetItem-op7781
+1121 cst505
+1123	Default/network-TrainOneStepCell/optimizer-Momentum/FusedMulAddN-op3297
+5 1122 cst506
+1124	Default/MakeTuple-op1089
+664 661
+1125	Default/network-TrainOneStepCell/optimizer-Momentum/UpdateState-op674
+663 1124 665
+1126	Default/network-TrainOneStepCell/optimizer-Momentum/AssignAdd-op1091
+global_step cst507 1125
+1127	Default/network-TrainOneStepCell/optimizer-Momentum/UpdateState-op1090
+1125 1126 651
+1128	Gradients/Default/network-TrainOneStepCell/network-WithLossCell/_backbone-ResNet/end_point-Dense/gradBiasAdd/BiasAddGrad-op1093
+671
+1129	Gradients/Default/network-TrainOneStepCell/network-WithLossCell/_backbone-ResNet/gradCast/Cast-op1094
+1128
+1130	Default/Depend-op2975
+momentum 1127
+1131	Default/network-TrainOneStepCell/optimizer-Momentum/FusedMulApplyMomentum-op2976
+end_point.bias moments.end_point.bias 665 1129 1130 cst508
+1132	Default/network-TrainOneStepCell/optimizer-Momentum/TupleGetItem-op8584
+1131 cst509
+1133	Default/network-TrainOneStepCell/optimizer-Momentum/UpdateState-op9622
+1127 1132 648
+1134	Gradients/Default/network-TrainOneStepCell/network-WithLossCell/_backbone-ResNet/end_point-Dense/gradMatMul/MatMul-op1100
+672 646
+1135	Gradients/Default/network-TrainOneStepCell/network-WithLossCell/_backbone-ResNet/end_point-Dense/gradMatMul/TransData-op4121
+1134
+1136	Default/network-TrainOneStepCell/optimizer-Momentum/FusedMulAddN-op3298
+647 1135 cst506
+1137	Default/Depend-op2977
+momentum 1133
+1138	Default/network-TrainOneStepCell/optimizer-Momentum/FusedMulApplyMomentum-op2978
+end_point.weight moments.end_point.weight 665 1136 1137 cst508
+1139	Default/network-TrainOneStepCell/optimizer-Momentum/TupleGetItem-op8587
+1138 cst510
+1140	Default/network-TrainOneStepCell/optimizer-Momentum/UpdateState-op9573
+1133 1139
+1141	Default/Depend-op2979
+momentum 1140
+1142	Default/network-TrainOneStepCell/optimizer-Momentum/FusedMulApplyMomentum-op2980
+layer4.2.bn3.beta moments.layer4.2.bn3.beta 665 685 1141 cst508
+1143	Default/network-TrainOneStepCell/optimizer-Momentum/TupleGetItem-op8590
+1142 cst511
+1144	Default/network-TrainOneStepCell/optimizer-Momentum/UpdateState-op1105
+1140 1143 686 685 684
+1145	Default/Depend-op2981
+momentum 1144
+1146	Default/network-TrainOneStepCell/optimizer-Momentum/FusedMulApplyMomentum-op2982
+layer4.2.bn3.gamma moments.layer4.2.bn3.gamma 665 684 1145 cst508
+1147	Default/network-TrainOneStepCell/optimizer-Momentum/TupleGetItem-op8593
+1146 cst512
+1148	Default/network-TrainOneStepCell/optimizer-Momentum/UpdateState-op9623
+1144 1147 632
+1149	Gradients/Default/network-TrainOneStepCell/network-WithLossCell/_backbone-ResNet/layer4-SequentialCell/0-ResidualBlock/conv3-Conv2d/gradConv2D/Conv2DBackpropFilter-op1116
+686 630
+1150	Default/network-TrainOneStepCell/optimizer-Momentum/FusedMulAddN-op3299
+631 1149 cst506
+1151	Default/Depend-op2983
+momentum 1148
+1152	Default/network-TrainOneStepCell/optimizer-Momentum/FusedMulApplyMomentum-op2984
+layer4.2.conv3.weight moments.layer4.2.conv3.weight 665 1150 1151 cst508
+1153	Default/network-TrainOneStepCell/optimizer-Momentum/TupleGetItem-op8596
+1152 cst513
+1154	Default/network-TrainOneStepCell/optimizer-Momentum/UpdateState-op9574
+1148 1153
+1155	Default/Depend-op2985
+momentum 1154
+1156	Default/network-TrainOneStepCell/optimizer-Momentum/FusedMulApplyMomentum-op2986
+layer4.2.bn2.beta moments.layer4.2.bn2.beta 665 693 1155 cst508
+1157	Default/network-TrainOneStepCell/optimizer-Momentum/TupleGetItem-op8599
+1156 cst514
+1158	Default/network-TrainOneStepCell/optimizer-Momentum/UpdateState-op1121
+1154 1157 694 693 692
+1159	Default/Depend-op2987
+momentum 1158
+1160	Default/network-TrainOneStepCell/optimizer-Momentum/FusedMulApplyMomentum-op2988
+layer4.2.bn2.gamma moments.layer4.2.bn2.gamma 665 692 1159 cst508
+1161	Default/network-TrainOneStepCell/optimizer-Momentum/TupleGetItem-op8602
+1160 cst515
+1162	Default/network-TrainOneStepCell/optimizer-Momentum/UpdateState-op9624
+1158 1161 620
+1163	Gradients/Default/network-TrainOneStepCell/network-WithLossCell/_backbone-ResNet/layer4-SequentialCell/1-ResidualBlock/conv2-Conv2d/gradConv2D/Conv2DBackpropFilter-op1132
+694 618
+1164	Default/network-TrainOneStepCell/optimizer-Momentum/FusedMulAddN-op3300
+619 1163 cst506
+1165	Default/Depend-op2989
+momentum 1162
+1166	Default/network-TrainOneStepCell/optimizer-Momentum/FusedMulApplyMomentum-op2990
+layer4.2.conv2.weight moments.layer4.2.conv2.weight 665 1164 1165 cst508
+1167	Default/network-TrainOneStepCell/optimizer-Momentum/TupleGetItem-op8605
+1166 cst516
+1168	Default/network-TrainOneStepCell/optimizer-Momentum/UpdateState-op9575
+1162 1167
+1169	Default/Depend-op2991
+momentum 1168
+1170	Default/network-TrainOneStepCell/optimizer-Momentum/FusedMulApplyMomentum-op2992
+layer4.2.bn1.beta moments.layer4.2.bn1.beta 665 701 1169 cst508
+1171	Default/network-TrainOneStepCell/optimizer-Momentum/TupleGetItem-op8608
+1170 cst517
+1172	Default/network-TrainOneStepCell/optimizer-Momentum/UpdateState-op1137
+1168 1171 702 701 700
+1173	Default/Depend-op2993
+momentum 1172
+1174	Default/network-TrainOneStepCell/optimizer-Momentum/FusedMulApplyMomentum-op2994
+layer4.2.bn1.gamma moments.layer4.2.bn1.gamma 665 700 1173 cst508
+1175	Default/network-TrainOneStepCell/optimizer-Momentum/TupleGetItem-op8611
+1174 cst518
+1176	Default/network-TrainOneStepCell/optimizer-Momentum/UpdateState-op9625
+1172 1175 608
+1177	Gradients/Default/network-TrainOneStepCell/network-WithLossCell/_backbone-ResNet/layer4-SequentialCell/1-ResidualBlock/conv1-Conv2d/gradConv2D/Conv2DBackpropFilter-op1148
+702 606
+1178	Default/network-TrainOneStepCell/optimizer-Momentum/FusedMulAddN-op3301
+607 1177 cst506
+1179	Default/Depend-op2995
+momentum 1176
+1180	Default/network-TrainOneStepCell/optimizer-Momentum/FusedMulApplyMomentum-op2996
+layer4.2.conv1.weight moments.layer4.2.conv1.weight 665 1178 1179 cst508
+1181	Default/network-TrainOneStepCell/optimizer-Momentum/TupleGetItem-op8614
+1180 cst519
+1182	Default/network-TrainOneStepCell/optimizer-Momentum/UpdateState-op9576
+1176 1181
+1183	Default/Depend-op2997
+momentum 1182
+1184	Default/network-TrainOneStepCell/optimizer-Momentum/FusedMulApplyMomentum-op2998
+layer4.1.bn3.beta moments.layer4.1.bn3.beta 665 709 1183 cst508
+1185	Default/network-TrainOneStepCell/optimizer-Momentum/TupleGetItem-op8617
+1184 cst520
+1186	Default/network-TrainOneStepCell/optimizer-Momentum/UpdateState-op1153
+1182 1185 710 709 708
+1187	Default/Depend-op2999
+momentum 1186
+1188	Default/network-TrainOneStepCell/optimizer-Momentum/FusedMulApplyMomentum-op3000
+layer4.1.bn3.gamma moments.layer4.1.bn3.gamma 665 708 1187 cst508
+1189	Default/network-TrainOneStepCell/optimizer-Momentum/TupleGetItem-op8620
+1188 cst521
+1190	Default/network-TrainOneStepCell/optimizer-Momentum/UpdateState-op9626
+1186 1189 596
+1191	Gradients/Default/network-TrainOneStepCell/network-WithLossCell/_backbone-ResNet/layer4-SequentialCell/0-ResidualBlock/conv3-Conv2d/gradConv2D/Conv2DBackpropFilter-op1164
+710 594
+1192	Default/network-TrainOneStepCell/optimizer-Momentum/FusedMulAddN-op3302
+595 1191 cst506
+1193	Default/Depend-op3001
+momentum 1190
+1194	Default/network-TrainOneStepCell/optimizer-Momentum/FusedMulApplyMomentum-op3002
+layer4.1.conv3.weight moments.layer4.1.conv3.weight 665 1192 1193 cst508
+1195	Default/network-TrainOneStepCell/optimizer-Momentum/TupleGetItem-op8623
+1194 cst522
+1196	Default/network-TrainOneStepCell/optimizer-Momentum/UpdateState-op9577
+1190 1195
+1197	Default/Depend-op3003
+momentum 1196
+1198	Default/network-TrainOneStepCell/optimizer-Momentum/FusedMulApplyMomentum-op3004
+layer4.1.bn2.beta moments.layer4.1.bn2.beta 665 717 1197 cst508
+1199	Default/network-TrainOneStepCell/optimizer-Momentum/TupleGetItem-op8626
+1198 cst523
+1200	Default/network-TrainOneStepCell/optimizer-Momentum/UpdateState-op1169
+1196 1199 718 717 716
+1201	Default/Depend-op3005
+momentum 1200
+1202	Default/network-TrainOneStepCell/optimizer-Momentum/FusedMulApplyMomentum-op3006
+layer4.1.bn2.gamma moments.layer4.1.bn2.gamma 665 716 1201 cst508
+1203	Default/network-TrainOneStepCell/optimizer-Momentum/TupleGetItem-op8629
+1202 cst524
+1204	Default/network-TrainOneStepCell/optimizer-Momentum/UpdateState-op9627
+1200 1203 584
+1205	Gradients/Default/network-TrainOneStepCell/network-WithLossCell/_backbone-ResNet/layer4-SequentialCell/1-ResidualBlock/conv2-Conv2d/gradConv2D/Conv2DBackpropFilter-op1180
+718 582
+1206	Default/network-TrainOneStepCell/optimizer-Momentum/FusedMulAddN-op3303
+583 1205 cst506
+1207	Default/Depend-op3007
+momentum 1204
+1208	Default/network-TrainOneStepCell/optimizer-Momentum/FusedMulApplyMomentum-op3008
+layer4.1.conv2.weight moments.layer4.1.conv2.weight 665 1206 1207 cst508
+1209	Default/network-TrainOneStepCell/optimizer-Momentum/TupleGetItem-op8632
+1208 cst525
+1210	Default/network-TrainOneStepCell/optimizer-Momentum/UpdateState-op9578
+1204 1209
+1211	Default/Depend-op3009
+momentum 1210
+1212	Default/network-TrainOneStepCell/optimizer-Momentum/FusedMulApplyMomentum-op3010
+layer4.1.bn1.beta moments.layer4.1.bn1.beta 665 725 1211 cst508
+1213	Default/network-TrainOneStepCell/optimizer-Momentum/TupleGetItem-op8635
+1212 cst526
+1214	Default/network-TrainOneStepCell/optimizer-Momentum/UpdateState-op1185
+1210 1213 726 725 724
+1215	Default/Depend-op3011
+momentum 1214
+1216	Default/network-TrainOneStepCell/optimizer-Momentum/FusedMulApplyMomentum-op3012
+layer4.1.bn1.gamma moments.layer4.1.bn1.gamma 665 724 1215 cst508
+1217	Default/network-TrainOneStepCell/optimizer-Momentum/TupleGetItem-op8638
+1216 cst527
+1218	Default/network-TrainOneStepCell/optimizer-Momentum/UpdateState-op9628
+1214 1217 572
+1219	Gradients/Default/network-TrainOneStepCell/network-WithLossCell/_backbone-ResNet/layer4-SequentialCell/1-ResidualBlock/conv1-Conv2d/gradConv2D/Conv2DBackpropFilter-op1196
+726 570
+1220	Default/network-TrainOneStepCell/optimizer-Momentum/FusedMulAddN-op3304
+571 1219 cst506
+1221	Default/Depend-op3013
+momentum 1218
+1222	Default/network-TrainOneStepCell/optimizer-Momentum/FusedMulApplyMomentum-op3014
+layer4.1.conv1.weight moments.layer4.1.conv1.weight 665 1220 1221 cst508
+1223	Default/network-TrainOneStepCell/optimizer-Momentum/TupleGetItem-op8641
+1222 cst528
+1224	Default/network-TrainOneStepCell/optimizer-Momentum/UpdateState-op1193
+1218 1223 567
+1225	Default/Depend-op3015
+momentum 1224
+1226	Default/network-TrainOneStepCell/optimizer-Momentum/FusedMulApplyMomentum-op3016
+layer4.0.down_sample_layer.1.beta moments.layer4.0.down_sample_layer.1.beta 665 733 1225 cst508
+1227	Default/network-TrainOneStepCell/optimizer-Momentum/TupleGetItem-op8644
+1226 cst529
+1228	Default/network-TrainOneStepCell/optimizer-Momentum/UpdateState-op1201
+1224 1227 734 733 732
+1229	Default/Depend-op3017
+momentum 1228
+1230	Default/network-TrainOneStepCell/optimizer-Momentum/FusedMulApplyMomentum-op3018
+layer4.0.down_sample_layer.1.gamma moments.layer4.0.down_sample_layer.1.gamma 665 732 1229 cst508
+1231	Default/network-TrainOneStepCell/optimizer-Momentum/TupleGetItem-op8647
+1230 cst530
+1232	Default/network-TrainOneStepCell/optimizer-Momentum/UpdateState-op9629
+1228 1231 558
+1233	Gradients/Default/network-TrainOneStepCell/network-WithLossCell/_backbone-ResNet/layer4-SequentialCell/0-ResidualBlock/down_sample_layer-SequentialCell/0-Conv2d/gradConv2D/Conv2DBackpropFilter-op1212
+734 522
+1234	Default/network-TrainOneStepCell/optimizer-Momentum/FusedMulAddN-op3305
+557 1233 cst506
+1235	Default/Depend-op3019
+momentum 1232
+1236	Default/network-TrainOneStepCell/optimizer-Momentum/FusedMulApplyMomentum-op3020
+layer4.0.down_sample_layer.0.weight moments.layer4.0.down_sample_layer.0.weight 665 1234 1235 cst508
+1237	Default/network-TrainOneStepCell/optimizer-Momentum/TupleGetItem-op8650
+1236 cst531
+1238	Default/network-TrainOneStepCell/optimizer-Momentum/UpdateState-op9579
+1232 1237
+1239	Default/Depend-op3021
+momentum 1238
+1240	Default/network-TrainOneStepCell/optimizer-Momentum/FusedMulApplyMomentum-op3022
+layer4.0.bn3.beta moments.layer4.0.bn3.beta 665 739 1239 cst508
+1241	Default/network-TrainOneStepCell/optimizer-Momentum/TupleGetItem-op8653
+1240 cst532
+1242	Default/network-TrainOneStepCell/optimizer-Momentum/UpdateState-op1217
+1238 1241 740 739 738
+1243	Default/Depend-op3023
+momentum 1242
+1244	Default/network-TrainOneStepCell/optimizer-Momentum/FusedMulApplyMomentum-op3024
+layer4.0.bn3.gamma moments.layer4.0.bn3.gamma 665 738 1243 cst508
+1245	Default/network-TrainOneStepCell/optimizer-Momentum/TupleGetItem-op8656
+1244 cst533
+1246	Default/network-TrainOneStepCell/optimizer-Momentum/UpdateState-op9630
+1242 1245 548
+1247	Gradients/Default/network-TrainOneStepCell/network-WithLossCell/_backbone-ResNet/layer4-SequentialCell/0-ResidualBlock/conv3-Conv2d/gradConv2D/Conv2DBackpropFilter-op1228
+740 546
+1248	Default/network-TrainOneStepCell/optimizer-Momentum/FusedMulAddN-op3306
+547 1247 cst506
+1249	Default/Depend-op3025
+momentum 1246
+1250	Default/network-TrainOneStepCell/optimizer-Momentum/FusedMulApplyMomentum-op3026
+layer4.0.conv3.weight moments.layer4.0.conv3.weight 665 1248 1249 cst508
+1251	Default/network-TrainOneStepCell/optimizer-Momentum/TupleGetItem-op8659
+1250 cst534
+1252	Default/network-TrainOneStepCell/optimizer-Momentum/UpdateState-op9580
+1246 1251
+1253	Default/Depend-op3027
+momentum 1252
+1254	Default/network-TrainOneStepCell/optimizer-Momentum/FusedMulApplyMomentum-op3028
+layer4.0.bn2.beta moments.layer4.0.bn2.beta 665 747 1253 cst508
+1255	Default/network-TrainOneStepCell/optimizer-Momentum/TupleGetItem-op8662
+1254 cst535
+1256	Default/network-TrainOneStepCell/optimizer-Momentum/UpdateState-op1233
+1252 1255 748 747 746
+1257	Default/Depend-op3029
+momentum 1256
+1258	Default/network-TrainOneStepCell/optimizer-Momentum/FusedMulApplyMomentum-op3030
+layer4.0.bn2.gamma moments.layer4.0.bn2.gamma 665 746 1257 cst508
+1259	Default/network-TrainOneStepCell/optimizer-Momentum/TupleGetItem-op8665
+1258 cst536
+1260	Default/network-TrainOneStepCell/optimizer-Momentum/UpdateState-op9631
+1256 1259 536
+1261	Gradients/Default/network-TrainOneStepCell/network-WithLossCell/_backbone-ResNet/layer4-SequentialCell/0-ResidualBlock/conv2-Conv2d/gradConv2D/Conv2DBackpropFilter-op1244
+748 534
+1262	Default/network-TrainOneStepCell/optimizer-Momentum/FusedMulAddN-op3307
+535 1261 cst506
+1263	Default/Depend-op3031
+momentum 1260
+1264	Default/network-TrainOneStepCell/optimizer-Momentum/FusedMulApplyMomentum-op3032
+layer4.0.conv2.weight moments.layer4.0.conv2.weight 665 1262 1263 cst508
+1265	Default/network-TrainOneStepCell/optimizer-Momentum/TupleGetItem-op8668
+1264 cst537
+1266	Default/network-TrainOneStepCell/optimizer-Momentum/UpdateState-op9581
+1260 1265
+1267	Default/Depend-op3033
+momentum 1266
+1268	Default/network-TrainOneStepCell/optimizer-Momentum/FusedMulApplyMomentum-op3034
+layer4.0.bn1.beta moments.layer4.0.bn1.beta 665 755 1267 cst508
+1269	Default/network-TrainOneStepCell/optimizer-Momentum/TupleGetItem-op8671
+1268 cst538
+1270	Default/network-TrainOneStepCell/optimizer-Momentum/UpdateState-op1249
+1266 1269 756 755 754
+1271	Default/Depend-op3035
+momentum 1270
+1272	Default/network-TrainOneStepCell/optimizer-Momentum/FusedMulApplyMomentum-op3036
+layer4.0.bn1.gamma moments.layer4.0.bn1.gamma 665 754 1271 cst508
+1273	Default/network-TrainOneStepCell/optimizer-Momentum/TupleGetItem-op8674
+1272 cst539
+1274	Default/network-TrainOneStepCell/optimizer-Momentum/UpdateState-op9632
+1270 1273 524
+1275	Gradients/Default/network-TrainOneStepCell/network-WithLossCell/_backbone-ResNet/layer4-SequentialCell/1-ResidualBlock/conv1-Conv2d/gradConv2D/Conv2DBackpropFilter-op1260
+756 522
+1276	Default/network-TrainOneStepCell/optimizer-Momentum/FusedMulAddN-op3308
+523 1275 cst506
+1277	Default/Depend-op3037
+momentum 1274
+1278	Default/network-TrainOneStepCell/optimizer-Momentum/FusedMulApplyMomentum-op3038
+layer4.0.conv1.weight moments.layer4.0.conv1.weight 665 1276 1277 cst508
+1279	Default/network-TrainOneStepCell/optimizer-Momentum/TupleGetItem-op8677
+1278 cst540
+1280	Default/network-TrainOneStepCell/optimizer-Momentum/UpdateState-op9582
+1274 1279
+1281	Default/Depend-op3039
+momentum 1280
+1282	Default/network-TrainOneStepCell/optimizer-Momentum/FusedMulApplyMomentum-op3040
+layer3.5.bn3.beta moments.layer3.5.bn3.beta 665 764 1281 cst508
+1283	Default/network-TrainOneStepCell/optimizer-Momentum/TupleGetItem-op8680
+1282 cst541
+1284	Default/network-TrainOneStepCell/optimizer-Momentum/UpdateState-op1265
+1280 1283 765 764 763
+1285	Default/Depend-op3041
+momentum 1284
+1286	Default/network-TrainOneStepCell/optimizer-Momentum/FusedMulApplyMomentum-op3042
+layer3.5.bn3.gamma moments.layer3.5.bn3.gamma 665 763 1285 cst508
+1287	Default/network-TrainOneStepCell/optimizer-Momentum/TupleGetItem-op8683
+1286 cst542
+1288	Default/network-TrainOneStepCell/optimizer-Momentum/UpdateState-op9633
+1284 1287 512
+1289	Gradients/Default/network-TrainOneStepCell/network-WithLossCell/_backbone-ResNet/layer3-SequentialCell/0-ResidualBlock/conv3-Conv2d/gradConv2D/Conv2DBackpropFilter-op1276
+765 510
+1290	Default/network-TrainOneStepCell/optimizer-Momentum/FusedMulAddN-op3309
+511 1289 cst506
+1291	Default/Depend-op3043
+momentum 1288
+1292	Default/network-TrainOneStepCell/optimizer-Momentum/FusedMulApplyMomentum-op3044
+layer3.5.conv3.weight moments.layer3.5.conv3.weight 665 1290 1291 cst508
+1293	Default/network-TrainOneStepCell/optimizer-Momentum/TupleGetItem-op8686
+1292 cst543
+1294	Default/network-TrainOneStepCell/optimizer-Momentum/UpdateState-op9583
+1288 1293
+1295	Default/Depend-op3045
+momentum 1294
+1296	Default/network-TrainOneStepCell/optimizer-Momentum/FusedMulApplyMomentum-op3046
+layer3.5.bn2.beta moments.layer3.5.bn2.beta 665 772 1295 cst508
+1297	Default/network-TrainOneStepCell/optimizer-Momentum/TupleGetItem-op8689
+1296 cst544
+1298	Default/network-TrainOneStepCell/optimizer-Momentum/UpdateState-op1281
+1294 1297 773 772 771
+1299	Default/Depend-op3047
+momentum 1298
+1300	Default/network-TrainOneStepCell/optimizer-Momentum/FusedMulApplyMomentum-op3048
+layer3.5.bn2.gamma moments.layer3.5.bn2.gamma 665 771 1299 cst508
+1301	Default/network-TrainOneStepCell/optimizer-Momentum/TupleGetItem-op8692
+1300 cst545
+1302	Default/network-TrainOneStepCell/optimizer-Momentum/UpdateState-op9634
+1298 1301 500
+1303	Gradients/Default/network-TrainOneStepCell/network-WithLossCell/_backbone-ResNet/layer3-SequentialCell/1-ResidualBlock/conv2-Conv2d/gradConv2D/Conv2DBackpropFilter-op1292
+773 498
+1304	Default/network-TrainOneStepCell/optimizer-Momentum/FusedMulAddN-op3310
+499 1303 cst506
+1305	Default/Depend-op3049
+momentum 1302
+1306	Default/network-TrainOneStepCell/optimizer-Momentum/FusedMulApplyMomentum-op3050
+layer3.5.conv2.weight moments.layer3.5.conv2.weight 665 1304 1305 cst508
+1307	Default/network-TrainOneStepCell/optimizer-Momentum/TupleGetItem-op8695
+1306 cst546
+1308	Default/network-TrainOneStepCell/optimizer-Momentum/UpdateState-op9584
+1302 1307
+1309	Default/Depend-op3051
+momentum 1308
+1310	Default/network-TrainOneStepCell/optimizer-Momentum/FusedMulApplyMomentum-op3052
+layer3.5.bn1.beta moments.layer3.5.bn1.beta 665 780 1309 cst508
+1311	Default/network-TrainOneStepCell/optimizer-Momentum/TupleGetItem-op8698
+1310 cst547
+1312	Default/network-TrainOneStepCell/optimizer-Momentum/UpdateState-op1297
+1308 1311 781 780 779
+1313	Default/Depend-op3053
+momentum 1312
+1314	Default/network-TrainOneStepCell/optimizer-Momentum/FusedMulApplyMomentum-op3054
+layer3.5.bn1.gamma moments.layer3.5.bn1.gamma 665 779 1313 cst508
+1315	Default/network-TrainOneStepCell/optimizer-Momentum/TupleGetItem-op8701
+1314 cst548
+1316	Default/network-TrainOneStepCell/optimizer-Momentum/UpdateState-op9635
+1312 1315 488
+1317	Gradients/Default/network-TrainOneStepCell/network-WithLossCell/_backbone-ResNet/layer3-SequentialCell/1-ResidualBlock/conv1-Conv2d/gradConv2D/Conv2DBackpropFilter-op1308
+781 486
+1318	Default/network-TrainOneStepCell/optimizer-Momentum/FusedMulAddN-op3311
+487 1317 cst506
+1319	Default/Depend-op3055
+momentum 1316
+1320	Default/network-TrainOneStepCell/optimizer-Momentum/FusedMulApplyMomentum-op3056
+layer3.5.conv1.weight moments.layer3.5.conv1.weight 665 1318 1319 cst508
+1321	Default/network-TrainOneStepCell/optimizer-Momentum/TupleGetItem-op8704
+1320 cst549
+1322	Default/network-TrainOneStepCell/optimizer-Momentum/UpdateState-op9585
+1316 1321
+1323	Default/Depend-op3057
+momentum 1322
+1324	Default/network-TrainOneStepCell/optimizer-Momentum/FusedMulApplyMomentum-op3058
+layer3.4.bn3.beta moments.layer3.4.bn3.beta 665 788 1323 cst508
+1325	Default/network-TrainOneStepCell/optimizer-Momentum/TupleGetItem-op8707
+1324 cst550
+1326	Default/network-TrainOneStepCell/optimizer-Momentum/UpdateState-op1313
+1322 1325 789 788 787
+1327	Default/Depend-op3059
+momentum 1326
+1328	Default/network-TrainOneStepCell/optimizer-Momentum/FusedMulApplyMomentum-op3060
+layer3.4.bn3.gamma moments.layer3.4.bn3.gamma 665 787 1327 cst508
+1329	Default/network-TrainOneStepCell/optimizer-Momentum/TupleGetItem-op8710
+1328 cst551
+1330	Default/network-TrainOneStepCell/optimizer-Momentum/UpdateState-op9636
+1326 1329 476
+1331	Gradients/Default/network-TrainOneStepCell/network-WithLossCell/_backbone-ResNet/layer3-SequentialCell/0-ResidualBlock/conv3-Conv2d/gradConv2D/Conv2DBackpropFilter-op1324
+789 474
+1332	Default/network-TrainOneStepCell/optimizer-Momentum/FusedMulAddN-op3312
+475 1331 cst506
+1333	Default/Depend-op3061
+momentum 1330
+1334	Default/network-TrainOneStepCell/optimizer-Momentum/FusedMulApplyMomentum-op3062
+layer3.4.conv3.weight moments.layer3.4.conv3.weight 665 1332 1333 cst508
+1335	Default/network-TrainOneStepCell/optimizer-Momentum/TupleGetItem-op8713
+1334 cst552
+1336	Default/network-TrainOneStepCell/optimizer-Momentum/UpdateState-op9586
+1330 1335
+1337	Default/Depend-op3063
+momentum 1336
+1338	Default/network-TrainOneStepCell/optimizer-Momentum/FusedMulApplyMomentum-op3064
+layer3.4.bn2.beta moments.layer3.4.bn2.beta 665 796 1337 cst508
+1339	Default/network-TrainOneStepCell/optimizer-Momentum/TupleGetItem-op8716
+1338 cst553
+1340	Default/network-TrainOneStepCell/optimizer-Momentum/UpdateState-op1329
+1336 1339 797 796 795
+1341	Default/Depend-op3065
+momentum 1340
+1342	Default/network-TrainOneStepCell/optimizer-Momentum/FusedMulApplyMomentum-op3066
+layer3.4.bn2.gamma moments.layer3.4.bn2.gamma 665 795 1341 cst508
+1343	Default/network-TrainOneStepCell/optimizer-Momentum/TupleGetItem-op8719
+1342 cst554
+1344	Default/network-TrainOneStepCell/optimizer-Momentum/UpdateState-op9637
+1340 1343 464
+1345	Gradients/Default/network-TrainOneStepCell/network-WithLossCell/_backbone-ResNet/layer3-SequentialCell/1-ResidualBlock/conv2-Conv2d/gradConv2D/Conv2DBackpropFilter-op1340
+797 462
+1346	Default/network-TrainOneStepCell/optimizer-Momentum/FusedMulAddN-op3313
+463 1345 cst506
+1347	Default/Depend-op3067
+momentum 1344
+1348	Default/network-TrainOneStepCell/optimizer-Momentum/FusedMulApplyMomentum-op3068
+layer3.4.conv2.weight moments.layer3.4.conv2.weight 665 1346 1347 cst508
+1349	Default/network-TrainOneStepCell/optimizer-Momentum/TupleGetItem-op8722
+1348 cst555
+1350	Default/network-TrainOneStepCell/optimizer-Momentum/UpdateState-op9587
+1344 1349
+1351	Default/Depend-op3069
+momentum 1350
+1352	Default/network-TrainOneStepCell/optimizer-Momentum/FusedMulApplyMomentum-op3070
+layer3.4.bn1.beta moments.layer3.4.bn1.beta 665 804 1351 cst508
+1353	Default/network-TrainOneStepCell/optimizer-Momentum/TupleGetItem-op8725
+1352 cst556
+1354	Default/network-TrainOneStepCell/optimizer-Momentum/UpdateState-op1345
+1350 1353 805 804 803
+1355	Default/Depend-op3071
+momentum 1354
+1356	Default/network-TrainOneStepCell/optimizer-Momentum/FusedMulApplyMomentum-op3072
+layer3.4.bn1.gamma moments.layer3.4.bn1.gamma 665 803 1355 cst508
+1357	Default/network-TrainOneStepCell/optimizer-Momentum/TupleGetItem-op8728
+1356 cst557
+1358	Default/network-TrainOneStepCell/optimizer-Momentum/UpdateState-op9638
+1354 1357 452
+1359	Gradients/Default/network-TrainOneStepCell/network-WithLossCell/_backbone-ResNet/layer3-SequentialCell/1-ResidualBlock/conv1-Conv2d/gradConv2D/Conv2DBackpropFilter-op1356
+805 450
+1360	Default/network-TrainOneStepCell/optimizer-Momentum/FusedMulAddN-op3314
+451 1359 cst506
+1361	Default/Depend-op3073
+momentum 1358
+1362	Default/network-TrainOneStepCell/optimizer-Momentum/FusedMulApplyMomentum-op3074
+layer3.4.conv1.weight moments.layer3.4.conv1.weight 665 1360 1361 cst508
+1363	Default/network-TrainOneStepCell/optimizer-Momentum/TupleGetItem-op8731
+1362 cst558
+1364	Default/network-TrainOneStepCell/optimizer-Momentum/UpdateState-op9588
+1358 1363
+1365	Default/Depend-op3075
+momentum 1364
+1366	Default/network-TrainOneStepCell/optimizer-Momentum/FusedMulApplyMomentum-op3076
+layer3.3.bn3.beta moments.layer3.3.bn3.beta 665 812 1365 cst508
+1367	Default/network-TrainOneStepCell/optimizer-Momentum/TupleGetItem-op8734
+1366 cst559
+1368	Default/network-TrainOneStepCell/optimizer-Momentum/UpdateState-op1361
+1364 1367 813 812 811
+1369	Default/Depend-op3077
+momentum 1368
+1370	Default/network-TrainOneStepCell/optimizer-Momentum/FusedMulApplyMomentum-op3078
+layer3.3.bn3.gamma moments.layer3.3.bn3.gamma 665 811 1369 cst508
+1371	Default/network-TrainOneStepCell/optimizer-Momentum/TupleGetItem-op8737
+1370 cst560
+1372	Default/network-TrainOneStepCell/optimizer-Momentum/UpdateState-op9639
+1368 1371 440
+1373	Gradients/Default/network-TrainOneStepCell/network-WithLossCell/_backbone-ResNet/layer3-SequentialCell/0-ResidualBlock/conv3-Conv2d/gradConv2D/Conv2DBackpropFilter-op1372
+813 438
+1374	Default/network-TrainOneStepCell/optimizer-Momentum/FusedMulAddN-op3315
+439 1373 cst506
+1375	Default/Depend-op3079
+momentum 1372
+1376	Default/network-TrainOneStepCell/optimizer-Momentum/FusedMulApplyMomentum-op3080
+layer3.3.conv3.weight moments.layer3.3.conv3.weight 665 1374 1375 cst508
+1377	Default/network-TrainOneStepCell/optimizer-Momentum/TupleGetItem-op8740
+1376 cst561
+1378	Default/network-TrainOneStepCell/optimizer-Momentum/UpdateState-op9589
+1372 1377
+1379	Default/Depend-op3081
+momentum 1378
+1380	Default/network-TrainOneStepCell/optimizer-Momentum/FusedMulApplyMomentum-op3082
+layer3.3.bn2.beta moments.layer3.3.bn2.beta 665 820 1379 cst508
+1381	Default/network-TrainOneStepCell/optimizer-Momentum/TupleGetItem-op8743
+1380 cst562
+1382	Default/network-TrainOneStepCell/optimizer-Momentum/UpdateState-op1377
+1378 1381 821 820 819
+1383	Default/Depend-op3083
+momentum 1382
+1384	Default/network-TrainOneStepCell/optimizer-Momentum/FusedMulApplyMomentum-op3084
+layer3.3.bn2.gamma moments.layer3.3.bn2.gamma 665 819 1383 cst508
+1385	Default/network-TrainOneStepCell/optimizer-Momentum/TupleGetItem-op8746
+1384 cst563
+1386	Default/network-TrainOneStepCell/optimizer-Momentum/UpdateState-op9640
+1382 1385 428
+1387	Gradients/Default/network-TrainOneStepCell/network-WithLossCell/_backbone-ResNet/layer3-SequentialCell/1-ResidualBlock/conv2-Conv2d/gradConv2D/Conv2DBackpropFilter-op1388
+821 426
+1388	Default/network-TrainOneStepCell/optimizer-Momentum/FusedMulAddN-op3316
+427 1387 cst506
+1389	Default/Depend-op3085
+momentum 1386
+1390	Default/network-TrainOneStepCell/optimizer-Momentum/FusedMulApplyMomentum-op3086
+layer3.3.conv2.weight moments.layer3.3.conv2.weight 665 1388 1389 cst508
+1391	Default/network-TrainOneStepCell/optimizer-Momentum/TupleGetItem-op8749
+1390 cst564
+1392	Default/network-TrainOneStepCell/optimizer-Momentum/UpdateState-op9590
+1386 1391
+1393	Default/Depend-op3087
+momentum 1392
+1394	Default/network-TrainOneStepCell/optimizer-Momentum/FusedMulApplyMomentum-op3088
+layer3.3.bn1.beta moments.layer3.3.bn1.beta 665 828 1393 cst508
+1395	Default/network-TrainOneStepCell/optimizer-Momentum/TupleGetItem-op8752
+1394 cst565
+1396	Default/network-TrainOneStepCell/optimizer-Momentum/UpdateState-op1393
+1392 1395 829 828 827
+1397	Default/Depend-op3089
+momentum 1396
+1398	Default/network-TrainOneStepCell/optimizer-Momentum/FusedMulApplyMomentum-op3090
+layer3.3.bn1.gamma moments.layer3.3.bn1.gamma 665 827 1397 cst508
+1399	Default/network-TrainOneStepCell/optimizer-Momentum/TupleGetItem-op8755
+1398 cst566
+1400	Default/network-TrainOneStepCell/optimizer-Momentum/UpdateState-op9641
+1396 1399 416
+1401	Gradients/Default/network-TrainOneStepCell/network-WithLossCell/_backbone-ResNet/layer3-SequentialCell/1-ResidualBlock/conv1-Conv2d/gradConv2D/Conv2DBackpropFilter-op1404
+829 414
+1402	Default/network-TrainOneStepCell/optimizer-Momentum/FusedMulAddN-op3317
+415 1401 cst506
+1403	Default/Depend-op3091
+momentum 1400
+1404	Default/network-TrainOneStepCell/optimizer-Momentum/FusedMulApplyMomentum-op3092
+layer3.3.conv1.weight moments.layer3.3.conv1.weight 665 1402 1403 cst508
+1405	Default/network-TrainOneStepCell/optimizer-Momentum/TupleGetItem-op8758
+1404 cst567
+1406	Default/network-TrainOneStepCell/optimizer-Momentum/UpdateState-op9591
+1400 1405
+1407	Default/Depend-op3093
+momentum 1406
+1408	Default/network-TrainOneStepCell/optimizer-Momentum/FusedMulApplyMomentum-op3094
+layer3.2.bn3.beta moments.layer3.2.bn3.beta 665 836 1407 cst508
+1409	Default/network-TrainOneStepCell/optimizer-Momentum/TupleGetItem-op8761
+1408 cst568
+1410	Default/network-TrainOneStepCell/optimizer-Momentum/UpdateState-op1409
+1406 1409 837 836 835
+1411	Default/Depend-op3095
+momentum 1410
+1412	Default/network-TrainOneStepCell/optimizer-Momentum/FusedMulApplyMomentum-op3096
+layer3.2.bn3.gamma moments.layer3.2.bn3.gamma 665 835 1411 cst508
+1413	Default/network-TrainOneStepCell/optimizer-Momentum/TupleGetItem-op8764
+1412 cst569
+1414	Default/network-TrainOneStepCell/optimizer-Momentum/UpdateState-op9642
+1410 1413 404
+1415	Gradients/Default/network-TrainOneStepCell/network-WithLossCell/_backbone-ResNet/layer3-SequentialCell/0-ResidualBlock/conv3-Conv2d/gradConv2D/Conv2DBackpropFilter-op1420
+837 402
+1416	Default/network-TrainOneStepCell/optimizer-Momentum/FusedMulAddN-op3318
+403 1415 cst506
+1417	Default/Depend-op3097
+momentum 1414
+1418	Default/network-TrainOneStepCell/optimizer-Momentum/FusedMulApplyMomentum-op3098
+layer3.2.conv3.weight moments.layer3.2.conv3.weight 665 1416 1417 cst508
+1419	Default/network-TrainOneStepCell/optimizer-Momentum/TupleGetItem-op8767
+1418 cst570
+1420	Default/network-TrainOneStepCell/optimizer-Momentum/UpdateState-op9592
+1414 1419
+1421	Default/Depend-op3099
+momentum 1420
+1422	Default/network-TrainOneStepCell/optimizer-Momentum/FusedMulApplyMomentum-op3100
+layer3.2.bn2.beta moments.layer3.2.bn2.beta 665 844 1421 cst508
+1423	Default/network-TrainOneStepCell/optimizer-Momentum/TupleGetItem-op8770
+1422 cst571
+1424	Default/network-TrainOneStepCell/optimizer-Momentum/UpdateState-op1425
+1420 1423 845 844 843
+1425	Default/Depend-op3101
+momentum 1424
+1426	Default/network-TrainOneStepCell/optimizer-Momentum/FusedMulApplyMomentum-op3102
+layer3.2.bn2.gamma moments.layer3.2.bn2.gamma 665 843 1425 cst508
+1427	Default/network-TrainOneStepCell/optimizer-Momentum/TupleGetItem-op8773
+1426 cst572
+1428	Default/network-TrainOneStepCell/optimizer-Momentum/UpdateState-op9643
+1424 1427 392
+1429	Gradients/Default/network-TrainOneStepCell/network-WithLossCell/_backbone-ResNet/layer3-SequentialCell/1-ResidualBlock/conv2-Conv2d/gradConv2D/Conv2DBackpropFilter-op1436
+845 390
+1430	Default/network-TrainOneStepCell/optimizer-Momentum/FusedMulAddN-op3319
+391 1429 cst506
+1431	Default/Depend-op3103
+momentum 1428
+1432	Default/network-TrainOneStepCell/optimizer-Momentum/FusedMulApplyMomentum-op3104
+layer3.2.conv2.weight moments.layer3.2.conv2.weight 665 1430 1431 cst508
+1433	Default/network-TrainOneStepCell/optimizer-Momentum/TupleGetItem-op8776
+1432 cst573
+1434	Default/network-TrainOneStepCell/optimizer-Momentum/UpdateState-op9593
+1428 1433
+1435	Default/Depend-op3105
+momentum 1434
+1436	Default/network-TrainOneStepCell/optimizer-Momentum/FusedMulApplyMomentum-op3106
+layer3.2.bn1.beta moments.layer3.2.bn1.beta 665 852 1435 cst508
+1437	Default/network-TrainOneStepCell/optimizer-Momentum/TupleGetItem-op8779
+1436 cst574
+1438	Default/network-TrainOneStepCell/optimizer-Momentum/UpdateState-op1441
+1434 1437 853 852 851
+1439	Default/Depend-op3107
+momentum 1438
+1440	Default/network-TrainOneStepCell/optimizer-Momentum/FusedMulApplyMomentum-op3108
+layer3.2.bn1.gamma moments.layer3.2.bn1.gamma 665 851 1439 cst508
+1441	Default/network-TrainOneStepCell/optimizer-Momentum/TupleGetItem-op8782
+1440 cst575
+1442	Default/network-TrainOneStepCell/optimizer-Momentum/UpdateState-op9644
+1438 1441 380
+1443	Gradients/Default/network-TrainOneStepCell/network-WithLossCell/_backbone-ResNet/layer3-SequentialCell/1-ResidualBlock/conv1-Conv2d/gradConv2D/Conv2DBackpropFilter-op1452
+853 378
+1444	Default/network-TrainOneStepCell/optimizer-Momentum/FusedMulAddN-op3320
+379 1443 cst506
+1445	Default/Depend-op3109
+momentum 1442
+1446	Default/network-TrainOneStepCell/optimizer-Momentum/FusedMulApplyMomentum-op3110
+layer3.2.conv1.weight moments.layer3.2.conv1.weight 665 1444 1445 cst508
+1447	Default/network-TrainOneStepCell/optimizer-Momentum/TupleGetItem-op8785
+1446 cst576
+1448	Default/network-TrainOneStepCell/optimizer-Momentum/UpdateState-op9594
+1442 1447
+1449	Default/Depend-op3111
+momentum 1448
+1450	Default/network-TrainOneStepCell/optimizer-Momentum/FusedMulApplyMomentum-op3112
+layer3.1.bn3.beta moments.layer3.1.bn3.beta 665 860 1449 cst508
+1451	Default/network-TrainOneStepCell/optimizer-Momentum/TupleGetItem-op8788
+1450 cst577
+1452	Default/network-TrainOneStepCell/optimizer-Momentum/UpdateState-op1457
+1448 1451 861 860 859
+1453	Default/Depend-op3113
+momentum 1452
+1454	Default/network-TrainOneStepCell/optimizer-Momentum/FusedMulApplyMomentum-op3114
+layer3.1.bn3.gamma moments.layer3.1.bn3.gamma 665 859 1453 cst508
+1455	Default/network-TrainOneStepCell/optimizer-Momentum/TupleGetItem-op8791
+1454 cst578
+1456	Default/network-TrainOneStepCell/optimizer-Momentum/UpdateState-op9645
+1452 1455 368
+1457	Gradients/Default/network-TrainOneStepCell/network-WithLossCell/_backbone-ResNet/layer3-SequentialCell/0-ResidualBlock/conv3-Conv2d/gradConv2D/Conv2DBackpropFilter-op1468
+861 366
+1458	Default/network-TrainOneStepCell/optimizer-Momentum/FusedMulAddN-op3321
+367 1457 cst506
+1459	Default/Depend-op3115
+momentum 1456
+1460	Default/network-TrainOneStepCell/optimizer-Momentum/FusedMulApplyMomentum-op3116
+layer3.1.conv3.weight moments.layer3.1.conv3.weight 665 1458 1459 cst508
+1461	Default/network-TrainOneStepCell/optimizer-Momentum/TupleGetItem-op8794
+1460 cst579
+1462	Default/network-TrainOneStepCell/optimizer-Momentum/UpdateState-op9595
+1456 1461
+1463	Default/Depend-op3117
+momentum 1462
+1464	Default/network-TrainOneStepCell/optimizer-Momentum/FusedMulApplyMomentum-op3118
+layer3.1.bn2.beta moments.layer3.1.bn2.beta 665 868 1463 cst508
+1465	Default/network-TrainOneStepCell/optimizer-Momentum/TupleGetItem-op8797
+1464 cst580
+1466	Default/network-TrainOneStepCell/optimizer-Momentum/UpdateState-op1473
+1462 1465 869 868 867
+1467	Default/Depend-op3119
+momentum 1466
+1468	Default/network-TrainOneStepCell/optimizer-Momentum/FusedMulApplyMomentum-op3120
+layer3.1.bn2.gamma moments.layer3.1.bn2.gamma 665 867 1467 cst508
+1469	Default/network-TrainOneStepCell/optimizer-Momentum/TupleGetItem-op8800
+1468 cst581
+1470	Default/network-TrainOneStepCell/optimizer-Momentum/UpdateState-op9646
+1466 1469 356
+1471	Gradients/Default/network-TrainOneStepCell/network-WithLossCell/_backbone-ResNet/layer3-SequentialCell/1-ResidualBlock/conv2-Conv2d/gradConv2D/Conv2DBackpropFilter-op1484
+869 354
+1472	Default/network-TrainOneStepCell/optimizer-Momentum/FusedMulAddN-op3322
+355 1471 cst506
+1473	Default/Depend-op3121
+momentum 1470
+1474	Default/network-TrainOneStepCell/optimizer-Momentum/FusedMulApplyMomentum-op3122
+layer3.1.conv2.weight moments.layer3.1.conv2.weight 665 1472 1473 cst508
+1475	Default/network-TrainOneStepCell/optimizer-Momentum/TupleGetItem-op8803
+1474 cst582
+1476	Default/network-TrainOneStepCell/optimizer-Momentum/UpdateState-op9596
+1470 1475
+1477	Default/Depend-op3123
+momentum 1476
+1478	Default/network-TrainOneStepCell/optimizer-Momentum/FusedMulApplyMomentum-op3124
+layer3.1.bn1.beta moments.layer3.1.bn1.beta 665 876 1477 cst508
+1479	Default/network-TrainOneStepCell/optimizer-Momentum/TupleGetItem-op8806
+1478 cst583
+1480	Default/network-TrainOneStepCell/optimizer-Momentum/UpdateState-op1489
+1476 1479 877 876 875
+1481	Default/Depend-op3125
+momentum 1480
+1482	Default/network-TrainOneStepCell/optimizer-Momentum/FusedMulApplyMomentum-op3126
+layer3.1.bn1.gamma moments.layer3.1.bn1.gamma 665 875 1481 cst508
+1483	Default/network-TrainOneStepCell/optimizer-Momentum/TupleGetItem-op8809
+1482 cst584
+1484	Default/network-TrainOneStepCell/optimizer-Momentum/UpdateState-op9647
+1480 1483 344
+1485	Gradients/Default/network-TrainOneStepCell/network-WithLossCell/_backbone-ResNet/layer3-SequentialCell/1-ResidualBlock/conv1-Conv2d/gradConv2D/Conv2DBackpropFilter-op1500
+877 342
+1486	Default/network-TrainOneStepCell/optimizer-Momentum/FusedMulAddN-op3323
+343 1485 cst506
+1487	Default/Depend-op3127
+momentum 1484
+1488	Default/network-TrainOneStepCell/optimizer-Momentum/FusedMulApplyMomentum-op3128
+layer3.1.conv1.weight moments.layer3.1.conv1.weight 665 1486 1487 cst508
+1489	Default/network-TrainOneStepCell/optimizer-Momentum/TupleGetItem-op8812
+1488 cst585
+1490	Default/network-TrainOneStepCell/optimizer-Momentum/UpdateState-op1497
+1484 1489 339
+1491	Default/Depend-op3129
+momentum 1490
+1492	Default/network-TrainOneStepCell/optimizer-Momentum/FusedMulApplyMomentum-op3130
+layer3.0.down_sample_layer.1.beta moments.layer3.0.down_sample_layer.1.beta 665 884 1491 cst508
+1493	Default/network-TrainOneStepCell/optimizer-Momentum/TupleGetItem-op8815
+1492 cst586
+1494	Default/network-TrainOneStepCell/optimizer-Momentum/UpdateState-op1505
+1490 1493 885 884 883
+1495	Default/Depend-op3131
+momentum 1494
+1496	Default/network-TrainOneStepCell/optimizer-Momentum/FusedMulApplyMomentum-op3132
+layer3.0.down_sample_layer.1.gamma moments.layer3.0.down_sample_layer.1.gamma 665 883 1495 cst508
+1497	Default/network-TrainOneStepCell/optimizer-Momentum/TupleGetItem-op8818
+1496 cst587
+1498	Default/network-TrainOneStepCell/optimizer-Momentum/UpdateState-op9648
+1494 1497 330
+1499	Gradients/Default/network-TrainOneStepCell/network-WithLossCell/_backbone-ResNet/layer3-SequentialCell/0-ResidualBlock/down_sample_layer-SequentialCell/0-Conv2d/gradConv2D/Conv2DBackpropFilter-op1516
+885 294
+1500	Default/network-TrainOneStepCell/optimizer-Momentum/FusedMulAddN-op3324
+329 1499 cst506
+1501	Default/Depend-op3133
+momentum 1498
+1502	Default/network-TrainOneStepCell/optimizer-Momentum/FusedMulApplyMomentum-op3134
+layer3.0.down_sample_layer.0.weight moments.layer3.0.down_sample_layer.0.weight 665 1500 1501 cst508
+1503	Default/network-TrainOneStepCell/optimizer-Momentum/TupleGetItem-op8821
+1502 cst588
+1504	Default/network-TrainOneStepCell/optimizer-Momentum/UpdateState-op9597
+1498 1503
+1505	Default/Depend-op3135
+momentum 1504
+1506	Default/network-TrainOneStepCell/optimizer-Momentum/FusedMulApplyMomentum-op3136
+layer3.0.bn3.beta moments.layer3.0.bn3.beta 665 890 1505 cst508
+1507	Default/network-TrainOneStepCell/optimizer-Momentum/TupleGetItem-op8824
+1506 cst589
+1508	Default/network-TrainOneStepCell/optimizer-Momentum/UpdateState-op1521
+1504 1507 891 890 889
+1509	Default/Depend-op3137
+momentum 1508
+1510	Default/network-TrainOneStepCell/optimizer-Momentum/FusedMulApplyMomentum-op3138
+layer3.0.bn3.gamma moments.layer3.0.bn3.gamma 665 889 1509 cst508
+1511	Default/network-TrainOneStepCell/optimizer-Momentum/TupleGetItem-op8827
+1510 cst590
+1512	Default/network-TrainOneStepCell/optimizer-Momentum/UpdateState-op9649
+1508 1511 320
+1513	Gradients/Default/network-TrainOneStepCell/network-WithLossCell/_backbone-ResNet/layer3-SequentialCell/0-ResidualBlock/conv3-Conv2d/gradConv2D/Conv2DBackpropFilter-op1532
+891 318
+1514	Default/network-TrainOneStepCell/optimizer-Momentum/FusedMulAddN-op3325
+319 1513 cst506
+1515	Default/Depend-op3139
+momentum 1512
+1516	Default/network-TrainOneStepCell/optimizer-Momentum/FusedMulApplyMomentum-op3140
+layer3.0.conv3.weight moments.layer3.0.conv3.weight 665 1514 1515 cst508
+1517	Default/network-TrainOneStepCell/optimizer-Momentum/TupleGetItem-op8830
+1516 cst591
+1518	Default/network-TrainOneStepCell/optimizer-Momentum/UpdateState-op9598
+1512 1517
+1519	Default/Depend-op3141
+momentum 1518
+1520	Default/network-TrainOneStepCell/optimizer-Momentum/FusedMulApplyMomentum-op3142
+layer3.0.bn2.beta moments.layer3.0.bn2.beta 665 898 1519 cst508
+1521	Default/network-TrainOneStepCell/optimizer-Momentum/TupleGetItem-op8833
+1520 cst592
+1522	Default/network-TrainOneStepCell/optimizer-Momentum/UpdateState-op1537
+1518 1521 899 898 897
+1523	Default/Depend-op3143
+momentum 1522
+1524	Default/network-TrainOneStepCell/optimizer-Momentum/FusedMulApplyMomentum-op3144
+layer3.0.bn2.gamma moments.layer3.0.bn2.gamma 665 897 1523 cst508
+1525	Default/network-TrainOneStepCell/optimizer-Momentum/TupleGetItem-op8836
+1524 cst593
+1526	Default/network-TrainOneStepCell/optimizer-Momentum/UpdateState-op9650
+1522 1525 308
+1527	Gradients/Default/network-TrainOneStepCell/network-WithLossCell/_backbone-ResNet/layer3-SequentialCell/0-ResidualBlock/conv2-Conv2d/gradConv2D/Conv2DBackpropFilter-op1548
+899 306
+1528	Default/network-TrainOneStepCell/optimizer-Momentum/FusedMulAddN-op3326
+307 1527 cst506
+1529	Default/Depend-op3145
+momentum 1526
+1530	Default/network-TrainOneStepCell/optimizer-Momentum/FusedMulApplyMomentum-op3146
+layer3.0.conv2.weight moments.layer3.0.conv2.weight 665 1528 1529 cst508
+1531	Default/network-TrainOneStepCell/optimizer-Momentum/TupleGetItem-op8839
+1530 cst594
+1532	Default/network-TrainOneStepCell/optimizer-Momentum/UpdateState-op9599
+1526 1531
+1533	Default/Depend-op3147
+momentum 1532
+1534	Default/network-TrainOneStepCell/optimizer-Momentum/FusedMulApplyMomentum-op3148
+layer3.0.bn1.beta moments.layer3.0.bn1.beta 665 906 1533 cst508
+1535	Default/network-TrainOneStepCell/optimizer-Momentum/TupleGetItem-op8842
+1534 cst595
+1536	Default/network-TrainOneStepCell/optimizer-Momentum/UpdateState-op1553
+1532 1535 907 906 905
+1537	Default/Depend-op3149
+momentum 1536
+1538	Default/network-TrainOneStepCell/optimizer-Momentum/FusedMulApplyMomentum-op3150
+layer3.0.bn1.gamma moments.layer3.0.bn1.gamma 665 905 1537 cst508
+1539	Default/network-TrainOneStepCell/optimizer-Momentum/TupleGetItem-op8845
+1538 cst596
+1540	Default/network-TrainOneStepCell/optimizer-Momentum/UpdateState-op9651
+1536 1539 296
+1541	Gradients/Default/network-TrainOneStepCell/network-WithLossCell/_backbone-ResNet/layer3-SequentialCell/1-ResidualBlock/conv1-Conv2d/gradConv2D/Conv2DBackpropFilter-op1564
+907 294
+1542	Default/network-TrainOneStepCell/optimizer-Momentum/FusedMulAddN-op3327
+295 1541 cst506
+1543	Default/Depend-op3151
+momentum 1540
+1544	Default/network-TrainOneStepCell/optimizer-Momentum/FusedMulApplyMomentum-op3152
+layer3.0.conv1.weight moments.layer3.0.conv1.weight 665 1542 1543 cst508
+1545	Default/network-TrainOneStepCell/optimizer-Momentum/TupleGetItem-op8848
+1544 cst597
+1546	Default/network-TrainOneStepCell/optimizer-Momentum/UpdateState-op9600
+1540 1545
+1547	Default/Depend-op3153
+momentum 1546
+1548	Default/network-TrainOneStepCell/optimizer-Momentum/FusedMulApplyMomentum-op3154
+layer2.3.bn3.beta moments.layer2.3.bn3.beta 665 915 1547 cst508
+1549	Default/network-TrainOneStepCell/optimizer-Momentum/TupleGetItem-op8851
+1548 cst598
+1550	Default/network-TrainOneStepCell/optimizer-Momentum/UpdateState-op1569
+1546 1549 917 915 914
+1551	Default/Depend-op3155
+momentum 1550
+1552	Default/network-TrainOneStepCell/optimizer-Momentum/FusedMulApplyMomentum-op3156
+layer2.3.bn3.gamma moments.layer2.3.bn3.gamma 665 914 1551 cst508
+1553	Default/network-TrainOneStepCell/optimizer-Momentum/TupleGetItem-op8854
+1552 cst599
+1554	Default/network-TrainOneStepCell/optimizer-Momentum/UpdateState-op9652
+1550 1553 284
+1555	Default/TupleGetItem-op7655
+916 cst600
+1556	Default/network-TrainOneStepCell/optimizer-Momentum/FusedMulAddN-op3328
+283 1555 cst506
+1557	Default/Depend-op3157
+momentum 1554
+1558	Default/network-TrainOneStepCell/optimizer-Momentum/FusedMulApplyMomentum-op3158
+layer2.3.conv3.weight moments.layer2.3.conv3.weight 665 1556 1557 cst508
+1559	Default/network-TrainOneStepCell/optimizer-Momentum/TupleGetItem-op8857
+1558 cst601
+1560	Default/network-TrainOneStepCell/optimizer-Momentum/UpdateState-op9601
+1554 1559
+1561	Default/Depend-op3159
+momentum 1560
+1562	Default/network-TrainOneStepCell/optimizer-Momentum/FusedMulApplyMomentum-op3160
+layer2.3.bn2.beta moments.layer2.3.bn2.beta 665 924 1561 cst508
+1563	Default/network-TrainOneStepCell/optimizer-Momentum/TupleGetItem-op8860
+1562 cst602
+1564	Default/network-TrainOneStepCell/optimizer-Momentum/UpdateState-op1585
+1560 1563 925 924 923
+1565	Default/Depend-op3161
+momentum 1564
+1566	Default/network-TrainOneStepCell/optimizer-Momentum/FusedMulApplyMomentum-op3162
+layer2.3.bn2.gamma moments.layer2.3.bn2.gamma 665 923 1565 cst508
+1567	Default/network-TrainOneStepCell/optimizer-Momentum/TupleGetItem-op8863
+1566 cst603
+1568	Default/network-TrainOneStepCell/optimizer-Momentum/UpdateState-op9653
+1564 1567 272
+1569	Gradients/Default/network-TrainOneStepCell/network-WithLossCell/_backbone-ResNet/layer2-SequentialCell/1-ResidualBlock/conv2-Conv2d/gradConv2D/Conv2DBackpropFilter-op1596
+925 270
+1570	Default/network-TrainOneStepCell/optimizer-Momentum/FusedMulAddN-op3329
+271 1569 cst506
+1571	Default/Depend-op3163
+momentum 1568
+1572	Default/network-TrainOneStepCell/optimizer-Momentum/FusedMulApplyMomentum-op3164
+layer2.3.conv2.weight moments.layer2.3.conv2.weight 665 1570 1571 cst508
+1573	Default/network-TrainOneStepCell/optimizer-Momentum/TupleGetItem-op8866
+1572 cst604
+1574	Default/network-TrainOneStepCell/optimizer-Momentum/UpdateState-op9602
+1568 1573
+1575	Default/Depend-op3165
+momentum 1574
+1576	Default/network-TrainOneStepCell/optimizer-Momentum/FusedMulApplyMomentum-op3166
+layer2.3.bn1.beta moments.layer2.3.bn1.beta 665 932 1575 cst508
+1577	Default/network-TrainOneStepCell/optimizer-Momentum/TupleGetItem-op8869
+1576 cst605
+1578	Default/network-TrainOneStepCell/optimizer-Momentum/UpdateState-op1601
+1574 1577 934 932 931
+1579	Default/Depend-op3167
+momentum 1578
+1580	Default/network-TrainOneStepCell/optimizer-Momentum/FusedMulApplyMomentum-op3168
+layer2.3.bn1.gamma moments.layer2.3.bn1.gamma 665 931 1579 cst508
+1581	Default/network-TrainOneStepCell/optimizer-Momentum/TupleGetItem-op8872
+1580 cst606
+1582	Default/network-TrainOneStepCell/optimizer-Momentum/UpdateState-op9654
+1578 1581 260
+1583	Default/TupleGetItem-op7664
+933 cst607
+1584	Default/network-TrainOneStepCell/optimizer-Momentum/FusedMulAddN-op3330
+259 1583 cst506
+1585	Default/Depend-op3169
+momentum 1582
+1586	Default/network-TrainOneStepCell/optimizer-Momentum/FusedMulApplyMomentum-op3170
+layer2.3.conv1.weight moments.layer2.3.conv1.weight 665 1584 1585 cst508
+1587	Default/network-TrainOneStepCell/optimizer-Momentum/TupleGetItem-op8875
+1586 cst608
+1588	Default/network-TrainOneStepCell/optimizer-Momentum/UpdateState-op9603
+1582 1587
+1589	Default/Depend-op3171
+momentum 1588
+1590	Default/network-TrainOneStepCell/optimizer-Momentum/FusedMulApplyMomentum-op3172
+layer2.2.bn3.beta moments.layer2.2.bn3.beta 665 941 1589 cst508
+1591	Default/network-TrainOneStepCell/optimizer-Momentum/TupleGetItem-op8878
+1590 cst609
+1592	Default/network-TrainOneStepCell/optimizer-Momentum/UpdateState-op1617
+1588 1591 943 941 940
+1593	Default/Depend-op3173
+momentum 1592
+1594	Default/network-TrainOneStepCell/optimizer-Momentum/FusedMulApplyMomentum-op3174
+layer2.2.bn3.gamma moments.layer2.2.bn3.gamma 665 940 1593 cst508
+1595	Default/network-TrainOneStepCell/optimizer-Momentum/TupleGetItem-op8881
+1594 cst610
+1596	Default/network-TrainOneStepCell/optimizer-Momentum/UpdateState-op9655
+1592 1595 248
+1597	Default/TupleGetItem-op7670
+942 cst611
+1598	Default/network-TrainOneStepCell/optimizer-Momentum/FusedMulAddN-op3331
+247 1597 cst506
+1599	Default/Depend-op3175
+momentum 1596
+1600	Default/network-TrainOneStepCell/optimizer-Momentum/FusedMulApplyMomentum-op3176
+layer2.2.conv3.weight moments.layer2.2.conv3.weight 665 1598 1599 cst508
+1601	Default/network-TrainOneStepCell/optimizer-Momentum/TupleGetItem-op8884
+1600 cst612
+1602	Default/network-TrainOneStepCell/optimizer-Momentum/UpdateState-op9604
+1596 1601
+1603	Default/Depend-op3177
+momentum 1602
+1604	Default/network-TrainOneStepCell/optimizer-Momentum/FusedMulApplyMomentum-op3178
+layer2.2.bn2.beta moments.layer2.2.bn2.beta 665 950 1603 cst508
+1605	Default/network-TrainOneStepCell/optimizer-Momentum/TupleGetItem-op8887
+1604 cst613
+1606	Default/network-TrainOneStepCell/optimizer-Momentum/UpdateState-op1633
+1602 1605 951 950 949
+1607	Default/Depend-op3179
+momentum 1606
+1608	Default/network-TrainOneStepCell/optimizer-Momentum/FusedMulApplyMomentum-op3180
+layer2.2.bn2.gamma moments.layer2.2.bn2.gamma 665 949 1607 cst508
+1609	Default/network-TrainOneStepCell/optimizer-Momentum/TupleGetItem-op8890
+1608 cst614
+1610	Default/network-TrainOneStepCell/optimizer-Momentum/UpdateState-op9656
+1606 1609 236
+1611	Gradients/Default/network-TrainOneStepCell/network-WithLossCell/_backbone-ResNet/layer2-SequentialCell/1-ResidualBlock/conv2-Conv2d/gradConv2D/Conv2DBackpropFilter-op1644
+951 234
+1612	Default/network-TrainOneStepCell/optimizer-Momentum/FusedMulAddN-op3332
+235 1611 cst506
+1613	Default/Depend-op3181
+momentum 1610
+1614	Default/network-TrainOneStepCell/optimizer-Momentum/FusedMulApplyMomentum-op3182
+layer2.2.conv2.weight moments.layer2.2.conv2.weight 665 1612 1613 cst508
+1615	Default/network-TrainOneStepCell/optimizer-Momentum/TupleGetItem-op8893
+1614 cst615
+1616	Default/network-TrainOneStepCell/optimizer-Momentum/UpdateState-op9605
+1610 1615
+1617	Default/Depend-op3183
+momentum 1616
+1618	Default/network-TrainOneStepCell/optimizer-Momentum/FusedMulApplyMomentum-op3184
+layer2.2.bn1.beta moments.layer2.2.bn1.beta 665 958 1617 cst508
+1619	Default/network-TrainOneStepCell/optimizer-Momentum/TupleGetItem-op8896
+1618 cst616
+1620	Default/network-TrainOneStepCell/optimizer-Momentum/UpdateState-op1649
+1616 1619 960 958 957
+1621	Default/Depend-op3185
+momentum 1620
+1622	Default/network-TrainOneStepCell/optimizer-Momentum/FusedMulApplyMomentum-op3186
+layer2.2.bn1.gamma moments.layer2.2.bn1.gamma 665 957 1621 cst508
+1623	Default/network-TrainOneStepCell/optimizer-Momentum/TupleGetItem-op8899
+1622 cst617
+1624	Default/network-TrainOneStepCell/optimizer-Momentum/UpdateState-op9657
+1620 1623 224
+1625	Default/TupleGetItem-op7679
+959 cst618
+1626	Default/network-TrainOneStepCell/optimizer-Momentum/FusedMulAddN-op3333
+223 1625 cst506
+1627	Default/Depend-op3187
+momentum 1624
+1628	Default/network-TrainOneStepCell/optimizer-Momentum/FusedMulApplyMomentum-op3188
+layer2.2.conv1.weight moments.layer2.2.conv1.weight 665 1626 1627 cst508
+1629	Default/network-TrainOneStepCell/optimizer-Momentum/TupleGetItem-op8902
+1628 cst619
+1630	Default/network-TrainOneStepCell/optimizer-Momentum/UpdateState-op9606
+1624 1629
+1631	Default/Depend-op3189
+momentum 1630
+1632	Default/network-TrainOneStepCell/optimizer-Momentum/FusedMulApplyMomentum-op3190
+layer2.1.bn3.beta moments.layer2.1.bn3.beta 665 967 1631 cst508
+1633	Default/network-TrainOneStepCell/optimizer-Momentum/TupleGetItem-op8905
+1632 cst620
+1634	Default/network-TrainOneStepCell/optimizer-Momentum/UpdateState-op1665
+1630 1633 969 967 966
+1635	Default/Depend-op3191
+momentum 1634
+1636	Default/network-TrainOneStepCell/optimizer-Momentum/FusedMulApplyMomentum-op3192
+layer2.1.bn3.gamma moments.layer2.1.bn3.gamma 665 966 1635 cst508
+1637	Default/network-TrainOneStepCell/optimizer-Momentum/TupleGetItem-op8908
+1636 cst621
+1638	Default/network-TrainOneStepCell/optimizer-Momentum/UpdateState-op9658
+1634 1637 212
+1639	Default/TupleGetItem-op7685
+968 cst622
+1640	Default/network-TrainOneStepCell/optimizer-Momentum/FusedMulAddN-op3334
+211 1639 cst506
+1641	Default/Depend-op3193
+momentum 1638
+1642	Default/network-TrainOneStepCell/optimizer-Momentum/FusedMulApplyMomentum-op3194
+layer2.1.conv3.weight moments.layer2.1.conv3.weight 665 1640 1641 cst508
+1643	Default/network-TrainOneStepCell/optimizer-Momentum/TupleGetItem-op8911
+1642 cst623
+1644	Default/network-TrainOneStepCell/optimizer-Momentum/UpdateState-op9607
+1638 1643
+1645	Default/Depend-op3195
+momentum 1644
+1646	Default/network-TrainOneStepCell/optimizer-Momentum/FusedMulApplyMomentum-op3196
+layer2.1.bn2.beta moments.layer2.1.bn2.beta 665 976 1645 cst508
+1647	Default/network-TrainOneStepCell/optimizer-Momentum/TupleGetItem-op8914
+1646 cst624
+1648	Default/network-TrainOneStepCell/optimizer-Momentum/UpdateState-op1681
+1644 1647 977 976 975
+1649	Default/Depend-op3197
+momentum 1648
+1650	Default/network-TrainOneStepCell/optimizer-Momentum/FusedMulApplyMomentum-op3198
+layer2.1.bn2.gamma moments.layer2.1.bn2.gamma 665 975 1649 cst508
+1651	Default/network-TrainOneStepCell/optimizer-Momentum/TupleGetItem-op8917
+1650 cst625
+1652	Default/network-TrainOneStepCell/optimizer-Momentum/UpdateState-op9659
+1648 1651 200
+1653	Gradients/Default/network-TrainOneStepCell/network-WithLossCell/_backbone-ResNet/layer2-SequentialCell/1-ResidualBlock/conv2-Conv2d/gradConv2D/Conv2DBackpropFilter-op1692
+977 198
+1654	Default/network-TrainOneStepCell/optimizer-Momentum/FusedMulAddN-op3335
+199 1653 cst506
+1655	Default/Depend-op3199
+momentum 1652
+1656	Default/network-TrainOneStepCell/optimizer-Momentum/FusedMulApplyMomentum-op3200
+layer2.1.conv2.weight moments.layer2.1.conv2.weight 665 1654 1655 cst508
+1657	Default/network-TrainOneStepCell/optimizer-Momentum/TupleGetItem-op8920
+1656 cst626
+1658	Default/network-TrainOneStepCell/optimizer-Momentum/UpdateState-op9608
+1652 1657
+1659	Default/Depend-op3201
+momentum 1658
+1660	Default/network-TrainOneStepCell/optimizer-Momentum/FusedMulApplyMomentum-op3202
+layer2.1.bn1.beta moments.layer2.1.bn1.beta 665 984 1659 cst508
+1661	Default/network-TrainOneStepCell/optimizer-Momentum/TupleGetItem-op8923
+1660 cst627
+1662	Default/network-TrainOneStepCell/optimizer-Momentum/UpdateState-op1697
+1658 1661 986 984 983
+1663	Default/Depend-op3203
+momentum 1662
+1664	Default/network-TrainOneStepCell/optimizer-Momentum/FusedMulApplyMomentum-op3204
+layer2.1.bn1.gamma moments.layer2.1.bn1.gamma 665 983 1663 cst508
+1665	Default/network-TrainOneStepCell/optimizer-Momentum/TupleGetItem-op8926
+1664 cst628
+1666	Default/network-TrainOneStepCell/optimizer-Momentum/UpdateState-op9660
+1662 1665 188
+1667	Default/TupleGetItem-op7694
+985 cst629
+1668	Default/network-TrainOneStepCell/optimizer-Momentum/FusedMulAddN-op3336
+187 1667 cst506
+1669	Default/Depend-op3205
+momentum 1666
+1670	Default/network-TrainOneStepCell/optimizer-Momentum/FusedMulApplyMomentum-op3206
+layer2.1.conv1.weight moments.layer2.1.conv1.weight 665 1668 1669 cst508
+1671	Default/network-TrainOneStepCell/optimizer-Momentum/TupleGetItem-op8929
+1670 cst630
+1672	Default/network-TrainOneStepCell/optimizer-Momentum/UpdateState-op1705
+1666 1671 183
+1673	Default/Depend-op3207
+momentum 1672
+1674	Default/network-TrainOneStepCell/optimizer-Momentum/FusedMulApplyMomentum-op3208
+layer2.0.down_sample_layer.1.beta moments.layer2.0.down_sample_layer.1.beta 665 993 1673 cst508
+1675	Default/network-TrainOneStepCell/optimizer-Momentum/TupleGetItem-op8932
+1674 cst631
+1676	Default/network-TrainOneStepCell/optimizer-Momentum/UpdateState-op1713
+1672 1675 995 993 992
+1677	Default/Depend-op3209
+momentum 1676
+1678	Default/network-TrainOneStepCell/optimizer-Momentum/FusedMulApplyMomentum-op3210
+layer2.0.down_sample_layer.1.gamma moments.layer2.0.down_sample_layer.1.gamma 665 992 1677 cst508
+1679	Default/network-TrainOneStepCell/optimizer-Momentum/TupleGetItem-op8935
+1678 cst632
+1680	Default/network-TrainOneStepCell/optimizer-Momentum/UpdateState-op9661
+1676 1679 174
+1681	Default/TupleGetItem-op7715
+994 cst633
+1682	Default/network-TrainOneStepCell/optimizer-Momentum/FusedMulAddN-op3337
+173 1681 cst506
+1683	Default/Depend-op3211
+momentum 1680
+1684	Default/network-TrainOneStepCell/optimizer-Momentum/FusedMulApplyMomentum-op3212
+layer2.0.down_sample_layer.0.weight moments.layer2.0.down_sample_layer.0.weight 665 1682 1683 cst508
+1685	Default/network-TrainOneStepCell/optimizer-Momentum/TupleGetItem-op8938
+1684 cst634
+1686	Default/network-TrainOneStepCell/optimizer-Momentum/UpdateState-op9609
+1680 1685
+1687	Default/Depend-op3213
+momentum 1686
+1688	Default/network-TrainOneStepCell/optimizer-Momentum/FusedMulApplyMomentum-op3214
+layer2.0.bn3.beta moments.layer2.0.bn3.beta 665 1000 1687 cst508
+1689	Default/network-TrainOneStepCell/optimizer-Momentum/TupleGetItem-op8941
+1688 cst635
+1690	Default/network-TrainOneStepCell/optimizer-Momentum/UpdateState-op1729
+1686 1689 1002 1000 999
+1691	Default/Depend-op3215
+momentum 1690
+1692	Default/network-TrainOneStepCell/optimizer-Momentum/FusedMulApplyMomentum-op3216
+layer2.0.bn3.gamma moments.layer2.0.bn3.gamma 665 999 1691 cst508
+1693	Default/network-TrainOneStepCell/optimizer-Momentum/TupleGetItem-op8944
+1692 cst636
+1694	Default/network-TrainOneStepCell/optimizer-Momentum/UpdateState-op9662
+1690 1693 164
+1695	Default/TupleGetItem-op7700
+1001 cst637
+1696	Default/network-TrainOneStepCell/optimizer-Momentum/FusedMulAddN-op3338
+163 1695 cst506
+1697	Default/Depend-op3217
+momentum 1694
+1698	Default/network-TrainOneStepCell/optimizer-Momentum/FusedMulApplyMomentum-op3218
+layer2.0.conv3.weight moments.layer2.0.conv3.weight 665 1696 1697 cst508
+1699	Default/network-TrainOneStepCell/optimizer-Momentum/TupleGetItem-op8947
+1698 cst638
+1700	Default/network-TrainOneStepCell/optimizer-Momentum/UpdateState-op9610
+1694 1699
+1701	Default/Depend-op3219
+momentum 1700
+1702	Default/network-TrainOneStepCell/optimizer-Momentum/FusedMulApplyMomentum-op3220
+layer2.0.bn2.beta moments.layer2.0.bn2.beta 665 1009 1701 cst508
+1703	Default/network-TrainOneStepCell/optimizer-Momentum/TupleGetItem-op8950
+1702 cst639
+1704	Default/network-TrainOneStepCell/optimizer-Momentum/UpdateState-op1745
+1700 1703 1010 1009 1008
+1705	Default/Depend-op3221
+momentum 1704
+1706	Default/network-TrainOneStepCell/optimizer-Momentum/FusedMulApplyMomentum-op3222
+layer2.0.bn2.gamma moments.layer2.0.bn2.gamma 665 1008 1705 cst508
+1707	Default/network-TrainOneStepCell/optimizer-Momentum/TupleGetItem-op8953
+1706 cst640
+1708	Default/network-TrainOneStepCell/optimizer-Momentum/UpdateState-op9663
+1704 1707 152
+1709	Gradients/Default/network-TrainOneStepCell/network-WithLossCell/_backbone-ResNet/layer2-SequentialCell/0-ResidualBlock/conv2-Conv2d/gradConv2D/Conv2DBackpropFilter-op1756
+1010 150
+1710	Default/network-TrainOneStepCell/optimizer-Momentum/FusedMulAddN-op3339
+151 1709 cst506
+1711	Default/Depend-op3223
+momentum 1708
+1712	Default/network-TrainOneStepCell/optimizer-Momentum/FusedMulApplyMomentum-op3224
+layer2.0.conv2.weight moments.layer2.0.conv2.weight 665 1710 1711 cst508
+1713	Default/network-TrainOneStepCell/optimizer-Momentum/TupleGetItem-op8956
+1712 cst641
+1714	Default/network-TrainOneStepCell/optimizer-Momentum/UpdateState-op9611
+1708 1713
+1715	Default/Depend-op3225
+momentum 1714
+1716	Default/network-TrainOneStepCell/optimizer-Momentum/FusedMulApplyMomentum-op3226
+layer2.0.bn1.beta moments.layer2.0.bn1.beta 665 1017 1715 cst508
+1717	Default/network-TrainOneStepCell/optimizer-Momentum/TupleGetItem-op8959
+1716 cst642
+1718	Default/network-TrainOneStepCell/optimizer-Momentum/UpdateState-op1761
+1714 1717 1019 1017 1016
+1719	Default/Depend-op3227
+momentum 1718
+1720	Default/network-TrainOneStepCell/optimizer-Momentum/FusedMulApplyMomentum-op3228
+layer2.0.bn1.gamma moments.layer2.0.bn1.gamma 665 1016 1719 cst508
+1721	Default/network-TrainOneStepCell/optimizer-Momentum/TupleGetItem-op8962
+1720 cst643
+1722	Default/network-TrainOneStepCell/optimizer-Momentum/UpdateState-op9664
+1718 1721 140
+1723	Default/TupleGetItem-op7709
+1018 cst644
+1724	Default/network-TrainOneStepCell/optimizer-Momentum/FusedMulAddN-op3340
+139 1723 cst506
+1725	Default/Depend-op3229
+momentum 1722
+1726	Default/network-TrainOneStepCell/optimizer-Momentum/FusedMulApplyMomentum-op3230
+layer2.0.conv1.weight moments.layer2.0.conv1.weight 665 1724 1725 cst508
+1727	Default/network-TrainOneStepCell/optimizer-Momentum/TupleGetItem-op8965
+1726 cst645
+1728	Default/network-TrainOneStepCell/optimizer-Momentum/UpdateState-op9612
+1722 1727
+1729	Default/Depend-op3231
+momentum 1728
+1730	Default/network-TrainOneStepCell/optimizer-Momentum/FusedMulApplyMomentum-op3232
+layer1.2.bn3.beta moments.layer1.2.bn3.beta 665 1027 1729 cst508
+1731	Default/network-TrainOneStepCell/optimizer-Momentum/TupleGetItem-op8968
+1730 cst646
+1732	Default/network-TrainOneStepCell/optimizer-Momentum/UpdateState-op1777
+1728 1731 1029 1027 1026
+1733	Default/Depend-op3233
+momentum 1732
+1734	Default/network-TrainOneStepCell/optimizer-Momentum/FusedMulApplyMomentum-op3234
+layer1.2.bn3.gamma moments.layer1.2.bn3.gamma 665 1026 1733 cst508
+1735	Default/network-TrainOneStepCell/optimizer-Momentum/TupleGetItem-op8971
+1734 cst647
+1736	Default/network-TrainOneStepCell/optimizer-Momentum/UpdateState-op9665
+1732 1735 128
+1737	Default/TupleGetItem-op7721
+1028 cst648
+1738	Default/network-TrainOneStepCell/optimizer-Momentum/FusedMulAddN-op3341
+127 1737 cst506
+1739	Default/Depend-op3235
+momentum 1736
+1740	Default/network-TrainOneStepCell/optimizer-Momentum/FusedMulApplyMomentum-op3236
+layer1.2.conv3.weight moments.layer1.2.conv3.weight 665 1738 1739 cst508
+1741	Default/network-TrainOneStepCell/optimizer-Momentum/TupleGetItem-op8974
+1740 cst649
+1742	Default/network-TrainOneStepCell/optimizer-Momentum/UpdateState-op9613
+1736 1741
+1743	Default/Depend-op3237
+momentum 1742
+1744	Default/network-TrainOneStepCell/optimizer-Momentum/FusedMulApplyMomentum-op3238
+layer1.2.bn2.beta moments.layer1.2.bn2.beta 665 1036 1743 cst508
+1745	Default/network-TrainOneStepCell/optimizer-Momentum/TupleGetItem-op8977
+1744 cst650
+1746	Default/network-TrainOneStepCell/optimizer-Momentum/UpdateState-op1793
+1742 1745 1038 1036 1035
+1747	Default/Depend-op3239
+momentum 1746
+1748	Default/network-TrainOneStepCell/optimizer-Momentum/FusedMulApplyMomentum-op3240
+layer1.2.bn2.gamma moments.layer1.2.bn2.gamma 665 1035 1747 cst508
+1749	Default/network-TrainOneStepCell/optimizer-Momentum/TupleGetItem-op8980
+1748 cst651
+1750	Default/network-TrainOneStepCell/optimizer-Momentum/UpdateState-op9666
+1746 1749 116
+1751	Default/TupleGetItem-op7727
+1037 cst652
+1752	Default/network-TrainOneStepCell/optimizer-Momentum/FusedMulAddN-op3342
+115 1751 cst506
+1753	Default/Depend-op3241
+momentum 1750
+1754	Default/network-TrainOneStepCell/optimizer-Momentum/FusedMulApplyMomentum-op3242
+layer1.2.conv2.weight moments.layer1.2.conv2.weight 665 1752 1753 cst508
+1755	Default/network-TrainOneStepCell/optimizer-Momentum/TupleGetItem-op8983
+1754 cst653
+1756	Default/network-TrainOneStepCell/optimizer-Momentum/UpdateState-op9614
+1750 1755
+1757	Default/Depend-op3243
+momentum 1756
+1758	Default/network-TrainOneStepCell/optimizer-Momentum/FusedMulApplyMomentum-op3244
+layer1.2.bn1.beta moments.layer1.2.bn1.beta 665 1045 1757 cst508
+1759	Default/network-TrainOneStepCell/optimizer-Momentum/TupleGetItem-op8986
+1758 cst654
+1760	Default/network-TrainOneStepCell/optimizer-Momentum/UpdateState-op1809
+1756 1759 1047 1045 1044
+1761	Default/Depend-op3245
+momentum 1760
+1762	Default/network-TrainOneStepCell/optimizer-Momentum/FusedMulApplyMomentum-op3246
+layer1.2.bn1.gamma moments.layer1.2.bn1.gamma 665 1044 1761 cst508
+1763	Default/network-TrainOneStepCell/optimizer-Momentum/TupleGetItem-op8989
+1762 cst655
+1764	Default/network-TrainOneStepCell/optimizer-Momentum/UpdateState-op9667
+1760 1763 104
+1765	Default/TupleGetItem-op7733
+1046 cst656
+1766	Default/network-TrainOneStepCell/optimizer-Momentum/FusedMulAddN-op3343
+103 1765 cst506
+1767	Default/Depend-op3247
+momentum 1764
+1768	Default/network-TrainOneStepCell/optimizer-Momentum/FusedMulApplyMomentum-op3248
+layer1.2.conv1.weight moments.layer1.2.conv1.weight 665 1766 1767 cst508
+1769	Default/network-TrainOneStepCell/optimizer-Momentum/TupleGetItem-op8992
+1768 cst657
+1770	Default/network-TrainOneStepCell/optimizer-Momentum/UpdateState-op9615
+1764 1769
+1771	Default/Depend-op3249
+momentum 1770
+1772	Default/network-TrainOneStepCell/optimizer-Momentum/FusedMulApplyMomentum-op3250
+layer1.1.bn3.beta moments.layer1.1.bn3.beta 665 1054 1771 cst508
+1773	Default/network-TrainOneStepCell/optimizer-Momentum/TupleGetItem-op8995
+1772 cst658
+1774	Default/network-TrainOneStepCell/optimizer-Momentum/UpdateState-op1825
+1770 1773 1056 1054 1053
+1775	Default/Depend-op3251
+momentum 1774
+1776	Default/network-TrainOneStepCell/optimizer-Momentum/FusedMulApplyMomentum-op3252
+layer1.1.bn3.gamma moments.layer1.1.bn3.gamma 665 1053 1775 cst508
+1777	Default/network-TrainOneStepCell/optimizer-Momentum/TupleGetItem-op8998
+1776 cst659
+1778	Default/network-TrainOneStepCell/optimizer-Momentum/UpdateState-op9668
+1774 1777 92
+1779	Default/TupleGetItem-op7739
+1055 cst660
+1780	Default/network-TrainOneStepCell/optimizer-Momentum/FusedMulAddN-op3344
+91 1779 cst506
+1781	Default/Depend-op3253
+momentum 1778
+1782	Default/network-TrainOneStepCell/optimizer-Momentum/FusedMulApplyMomentum-op3254
+layer1.1.conv3.weight moments.layer1.1.conv3.weight 665 1780 1781 cst508
+1783	Default/network-TrainOneStepCell/optimizer-Momentum/TupleGetItem-op9001
+1782 cst661
+1784	Default/network-TrainOneStepCell/optimizer-Momentum/UpdateState-op9616
+1778 1783
+1785	Default/Depend-op3255
+momentum 1784
+1786	Default/network-TrainOneStepCell/optimizer-Momentum/FusedMulApplyMomentum-op3256
+layer1.1.bn2.beta moments.layer1.1.bn2.beta 665 1063 1785 cst508
+1787	Default/network-TrainOneStepCell/optimizer-Momentum/TupleGetItem-op9004
+1786 cst662
+1788	Default/network-TrainOneStepCell/optimizer-Momentum/UpdateState-op1841
+1784 1787 1065 1063 1062
+1789	Default/Depend-op3257
+momentum 1788
+1790	Default/network-TrainOneStepCell/optimizer-Momentum/FusedMulApplyMomentum-op3258
+layer1.1.bn2.gamma moments.layer1.1.bn2.gamma 665 1062 1789 cst508
+1791	Default/network-TrainOneStepCell/optimizer-Momentum/TupleGetItem-op9007
+1790 cst663
+1792	Default/network-TrainOneStepCell/optimizer-Momentum/UpdateState-op9669
+1788 1791 80
+1793	Default/TupleGetItem-op7745
+1064 cst664
+1794	Default/network-TrainOneStepCell/optimizer-Momentum/FusedMulAddN-op3345
+79 1793 cst506
+1795	Default/Depend-op3259
+momentum 1792
+1796	Default/network-TrainOneStepCell/optimizer-Momentum/FusedMulApplyMomentum-op3260
+layer1.1.conv2.weight moments.layer1.1.conv2.weight 665 1794 1795 cst508
+1797	Default/network-TrainOneStepCell/optimizer-Momentum/TupleGetItem-op9010
+1796 cst665
+1798	Default/network-TrainOneStepCell/optimizer-Momentum/UpdateState-op9617
+1792 1797
+1799	Default/Depend-op3261
+momentum 1798
+1800	Default/network-TrainOneStepCell/optimizer-Momentum/FusedMulApplyMomentum-op3262
+layer1.1.bn1.beta moments.layer1.1.bn1.beta 665 1072 1799 cst508
+1801	Default/network-TrainOneStepCell/optimizer-Momentum/TupleGetItem-op9013
+1800 cst666
+1802	Default/network-TrainOneStepCell/optimizer-Momentum/UpdateState-op1857
+1798 1801 1074 1072 1071
+1803	Default/Depend-op3263
+momentum 1802
+1804	Default/network-TrainOneStepCell/optimizer-Momentum/FusedMulApplyMomentum-op3264
+layer1.1.bn1.gamma moments.layer1.1.bn1.gamma 665 1071 1803 cst508
+1805	Default/network-TrainOneStepCell/optimizer-Momentum/TupleGetItem-op9016
+1804 cst667
+1806	Default/network-TrainOneStepCell/optimizer-Momentum/UpdateState-op9670
+1802 1805 68
+1807	Default/TupleGetItem-op7751
+1073 cst668
+1808	Default/network-TrainOneStepCell/optimizer-Momentum/FusedMulAddN-op3346
+67 1807 cst506
+1809	Default/Depend-op3265
+momentum 1806
+1810	Default/network-TrainOneStepCell/optimizer-Momentum/FusedMulApplyMomentum-op3266
+layer1.1.conv1.weight moments.layer1.1.conv1.weight 665 1808 1809 cst508
+1811	Default/network-TrainOneStepCell/optimizer-Momentum/TupleGetItem-op9019
+1810 cst669
+1812	Default/network-TrainOneStepCell/optimizer-Momentum/UpdateState-op1865
+1806 1811 63
+1813	Default/Depend-op3267
+momentum 1812
+1814	Default/network-TrainOneStepCell/optimizer-Momentum/FusedMulApplyMomentum-op3268
+layer1.0.down_sample_layer.1.beta moments.layer1.0.down_sample_layer.1.beta 665 1107 1813 cst508
+1815	Default/network-TrainOneStepCell/optimizer-Momentum/TupleGetItem-op9022
+1814 cst670
+1816	Default/network-TrainOneStepCell/optimizer-Momentum/UpdateState-op1873
+1812 1815 1109 1107 1106
+1817	Default/Depend-op3269
+momentum 1816
+1818	Default/network-TrainOneStepCell/optimizer-Momentum/FusedMulApplyMomentum-op3270
+layer1.0.down_sample_layer.1.gamma moments.layer1.0.down_sample_layer.1.gamma 665 1106 1817 cst508
+1819	Default/network-TrainOneStepCell/optimizer-Momentum/TupleGetItem-op9025
+1818 cst671
+1820	Default/network-TrainOneStepCell/optimizer-Momentum/UpdateState-op9671
+1816 1819 54
+1821	Default/TupleGetItem-op7775
+1108 cst672
+1822	Default/network-TrainOneStepCell/optimizer-Momentum/FusedMulAddN-op3347
+53 1821 cst506
+1823	Default/Depend-op3271
+momentum 1820
+1824	Default/network-TrainOneStepCell/optimizer-Momentum/FusedMulApplyMomentum-op3272
+layer1.0.down_sample_layer.0.weight moments.layer1.0.down_sample_layer.0.weight 665 1822 1823 cst508
+1825	Default/network-TrainOneStepCell/optimizer-Momentum/TupleGetItem-op9028
+1824 cst673
+1826	Default/network-TrainOneStepCell/optimizer-Momentum/UpdateState-op9618
+1820 1825
+1827	Default/Depend-op3273
+momentum 1826
+1828	Default/network-TrainOneStepCell/optimizer-Momentum/FusedMulApplyMomentum-op3274
+layer1.0.bn3.beta moments.layer1.0.bn3.beta 665 1081 1827 cst508
+1829	Default/network-TrainOneStepCell/optimizer-Momentum/TupleGetItem-op9031
+1828 cst674
+1830	Default/network-TrainOneStepCell/optimizer-Momentum/UpdateState-op1889
+1826 1829 1083 1081 1080
+1831	Default/Depend-op3275
+momentum 1830
+1832	Default/network-TrainOneStepCell/optimizer-Momentum/FusedMulApplyMomentum-op3276
+layer1.0.bn3.gamma moments.layer1.0.bn3.gamma 665 1080 1831 cst508
+1833	Default/network-TrainOneStepCell/optimizer-Momentum/TupleGetItem-op9034
+1832 cst675
+1834	Default/network-TrainOneStepCell/optimizer-Momentum/UpdateState-op9672
+1830 1833 44
+1835	Default/TupleGetItem-op7757
+1082 cst676
+1836	Default/network-TrainOneStepCell/optimizer-Momentum/FusedMulAddN-op3348
+43 1835 cst506
+1837	Default/Depend-op3277
+momentum 1834
+1838	Default/network-TrainOneStepCell/optimizer-Momentum/FusedMulApplyMomentum-op3278
+layer1.0.conv3.weight moments.layer1.0.conv3.weight 665 1836 1837 cst508
+1839	Default/network-TrainOneStepCell/optimizer-Momentum/TupleGetItem-op9037
+1838 cst677
+1840	Default/network-TrainOneStepCell/optimizer-Momentum/UpdateState-op9619
+1834 1839
+1841	Default/Depend-op3279
+momentum 1840
+1842	Default/network-TrainOneStepCell/optimizer-Momentum/FusedMulApplyMomentum-op3280
+layer1.0.bn2.beta moments.layer1.0.bn2.beta 665 1090 1841 cst508
+1843	Default/network-TrainOneStepCell/optimizer-Momentum/TupleGetItem-op9040
+1842 cst678
+1844	Default/network-TrainOneStepCell/optimizer-Momentum/UpdateState-op1905
+1840 1843 1092 1090 1089
+1845	Default/Depend-op3281
+momentum 1844
+1846	Default/network-TrainOneStepCell/optimizer-Momentum/FusedMulApplyMomentum-op3282
+layer1.0.bn2.gamma moments.layer1.0.bn2.gamma 665 1089 1845 cst508
+1847	Default/network-TrainOneStepCell/optimizer-Momentum/TupleGetItem-op9043
+1846 cst679
+1848	Default/network-TrainOneStepCell/optimizer-Momentum/UpdateState-op9673
+1844 1847 32
+1849	Default/TupleGetItem-op7763
+1091 cst680
+1850	Default/network-TrainOneStepCell/optimizer-Momentum/FusedMulAddN-op3349
+31 1849 cst506
+1851	Default/Depend-op3283
+momentum 1848
+1852	Default/network-TrainOneStepCell/optimizer-Momentum/FusedMulApplyMomentum-op3284
+layer1.0.conv2.weight moments.layer1.0.conv2.weight 665 1850 1851 cst508
+1853	Default/network-TrainOneStepCell/optimizer-Momentum/TupleGetItem-op9046
+1852 cst681
+1854	Default/network-TrainOneStepCell/optimizer-Momentum/UpdateState-op9620
+1848 1853
+1855	Default/Depend-op3285
+momentum 1854
+1856	Default/network-TrainOneStepCell/optimizer-Momentum/FusedMulApplyMomentum-op3286
+layer1.0.bn1.beta moments.layer1.0.bn1.beta 665 1099 1855 cst508
+1857	Default/network-TrainOneStepCell/optimizer-Momentum/TupleGetItem-op9049
+1856 cst682
+1858	Default/network-TrainOneStepCell/optimizer-Momentum/UpdateState-op1921
+1854 1857 1101 1099 1098
+1859	Default/Depend-op3287
+momentum 1858
+1860	Default/network-TrainOneStepCell/optimizer-Momentum/FusedMulApplyMomentum-op3288
+layer1.0.bn1.gamma moments.layer1.0.bn1.gamma 665 1098 1859 cst508
+1861	Default/network-TrainOneStepCell/optimizer-Momentum/TupleGetItem-op9052
+1860 cst683
+1862	Default/network-TrainOneStepCell/optimizer-Momentum/UpdateState-op9674
+1858 1861 20
+1863	Default/TupleGetItem-op7769
+1100 cst684
+1864	Default/network-TrainOneStepCell/optimizer-Momentum/FusedMulAddN-op3350
+19 1863 cst506
+1865	Default/Depend-op3289
+momentum 1862
+1866	Default/network-TrainOneStepCell/optimizer-Momentum/FusedMulApplyMomentum-op3290
+layer1.0.conv1.weight moments.layer1.0.conv1.weight 665 1864 1865 cst508
+1867	Default/network-TrainOneStepCell/optimizer-Momentum/TupleGetItem-op9055
+1866 cst685
+1868	Default/network-TrainOneStepCell/optimizer-Momentum/UpdateState-op9621
+1862 1867
+1869	Default/Depend-op3291
+momentum 1868
+1870	Default/network-TrainOneStepCell/optimizer-Momentum/FusedMulApplyMomentum-op3292
+bn1.beta moments.bn1.beta 665 1120 1869 cst508
+1871	Default/network-TrainOneStepCell/optimizer-Momentum/TupleGetItem-op9058
+1870 cst686
+1872	Default/network-TrainOneStepCell/optimizer-Momentum/UpdateState-op9675
+1868 1871 1120 1119
+1873	Default/Depend-op3293
+momentum 1872
+1874	Default/network-TrainOneStepCell/optimizer-Momentum/FusedMulApplyMomentum-op3294
+bn1.gamma moments.bn1.gamma 665 1119 1873 cst508
+1875	Default/network-TrainOneStepCell/optimizer-Momentum/TupleGetItem-op9061
+1874 cst687
+1876	Default/network-TrainOneStepCell/optimizer-Momentum/UpdateState-op9676
+1872 1875 6
+1877	Default/Depend-op3295
+momentum 1876
+1878	Default/network-TrainOneStepCell/optimizer-Momentum/FusedMulApplyMomentum-op3296
+conv1.weight moments.conv1.weight 665 1123 1877 cst508
+1879	Default/network-TrainOneStepCell/optimizer-Momentum/TupleGetItem-op9064
+1878 cst688
+1880	Default/network-TrainOneStepCell/optimizer-Momentum/Depend-op2337
+cst689 1879
+1881	Default/network-TrainOneStepCell/optimizer-Momentum/Depend-op2338
+cst690 1875
+1882	Default/network-TrainOneStepCell/optimizer-Momentum/Depend-op2339
+cst691 1871
+1883	Default/network-TrainOneStepCell/optimizer-Momentum/Depend-op2340
+cst692 1867
+1884	Default/network-TrainOneStepCell/optimizer-Momentum/Depend-op2341
+cst693 1861
+1885	Default/network-TrainOneStepCell/optimizer-Momentum/Depend-op2342
+cst694 1857
+1886	Default/network-TrainOneStepCell/optimizer-Momentum/Depend-op2343
+cst695 1853
+1887	Default/network-TrainOneStepCell/optimizer-Momentum/Depend-op2344
+cst696 1847
+1888	Default/network-TrainOneStepCell/optimizer-Momentum/Depend-op2345
+cst697 1843
+1889	Default/network-TrainOneStepCell/optimizer-Momentum/Depend-op2346
+cst698 1839
+1890	Default/network-TrainOneStepCell/optimizer-Momentum/Depend-op2347
+cst699 1833
+1891	Default/network-TrainOneStepCell/optimizer-Momentum/Depend-op2348
+cst700 1829
+1892	Default/network-TrainOneStepCell/optimizer-Momentum/Depend-op2349
+cst701 1825
+1893	Default/network-TrainOneStepCell/optimizer-Momentum/Depend-op2350
+cst702 1819
+1894	Default/network-TrainOneStepCell/optimizer-Momentum/Depend-op2351
+cst703 1815
+1895	Default/network-TrainOneStepCell/optimizer-Momentum/Depend-op2352
+cst704 1811
+1896	Default/network-TrainOneStepCell/optimizer-Momentum/Depend-op2353
+cst705 1805
+1897	Default/network-TrainOneStepCell/optimizer-Momentum/Depend-op2354
+cst706 1801
+1898	Default/network-TrainOneStepCell/optimizer-Momentum/Depend-op2355
+cst707 1797
+1899	Default/network-TrainOneStepCell/optimizer-Momentum/Depend-op2356
+cst708 1791
+1900	Default/network-TrainOneStepCell/optimizer-Momentum/Depend-op2357
+cst709 1787
+1901	Default/network-TrainOneStepCell/optimizer-Momentum/Depend-op2358
+cst710 1783
+1902	Default/network-TrainOneStepCell/optimizer-Momentum/Depend-op2359
+cst711 1777
+1903	Default/network-TrainOneStepCell/optimizer-Momentum/Depend-op2360
+cst712 1773
+1904	Default/network-TrainOneStepCell/optimizer-Momentum/Depend-op2361
+cst713 1769
+1905	Default/network-TrainOneStepCell/optimizer-Momentum/Depend-op2362
+cst714 1763
+1906	Default/network-TrainOneStepCell/optimizer-Momentum/Depend-op2363
+cst715 1759
+1907	Default/network-TrainOneStepCell/optimizer-Momentum/Depend-op2364
+cst716 1755
+1908	Default/network-TrainOneStepCell/optimizer-Momentum/Depend-op2365
+cst717 1749
+1909	Default/network-TrainOneStepCell/optimizer-Momentum/Depend-op2366
+cst718 1745
+1910	Default/network-TrainOneStepCell/optimizer-Momentum/Depend-op2367
+cst719 1741
+1911	Default/network-TrainOneStepCell/optimizer-Momentum/Depend-op2368
+cst720 1735
+1912	Default/network-TrainOneStepCell/optimizer-Momentum/Depend-op2369
+cst721 1731
+1913	Default/network-TrainOneStepCell/optimizer-Momentum/Depend-op2370
+cst722 1727
+1914	Default/network-TrainOneStepCell/optimizer-Momentum/Depend-op2371
+cst723 1721
+1915	Default/network-TrainOneStepCell/optimizer-Momentum/Depend-op2372
+cst724 1717
+1916	Default/network-TrainOneStepCell/optimizer-Momentum/Depend-op2373
+cst725 1713
+1917	Default/network-TrainOneStepCell/optimizer-Momentum/Depend-op2374
+cst726 1707
+1918	Default/network-TrainOneStepCell/optimizer-Momentum/Depend-op2375
+cst727 1703
+1919	Default/network-TrainOneStepCell/optimizer-Momentum/Depend-op2376
+cst728 1699
+1920	Default/network-TrainOneStepCell/optimizer-Momentum/Depend-op2377
+cst729 1693
+1921	Default/network-TrainOneStepCell/optimizer-Momentum/Depend-op2378
+cst730 1689
+1922	Default/network-TrainOneStepCell/optimizer-Momentum/Depend-op2379
+cst731 1685
+1923	Default/network-TrainOneStepCell/optimizer-Momentum/Depend-op2380
+cst732 1679
+1924	Default/network-TrainOneStepCell/optimizer-Momentum/Depend-op2381
+cst733 1675
+1925	Default/network-TrainOneStepCell/optimizer-Momentum/Depend-op2382
+cst734 1671
+1926	Default/network-TrainOneStepCell/optimizer-Momentum/Depend-op2383
+cst735 1665
+1927	Default/network-TrainOneStepCell/optimizer-Momentum/Depend-op2384
+cst736 1661
+1928	Default/network-TrainOneStepCell/optimizer-Momentum/Depend-op2385
+cst737 1657
+1929	Default/network-TrainOneStepCell/optimizer-Momentum/Depend-op2386
+cst738 1651
+1930	Default/network-TrainOneStepCell/optimizer-Momentum/Depend-op2387
+cst739 1647
+1931	Default/network-TrainOneStepCell/optimizer-Momentum/Depend-op2388
+cst740 1643
+1932	Default/network-TrainOneStepCell/optimizer-Momentum/Depend-op2389
+cst741 1637
+1933	Default/network-TrainOneStepCell/optimizer-Momentum/Depend-op2390
+cst742 1633
+1934	Default/network-TrainOneStepCell/optimizer-Momentum/Depend-op2391
+cst743 1629
+1935	Default/network-TrainOneStepCell/optimizer-Momentum/Depend-op2392
+cst744 1623
+1936	Default/network-TrainOneStepCell/optimizer-Momentum/Depend-op2393
+cst745 1619
+1937	Default/network-TrainOneStepCell/optimizer-Momentum/Depend-op2394
+cst746 1615
+1938	Default/network-TrainOneStepCell/optimizer-Momentum/Depend-op2395
+cst747 1609
+1939	Default/network-TrainOneStepCell/optimizer-Momentum/Depend-op2396
+cst748 1605
+1940	Default/network-TrainOneStepCell/optimizer-Momentum/Depend-op2397
+cst749 1601
+1941	Default/network-TrainOneStepCell/optimizer-Momentum/Depend-op2398
+cst750 1595
+1942	Default/network-TrainOneStepCell/optimizer-Momentum/Depend-op2399
+cst751 1591
+1943	Default/network-TrainOneStepCell/optimizer-Momentum/Depend-op2400
+cst752 1587
+1944	Default/network-TrainOneStepCell/optimizer-Momentum/Depend-op2401
+cst753 1581
+1945	Default/network-TrainOneStepCell/optimizer-Momentum/Depend-op2402
+cst754 1577
+1946	Default/network-TrainOneStepCell/optimizer-Momentum/Depend-op2403
+cst755 1573
+1947	Default/network-TrainOneStepCell/optimizer-Momentum/Depend-op2404
+cst756 1567
+1948	Default/network-TrainOneStepCell/optimizer-Momentum/Depend-op2405
+cst757 1563
+1949	Default/network-TrainOneStepCell/optimizer-Momentum/Depend-op2406
+cst758 1559
+1950	Default/network-TrainOneStepCell/optimizer-Momentum/Depend-op2407
+cst759 1553
+1951	Default/network-TrainOneStepCell/optimizer-Momentum/Depend-op2408
+cst760 1549
+1952	Default/network-TrainOneStepCell/optimizer-Momentum/Depend-op2409
+cst761 1545
+1953	Default/network-TrainOneStepCell/optimizer-Momentum/Depend-op2410
+cst762 1539
+1954	Default/network-TrainOneStepCell/optimizer-Momentum/Depend-op2411
+cst763 1535
+1955	Default/network-TrainOneStepCell/optimizer-Momentum/Depend-op2412
+cst764 1531
+1956	Default/network-TrainOneStepCell/optimizer-Momentum/Depend-op2413
+cst765 1525
+1957	Default/network-TrainOneStepCell/optimizer-Momentum/Depend-op2414
+cst766 1521
+1958	Default/network-TrainOneStepCell/optimizer-Momentum/Depend-op2415
+cst767 1517
+1959	Default/network-TrainOneStepCell/optimizer-Momentum/Depend-op2416
+cst768 1511
+1960	Default/network-TrainOneStepCell/optimizer-Momentum/Depend-op2417
+cst769 1507
+1961	Default/network-TrainOneStepCell/optimizer-Momentum/Depend-op2418
+cst770 1503
+1962	Default/network-TrainOneStepCell/optimizer-Momentum/Depend-op2419
+cst771 1497
+1963	Default/network-TrainOneStepCell/optimizer-Momentum/Depend-op2420
+cst772 1493
+1964	Default/network-TrainOneStepCell/optimizer-Momentum/Depend-op2421
+cst773 1489
+1965	Default/network-TrainOneStepCell/optimizer-Momentum/Depend-op2422
+cst774 1483
+1966	Default/network-TrainOneStepCell/optimizer-Momentum/Depend-op2423
+cst775 1479
+1967	Default/network-TrainOneStepCell/optimizer-Momentum/Depend-op2424
+cst776 1475
+1968	Default/network-TrainOneStepCell/optimizer-Momentum/Depend-op2425
+cst777 1469
+1969	Default/network-TrainOneStepCell/optimizer-Momentum/Depend-op2426
+cst778 1465
+1970	Default/network-TrainOneStepCell/optimizer-Momentum/Depend-op2427
+cst779 1461
+1971	Default/network-TrainOneStepCell/optimizer-Momentum/Depend-op2428
+cst780 1455
+1972	Default/network-TrainOneStepCell/optimizer-Momentum/Depend-op2429
+cst781 1451
+1973	Default/network-TrainOneStepCell/optimizer-Momentum/Depend-op2430
+cst782 1447
+1974	Default/network-TrainOneStepCell/optimizer-Momentum/Depend-op2431
+cst783 1441
+1975	Default/network-TrainOneStepCell/optimizer-Momentum/Depend-op2432
+cst784 1437
+1976	Default/network-TrainOneStepCell/optimizer-Momentum/Depend-op2433
+cst785 1433
+1977	Default/network-TrainOneStepCell/optimizer-Momentum/Depend-op2434
+cst786 1427
+1978	Default/network-TrainOneStepCell/optimizer-Momentum/Depend-op2435
+cst787 1423
+1979	Default/network-TrainOneStepCell/optimizer-Momentum/Depend-op2436
+cst788 1419
+1980	Default/network-TrainOneStepCell/optimizer-Momentum/Depend-op2437
+cst789 1413
+1981	Default/network-TrainOneStepCell/optimizer-Momentum/Depend-op2438
+cst790 1409
+1982	Default/network-TrainOneStepCell/optimizer-Momentum/Depend-op2439
+cst791 1405
+1983	Default/network-TrainOneStepCell/optimizer-Momentum/Depend-op2440
+cst792 1399
+1984	Default/network-TrainOneStepCell/optimizer-Momentum/Depend-op2441
+cst793 1395
+1985	Default/network-TrainOneStepCell/optimizer-Momentum/Depend-op2442
+cst794 1391
+1986	Default/network-TrainOneStepCell/optimizer-Momentum/Depend-op2443
+cst795 1385
+1987	Default/network-TrainOneStepCell/optimizer-Momentum/Depend-op2444
+cst796 1381
+1988	Default/network-TrainOneStepCell/optimizer-Momentum/Depend-op2445
+cst797 1377
+1989	Default/network-TrainOneStepCell/optimizer-Momentum/Depend-op2446
+cst798 1371
+1990	Default/network-TrainOneStepCell/optimizer-Momentum/Depend-op2447
+cst799 1367
+1991	Default/network-TrainOneStepCell/optimizer-Momentum/Depend-op2448
+cst800 1363
+1992	Default/network-TrainOneStepCell/optimizer-Momentum/Depend-op2449
+cst801 1357
+1993	Default/network-TrainOneStepCell/optimizer-Momentum/Depend-op2450
+cst802 1353
+1994	Default/network-TrainOneStepCell/optimizer-Momentum/Depend-op2451
+cst803 1349
+1995	Default/network-TrainOneStepCell/optimizer-Momentum/Depend-op2452
+cst804 1343
+1996	Default/network-TrainOneStepCell/optimizer-Momentum/Depend-op2453
+cst805 1339
+1997	Default/network-TrainOneStepCell/optimizer-Momentum/Depend-op2454
+cst806 1335
+1998	Default/network-TrainOneStepCell/optimizer-Momentum/Depend-op2455
+cst807 1329
+1999	Default/network-TrainOneStepCell/optimizer-Momentum/Depend-op2456
+cst808 1325
+2000	Default/network-TrainOneStepCell/optimizer-Momentum/Depend-op2457
+cst809 1321
+2001	Default/network-TrainOneStepCell/optimizer-Momentum/Depend-op2458
+cst810 1315
+2002	Default/network-TrainOneStepCell/optimizer-Momentum/Depend-op2459
+cst811 1311
+2003	Default/network-TrainOneStepCell/optimizer-Momentum/Depend-op2460
+cst812 1307
+2004	Default/network-TrainOneStepCell/optimizer-Momentum/Depend-op2461
+cst813 1301
+2005	Default/network-TrainOneStepCell/optimizer-Momentum/Depend-op2462
+cst814 1297
+2006	Default/network-TrainOneStepCell/optimizer-Momentum/Depend-op2463
+cst815 1293
+2007	Default/network-TrainOneStepCell/optimizer-Momentum/Depend-op2464
+cst816 1287
+2008	Default/network-TrainOneStepCell/optimizer-Momentum/Depend-op2465
+cst817 1283
+2009	Default/network-TrainOneStepCell/optimizer-Momentum/Depend-op2466
+cst818 1279
+2010	Default/network-TrainOneStepCell/optimizer-Momentum/Depend-op2467
+cst819 1273
+2011	Default/network-TrainOneStepCell/optimizer-Momentum/Depend-op2468
+cst820 1269
+2012	Default/network-TrainOneStepCell/optimizer-Momentum/Depend-op2469
+cst821 1265
+2013	Default/network-TrainOneStepCell/optimizer-Momentum/Depend-op2470
+cst822 1259
+2014	Default/network-TrainOneStepCell/optimizer-Momentum/Depend-op2471
+cst823 1255
+2015	Default/network-TrainOneStepCell/optimizer-Momentum/Depend-op2472
+cst824 1251
+2016	Default/network-TrainOneStepCell/optimizer-Momentum/Depend-op2473
+cst825 1245
+2017	Default/network-TrainOneStepCell/optimizer-Momentum/Depend-op2474
+cst826 1241
+2018	Default/network-TrainOneStepCell/optimizer-Momentum/Depend-op2475
+cst827 1237
+2019	Default/network-TrainOneStepCell/optimizer-Momentum/Depend-op2476
+cst828 1231
+2020	Default/network-TrainOneStepCell/optimizer-Momentum/Depend-op2477
+cst829 1227
+2021	Default/network-TrainOneStepCell/optimizer-Momentum/Depend-op2478
+cst830 1223
+2022	Default/network-TrainOneStepCell/optimizer-Momentum/Depend-op2479
+cst831 1217
+2023	Default/network-TrainOneStepCell/optimizer-Momentum/Depend-op2480
+cst832 1213
+2024	Default/network-TrainOneStepCell/optimizer-Momentum/Depend-op2481
+cst833 1209
+2025	Default/network-TrainOneStepCell/optimizer-Momentum/Depend-op2482
+cst834 1203
+2026	Default/network-TrainOneStepCell/optimizer-Momentum/Depend-op2483
+cst835 1199
+2027	Default/network-TrainOneStepCell/optimizer-Momentum/Depend-op2484
+cst836 1195
+2028	Default/network-TrainOneStepCell/optimizer-Momentum/Depend-op2485
+cst837 1189
+2029	Default/network-TrainOneStepCell/optimizer-Momentum/Depend-op2486
+cst838 1185
+2030	Default/network-TrainOneStepCell/optimizer-Momentum/Depend-op2487
+cst839 1181
+2031	Default/network-TrainOneStepCell/optimizer-Momentum/Depend-op2488
+cst840 1175
+2032	Default/network-TrainOneStepCell/optimizer-Momentum/Depend-op2489
+cst841 1171
+2033	Default/network-TrainOneStepCell/optimizer-Momentum/Depend-op2490
+cst842 1167
+2034	Default/network-TrainOneStepCell/optimizer-Momentum/Depend-op2491
+cst843 1161
+2035	Default/network-TrainOneStepCell/optimizer-Momentum/Depend-op2492
+cst844 1157
+2036	Default/network-TrainOneStepCell/optimizer-Momentum/Depend-op2493
+cst845 1153
+2037	Default/network-TrainOneStepCell/optimizer-Momentum/Depend-op2494
+cst846 1147
+2038	Default/network-TrainOneStepCell/optimizer-Momentum/Depend-op2495
+cst847 1143
+2039	Default/network-TrainOneStepCell/optimizer-Momentum/Depend-op2496
+cst848 1139
+2040	Default/network-TrainOneStepCell/optimizer-Momentum/Depend-op2497
+cst849 1132
+2041	Default/network-TrainOneStepCell/optimizer-Momentum/MakeTuple-op1947
+1880 1881 1882 1883 1884 1885 1886 1887 1888 1889 1890 1891 1892 1893 1894 1895 1896 1897 1898 1899 1900 1901 1902 1903 1904 1905 1906 1907 1908 1909 1910 1911 1912 1913 1914 1915 1916 1917 1918 1919 1920 1921 1922 1923 1924 1925 1926 1927 1928 1929 1930 1931 1932 1933 1934 1935 1936 1937 1938 1939 1940 1941 1942 1943 1944 1945 1946 1947 1948 1949 1950 1951 1952 1953 1954 1955 1956 1957 1958 1959 1960 1961 1962 1963 1964 1965 1966 1967 1968 1969 1970 1971 1972 1973 1974 1975 1976 1977 1978 1979 1980 1981 1982 1983 1984 1985 1986 1987 1988 1989 1990 1991 1992 1993 1994 1995 1996 1997 1998 1999 2000 2001 2002 2003 2004 2005 2006 2007 2008 2009 2010 2011 2012 2013 2014 2015 2016 2017 2018 2019 2020 2021 2022 2023 2024 2025 2026 2027 2028 2029 2030 2031 2032 2033 2034 2035 2036 2037 2038 2039 2040
+2042	Default/network-TrainOneStepCell/Depend-op670
+660 2041
+2043	Default/network-TrainOneStepCell/optimizer-Momentum/UpdateState-op1945
+1876 1879
+2044	Default/Depend-op2108
+2042 2043
+2045	Default/MakeTuple-op9677
+2044
+4 7 15 17 21 29 33 41 45 55 63 65 69 77 81 89 93 101 105 113 117 125 129 137 141 149 153 161 165 175 183 185 189 197 201 209 213 221 225 233 237 245 249 257 261 269 273 281 285 293 297 305 309 317 321 331 339 341 345 353 357 365 369 377 381 389 393 401 405 413 417 425 429 437 441 449 453 461 465 473 477 485 489 497 501 509 513 521 525 533 537 545 549 559 567 569 573 581 585 593 597 605 609 617 621 629 633 641 644 646 649 652 653 672 673 674 678 680 683 686 688 691 694 696 699 702 704 707 710 712 715 718 720 723 726 728 731 734 737 740 742 745 748 750 753 756 757 759 762 765 767 770 773 775 778 781 783 786 789 791 794 797 799 802 805 807 810 813 815 818 821 823 826 829 831 834 837 839 842 845 847 850 853 855 858 861 863 866 869 871 874 877 879 882 885 888 891 893 896 899 901 904 907 908 910 913 919 922 925 927 930 936 939 945 948 951 953 956 962 965 971 974 977 979 982 988 991 998 1004 1007 1010 1012 1015 1020 1022 1025 1031 1034 1040 1043 1049 1052 1058 1061 1067 1070 1076 1079 1085 1088 1094 1097 1102 1105 1110 1111 1113 1115 1118 1134 1135 1149 1163 1177 1191 1205 1219 1233 1247 1261 1275 1289 1303 1317 1331 1345 1359 1373 1387 1401 1415 1429 1443 1457 1471 1485 1499 1513 1527 1541 1569 1611 1653 1709
