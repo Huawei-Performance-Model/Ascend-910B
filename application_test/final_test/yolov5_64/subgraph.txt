@@ -1,0 +1,2088 @@
+5 Default/network-YoloWithLossCell/yolo_network-YOLOV5/feature_map-YOLO/backbone-YOLOv5Backbone/focus-Focus/conv-Conv/act-SiLU/Mul-op665
+0
+1 1506
+9 Default/TransData-op5614
+0
+2 13 2956
+13 Default/network-YoloWithLossCell/yolo_network-YOLOV5/feature_map-YOLO/backbone-YOLOv5Backbone/focus-Focus/conv-Conv/conv-Conv2d/Conv2D-op671
+1 9
+3 22 2581 2954
+22 Default/network-YoloWithLossCell/yolo_network-YOLOV5/feature_map-YOLO/backbone-YOLOv5Backbone/focus-Focus/conv-Conv/bn-BatchNorm2d/BNTrainingUpdate-op4204
+1 13
+6 25 2575 2577 2578 2581 2954
+25 Default/network-YoloWithLossCell/yolo_network-YOLOV5/feature_map-YOLO/backbone-YOLOv5Backbone/focus-Focus/conv-Conv/act-SiLU/Mul-op679
+1 22
+2 29 2947
+29 Default/network-YoloWithLossCell/yolo_network-YOLOV5/feature_map-YOLO/backbone-YOLOv5Backbone/conv1-Conv/conv-Conv2d/Conv2D-op680
+1 25
+3 38 2568 2571
+38 Default/network-YoloWithLossCell/yolo_network-YOLOV5/feature_map-YOLO/CSP6-BottleneckCSP/conv2-Conv/bn-BatchNorm2d/BNTrainingUpdate-op4208
+1 29
+6 41 2562 2564 2565 2568 2571
+41 Default/network-YoloWithLossCell/yolo_network-YOLOV5/feature_map-YOLO/backbone-YOLOv5Backbone/focus-Focus/conv-Conv/act-SiLU/Mul-op689
+1 38
+4 45 93 2935 2941
+45 Default/network-YoloWithLossCell/yolo_network-YOLOV5/feature_map-YOLO/backbone-YOLOv5Backbone/CSP1-BottleneckCSP/conv2-Conv/conv-Conv2d/Conv2D-op692
+1 41
+3 54 2540 2543
+54 Default/network-YoloWithLossCell/yolo_network-YOLOV5/feature_map-YOLO/backbone-YOLOv5Backbone/focus-Focus/conv-Conv/bn-BatchNorm2d/BNTrainingUpdate-op4212
+1 45
+6 57 2534 2536 2537 2540 2543
+57 Default/network-YoloWithLossCell/yolo_network-YOLOV5/feature_map-YOLO/backbone-YOLOv5Backbone/focus-Focus/conv-Conv/act-SiLU/Mul-op700
+1 54
+4 61 110 2923 2929
+61 Default/network-YoloWithLossCell/yolo_network-YOLOV5/feature_map-YOLO/backbone-YOLOv5Backbone/CSP1-BottleneckCSP/m-SequentialCell/0-Bottleneck/conv1-Conv/conv-Conv2d/Conv2D-op703
+1 57
+3 70 2526 2529
+70 Default/network-YoloWithLossCell/yolo_network-YOLOV5/feature_map-YOLO/backbone-YOLOv5Backbone/focus-Focus/conv-Conv/bn-BatchNorm2d/BNTrainingUpdate-op4216
+1 61
+6 73 2520 2522 2523 2526 2529
+73 Default/network-YoloWithLossCell/yolo_network-YOLOV5/feature_map-YOLO/backbone-YOLOv5Backbone/focus-Focus/conv-Conv/act-SiLU/Mul-op711
+1 70
+2 77 2917
+77 Default/network-YoloWithLossCell/yolo_network-YOLOV5/feature_map-YOLO/backbone-YOLOv5Backbone/CSP1-BottleneckCSP/m-SequentialCell/0-Bottleneck/conv2-Conv/conv-Conv2d/Conv2D-op712
+1 73
+3 86 2513 2516
+86 Default/network-YoloWithLossCell/yolo_network-YOLOV5/feature_map-YOLO/backbone-YOLOv5Backbone/focus-Focus/conv-Conv/bn-BatchNorm2d/BNTrainingUpdate-op4220
+1 77
+6 89 2507 2509 2510 2513 2516
+89 Default/network-YoloWithLossCell/yolo_network-YOLOV5/feature_map-YOLO/backbone-YOLOv5Backbone/focus-Focus/conv-Conv/act-SiLU/Mul-op721
+1 86
+2 110 2929
+93 Default/network-YoloWithLossCell/yolo_network-YOLOV5/feature_map-YOLO/backbone-YOLOv5Backbone/CSP1-BottleneckCSP/conv2-Conv/conv-Conv2d/Conv2D-op690
+1 41
+3 102 2554 2557
+102 Default/network-YoloWithLossCell/yolo_network-YOLOV5/feature_map-YOLO/backbone-YOLOv5Backbone/focus-Focus/conv-Conv/bn-BatchNorm2d/BNTrainingUpdate-op4224
+1 93
+6 105 2548 2550 2551 2554 2557
+105 Default/network-YoloWithLossCell/yolo_network-YOLOV5/feature_map-YOLO/backbone-YOLOv5Backbone/focus-Focus/conv-Conv/act-SiLU/Mul-op731
+1 102
+2 110 2929
+110 Default/network-YoloWithLossCell/yolo_network-YOLOV5/feature_map-YOLO/backbone-YOLOv5Backbone/CSP1-BottleneckCSP/conv3-Conv/conv-Conv2d/Conv2D-op733
+3 57 89 105
+3 119 2498 2501
+119 Default/network-YoloWithLossCell/yolo_network-YOLOV5/feature_map-YOLO/CSP6-BottleneckCSP/conv2-Conv/bn-BatchNorm2d/BNTrainingUpdate-op4228
+1 110
+6 122 2492 2494 2495 2498 2501
+122 Default/network-YoloWithLossCell/yolo_network-YOLOV5/feature_map-YOLO/backbone-YOLOv5Backbone/focus-Focus/conv-Conv/act-SiLU/Mul-op742
+1 119
+2 126 2911
+126 Default/network-YoloWithLossCell/yolo_network-YOLOV5/feature_map-YOLO/backbone-YOLOv5Backbone/conv2-Conv/conv-Conv2d/Conv2D-op743
+1 122
+3 135 2485 2488
+135 Default/network-YoloWithLossCell/yolo_network-YOLOV5/feature_map-YOLO/CSP6-BottleneckCSP/conv3-Conv/bn-BatchNorm2d/BNTrainingUpdate-op4232
+1 126
+6 138 2479 2481 2482 2485 2488
+138 Default/network-YoloWithLossCell/yolo_network-YOLOV5/feature_map-YOLO/backbone-YOLOv5Backbone/focus-Focus/conv-Conv/act-SiLU/Mul-op752
+1 135
+4 142 256 2899 2905
+142 Default/network-YoloWithLossCell/yolo_network-YOLOV5/feature_map-YOLO/backbone-YOLOv5Backbone/CSP2-BottleneckCSP/conv2-Conv/conv-Conv2d/Conv2D-op755
+1 138
+3 151 2457 2460
+151 Default/network-YoloWithLossCell/yolo_network-YOLOV5/feature_map-YOLO/CSP6-BottleneckCSP/conv2-Conv/bn-BatchNorm2d/BNTrainingUpdate-op4236
+1 142
+6 154 2451 2453 2454 2457 2460
+154 Default/network-YoloWithLossCell/yolo_network-YOLOV5/feature_map-YOLO/backbone-YOLOv5Backbone/focus-Focus/conv-Conv/act-SiLU/Mul-op763
+1 151
+8 158 191 224 273 2863 2875 2887 2893
+158 Default/network-YoloWithLossCell/yolo_network-YOLOV5/feature_map-YOLO/backbone-YOLOv5Backbone/CSP1-BottleneckCSP/conv3-Conv/conv-Conv2d/Conv2D-op766
+1 154
+3 167 2443 2446
+167 Default/network-YoloWithLossCell/yolo_network-YOLOV5/feature_map-YOLO/CSP6-BottleneckCSP/conv2-Conv/bn-BatchNorm2d/BNTrainingUpdate-op4240
+1 158
+6 170 2437 2439 2440 2443 2446
+170 Default/network-YoloWithLossCell/yolo_network-YOLOV5/feature_map-YOLO/backbone-YOLOv5Backbone/focus-Focus/conv-Conv/act-SiLU/Mul-op774
+1 167
+2 174 2881
+174 Default/network-YoloWithLossCell/yolo_network-YOLOV5/feature_map-YOLO/CSP6-BottleneckCSP/m-SequentialCell/0-Bottleneck/conv2-Conv/conv-Conv2d/Conv2D-op775
+1 170
+3 183 2430 2433
+183 Default/network-YoloWithLossCell/yolo_network-YOLOV5/feature_map-YOLO/CSP6-BottleneckCSP/conv2-Conv/bn-BatchNorm2d/BNTrainingUpdate-op4244
+1 174
+6 186 2424 2426 2427 2430 2433
+186 Default/network-YoloWithLossCell/yolo_network-YOLOV5/feature_map-YOLO/backbone-YOLOv5Backbone/focus-Focus/conv-Conv/act-SiLU/Mul-op784
+1 183
+6 191 224 273 2863 2875 2893
+191 Default/network-YoloWithLossCell/yolo_network-YOLOV5/feature_map-YOLO/backbone-YOLOv5Backbone/CSP1-BottleneckCSP/conv3-Conv/conv-Conv2d/Conv2D-op787
+2 154 186
+3 200 2416 2419
+200 Default/network-YoloWithLossCell/yolo_network-YOLOV5/feature_map-YOLO/CSP6-BottleneckCSP/conv2-Conv/bn-BatchNorm2d/BNTrainingUpdate-op4248
+1 191
+6 203 2410 2412 2413 2416 2419
+203 Default/network-YoloWithLossCell/yolo_network-YOLOV5/feature_map-YOLO/backbone-YOLOv5Backbone/focus-Focus/conv-Conv/act-SiLU/Mul-op795
+1 200
+2 207 2869
+207 Default/network-YoloWithLossCell/yolo_network-YOLOV5/feature_map-YOLO/CSP6-BottleneckCSP/m-SequentialCell/0-Bottleneck/conv2-Conv/conv-Conv2d/Conv2D-op796
+1 203
+3 216 2403 2406
+216 Default/network-YoloWithLossCell/yolo_network-YOLOV5/feature_map-YOLO/CSP6-BottleneckCSP/conv2-Conv/bn-BatchNorm2d/BNTrainingUpdate-op4252
+1 207
+6 219 2397 2399 2400 2403 2406
+219 Default/network-YoloWithLossCell/yolo_network-YOLOV5/feature_map-YOLO/backbone-YOLOv5Backbone/focus-Focus/conv-Conv/act-SiLU/Mul-op805
+1 216
+4 224 273 2863 2893
+224 Default/network-YoloWithLossCell/yolo_network-YOLOV5/feature_map-YOLO/backbone-YOLOv5Backbone/CSP1-BottleneckCSP/conv3-Conv/conv-Conv2d/Conv2D-op808
+3 154 186 219
+3 233 2389 2392
+233 Default/network-YoloWithLossCell/yolo_network-YOLOV5/feature_map-YOLO/CSP6-BottleneckCSP/conv2-Conv/bn-BatchNorm2d/BNTrainingUpdate-op4256
+1 224
+6 236 2383 2385 2386 2389 2392
+236 Default/network-YoloWithLossCell/yolo_network-YOLOV5/feature_map-YOLO/backbone-YOLOv5Backbone/focus-Focus/conv-Conv/act-SiLU/Mul-op816
+1 233
+2 240 2857
+240 Default/network-YoloWithLossCell/yolo_network-YOLOV5/feature_map-YOLO/CSP6-BottleneckCSP/m-SequentialCell/0-Bottleneck/conv2-Conv/conv-Conv2d/Conv2D-op817
+1 236
+3 249 2376 2379
+249 Default/network-YoloWithLossCell/yolo_network-YOLOV5/feature_map-YOLO/CSP6-BottleneckCSP/conv2-Conv/bn-BatchNorm2d/BNTrainingUpdate-op4260
+1 240
+6 252 2370 2372 2373 2376 2379
+252 Default/network-YoloWithLossCell/yolo_network-YOLOV5/feature_map-YOLO/backbone-YOLOv5Backbone/focus-Focus/conv-Conv/act-SiLU/Mul-op826
+1 249
+2 273 2893
+256 Default/network-YoloWithLossCell/yolo_network-YOLOV5/feature_map-YOLO/backbone-YOLOv5Backbone/CSP2-BottleneckCSP/conv2-Conv/conv-Conv2d/Conv2D-op753
+1 138
+3 265 2471 2474
+265 Default/network-YoloWithLossCell/yolo_network-YOLOV5/feature_map-YOLO/CSP6-BottleneckCSP/conv2-Conv/bn-BatchNorm2d/BNTrainingUpdate-op4264
+1 256
+6 268 2465 2467 2468 2471 2474
+268 Default/network-YoloWithLossCell/yolo_network-YOLOV5/feature_map-YOLO/backbone-YOLOv5Backbone/focus-Focus/conv-Conv/act-SiLU/Mul-op836
+1 265
+2 273 2893
+273 Default/network-YoloWithLossCell/yolo_network-YOLOV5/feature_map-YOLO/CSP6-BottleneckCSP/conv3-Conv/conv-Conv2d/Conv2D-op838
+5 154 186 219 252 268
+3 282 2361 2364
+282 Default/network-YoloWithLossCell/yolo_network-YOLOV5/feature_map-YOLO/CSP6-BottleneckCSP/conv3-Conv/bn-BatchNorm2d/BNTrainingUpdate-op4268
+1 273
+6 285 2355 2357 2358 2361 2364
+285 Default/network-YoloWithLossCell/yolo_network-YOLOV5/feature_map-YOLO/backbone-YOLOv5Backbone/focus-Focus/conv-Conv/act-SiLU/Mul-op847
+1 282
+6 289 707 754 2695 2701 2851
+289 Default/network-YoloWithLossCell/yolo_network-YOLOV5/feature_map-YOLO/backbone-YOLOv5Backbone/conv3-Conv/conv-Conv2d/Conv2D-op848
+1 285
+3 298 2346 2349
+298 Default/network-YoloWithLossCell/yolo_network-YOLOV5/feature_map-YOLO/CSP7-BottleneckCSP/conv3-Conv/bn-BatchNorm2d/BNTrainingUpdate-op4272
+1 289
+6 301 2340 2342 2343 2346 2349
+301 Default/network-YoloWithLossCell/yolo_network-YOLOV5/feature_map-YOLO/backbone-YOLOv5Backbone/focus-Focus/conv-Conv/act-SiLU/Mul-op857
+1 298
+4 305 419 2839 2845
+305 Default/network-YoloWithLossCell/yolo_network-YOLOV5/feature_map-YOLO/conv2-Conv/conv-Conv2d/Conv2D-op860
+1 301
+3 314 2318 2321
+314 Default/network-YoloWithLossCell/yolo_network-YOLOV5/feature_map-YOLO/CSP6-BottleneckCSP/conv3-Conv/bn-BatchNorm2d/BNTrainingUpdate-op4276
+1 305
+6 317 2312 2314 2315 2318 2321
+317 Default/network-YoloWithLossCell/yolo_network-YOLOV5/feature_map-YOLO/backbone-YOLOv5Backbone/focus-Focus/conv-Conv/act-SiLU/Mul-op868
+1 314
+8 321 354 387 436 2803 2815 2827 2833
+321 Default/network-YoloWithLossCell/yolo_network-YOLOV5/feature_map-YOLO/CSP6-BottleneckCSP/conv3-Conv/conv-Conv2d/Conv2D-op871
+1 317
+3 330 2304 2307
+330 Default/network-YoloWithLossCell/yolo_network-YOLOV5/feature_map-YOLO/CSP6-BottleneckCSP/conv3-Conv/bn-BatchNorm2d/BNTrainingUpdate-op4280
+1 321
+6 333 2298 2300 2301 2304 2307
+333 Default/network-YoloWithLossCell/yolo_network-YOLOV5/feature_map-YOLO/backbone-YOLOv5Backbone/focus-Focus/conv-Conv/act-SiLU/Mul-op879
+1 330
+2 337 2821
+337 Default/network-YoloWithLossCell/yolo_network-YOLOV5/feature_map-YOLO/CSP7-BottleneckCSP/m-SequentialCell/0-Bottleneck/conv2-Conv/conv-Conv2d/Conv2D-op880
+1 333
+3 346 2291 2294
+346 Default/network-YoloWithLossCell/yolo_network-YOLOV5/feature_map-YOLO/CSP6-BottleneckCSP/conv3-Conv/bn-BatchNorm2d/BNTrainingUpdate-op4284
+1 337
+6 349 2285 2287 2288 2291 2294
+349 Default/network-YoloWithLossCell/yolo_network-YOLOV5/feature_map-YOLO/backbone-YOLOv5Backbone/focus-Focus/conv-Conv/act-SiLU/Mul-op889
+1 346
+6 354 387 436 2803 2815 2833
+354 Default/network-YoloWithLossCell/yolo_network-YOLOV5/feature_map-YOLO/CSP6-BottleneckCSP/conv3-Conv/conv-Conv2d/Conv2D-op892
+2 317 349
+3 363 2277 2280
+363 Default/network-YoloWithLossCell/yolo_network-YOLOV5/feature_map-YOLO/CSP6-BottleneckCSP/conv3-Conv/bn-BatchNorm2d/BNTrainingUpdate-op4288
+1 354
+6 366 2271 2273 2274 2277 2280
+366 Default/network-YoloWithLossCell/yolo_network-YOLOV5/feature_map-YOLO/backbone-YOLOv5Backbone/focus-Focus/conv-Conv/act-SiLU/Mul-op900
+1 363
+2 370 2809
+370 Default/network-YoloWithLossCell/yolo_network-YOLOV5/feature_map-YOLO/CSP7-BottleneckCSP/m-SequentialCell/0-Bottleneck/conv2-Conv/conv-Conv2d/Conv2D-op901
+1 366
+3 379 2264 2267
+379 Default/network-YoloWithLossCell/yolo_network-YOLOV5/feature_map-YOLO/CSP6-BottleneckCSP/conv3-Conv/bn-BatchNorm2d/BNTrainingUpdate-op4292
+1 370
+6 382 2258 2260 2261 2264 2267
+382 Default/network-YoloWithLossCell/yolo_network-YOLOV5/feature_map-YOLO/backbone-YOLOv5Backbone/focus-Focus/conv-Conv/act-SiLU/Mul-op910
+1 379
+4 387 436 2803 2833
+387 Default/network-YoloWithLossCell/yolo_network-YOLOV5/feature_map-YOLO/CSP6-BottleneckCSP/conv3-Conv/conv-Conv2d/Conv2D-op913
+3 317 349 382
+3 396 2250 2253
+396 Default/network-YoloWithLossCell/yolo_network-YOLOV5/feature_map-YOLO/CSP6-BottleneckCSP/conv3-Conv/bn-BatchNorm2d/BNTrainingUpdate-op4296
+1 387
+6 399 2244 2246 2247 2250 2253
+399 Default/network-YoloWithLossCell/yolo_network-YOLOV5/feature_map-YOLO/backbone-YOLOv5Backbone/focus-Focus/conv-Conv/act-SiLU/Mul-op921
+1 396
+2 403 2797
+403 Default/network-YoloWithLossCell/yolo_network-YOLOV5/feature_map-YOLO/CSP7-BottleneckCSP/m-SequentialCell/0-Bottleneck/conv2-Conv/conv-Conv2d/Conv2D-op922
+1 399
+3 412 2237 2240
+412 Default/network-YoloWithLossCell/yolo_network-YOLOV5/feature_map-YOLO/CSP6-BottleneckCSP/conv3-Conv/bn-BatchNorm2d/BNTrainingUpdate-op4300
+1 403
+6 415 2231 2233 2234 2237 2240
+415 Default/network-YoloWithLossCell/yolo_network-YOLOV5/feature_map-YOLO/backbone-YOLOv5Backbone/focus-Focus/conv-Conv/act-SiLU/Mul-op931
+1 412
+2 436 2833
+419 Default/network-YoloWithLossCell/yolo_network-YOLOV5/feature_map-YOLO/conv2-Conv/conv-Conv2d/Conv2D-op858
+1 301
+3 428 2332 2335
+428 Default/network-YoloWithLossCell/yolo_network-YOLOV5/feature_map-YOLO/CSP6-BottleneckCSP/conv3-Conv/bn-BatchNorm2d/BNTrainingUpdate-op4304
+1 419
+6 431 2326 2328 2329 2332 2335
+431 Default/network-YoloWithLossCell/yolo_network-YOLOV5/feature_map-YOLO/backbone-YOLOv5Backbone/focus-Focus/conv-Conv/act-SiLU/Mul-op941
+1 428
+2 436 2833
+436 Default/network-YoloWithLossCell/yolo_network-YOLOV5/feature_map-YOLO/CSP7-BottleneckCSP/conv3-Conv/conv-Conv2d/Conv2D-op943
+5 317 349 382 415 431
+3 445 2222 2225
+445 Default/network-YoloWithLossCell/yolo_network-YOLOV5/feature_map-YOLO/CSP7-BottleneckCSP/conv3-Conv/bn-BatchNorm2d/BNTrainingUpdate-op4308
+1 436
+6 448 2216 2218 2219 2222 2225
+448 Default/network-YoloWithLossCell/yolo_network-YOLOV5/feature_map-YOLO/backbone-YOLOv5Backbone/focus-Focus/conv-Conv/act-SiLU/Mul-op952
+1 445
+6 452 609 656 2731 2737 2791
+452 Default/network-YoloWithLossCell/yolo_network-YOLOV5/feature_map-YOLO/backbone-YOLOv5Backbone/conv4-Conv/conv-Conv2d/Conv2D-op953
+1 448
+3 461 2207 2210
+461 Default/network-YoloWithLossCell/yolo_network-YOLOV5/feature_map-YOLO/CSP8-BottleneckCSP/conv3-Conv/bn-BatchNorm2d/BNTrainingUpdate-op4312
+1 452
+6 464 2201 2203 2204 2207 2210
+464 Default/network-YoloWithLossCell/yolo_network-YOLOV5/feature_map-YOLO/backbone-YOLOv5Backbone/focus-Focus/conv-Conv/act-SiLU/Mul-op962
+1 461
+2 468 2785
+468 Default/network-YoloWithLossCell/yolo_network-YOLOV5/feature_map-YOLO/conv1-Conv/conv-Conv2d/Conv2D-op963
+1 464
+3 477 2194 2197
+477 Default/network-YoloWithLossCell/yolo_network-YOLOV5/feature_map-YOLO/CSP7-BottleneckCSP/conv3-Conv/bn-BatchNorm2d/BNTrainingUpdate-op4316
+1 468
+6 480 2188 2190 2191 2194 2197
+480 Default/network-YoloWithLossCell/yolo_network-YOLOV5/feature_map-YOLO/backbone-YOLOv5Backbone/focus-Focus/conv-Conv/act-SiLU/Mul-op972
+1 477
+8 482 485 488 495 2174 2179 2184 2779
+482 Default/network-YoloWithLossCell/yolo_network-YOLOV5/feature_map-YOLO/backbone-YOLOv5Backbone/spp-SPP/maxpool1-MaxPool2d/MaxPoolWithArgmax-op3764
+1 480
+3 495 2174 2779
+485 Default/network-YoloWithLossCell/yolo_network-YOLOV5/feature_map-YOLO/backbone-YOLOv5Backbone/spp-SPP/maxpool2-MaxPool2d/MaxPoolWithArgmax-op3766
+1 480
+3 495 2179 2779
+488 Default/network-YoloWithLossCell/yolo_network-YOLOV5/feature_map-YOLO/backbone-YOLOv5Backbone/spp-SPP/maxpool3-MaxPool2d/MaxPoolWithArgmax-op3768
+1 480
+3 495 2184 2779
+495 Default/network-YoloWithLossCell/yolo_network-YOLOV5/feature_map-YOLO/backbone-YOLOv5Backbone/spp-SPP/conv2-Conv/conv-Conv2d/Conv2D-op975
+4 480 482 485 488
+3 504 2163 2166
+504 Default/network-YoloWithLossCell/yolo_network-YOLOV5/feature_map-YOLO/CSP8-BottleneckCSP/conv3-Conv/bn-BatchNorm2d/BNTrainingUpdate-op4320
+1 495
+6 507 2157 2159 2160 2163 2166
+507 Default/network-YoloWithLossCell/yolo_network-YOLOV5/feature_map-YOLO/backbone-YOLOv5Backbone/focus-Focus/conv-Conv/act-SiLU/Mul-op984
+1 504
+4 511 558 2767 2773
+511 Default/network-YoloWithLossCell/yolo_network-YOLOV5/feature_map-YOLO/conv1-Conv/conv-Conv2d/Conv2D-op987
+1 507
+3 520 2135 2138
+520 Default/network-YoloWithLossCell/yolo_network-YOLOV5/feature_map-YOLO/CSP7-BottleneckCSP/conv3-Conv/bn-BatchNorm2d/BNTrainingUpdate-op4324
+1 511
+6 523 2129 2131 2132 2135 2138
+523 Default/network-YoloWithLossCell/yolo_network-YOLOV5/feature_map-YOLO/backbone-YOLOv5Backbone/focus-Focus/conv-Conv/act-SiLU/Mul-op995
+1 520
+2 527 2755
+527 Default/network-YoloWithLossCell/yolo_network-YOLOV5/feature_map-YOLO/CSP7-BottleneckCSP/conv3-Conv/conv-Conv2d/Conv2D-op996
+1 523
+3 536 2122 2125
+536 Default/network-YoloWithLossCell/yolo_network-YOLOV5/feature_map-YOLO/CSP7-BottleneckCSP/conv3-Conv/bn-BatchNorm2d/BNTrainingUpdate-op4328
+1 527
+6 539 2116 2118 2119 2122 2125
+539 Default/network-YoloWithLossCell/yolo_network-YOLOV5/feature_map-YOLO/backbone-YOLOv5Backbone/focus-Focus/conv-Conv/act-SiLU/Mul-op1005
+1 536
+2 543 2749
+543 Default/network-YoloWithLossCell/yolo_network-YOLOV5/feature_map-YOLO/CSP8-BottleneckCSP/m-SequentialCell/0-Bottleneck/conv2-Conv/conv-Conv2d/Conv2D-op1006
+1 539
+3 552 2109 2112
+552 Default/network-YoloWithLossCell/yolo_network-YOLOV5/feature_map-YOLO/CSP7-BottleneckCSP/conv3-Conv/bn-BatchNorm2d/BNTrainingUpdate-op4332
+1 543
+6 555 2103 2105 2106 2109 2112
+555 Default/network-YoloWithLossCell/yolo_network-YOLOV5/feature_map-YOLO/backbone-YOLOv5Backbone/focus-Focus/conv-Conv/act-SiLU/Mul-op1015
+1 552
+2 575 2761
+558 Default/network-YoloWithLossCell/yolo_network-YOLOV5/feature_map-YOLO/conv1-Conv/conv-Conv2d/Conv2D-op985
+1 507
+3 567 2149 2152
+567 Default/network-YoloWithLossCell/yolo_network-YOLOV5/feature_map-YOLO/CSP7-BottleneckCSP/conv3-Conv/bn-BatchNorm2d/BNTrainingUpdate-op4336
+1 558
+6 570 2143 2145 2146 2149 2152
+570 Default/network-YoloWithLossCell/yolo_network-YOLOV5/feature_map-YOLO/backbone-YOLOv5Backbone/focus-Focus/conv-Conv/act-SiLU/Mul-op1025
+1 567
+2 575 2761
+575 Default/network-YoloWithLossCell/yolo_network-YOLOV5/feature_map-YOLO/CSP8-BottleneckCSP/conv3-Conv/conv-Conv2d/Conv2D-op1027
+2 555 570
+3 584 2094 2097
+584 Default/network-YoloWithLossCell/yolo_network-YOLOV5/feature_map-YOLO/CSP8-BottleneckCSP/conv3-Conv/bn-BatchNorm2d/BNTrainingUpdate-op4340
+1 575
+6 587 2088 2090 2091 2094 2097
+587 Default/network-YoloWithLossCell/yolo_network-YOLOV5/feature_map-YOLO/backbone-YOLOv5Backbone/focus-Focus/conv-Conv/act-SiLU/Mul-op1036
+1 584
+2 591 2743
+591 Default/network-YoloWithLossCell/yolo_network-YOLOV5/feature_map-YOLO/conv1-Conv/conv-Conv2d/Conv2D-op1037
+1 587
+3 600 2081 2084
+600 Default/network-YoloWithLossCell/yolo_network-YOLOV5/feature_map-YOLO/CSP7-BottleneckCSP/conv3-Conv/bn-BatchNorm2d/BNTrainingUpdate-op4344
+1 591
+6 603 2075 2077 2078 2081 2084
+603 Default/network-YoloWithLossCell/yolo_network-YOLOV5/feature_map-YOLO/backbone-YOLOv5Backbone/focus-Focus/conv-Conv/act-SiLU/Mul-op1046
+1 600
+8 609 656 901 948 2623 2629 2731 2737
+609 Default/network-YoloWithLossCell/yolo_network-YOLOV5/feature_map-YOLO/CSP5-BottleneckCSP/conv2-Conv/conv-Conv2d/Conv2D-op1053
+2 603 448
+3 618 2048 2051
+618 Default/network-YoloWithLossCell/yolo_network-YOLOV5/feature_map-YOLO/CSP6-BottleneckCSP/conv3-Conv/bn-BatchNorm2d/BNTrainingUpdate-op4348
+1 609
+6 621 2042 2044 2045 2048 2051
+621 Default/network-YoloWithLossCell/yolo_network-YOLOV5/feature_map-YOLO/backbone-YOLOv5Backbone/focus-Focus/conv-Conv/act-SiLU/Mul-op1061
+1 618
+2 625 2719
+625 Default/network-YoloWithLossCell/yolo_network-YOLOV5/feature_map-YOLO/CSP6-BottleneckCSP/conv3-Conv/conv-Conv2d/Conv2D-op1062
+1 621
+3 634 2035 2038
+634 Default/network-YoloWithLossCell/yolo_network-YOLOV5/feature_map-YOLO/CSP6-BottleneckCSP/conv3-Conv/bn-BatchNorm2d/BNTrainingUpdate-op4352
+1 625
+6 637 2029 2031 2032 2035 2038
+637 Default/network-YoloWithLossCell/yolo_network-YOLOV5/feature_map-YOLO/backbone-YOLOv5Backbone/focus-Focus/conv-Conv/act-SiLU/Mul-op1071
+1 634
+2 641 2713
+641 Default/network-YoloWithLossCell/yolo_network-YOLOV5/feature_map-YOLO/CSP7-BottleneckCSP/m-SequentialCell/0-Bottleneck/conv2-Conv/conv-Conv2d/Conv2D-op1072
+1 637
+3 650 2022 2025
+650 Default/network-YoloWithLossCell/yolo_network-YOLOV5/feature_map-YOLO/CSP6-BottleneckCSP/conv3-Conv/bn-BatchNorm2d/BNTrainingUpdate-op4356
+1 641
+6 653 2016 2018 2019 2022 2025
+653 Default/network-YoloWithLossCell/yolo_network-YOLOV5/feature_map-YOLO/backbone-YOLOv5Backbone/focus-Focus/conv-Conv/act-SiLU/Mul-op1081
+1 650
+2 673 2725
+656 Default/network-YoloWithLossCell/yolo_network-YOLOV5/feature_map-YOLO/CSP5-BottleneckCSP/conv2-Conv/conv-Conv2d/Conv2D-op1051
+2 603 448
+3 665 2062 2065
+665 Default/network-YoloWithLossCell/yolo_network-YOLOV5/feature_map-YOLO/CSP6-BottleneckCSP/conv3-Conv/bn-BatchNorm2d/BNTrainingUpdate-op4360
+1 656
+6 668 2056 2058 2059 2062 2065
+668 Default/network-YoloWithLossCell/yolo_network-YOLOV5/feature_map-YOLO/backbone-YOLOv5Backbone/focus-Focus/conv-Conv/act-SiLU/Mul-op1091
+1 665
+2 673 2725
+673 Default/network-YoloWithLossCell/yolo_network-YOLOV5/feature_map-YOLO/CSP7-BottleneckCSP/conv3-Conv/conv-Conv2d/Conv2D-op1093
+2 653 668
+3 682 2007 2010
+682 Default/network-YoloWithLossCell/yolo_network-YOLOV5/feature_map-YOLO/CSP7-BottleneckCSP/conv3-Conv/bn-BatchNorm2d/BNTrainingUpdate-op4364
+1 673
+6 685 2001 2003 2004 2007 2010
+685 Default/network-YoloWithLossCell/yolo_network-YOLOV5/feature_map-YOLO/backbone-YOLOv5Backbone/focus-Focus/conv-Conv/act-SiLU/Mul-op1102
+1 682
+2 689 2707
+689 Default/network-YoloWithLossCell/yolo_network-YOLOV5/feature_map-YOLO/conv2-Conv/conv-Conv2d/Conv2D-op1103
+1 685
+3 698 1994 1997
+698 Default/network-YoloWithLossCell/yolo_network-YOLOV5/feature_map-YOLO/CSP6-BottleneckCSP/conv3-Conv/bn-BatchNorm2d/BNTrainingUpdate-op4368
+1 689
+6 701 1988 1990 1991 1994 1997
+701 Default/network-YoloWithLossCell/yolo_network-YOLOV5/feature_map-YOLO/backbone-YOLOv5Backbone/focus-Focus/conv-Conv/act-SiLU/Mul-op1112
+1 698
+8 707 754 804 851 2659 2665 2695 2701
+707 Default/network-YoloWithLossCell/yolo_network-YOLOV5/feature_map-YOLO/CSP6-BottleneckCSP/conv2-Conv/conv-Conv2d/Conv2D-op1119
+2 701 285
+3 716 1961 1964
+716 Default/network-YoloWithLossCell/yolo_network-YOLOV5/feature_map-YOLO/CSP6-BottleneckCSP/conv2-Conv/bn-BatchNorm2d/BNTrainingUpdate-op4372
+1 707
+6 719 1955 1957 1958 1961 1964
+719 Default/network-YoloWithLossCell/yolo_network-YOLOV5/feature_map-YOLO/backbone-YOLOv5Backbone/focus-Focus/conv-Conv/act-SiLU/Mul-op1127
+1 716
+2 723 2683
+723 Default/network-YoloWithLossCell/yolo_network-YOLOV5/feature_map-YOLO/backbone-YOLOv5Backbone/CSP1-BottleneckCSP/conv3-Conv/conv-Conv2d/Conv2D-op1128
+1 719
+3 732 1948 1951
+732 Default/network-YoloWithLossCell/yolo_network-YOLOV5/feature_map-YOLO/CSP6-BottleneckCSP/conv2-Conv/bn-BatchNorm2d/BNTrainingUpdate-op4376
+1 723
+6 735 1942 1944 1945 1948 1951
+735 Default/network-YoloWithLossCell/yolo_network-YOLOV5/feature_map-YOLO/backbone-YOLOv5Backbone/focus-Focus/conv-Conv/act-SiLU/Mul-op1137
+1 732
+2 739 2677
+739 Default/network-YoloWithLossCell/yolo_network-YOLOV5/feature_map-YOLO/CSP6-BottleneckCSP/m-SequentialCell/0-Bottleneck/conv2-Conv/conv-Conv2d/Conv2D-op1138
+1 735
+3 748 1935 1938
+748 Default/network-YoloWithLossCell/yolo_network-YOLOV5/feature_map-YOLO/CSP6-BottleneckCSP/conv2-Conv/bn-BatchNorm2d/BNTrainingUpdate-op4380
+1 739
+6 751 1929 1931 1932 1935 1938
+751 Default/network-YoloWithLossCell/yolo_network-YOLOV5/feature_map-YOLO/backbone-YOLOv5Backbone/focus-Focus/conv-Conv/act-SiLU/Mul-op1147
+1 748
+2 771 2689
+754 Default/network-YoloWithLossCell/yolo_network-YOLOV5/feature_map-YOLO/CSP6-BottleneckCSP/conv2-Conv/conv-Conv2d/Conv2D-op1117
+2 701 285
+3 763 1975 1978
+763 Default/network-YoloWithLossCell/yolo_network-YOLOV5/feature_map-YOLO/CSP6-BottleneckCSP/conv2-Conv/bn-BatchNorm2d/BNTrainingUpdate-op4384
+1 754
+6 766 1969 1971 1972 1975 1978
+766 Default/network-YoloWithLossCell/yolo_network-YOLOV5/feature_map-YOLO/backbone-YOLOv5Backbone/focus-Focus/conv-Conv/act-SiLU/Mul-op1157
+1 763
+2 771 2689
+771 Default/network-YoloWithLossCell/yolo_network-YOLOV5/feature_map-YOLO/CSP6-BottleneckCSP/conv3-Conv/conv-Conv2d/Conv2D-op1159
+2 751 766
+3 780 1920 1923
+780 Default/network-YoloWithLossCell/yolo_network-YOLOV5/feature_map-YOLO/CSP6-BottleneckCSP/conv3-Conv/bn-BatchNorm2d/BNTrainingUpdate-op4388
+1 771
+6 783 1914 1916 1917 1920 1923
+783 Default/network-YoloWithLossCell/yolo_network-YOLOV5/feature_map-YOLO/backbone-YOLOv5Backbone/focus-Focus/conv-Conv/act-SiLU/Mul-op1168
+1 780
+4 787 1282 2599 2671
+787 Default/network-YoloWithLossCell/yolo_network-YOLOV5/feature_map-YOLO/conv3-Conv/conv-Conv2d/Conv2D-op1169
+1 783
+3 796 1801 1804
+796 Default/network-YoloWithLossCell/yolo_network-YOLOV5/feature_map-YOLO/CSP6-BottleneckCSP/conv3-Conv/bn-BatchNorm2d/BNTrainingUpdate-op4392
+1 787
+6 799 1795 1797 1798 1801 1804
+799 Default/network-YoloWithLossCell/yolo_network-YOLOV5/feature_map-YOLO/backbone-YOLOv5Backbone/focus-Focus/conv-Conv/act-SiLU/Mul-op1178
+1 796
+4 804 851 2659 2665
+804 Default/network-YoloWithLossCell/yolo_network-YOLOV5/feature_map-YOLO/conv2-Conv/conv-Conv2d/Conv2D-op1182
+2 799 701
+3 813 1771 1774
+813 Default/network-YoloWithLossCell/yolo_network-YOLOV5/feature_map-YOLO/CSP6-BottleneckCSP/conv3-Conv/bn-BatchNorm2d/BNTrainingUpdate-op4396
+1 804
+6 816 1765 1767 1768 1771 1774
+816 Default/network-YoloWithLossCell/yolo_network-YOLOV5/feature_map-YOLO/backbone-YOLOv5Backbone/focus-Focus/conv-Conv/act-SiLU/Mul-op1190
+1 813
+2 820 2647
+820 Default/network-YoloWithLossCell/yolo_network-YOLOV5/feature_map-YOLO/CSP6-BottleneckCSP/conv3-Conv/conv-Conv2d/Conv2D-op1191
+1 816
+3 829 1758 1761
+829 Default/network-YoloWithLossCell/yolo_network-YOLOV5/feature_map-YOLO/CSP6-BottleneckCSP/conv3-Conv/bn-BatchNorm2d/BNTrainingUpdate-op4400
+1 820
+6 832 1752 1754 1755 1758 1761
+832 Default/network-YoloWithLossCell/yolo_network-YOLOV5/feature_map-YOLO/backbone-YOLOv5Backbone/focus-Focus/conv-Conv/act-SiLU/Mul-op1200
+1 829
+2 836 2641
+836 Default/network-YoloWithLossCell/yolo_network-YOLOV5/feature_map-YOLO/CSP7-BottleneckCSP/m-SequentialCell/0-Bottleneck/conv2-Conv/conv-Conv2d/Conv2D-op1201
+1 832
+3 845 1745 1748
+845 Default/network-YoloWithLossCell/yolo_network-YOLOV5/feature_map-YOLO/CSP6-BottleneckCSP/conv3-Conv/bn-BatchNorm2d/BNTrainingUpdate-op4404
+1 836
+6 848 1739 1741 1742 1745 1748
+848 Default/network-YoloWithLossCell/yolo_network-YOLOV5/feature_map-YOLO/backbone-YOLOv5Backbone/focus-Focus/conv-Conv/act-SiLU/Mul-op1210
+1 845
+2 868 2653
+851 Default/network-YoloWithLossCell/yolo_network-YOLOV5/feature_map-YOLO/conv2-Conv/conv-Conv2d/Conv2D-op1180
+2 799 701
+3 860 1785 1788
+860 Default/network-YoloWithLossCell/yolo_network-YOLOV5/feature_map-YOLO/CSP6-BottleneckCSP/conv3-Conv/bn-BatchNorm2d/BNTrainingUpdate-op4408
+1 851
+6 863 1779 1781 1782 1785 1788
+863 Default/network-YoloWithLossCell/yolo_network-YOLOV5/feature_map-YOLO/backbone-YOLOv5Backbone/focus-Focus/conv-Conv/act-SiLU/Mul-op1220
+1 860
+2 868 2653
+868 Default/network-YoloWithLossCell/yolo_network-YOLOV5/feature_map-YOLO/CSP7-BottleneckCSP/conv3-Conv/conv-Conv2d/Conv2D-op1222
+2 848 863
+3 877 1730 1733
+877 Default/network-YoloWithLossCell/yolo_network-YOLOV5/feature_map-YOLO/CSP7-BottleneckCSP/conv3-Conv/bn-BatchNorm2d/BNTrainingUpdate-op4412
+1 868
+6 880 1724 1726 1727 1730 1733
+880 Default/network-YoloWithLossCell/yolo_network-YOLOV5/feature_map-YOLO/backbone-YOLOv5Backbone/focus-Focus/conv-Conv/act-SiLU/Mul-op1231
+1 877
+4 884 1131 2593 2635
+884 Default/network-YoloWithLossCell/yolo_network-YOLOV5/feature_map-YOLO/conv4-Conv/conv-Conv2d/Conv2D-op1232
+1 880
+3 893 1611 1614
+893 Default/network-YoloWithLossCell/yolo_network-YOLOV5/feature_map-YOLO/CSP7-BottleneckCSP/conv3-Conv/bn-BatchNorm2d/BNTrainingUpdate-op4416
+1 884
+6 896 1605 1607 1608 1611 1614
+896 Default/network-YoloWithLossCell/yolo_network-YOLOV5/feature_map-YOLO/backbone-YOLOv5Backbone/focus-Focus/conv-Conv/act-SiLU/Mul-op1241
+1 893
+4 901 948 2623 2629
+901 Default/network-YoloWithLossCell/yolo_network-YOLOV5/feature_map-YOLO/conv1-Conv/conv-Conv2d/Conv2D-op1245
+2 896 603
+3 910 1581 1584
+910 Default/network-YoloWithLossCell/yolo_network-YOLOV5/feature_map-YOLO/CSP7-BottleneckCSP/conv3-Conv/bn-BatchNorm2d/BNTrainingUpdate-op4420
+1 901
+6 913 1575 1577 1578 1581 1584
+913 Default/network-YoloWithLossCell/yolo_network-YOLOV5/feature_map-YOLO/backbone-YOLOv5Backbone/focus-Focus/conv-Conv/act-SiLU/Mul-op1253
+1 910
+2 917 2611
+917 Default/network-YoloWithLossCell/yolo_network-YOLOV5/feature_map-YOLO/CSP7-BottleneckCSP/conv3-Conv/conv-Conv2d/Conv2D-op1254
+1 913
+3 926 1568 1571
+926 Default/network-YoloWithLossCell/yolo_network-YOLOV5/feature_map-YOLO/CSP7-BottleneckCSP/conv3-Conv/bn-BatchNorm2d/BNTrainingUpdate-op4424
+1 917
+6 929 1562 1564 1565 1568 1571
+929 Default/network-YoloWithLossCell/yolo_network-YOLOV5/feature_map-YOLO/backbone-YOLOv5Backbone/focus-Focus/conv-Conv/act-SiLU/Mul-op1263
+1 926
+2 933 2605
+933 Default/network-YoloWithLossCell/yolo_network-YOLOV5/feature_map-YOLO/CSP8-BottleneckCSP/m-SequentialCell/0-Bottleneck/conv2-Conv/conv-Conv2d/Conv2D-op1264
+1 929
+3 942 1555 1558
+942 Default/network-YoloWithLossCell/yolo_network-YOLOV5/feature_map-YOLO/CSP7-BottleneckCSP/conv3-Conv/bn-BatchNorm2d/BNTrainingUpdate-op4428
+1 933
+6 945 1549 1551 1552 1555 1558
+945 Default/network-YoloWithLossCell/yolo_network-YOLOV5/feature_map-YOLO/backbone-YOLOv5Backbone/focus-Focus/conv-Conv/act-SiLU/Mul-op1273
+1 942
+2 965 2617
+948 Default/network-YoloWithLossCell/yolo_network-YOLOV5/feature_map-YOLO/conv1-Conv/conv-Conv2d/Conv2D-op1243
+2 896 603
+3 957 1595 1598
+957 Default/network-YoloWithLossCell/yolo_network-YOLOV5/feature_map-YOLO/CSP7-BottleneckCSP/conv3-Conv/bn-BatchNorm2d/BNTrainingUpdate-op4432
+1 948
+6 960 1589 1591 1592 1595 1598
+960 Default/network-YoloWithLossCell/yolo_network-YOLOV5/feature_map-YOLO/backbone-YOLOv5Backbone/focus-Focus/conv-Conv/act-SiLU/Mul-op1283
+1 957
+2 965 2617
+965 Default/network-YoloWithLossCell/yolo_network-YOLOV5/feature_map-YOLO/CSP8-BottleneckCSP/conv3-Conv/conv-Conv2d/Conv2D-op1285
+2 945 960
+3 974 1540 1543
+974 Default/network-YoloWithLossCell/yolo_network-YOLOV5/feature_map-YOLO/CSP8-BottleneckCSP/conv3-Conv/bn-BatchNorm2d/BNTrainingUpdate-op4436
+1 965
+6 977 1534 1536 1537 1540 1543
+977 Default/network-YoloWithLossCell/yolo_network-YOLOV5/feature_map-YOLO/backbone-YOLOv5Backbone/focus-Focus/conv-Conv/act-SiLU/Mul-op1294
+1 974
+2 981 2587
+981 Default/network-YoloWithLossCell/yolo_network-YOLOV5/feature_map-YOLO/back_block3-YoloBlock/conv-Conv2d/Conv2D-op1296
+1 977
+1 987
+985 Default/network-YoloWithLossCell/yolo_network-YOLOV5/feature_map-YOLO/back_block3-YoloBlock/conv-Conv2d/TransData-op6041
+0
+1 987
+987 Default/network-YoloWithLossCell/yolo_network-YOLOV5/feature_map-YOLO/back_block3-YoloBlock/conv-Conv2d/TransData-op6042
+2 981 985
+7 992 998 1069 1071 1117 1516 1527
+992 Default/network-YoloWithLossCell/yolo_network-YOLOV5/detect_1-DetectionBlock/Mul-op1303
+1 987
+3 1092 1097 1506
+998 Default/network-YoloWithLossCell/yolo_network-YOLOV5/feature_map-YOLO/backbone-YOLOv5Backbone/focus-Focus/conv-Conv/act-SiLU/Mul-op1308
+1 987
+3 1092 1097 1506
+1069 Default/network-YoloWithLossCell/yolo_network-YOLOV5/feature_map-YOLO/backbone-YOLOv5Backbone/focus-Focus/conv-Conv/act-SiLU/Mul-op521
+1 987
+0
+1071 Default/network-YoloWithLossCell/yolo_network-YOLOV5/feature_map-YOLO/backbone-YOLOv5Backbone/focus-Focus/conv-Conv/act-SiLU/Mul-op1365
+1 987
+1 1110
+1092 Default/network-YoloWithLossCell/yolo_network-YOLOV5/feature_map-YOLO/backbone-YOLOv5Backbone/focus-Focus/conv-Conv/act-SiLU/Mul-op1378
+2 992 998
+2 1110 1519
+1097 Default/network-YoloWithLossCell/yolo_network-YOLOV5/feature_map-YOLO/backbone-YOLOv5Backbone/focus-Focus/conv-Conv/act-SiLU/Mul-op1380
+2 992 998
+2 1110 1519
+1102 Default/network-YoloWithLossCell/yolo_network-YOLOV5/feature_map-YOLO/backbone-YOLOv5Backbone/focus-Focus/conv-Conv/act-SiLU/Mul-op1382
+0
+2 1110 1519
+1110 Default/network-YoloWithLossCell/yolo_network-YOLOV5/feature_map-YOLO/backbone-YOLOv5Backbone/focus-Focus/conv-Conv/act-SiLU/Mul-op1368
+4 1071 1092 1097 1102
+0
+1117 Default/network-YoloWithLossCell/yolo_network-YOLOV5/feature_map-YOLO/backbone-YOLOv5Backbone/focus-Focus/conv-Conv/act-SiLU/Mul-op520
+1 987
+0
+1125 Default/network-YoloWithLossCell/yolo_network-YOLOV5/feature_map-YOLO/backbone-YOLOv5Backbone/focus-Focus/conv-Conv/act-SiLU/Mul-op1400
+0
+1 1695
+1131 Default/network-YoloWithLossCell/yolo_network-YOLOV5/feature_map-YOLO/back_block2-YoloBlock/conv-Conv2d/Conv2D-op1406
+1 880
+1 1137
+1135 Default/network-YoloWithLossCell/yolo_network-YOLOV5/feature_map-YOLO/back_block2-YoloBlock/conv-Conv2d/TransData-op6037
+0
+1 1137
+1137 Default/network-YoloWithLossCell/yolo_network-YOLOV5/feature_map-YOLO/back_block2-YoloBlock/conv-Conv2d/TransData-op6038
+2 1131 1135
+7 1142 1148 1219 1221 1267 1705 1716
+1142 Default/network-YoloWithLossCell/yolo_network-YOLOV5/detect_1-DetectionBlock/Mul-op1412
+1 1137
+3 1242 1247 1695
+1148 Default/network-YoloWithLossCell/yolo_network-YOLOV5/feature_map-YOLO/backbone-YOLOv5Backbone/focus-Focus/conv-Conv/act-SiLU/Mul-op1417
+1 1137
+3 1242 1247 1695
+1219 Default/network-YoloWithLossCell/yolo_network-YOLOV5/feature_map-YOLO/backbone-YOLOv5Backbone/focus-Focus/conv-Conv/act-SiLU/Mul-op580
+1 1137
+0
+1221 Default/network-YoloWithLossCell/yolo_network-YOLOV5/feature_map-YOLO/backbone-YOLOv5Backbone/focus-Focus/conv-Conv/act-SiLU/Mul-op1474
+1 1137
+1 1260
+1242 Default/network-YoloWithLossCell/yolo_network-YOLOV5/feature_map-YOLO/backbone-YOLOv5Backbone/focus-Focus/conv-Conv/act-SiLU/Mul-op1487
+2 1142 1148
+2 1260 1708
+1247 Default/network-YoloWithLossCell/yolo_network-YOLOV5/feature_map-YOLO/backbone-YOLOv5Backbone/focus-Focus/conv-Conv/act-SiLU/Mul-op1489
+2 1142 1148
+2 1260 1708
+1252 Default/network-YoloWithLossCell/yolo_network-YOLOV5/feature_map-YOLO/backbone-YOLOv5Backbone/focus-Focus/conv-Conv/act-SiLU/Mul-op1491
+0
+2 1260 1708
+1260 Default/network-YoloWithLossCell/yolo_network-YOLOV5/feature_map-YOLO/backbone-YOLOv5Backbone/focus-Focus/conv-Conv/act-SiLU/Mul-op1477
+4 1221 1242 1247 1252
+0
+1267 Default/network-YoloWithLossCell/yolo_network-YOLOV5/feature_map-YOLO/backbone-YOLOv5Backbone/focus-Focus/conv-Conv/act-SiLU/Mul-op579
+1 1137
+0
+1276 Default/network-YoloWithLossCell/yolo_network-YOLOV5/feature_map-YOLO/backbone-YOLOv5Backbone/focus-Focus/conv-Conv/act-SiLU/Mul-op1509
+0
+1 1885
+1282 Default/network-YoloWithLossCell/yolo_network-YOLOV5/feature_map-YOLO/back_block1-YoloBlock/conv-Conv2d/Conv2D-op1515
+1 783
+1 1288
+1286 Default/network-YoloWithLossCell/yolo_network-YOLOV5/feature_map-YOLO/back_block1-YoloBlock/conv-Conv2d/TransData-op6033
+0
+1 1288
+1288 Default/network-YoloWithLossCell/yolo_network-YOLOV5/feature_map-YOLO/back_block1-YoloBlock/conv-Conv2d/TransData-op6034
+2 1282 1286
+7 1293 1299 1370 1372 1418 1895 1906
+1293 Default/network-YoloWithLossCell/yolo_network-YOLOV5/detect_1-DetectionBlock/Mul-op1521
+1 1288
+3 1393 1398 1885
+1299 Default/network-YoloWithLossCell/yolo_network-YOLOV5/feature_map-YOLO/backbone-YOLOv5Backbone/focus-Focus/conv-Conv/act-SiLU/Mul-op1526
+1 1288
+3 1393 1398 1885
+1370 Default/network-YoloWithLossCell/yolo_network-YOLOV5/feature_map-YOLO/backbone-YOLOv5Backbone/focus-Focus/conv-Conv/act-SiLU/Mul-op639
+1 1288
+0
+1372 Default/network-YoloWithLossCell/yolo_network-YOLOV5/feature_map-YOLO/backbone-YOLOv5Backbone/focus-Focus/conv-Conv/act-SiLU/Mul-op1583
+1 1288
+1 1411
+1393 Default/network-YoloWithLossCell/yolo_network-YOLOV5/feature_map-YOLO/backbone-YOLOv5Backbone/focus-Focus/conv-Conv/act-SiLU/Mul-op1596
+2 1293 1299
+2 1411 1898
+1398 Default/network-YoloWithLossCell/yolo_network-YOLOV5/feature_map-YOLO/backbone-YOLOv5Backbone/focus-Focus/conv-Conv/act-SiLU/Mul-op1598
+2 1293 1299
+2 1411 1898
+1403 Default/network-YoloWithLossCell/yolo_network-YOLOV5/feature_map-YOLO/backbone-YOLOv5Backbone/focus-Focus/conv-Conv/act-SiLU/Mul-op1600
+0
+2 1411 1898
+1411 Default/network-YoloWithLossCell/yolo_network-YOLOV5/feature_map-YOLO/backbone-YOLOv5Backbone/focus-Focus/conv-Conv/act-SiLU/Mul-op1586
+4 1372 1393 1398 1403
+0
+1418 Default/network-YoloWithLossCell/yolo_network-YOLOV5/feature_map-YOLO/backbone-YOLOv5Backbone/focus-Focus/conv-Conv/act-SiLU/Mul-op638
+1 1288
+0
+1506 Default/AddN-op1699
+3 992 998 5
+2 1510 1515
+1510 Gradients/Default/network-YoloWithLossCell/gradMul/Mul-op1703
+1 1506
+1 1527
+1515 Gradients/Default/network-YoloWithLossCell/gradMul/Mul-op1708
+1 1506
+1 1516
+1516 Gradients/Default/network-YoloWithLossCell/yolo_network-YOLOV5/detect_1-DetectionBlock/gradExp/Mul-op1709
+2 987 1515
+1 1527
+1518 Gradients/Default/network-YoloWithLossCell/gradMul/Mul-op1711
+0
+1 1521
+1519 Gradients/Default/network-YoloWithLossCell/gradMul/Mul-op1388
+3 1092 1097 1102
+1 1520
+1520 Gradients/Default/network-YoloWithLossCell/gradMul/Mul-op1367
+1 1519
+1 1521
+1521 Default/network-YoloWithLossCell/yolo_network-YOLOV5/feature_map-YOLO/backbone-YOLOv5Backbone/focus-Focus/conv-Conv/act-SiLU/AddN-op1713
+2 1518 1520
+1 1527
+1524 Gradients/Default/network-YoloWithLossCell/gradMul/Mul-op660
+0
+1 1527
+1527 Default/AddN-op1717
+5 987 1510 1516 1521 1524
+1 1530
+1530 Gradients/Default/network-YoloWithLossCell/yolo_network-YOLOV5/detect_1-DetectionBlock/gradReshape/TransData-op6840
+1 1527
+2 1532 2587
+1532 Gradients/Default/network-YoloWithLossCell/yolo_network-YOLOV5/feature_map-YOLO/back_block1-YoloBlock/conv-Conv2d/gradConv2D/Conv2DBackpropInput-op1720
+1 1530
+2 1534 1536
+1534 Gradients/Default/network-YoloWithLossCell/gradMul/Mul-op1721
+2 974 1532
+1 1537
+1536 Gradients/Default/network-YoloWithLossCell/gradMul/Mul-op1723
+2 974 1532
+1 1537
+1537 Default/network-YoloWithLossCell/yolo_network-YOLOV5/feature_map-YOLO/backbone-YOLOv5Backbone/focus-Focus/conv-Conv/act-SiLU/AddN-op1725
+3 974 1534 1536
+2 1540 1543
+1540 Gradients/Default/network-YoloWithLossCell/yolo_network-YOLOV5/feature_map-YOLO/CSP7-BottleneckCSP/conv3-Conv/bn-BatchNorm2d/gradBatchNorm/BNTrainingUpdateGrad-op4437
+3 1537 965 974
+1 1543
+1543 Gradients/Default/network-YoloWithLossCell/yolo_network-YOLOV5/feature_map-YOLO/CSP7-BottleneckCSP/conv3-Conv/bn-BatchNorm2d/gradBatchNorm/BNTrainingReduceGrad-op4440
+4 1537 965 1540 974
+2 1545 2617
+1545 Gradients/Default/network-YoloWithLossCell/yolo_network-YOLOV5/feature_map-YOLO/CSP8-BottleneckCSP/conv3-Conv/conv-Conv2d/gradConv2D/Conv2DBackpropInput-op1731
+1 1543
+4 1549 1551 1589 1591
+1549 Gradients/Default/network-YoloWithLossCell/gradMul/Mul-op1734
+2 942 1545
+1 1552
+1551 Gradients/Default/network-YoloWithLossCell/gradMul/Mul-op1736
+2 942 1545
+1 1552
+1552 Default/network-YoloWithLossCell/yolo_network-YOLOV5/feature_map-YOLO/backbone-YOLOv5Backbone/focus-Focus/conv-Conv/act-SiLU/AddN-op1738
+3 942 1549 1551
+2 1555 1558
+1555 Gradients/Default/network-YoloWithLossCell/yolo_network-YOLOV5/feature_map-YOLO/CSP7-BottleneckCSP/conv3-Conv/bn-BatchNorm2d/gradBatchNorm/BNTrainingUpdateGrad-op4442
+3 1552 933 942
+1 1558
+1558 Gradients/Default/network-YoloWithLossCell/yolo_network-YOLOV5/feature_map-YOLO/CSP7-BottleneckCSP/conv3-Conv/bn-BatchNorm2d/gradBatchNorm/BNTrainingReduceGrad-op4445
+4 1552 933 1555 942
+2 1560 2605
+1560 Gradients/Default/network-YoloWithLossCell/yolo_network-YOLOV5/feature_map-YOLO/CSP8-BottleneckCSP/m-SequentialCell/0-Bottleneck/conv2-Conv/conv-Conv2d/gradConv2D/Conv2DBackpropInput-op1744
+1 1558
+2 1562 1564
+1562 Gradients/Default/network-YoloWithLossCell/gradMul/Mul-op1745
+2 926 1560
+1 1565
+1564 Gradients/Default/network-YoloWithLossCell/gradMul/Mul-op1747
+2 926 1560
+1 1565
+1565 Default/network-YoloWithLossCell/yolo_network-YOLOV5/feature_map-YOLO/backbone-YOLOv5Backbone/focus-Focus/conv-Conv/act-SiLU/AddN-op1749
+3 926 1562 1564
+2 1568 1571
+1568 Gradients/Default/network-YoloWithLossCell/yolo_network-YOLOV5/feature_map-YOLO/CSP7-BottleneckCSP/conv3-Conv/bn-BatchNorm2d/gradBatchNorm/BNTrainingUpdateGrad-op4447
+3 1565 917 926
+1 1571
+1571 Gradients/Default/network-YoloWithLossCell/yolo_network-YOLOV5/feature_map-YOLO/CSP7-BottleneckCSP/conv3-Conv/bn-BatchNorm2d/gradBatchNorm/BNTrainingReduceGrad-op4450
+4 1565 917 1568 926
+2 1573 2611
+1573 Gradients/Default/network-YoloWithLossCell/yolo_network-YOLOV5/feature_map-YOLO/conv1-Conv/conv-Conv2d/gradConv2D/Conv2DBackpropInput-op1755
+1 1571
+2 1575 1577
+1575 Gradients/Default/network-YoloWithLossCell/gradMul/Mul-op1756
+2 910 1573
+1 1578
+1577 Gradients/Default/network-YoloWithLossCell/gradMul/Mul-op1758
+2 910 1573
+1 1578
+1578 Default/network-YoloWithLossCell/yolo_network-YOLOV5/feature_map-YOLO/backbone-YOLOv5Backbone/focus-Focus/conv-Conv/act-SiLU/AddN-op1760
+3 910 1575 1577
+2 1581 1584
+1581 Gradients/Default/network-YoloWithLossCell/yolo_network-YOLOV5/feature_map-YOLO/CSP7-BottleneckCSP/conv3-Conv/bn-BatchNorm2d/gradBatchNorm/BNTrainingUpdateGrad-op4452
+3 1578 901 910
+1 1584
+1584 Gradients/Default/network-YoloWithLossCell/yolo_network-YOLOV5/feature_map-YOLO/CSP7-BottleneckCSP/conv3-Conv/bn-BatchNorm2d/gradBatchNorm/BNTrainingReduceGrad-op4455
+4 1578 901 1581 910
+2 1586 2629
+1586 Gradients/Default/network-YoloWithLossCell/yolo_network-YOLOV5/feature_map-YOLO/conv1-Conv/conv-Conv2d/gradConv2D/Conv2DBackpropInput-op1766
+1 1584
+1 1602
+1589 Gradients/Default/network-YoloWithLossCell/gradMul/Mul-op1768
+2 957 1545
+1 1592
+1591 Gradients/Default/network-YoloWithLossCell/gradMul/Mul-op1770
+2 957 1545
+1 1592
+1592 Default/network-YoloWithLossCell/yolo_network-YOLOV5/feature_map-YOLO/backbone-YOLOv5Backbone/focus-Focus/conv-Conv/act-SiLU/AddN-op1772
+3 957 1589 1591
+2 1595 1598
+1595 Gradients/Default/network-YoloWithLossCell/yolo_network-YOLOV5/feature_map-YOLO/CSP7-BottleneckCSP/conv3-Conv/bn-BatchNorm2d/gradBatchNorm/BNTrainingUpdateGrad-op4457
+3 1592 948 957
+1 1598
+1598 Gradients/Default/network-YoloWithLossCell/yolo_network-YOLOV5/feature_map-YOLO/CSP7-BottleneckCSP/conv3-Conv/bn-BatchNorm2d/gradBatchNorm/BNTrainingReduceGrad-op4460
+4 1592 948 1595 957
+2 1600 2623
+1600 Gradients/Default/network-YoloWithLossCell/yolo_network-YOLOV5/feature_map-YOLO/conv1-Conv/conv-Conv2d/gradConv2D/Conv2DBackpropInput-op1778
+1 1598
+1 1602
+1602 Default/network-YoloWithLossCell/yolo_network-YOLOV5/feature_map-YOLO/conv1-Conv/conv-Conv2d/AddN-op1780
+2 1586 1600
+3 1605 1607 2074
+1605 Gradients/Default/network-YoloWithLossCell/gradMul/Mul-op1783
+2 893 1602
+1 1608
+1607 Gradients/Default/network-YoloWithLossCell/gradMul/Mul-op1785
+2 893 1602
+1 1608
+1608 Default/network-YoloWithLossCell/yolo_network-YOLOV5/feature_map-YOLO/backbone-YOLOv5Backbone/focus-Focus/conv-Conv/act-SiLU/AddN-op1787
+3 893 1605 1607
+2 1611 1614
+1611 Gradients/Default/network-YoloWithLossCell/yolo_network-YOLOV5/feature_map-YOLO/CSP7-BottleneckCSP/conv3-Conv/bn-BatchNorm2d/gradBatchNorm/BNTrainingUpdateGrad-op4462
+3 1608 884 893
+1 1614
+1614 Gradients/Default/network-YoloWithLossCell/yolo_network-YOLOV5/feature_map-YOLO/CSP7-BottleneckCSP/conv3-Conv/bn-BatchNorm2d/gradBatchNorm/BNTrainingReduceGrad-op4465
+4 1608 884 1611 893
+2 1616 2635
+1616 Gradients/Default/network-YoloWithLossCell/yolo_network-YOLOV5/feature_map-YOLO/conv4-Conv/conv-Conv2d/gradConv2D/Conv2DBackpropInput-op1793
+1 1614
+1 1723
+1695 Default/AddN-op1872
+3 1142 1148 1125
+2 1699 1704
+1699 Gradients/Default/network-YoloWithLossCell/gradMul/Mul-op1876
+1 1695
+1 1716
+1704 Gradients/Default/network-YoloWithLossCell/gradMul/Mul-op1881
+1 1695
+1 1705
+1705 Gradients/Default/network-YoloWithLossCell/yolo_network-YOLOV5/detect_1-DetectionBlock/gradExp/Mul-op1882
+2 1137 1704
+1 1716
+1707 Gradients/Default/network-YoloWithLossCell/gradMul/Mul-op1884
+0
+1 1710
+1708 Gradients/Default/network-YoloWithLossCell/gradMul/Mul-op1497
+3 1242 1247 1252
+1 1709
+1709 Gradients/Default/network-YoloWithLossCell/gradMul/Mul-op1476
+1 1708
+1 1710
+1710 Default/network-YoloWithLossCell/yolo_network-YOLOV5/feature_map-YOLO/backbone-YOLOv5Backbone/focus-Focus/conv-Conv/act-SiLU/AddN-op1886
+2 1707 1709
+1 1716
+1713 Gradients/Default/network-YoloWithLossCell/gradMul/Mul-op1395
+0
+1 1716
+1716 Default/AddN-op1890
+5 1137 1699 1705 1710 1713
+1 1719
+1719 Gradients/Default/network-YoloWithLossCell/yolo_network-YOLOV5/detect_1-DetectionBlock/gradReshape/TransData-op6831
+1 1716
+2 1721 2593
+1721 Gradients/Default/network-YoloWithLossCell/yolo_network-YOLOV5/feature_map-YOLO/back_block1-YoloBlock/conv-Conv2d/gradConv2D/Conv2DBackpropInput-op1893
+1 1719
+1 1723
+1723 Default/network-YoloWithLossCell/yolo_network-YOLOV5/feature_map-YOLO/back_block2-YoloBlock/conv-Conv2d/AddN-op1895
+2 1616 1721
+2 1724 1726
+1724 Gradients/Default/network-YoloWithLossCell/gradMul/Mul-op1897
+2 877 1723
+1 1727
+1726 Gradients/Default/network-YoloWithLossCell/gradMul/Mul-op1896
+2 877 1723
+1 1727
+1727 Default/network-YoloWithLossCell/yolo_network-YOLOV5/feature_map-YOLO/backbone-YOLOv5Backbone/focus-Focus/conv-Conv/act-SiLU/AddN-op1900
+3 877 1724 1726
+2 1730 1733
+1730 Gradients/Default/network-YoloWithLossCell/yolo_network-YOLOV5/feature_map-YOLO/CSP7-BottleneckCSP/conv3-Conv/bn-BatchNorm2d/gradBatchNorm/BNTrainingUpdateGrad-op4467
+3 1727 868 877
+1 1733
+1733 Gradients/Default/network-YoloWithLossCell/yolo_network-YOLOV5/feature_map-YOLO/CSP7-BottleneckCSP/conv3-Conv/bn-BatchNorm2d/gradBatchNorm/BNTrainingReduceGrad-op4470
+4 1727 868 1730 877
+2 1735 2653
+1735 Gradients/Default/network-YoloWithLossCell/yolo_network-YOLOV5/feature_map-YOLO/conv1-Conv/conv-Conv2d/gradConv2D/Conv2DBackpropInput-op1906
+1 1733
+4 1739 1741 1779 1781
+1739 Gradients/Default/network-YoloWithLossCell/gradMul/Mul-op1909
+2 845 1735
+1 1742
+1741 Gradients/Default/network-YoloWithLossCell/gradMul/Mul-op1911
+2 845 1735
+1 1742
+1742 Default/network-YoloWithLossCell/yolo_network-YOLOV5/feature_map-YOLO/backbone-YOLOv5Backbone/focus-Focus/conv-Conv/act-SiLU/AddN-op1913
+3 845 1739 1741
+2 1745 1748
+1745 Gradients/Default/network-YoloWithLossCell/yolo_network-YOLOV5/feature_map-YOLO/CSP7-BottleneckCSP/conv3-Conv/bn-BatchNorm2d/gradBatchNorm/BNTrainingUpdateGrad-op4472
+3 1742 836 845
+1 1748
+1748 Gradients/Default/network-YoloWithLossCell/yolo_network-YOLOV5/feature_map-YOLO/CSP7-BottleneckCSP/conv3-Conv/bn-BatchNorm2d/gradBatchNorm/BNTrainingReduceGrad-op4475
+4 1742 836 1745 845
+2 1750 2641
+1750 Gradients/Default/network-YoloWithLossCell/yolo_network-YOLOV5/feature_map-YOLO/CSP7-BottleneckCSP/m-SequentialCell/0-Bottleneck/conv2-Conv/conv-Conv2d/gradConv2D/Conv2DBackpropInput-op1919
+1 1748
+2 1752 1754
+1752 Gradients/Default/network-YoloWithLossCell/gradMul/Mul-op1920
+2 829 1750
+1 1755
+1754 Gradients/Default/network-YoloWithLossCell/gradMul/Mul-op1922
+2 829 1750
+1 1755
+1755 Default/network-YoloWithLossCell/yolo_network-YOLOV5/feature_map-YOLO/backbone-YOLOv5Backbone/focus-Focus/conv-Conv/act-SiLU/AddN-op1924
+3 829 1752 1754
+2 1758 1761
+1758 Gradients/Default/network-YoloWithLossCell/yolo_network-YOLOV5/feature_map-YOLO/CSP7-BottleneckCSP/conv3-Conv/bn-BatchNorm2d/gradBatchNorm/BNTrainingUpdateGrad-op4477
+3 1755 820 829
+1 1761
+1761 Gradients/Default/network-YoloWithLossCell/yolo_network-YOLOV5/feature_map-YOLO/CSP7-BottleneckCSP/conv3-Conv/bn-BatchNorm2d/gradBatchNorm/BNTrainingReduceGrad-op4480
+4 1755 820 1758 829
+2 1763 2647
+1763 Gradients/Default/network-YoloWithLossCell/yolo_network-YOLOV5/feature_map-YOLO/conv2-Conv/conv-Conv2d/gradConv2D/Conv2DBackpropInput-op1930
+1 1761
+2 1765 1767
+1765 Gradients/Default/network-YoloWithLossCell/gradMul/Mul-op1931
+2 813 1763
+1 1768
+1767 Gradients/Default/network-YoloWithLossCell/gradMul/Mul-op1933
+2 813 1763
+1 1768
+1768 Default/network-YoloWithLossCell/yolo_network-YOLOV5/feature_map-YOLO/backbone-YOLOv5Backbone/focus-Focus/conv-Conv/act-SiLU/AddN-op1935
+3 813 1765 1767
+2 1771 1774
+1771 Gradients/Default/network-YoloWithLossCell/yolo_network-YOLOV5/feature_map-YOLO/CSP7-BottleneckCSP/conv3-Conv/bn-BatchNorm2d/gradBatchNorm/BNTrainingUpdateGrad-op4482
+3 1768 804 813
+1 1774
+1774 Gradients/Default/network-YoloWithLossCell/yolo_network-YOLOV5/feature_map-YOLO/CSP7-BottleneckCSP/conv3-Conv/bn-BatchNorm2d/gradBatchNorm/BNTrainingReduceGrad-op4485
+4 1768 804 1771 813
+2 1776 2665
+1776 Gradients/Default/network-YoloWithLossCell/yolo_network-YOLOV5/feature_map-YOLO/conv2-Conv/conv-Conv2d/gradConv2D/Conv2DBackpropInput-op1941
+1 1774
+1 1792
+1779 Gradients/Default/network-YoloWithLossCell/gradMul/Mul-op1943
+2 860 1735
+1 1782
+1781 Gradients/Default/network-YoloWithLossCell/gradMul/Mul-op1945
+2 860 1735
+1 1782
+1782 Default/network-YoloWithLossCell/yolo_network-YOLOV5/feature_map-YOLO/backbone-YOLOv5Backbone/focus-Focus/conv-Conv/act-SiLU/AddN-op1947
+3 860 1779 1781
+2 1785 1788
+1785 Gradients/Default/network-YoloWithLossCell/yolo_network-YOLOV5/feature_map-YOLO/CSP7-BottleneckCSP/conv3-Conv/bn-BatchNorm2d/gradBatchNorm/BNTrainingUpdateGrad-op4487
+3 1782 851 860
+1 1788
+1788 Gradients/Default/network-YoloWithLossCell/yolo_network-YOLOV5/feature_map-YOLO/CSP7-BottleneckCSP/conv3-Conv/bn-BatchNorm2d/gradBatchNorm/BNTrainingReduceGrad-op4490
+4 1782 851 1785 860
+2 1790 2659
+1790 Gradients/Default/network-YoloWithLossCell/yolo_network-YOLOV5/feature_map-YOLO/conv2-Conv/conv-Conv2d/gradConv2D/Conv2DBackpropInput-op1953
+1 1788
+1 1792
+1792 Default/network-YoloWithLossCell/yolo_network-YOLOV5/feature_map-YOLO/conv2-Conv/conv-Conv2d/AddN-op1955
+2 1776 1790
+3 1795 1797 1987
+1795 Gradients/Default/network-YoloWithLossCell/gradMul/Mul-op1958
+2 796 1792
+1 1798
+1797 Gradients/Default/network-YoloWithLossCell/gradMul/Mul-op1960
+2 796 1792
+1 1798
+1798 Default/network-YoloWithLossCell/yolo_network-YOLOV5/feature_map-YOLO/backbone-YOLOv5Backbone/focus-Focus/conv-Conv/act-SiLU/AddN-op1962
+3 796 1795 1797
+2 1801 1804
+1801 Gradients/Default/network-YoloWithLossCell/yolo_network-YOLOV5/feature_map-YOLO/CSP7-BottleneckCSP/conv3-Conv/bn-BatchNorm2d/gradBatchNorm/BNTrainingUpdateGrad-op4492
+3 1798 787 796
+1 1804
+1804 Gradients/Default/network-YoloWithLossCell/yolo_network-YOLOV5/feature_map-YOLO/CSP7-BottleneckCSP/conv3-Conv/bn-BatchNorm2d/gradBatchNorm/BNTrainingReduceGrad-op4495
+4 1798 787 1801 796
+2 1806 2671
+1806 Gradients/Default/network-YoloWithLossCell/yolo_network-YOLOV5/feature_map-YOLO/conv3-Conv/conv-Conv2d/gradConv2D/Conv2DBackpropInput-op1968
+1 1804
+1 1913
+1885 Default/AddN-op2047
+3 1293 1299 1276
+2 1889 1894
+1889 Gradients/Default/network-YoloWithLossCell/gradMul/Mul-op2051
+1 1885
+1 1906
+1894 Gradients/Default/network-YoloWithLossCell/gradMul/Mul-op2056
+1 1885
+1 1895
+1895 Gradients/Default/network-YoloWithLossCell/yolo_network-YOLOV5/detect_1-DetectionBlock/gradExp/Mul-op2057
+2 1288 1894
+1 1906
+1897 Gradients/Default/network-YoloWithLossCell/gradMul/Mul-op2059
+0
+1 1900
+1898 Gradients/Default/network-YoloWithLossCell/gradMul/Mul-op1606
+3 1393 1398 1403
+1 1899
+1899 Gradients/Default/network-YoloWithLossCell/gradMul/Mul-op1585
+1 1898
+1 1900
+1900 Default/network-YoloWithLossCell/yolo_network-YOLOV5/feature_map-YOLO/backbone-YOLOv5Backbone/focus-Focus/conv-Conv/act-SiLU/AddN-op2061
+2 1897 1899
+1 1906
+1903 Gradients/Default/network-YoloWithLossCell/gradMul/Mul-op1504
+0
+1 1906
+1906 Default/AddN-op2065
+5 1288 1889 1895 1900 1903
+1 1909
+1909 Gradients/Default/network-YoloWithLossCell/yolo_network-YOLOV5/detect_1-DetectionBlock/gradReshape/TransData-op6822
+1 1906
+2 1911 2599
+1911 Gradients/Default/network-YoloWithLossCell/yolo_network-YOLOV5/feature_map-YOLO/back_block1-YoloBlock/conv-Conv2d/gradConv2D/Conv2DBackpropInput-op2068
+1 1909
+1 1913
+1913 Default/network-YoloWithLossCell/yolo_network-YOLOV5/feature_map-YOLO/back_block1-YoloBlock/conv-Conv2d/AddN-op2070
+2 1806 1911
+2 1914 1916
+1914 Gradients/Default/network-YoloWithLossCell/gradMul/Mul-op2072
+2 780 1913
+1 1917
+1916 Gradients/Default/network-YoloWithLossCell/gradMul/Mul-op2071
+2 780 1913
+1 1917
+1917 Default/network-YoloWithLossCell/yolo_network-YOLOV5/feature_map-YOLO/backbone-YOLOv5Backbone/focus-Focus/conv-Conv/act-SiLU/AddN-op2075
+3 780 1914 1916
+2 1920 1923
+1920 Gradients/Default/network-YoloWithLossCell/yolo_network-YOLOV5/feature_map-YOLO/CSP7-BottleneckCSP/conv3-Conv/bn-BatchNorm2d/gradBatchNorm/BNTrainingUpdateGrad-op4497
+3 1917 771 780
+1 1923
+1923 Gradients/Default/network-YoloWithLossCell/yolo_network-YOLOV5/feature_map-YOLO/CSP7-BottleneckCSP/conv3-Conv/bn-BatchNorm2d/gradBatchNorm/BNTrainingReduceGrad-op4500
+4 1917 771 1920 780
+2 1925 2689
+1925 Gradients/Default/network-YoloWithLossCell/yolo_network-YOLOV5/feature_map-YOLO/conv2-Conv/conv-Conv2d/gradConv2D/Conv2DBackpropInput-op2081
+1 1923
+4 1929 1931 1969 1971
+1929 Gradients/Default/network-YoloWithLossCell/gradMul/Mul-op2084
+2 748 1925
+1 1932
+1931 Gradients/Default/network-YoloWithLossCell/gradMul/Mul-op2086
+2 748 1925
+1 1932
+1932 Default/network-YoloWithLossCell/yolo_network-YOLOV5/feature_map-YOLO/backbone-YOLOv5Backbone/focus-Focus/conv-Conv/act-SiLU/AddN-op2088
+3 748 1929 1931
+2 1935 1938
+1935 Gradients/Default/network-YoloWithLossCell/yolo_network-YOLOV5/feature_map-YOLO/CSP7-BottleneckCSP/conv3-Conv/bn-BatchNorm2d/gradBatchNorm/BNTrainingUpdateGrad-op4502
+3 1932 739 748
+1 1938
+1938 Gradients/Default/network-YoloWithLossCell/yolo_network-YOLOV5/feature_map-YOLO/CSP7-BottleneckCSP/conv3-Conv/bn-BatchNorm2d/gradBatchNorm/BNTrainingReduceGrad-op4505
+4 1932 739 1935 748
+2 1940 2677
+1940 Gradients/Default/network-YoloWithLossCell/yolo_network-YOLOV5/feature_map-YOLO/CSP6-BottleneckCSP/m-SequentialCell/0-Bottleneck/conv2-Conv/conv-Conv2d/gradConv2D/Conv2DBackpropInput-op2094
+1 1938
+2 1942 1944
+1942 Gradients/Default/network-YoloWithLossCell/gradMul/Mul-op2095
+2 732 1940
+1 1945
+1944 Gradients/Default/network-YoloWithLossCell/gradMul/Mul-op2097
+2 732 1940
+1 1945
+1945 Default/network-YoloWithLossCell/yolo_network-YOLOV5/feature_map-YOLO/backbone-YOLOv5Backbone/focus-Focus/conv-Conv/act-SiLU/AddN-op2099
+3 732 1942 1944
+2 1948 1951
+1948 Gradients/Default/network-YoloWithLossCell/yolo_network-YOLOV5/feature_map-YOLO/CSP7-BottleneckCSP/conv3-Conv/bn-BatchNorm2d/gradBatchNorm/BNTrainingUpdateGrad-op4507
+3 1945 723 732
+1 1951
+1951 Gradients/Default/network-YoloWithLossCell/yolo_network-YOLOV5/feature_map-YOLO/CSP7-BottleneckCSP/conv3-Conv/bn-BatchNorm2d/gradBatchNorm/BNTrainingReduceGrad-op4510
+4 1945 723 1948 732
+2 1953 2683
+1953 Gradients/Default/network-YoloWithLossCell/yolo_network-YOLOV5/feature_map-YOLO/CSP6-BottleneckCSP/conv2-Conv/conv-Conv2d/gradConv2D/Conv2DBackpropInput-op2105
+1 1951
+2 1955 1957
+1955 Gradients/Default/network-YoloWithLossCell/gradMul/Mul-op2106
+2 716 1953
+1 1958
+1957 Gradients/Default/network-YoloWithLossCell/gradMul/Mul-op2108
+2 716 1953
+1 1958
+1958 Default/network-YoloWithLossCell/yolo_network-YOLOV5/feature_map-YOLO/backbone-YOLOv5Backbone/focus-Focus/conv-Conv/act-SiLU/AddN-op2110
+3 716 1955 1957
+2 1961 1964
+1961 Gradients/Default/network-YoloWithLossCell/yolo_network-YOLOV5/feature_map-YOLO/CSP7-BottleneckCSP/conv3-Conv/bn-BatchNorm2d/gradBatchNorm/BNTrainingUpdateGrad-op4512
+3 1958 707 716
+1 1964
+1964 Gradients/Default/network-YoloWithLossCell/yolo_network-YOLOV5/feature_map-YOLO/CSP7-BottleneckCSP/conv3-Conv/bn-BatchNorm2d/gradBatchNorm/BNTrainingReduceGrad-op4515
+4 1958 707 1961 716
+2 1966 2701
+1966 Gradients/Default/network-YoloWithLossCell/yolo_network-YOLOV5/feature_map-YOLO/CSP6-BottleneckCSP/conv2-Conv/conv-Conv2d/gradConv2D/Conv2DBackpropInput-op2116
+1 1964
+1 1982
+1969 Gradients/Default/network-YoloWithLossCell/gradMul/Mul-op2118
+2 763 1925
+1 1972
+1971 Gradients/Default/network-YoloWithLossCell/gradMul/Mul-op2120
+2 763 1925
+1 1972
+1972 Default/network-YoloWithLossCell/yolo_network-YOLOV5/feature_map-YOLO/backbone-YOLOv5Backbone/focus-Focus/conv-Conv/act-SiLU/AddN-op2122
+3 763 1969 1971
+2 1975 1978
+1975 Gradients/Default/network-YoloWithLossCell/yolo_network-YOLOV5/feature_map-YOLO/CSP7-BottleneckCSP/conv3-Conv/bn-BatchNorm2d/gradBatchNorm/BNTrainingUpdateGrad-op4517
+3 1972 754 763
+1 1978
+1978 Gradients/Default/network-YoloWithLossCell/yolo_network-YOLOV5/feature_map-YOLO/CSP7-BottleneckCSP/conv3-Conv/bn-BatchNorm2d/gradBatchNorm/BNTrainingReduceGrad-op4520
+4 1972 754 1975 763
+2 1980 2695
+1980 Gradients/Default/network-YoloWithLossCell/yolo_network-YOLOV5/feature_map-YOLO/CSP6-BottleneckCSP/conv2-Conv/conv-Conv2d/gradConv2D/Conv2DBackpropInput-op2128
+1 1978
+1 1982
+1982 Default/network-YoloWithLossCell/yolo_network-YOLOV5/feature_map-YOLO/CSP6-BottleneckCSP/conv2-Conv/conv-Conv2d/AddN-op2130
+2 1966 1980
+2 1987 2354
+1987 Default/network-YoloWithLossCell/yolo_network-YOLOV5/feature_map-YOLO/AddN-op2136
+2 1982 1792
+2 1988 1990
+1988 Gradients/Default/network-YoloWithLossCell/gradMul/Mul-op2138
+2 698 1987
+1 1991
+1990 Gradients/Default/network-YoloWithLossCell/gradMul/Mul-op2137
+2 698 1987
+1 1991
+1991 Default/network-YoloWithLossCell/yolo_network-YOLOV5/feature_map-YOLO/backbone-YOLOv5Backbone/focus-Focus/conv-Conv/act-SiLU/AddN-op2141
+3 698 1988 1990
+2 1994 1997
+1994 Gradients/Default/network-YoloWithLossCell/yolo_network-YOLOV5/feature_map-YOLO/CSP7-BottleneckCSP/conv3-Conv/bn-BatchNorm2d/gradBatchNorm/BNTrainingUpdateGrad-op4522
+3 1991 689 698
+1 1997
+1997 Gradients/Default/network-YoloWithLossCell/yolo_network-YOLOV5/feature_map-YOLO/CSP7-BottleneckCSP/conv3-Conv/bn-BatchNorm2d/gradBatchNorm/BNTrainingReduceGrad-op4525
+4 1991 689 1994 698
+2 1999 2707
+1999 Gradients/Default/network-YoloWithLossCell/yolo_network-YOLOV5/feature_map-YOLO/conv2-Conv/conv-Conv2d/gradConv2D/Conv2DBackpropInput-op2147
+1 1997
+2 2001 2003
+2001 Gradients/Default/network-YoloWithLossCell/gradMul/Mul-op2148
+2 682 1999
+1 2004
+2003 Gradients/Default/network-YoloWithLossCell/gradMul/Mul-op2150
+2 682 1999
+1 2004
+2004 Default/network-YoloWithLossCell/yolo_network-YOLOV5/feature_map-YOLO/backbone-YOLOv5Backbone/focus-Focus/conv-Conv/act-SiLU/AddN-op2152
+3 682 2001 2003
+2 2007 2010
+2007 Gradients/Default/network-YoloWithLossCell/yolo_network-YOLOV5/feature_map-YOLO/CSP7-BottleneckCSP/conv3-Conv/bn-BatchNorm2d/gradBatchNorm/BNTrainingUpdateGrad-op4527
+3 2004 673 682
+1 2010
+2010 Gradients/Default/network-YoloWithLossCell/yolo_network-YOLOV5/feature_map-YOLO/CSP7-BottleneckCSP/conv3-Conv/bn-BatchNorm2d/gradBatchNorm/BNTrainingReduceGrad-op4530
+4 2004 673 2007 682
+2 2012 2725
+2012 Gradients/Default/network-YoloWithLossCell/yolo_network-YOLOV5/feature_map-YOLO/conv1-Conv/conv-Conv2d/gradConv2D/Conv2DBackpropInput-op2158
+1 2010
+4 2016 2018 2056 2058
+2016 Gradients/Default/network-YoloWithLossCell/gradMul/Mul-op2161
+2 650 2012
+1 2019
+2018 Gradients/Default/network-YoloWithLossCell/gradMul/Mul-op2163
+2 650 2012
+1 2019
+2019 Default/network-YoloWithLossCell/yolo_network-YOLOV5/feature_map-YOLO/backbone-YOLOv5Backbone/focus-Focus/conv-Conv/act-SiLU/AddN-op2165
+3 650 2016 2018
+2 2022 2025
+2022 Gradients/Default/network-YoloWithLossCell/yolo_network-YOLOV5/feature_map-YOLO/CSP7-BottleneckCSP/conv3-Conv/bn-BatchNorm2d/gradBatchNorm/BNTrainingUpdateGrad-op4532
+3 2019 641 650
+1 2025
+2025 Gradients/Default/network-YoloWithLossCell/yolo_network-YOLOV5/feature_map-YOLO/CSP7-BottleneckCSP/conv3-Conv/bn-BatchNorm2d/gradBatchNorm/BNTrainingReduceGrad-op4535
+4 2019 641 2022 650
+2 2027 2713
+2027 Gradients/Default/network-YoloWithLossCell/yolo_network-YOLOV5/feature_map-YOLO/CSP7-BottleneckCSP/m-SequentialCell/0-Bottleneck/conv2-Conv/conv-Conv2d/gradConv2D/Conv2DBackpropInput-op2171
+1 2025
+2 2029 2031
+2029 Gradients/Default/network-YoloWithLossCell/gradMul/Mul-op2172
+2 634 2027
+1 2032
+2031 Gradients/Default/network-YoloWithLossCell/gradMul/Mul-op2174
+2 634 2027
+1 2032
+2032 Default/network-YoloWithLossCell/yolo_network-YOLOV5/feature_map-YOLO/backbone-YOLOv5Backbone/focus-Focus/conv-Conv/act-SiLU/AddN-op2176
+3 634 2029 2031
+2 2035 2038
+2035 Gradients/Default/network-YoloWithLossCell/yolo_network-YOLOV5/feature_map-YOLO/CSP7-BottleneckCSP/conv3-Conv/bn-BatchNorm2d/gradBatchNorm/BNTrainingUpdateGrad-op4537
+3 2032 625 634
+1 2038
+2038 Gradients/Default/network-YoloWithLossCell/yolo_network-YOLOV5/feature_map-YOLO/CSP7-BottleneckCSP/conv3-Conv/bn-BatchNorm2d/gradBatchNorm/BNTrainingReduceGrad-op4540
+4 2032 625 2035 634
+2 2040 2719
+2040 Gradients/Default/network-YoloWithLossCell/yolo_network-YOLOV5/feature_map-YOLO/conv2-Conv/conv-Conv2d/gradConv2D/Conv2DBackpropInput-op2182
+1 2038
+2 2042 2044
+2042 Gradients/Default/network-YoloWithLossCell/gradMul/Mul-op2183
+2 618 2040
+1 2045
+2044 Gradients/Default/network-YoloWithLossCell/gradMul/Mul-op2185
+2 618 2040
+1 2045
+2045 Default/network-YoloWithLossCell/yolo_network-YOLOV5/feature_map-YOLO/backbone-YOLOv5Backbone/focus-Focus/conv-Conv/act-SiLU/AddN-op2187
+3 618 2042 2044
+2 2048 2051
+2048 Gradients/Default/network-YoloWithLossCell/yolo_network-YOLOV5/feature_map-YOLO/CSP7-BottleneckCSP/conv3-Conv/bn-BatchNorm2d/gradBatchNorm/BNTrainingUpdateGrad-op4542
+3 2045 609 618
+1 2051
+2051 Gradients/Default/network-YoloWithLossCell/yolo_network-YOLOV5/feature_map-YOLO/CSP7-BottleneckCSP/conv3-Conv/bn-BatchNorm2d/gradBatchNorm/BNTrainingReduceGrad-op4545
+4 2045 609 2048 618
+2 2053 2737
+2053 Gradients/Default/network-YoloWithLossCell/yolo_network-YOLOV5/feature_map-YOLO/conv2-Conv/conv-Conv2d/gradConv2D/Conv2DBackpropInput-op2193
+1 2051
+1 2069
+2056 Gradients/Default/network-YoloWithLossCell/gradMul/Mul-op2195
+2 665 2012
+1 2059
+2058 Gradients/Default/network-YoloWithLossCell/gradMul/Mul-op2197
+2 665 2012
+1 2059
+2059 Default/network-YoloWithLossCell/yolo_network-YOLOV5/feature_map-YOLO/backbone-YOLOv5Backbone/focus-Focus/conv-Conv/act-SiLU/AddN-op2199
+3 665 2056 2058
+2 2062 2065
+2062 Gradients/Default/network-YoloWithLossCell/yolo_network-YOLOV5/feature_map-YOLO/CSP7-BottleneckCSP/conv3-Conv/bn-BatchNorm2d/gradBatchNorm/BNTrainingUpdateGrad-op4547
+3 2059 656 665
+1 2065
+2065 Gradients/Default/network-YoloWithLossCell/yolo_network-YOLOV5/feature_map-YOLO/CSP7-BottleneckCSP/conv3-Conv/bn-BatchNorm2d/gradBatchNorm/BNTrainingReduceGrad-op4550
+4 2059 656 2062 665
+2 2067 2731
+2067 Gradients/Default/network-YoloWithLossCell/yolo_network-YOLOV5/feature_map-YOLO/conv2-Conv/conv-Conv2d/gradConv2D/Conv2DBackpropInput-op2205
+1 2065
+1 2069
+2069 Default/network-YoloWithLossCell/yolo_network-YOLOV5/feature_map-YOLO/CSP5-BottleneckCSP/conv2-Conv/conv-Conv2d/AddN-op2207
+2 2053 2067
+2 2074 2215
+2074 Default/network-YoloWithLossCell/yolo_network-YOLOV5/feature_map-YOLO/AddN-op2213
+2 2069 1602
+2 2075 2077
+2075 Gradients/Default/network-YoloWithLossCell/gradMul/Mul-op2215
+2 600 2074
+1 2078
+2077 Gradients/Default/network-YoloWithLossCell/gradMul/Mul-op2214
+2 600 2074
+1 2078
+2078 Default/network-YoloWithLossCell/yolo_network-YOLOV5/feature_map-YOLO/backbone-YOLOv5Backbone/focus-Focus/conv-Conv/act-SiLU/AddN-op2218
+3 600 2075 2077
+2 2081 2084
+2081 Gradients/Default/network-YoloWithLossCell/yolo_network-YOLOV5/feature_map-YOLO/CSP7-BottleneckCSP/conv3-Conv/bn-BatchNorm2d/gradBatchNorm/BNTrainingUpdateGrad-op4552
+3 2078 591 600
+1 2084
+2084 Gradients/Default/network-YoloWithLossCell/yolo_network-YOLOV5/feature_map-YOLO/CSP7-BottleneckCSP/conv3-Conv/bn-BatchNorm2d/gradBatchNorm/BNTrainingReduceGrad-op4555
+4 2078 591 2081 600
+2 2086 2743
+2086 Gradients/Default/network-YoloWithLossCell/yolo_network-YOLOV5/feature_map-YOLO/conv1-Conv/conv-Conv2d/gradConv2D/Conv2DBackpropInput-op2224
+1 2084
+2 2088 2090
+2088 Gradients/Default/network-YoloWithLossCell/gradMul/Mul-op2225
+2 584 2086
+1 2091
+2090 Gradients/Default/network-YoloWithLossCell/gradMul/Mul-op2227
+2 584 2086
+1 2091
+2091 Default/network-YoloWithLossCell/yolo_network-YOLOV5/feature_map-YOLO/backbone-YOLOv5Backbone/focus-Focus/conv-Conv/act-SiLU/AddN-op2229
+3 584 2088 2090
+2 2094 2097
+2094 Gradients/Default/network-YoloWithLossCell/yolo_network-YOLOV5/feature_map-YOLO/CSP7-BottleneckCSP/conv3-Conv/bn-BatchNorm2d/gradBatchNorm/BNTrainingUpdateGrad-op4557
+3 2091 575 584
+1 2097
+2097 Gradients/Default/network-YoloWithLossCell/yolo_network-YOLOV5/feature_map-YOLO/CSP7-BottleneckCSP/conv3-Conv/bn-BatchNorm2d/gradBatchNorm/BNTrainingReduceGrad-op4560
+4 2091 575 2094 584
+2 2099 2761
+2099 Gradients/Default/network-YoloWithLossCell/yolo_network-YOLOV5/feature_map-YOLO/CSP8-BottleneckCSP/conv3-Conv/conv-Conv2d/gradConv2D/Conv2DBackpropInput-op2235
+1 2097
+4 2103 2105 2143 2145
+2103 Gradients/Default/network-YoloWithLossCell/gradMul/Mul-op2238
+2 552 2099
+1 2106
+2105 Gradients/Default/network-YoloWithLossCell/gradMul/Mul-op2240
+2 552 2099
+1 2106
+2106 Default/network-YoloWithLossCell/yolo_network-YOLOV5/feature_map-YOLO/backbone-YOLOv5Backbone/focus-Focus/conv-Conv/act-SiLU/AddN-op2242
+3 552 2103 2105
+2 2109 2112
+2109 Gradients/Default/network-YoloWithLossCell/yolo_network-YOLOV5/feature_map-YOLO/CSP7-BottleneckCSP/conv3-Conv/bn-BatchNorm2d/gradBatchNorm/BNTrainingUpdateGrad-op4562
+3 2106 543 552
+1 2112
+2112 Gradients/Default/network-YoloWithLossCell/yolo_network-YOLOV5/feature_map-YOLO/CSP7-BottleneckCSP/conv3-Conv/bn-BatchNorm2d/gradBatchNorm/BNTrainingReduceGrad-op4565
+4 2106 543 2109 552
+2 2114 2749
+2114 Gradients/Default/network-YoloWithLossCell/yolo_network-YOLOV5/feature_map-YOLO/CSP8-BottleneckCSP/m-SequentialCell/0-Bottleneck/conv2-Conv/conv-Conv2d/gradConv2D/Conv2DBackpropInput-op2248
+1 2112
+2 2116 2118
+2116 Gradients/Default/network-YoloWithLossCell/gradMul/Mul-op2249
+2 536 2114
+1 2119
+2118 Gradients/Default/network-YoloWithLossCell/gradMul/Mul-op2251
+2 536 2114
+1 2119
+2119 Default/network-YoloWithLossCell/yolo_network-YOLOV5/feature_map-YOLO/backbone-YOLOv5Backbone/focus-Focus/conv-Conv/act-SiLU/AddN-op2253
+3 536 2116 2118
+2 2122 2125
+2122 Gradients/Default/network-YoloWithLossCell/yolo_network-YOLOV5/feature_map-YOLO/CSP7-BottleneckCSP/conv3-Conv/bn-BatchNorm2d/gradBatchNorm/BNTrainingUpdateGrad-op4567
+3 2119 527 536
+1 2125
+2125 Gradients/Default/network-YoloWithLossCell/yolo_network-YOLOV5/feature_map-YOLO/CSP7-BottleneckCSP/conv3-Conv/bn-BatchNorm2d/gradBatchNorm/BNTrainingReduceGrad-op4570
+4 2119 527 2122 536
+2 2127 2755
+2127 Gradients/Default/network-YoloWithLossCell/yolo_network-YOLOV5/feature_map-YOLO/conv1-Conv/conv-Conv2d/gradConv2D/Conv2DBackpropInput-op2259
+1 2125
+2 2129 2131
+2129 Gradients/Default/network-YoloWithLossCell/gradMul/Mul-op2260
+2 520 2127
+1 2132
+2131 Gradients/Default/network-YoloWithLossCell/gradMul/Mul-op2262
+2 520 2127
+1 2132
+2132 Default/network-YoloWithLossCell/yolo_network-YOLOV5/feature_map-YOLO/backbone-YOLOv5Backbone/focus-Focus/conv-Conv/act-SiLU/AddN-op2264
+3 520 2129 2131
+2 2135 2138
+2135 Gradients/Default/network-YoloWithLossCell/yolo_network-YOLOV5/feature_map-YOLO/CSP7-BottleneckCSP/conv3-Conv/bn-BatchNorm2d/gradBatchNorm/BNTrainingUpdateGrad-op4572
+3 2132 511 520
+1 2138
+2138 Gradients/Default/network-YoloWithLossCell/yolo_network-YOLOV5/feature_map-YOLO/CSP7-BottleneckCSP/conv3-Conv/bn-BatchNorm2d/gradBatchNorm/BNTrainingReduceGrad-op4575
+4 2132 511 2135 520
+2 2140 2773
+2140 Gradients/Default/network-YoloWithLossCell/yolo_network-YOLOV5/feature_map-YOLO/conv1-Conv/conv-Conv2d/gradConv2D/Conv2DBackpropInput-op2270
+1 2138
+1 2156
+2143 Gradients/Default/network-YoloWithLossCell/gradMul/Mul-op2272
+2 567 2099
+1 2146
+2145 Gradients/Default/network-YoloWithLossCell/gradMul/Mul-op2274
+2 567 2099
+1 2146
+2146 Default/network-YoloWithLossCell/yolo_network-YOLOV5/feature_map-YOLO/backbone-YOLOv5Backbone/focus-Focus/conv-Conv/act-SiLU/AddN-op2276
+3 567 2143 2145
+2 2149 2152
+2149 Gradients/Default/network-YoloWithLossCell/yolo_network-YOLOV5/feature_map-YOLO/CSP7-BottleneckCSP/conv3-Conv/bn-BatchNorm2d/gradBatchNorm/BNTrainingUpdateGrad-op4577
+3 2146 558 567
+1 2152
+2152 Gradients/Default/network-YoloWithLossCell/yolo_network-YOLOV5/feature_map-YOLO/CSP7-BottleneckCSP/conv3-Conv/bn-BatchNorm2d/gradBatchNorm/BNTrainingReduceGrad-op4580
+4 2146 558 2149 567
+2 2154 2767
+2154 Gradients/Default/network-YoloWithLossCell/yolo_network-YOLOV5/feature_map-YOLO/conv1-Conv/conv-Conv2d/gradConv2D/Conv2DBackpropInput-op2282
+1 2152
+1 2156
+2156 Default/network-YoloWithLossCell/yolo_network-YOLOV5/feature_map-YOLO/conv1-Conv/conv-Conv2d/AddN-op2284
+2 2140 2154
+2 2157 2159
+2157 Gradients/Default/network-YoloWithLossCell/gradMul/Mul-op2286
+2 504 2156
+1 2160
+2159 Gradients/Default/network-YoloWithLossCell/gradMul/Mul-op2285
+2 504 2156
+1 2160
+2160 Default/network-YoloWithLossCell/yolo_network-YOLOV5/feature_map-YOLO/backbone-YOLOv5Backbone/focus-Focus/conv-Conv/act-SiLU/AddN-op2289
+3 504 2157 2159
+2 2163 2166
+2163 Gradients/Default/network-YoloWithLossCell/yolo_network-YOLOV5/feature_map-YOLO/CSP7-BottleneckCSP/conv3-Conv/bn-BatchNorm2d/gradBatchNorm/BNTrainingUpdateGrad-op4582
+3 2160 495 504
+1 2166
+2166 Gradients/Default/network-YoloWithLossCell/yolo_network-YOLOV5/feature_map-YOLO/CSP7-BottleneckCSP/conv3-Conv/bn-BatchNorm2d/gradBatchNorm/BNTrainingReduceGrad-op4585
+4 2160 495 2163 504
+2 2168 2779
+2168 Gradients/Default/network-YoloWithLossCell/yolo_network-YOLOV5/feature_map-YOLO/CSP8-BottleneckCSP/conv3-Conv/conv-Conv2d/gradConv2D/Conv2DBackpropInput-op2295
+1 2166
+4 2174 2179 2184 2187
+2174 Gradients/Default/network-YoloWithLossCell/yolo_network-YOLOV5/feature_map-YOLO/backbone-YOLOv5Backbone/spp-SPP/maxpool1-MaxPool2d/gradMaxPool/MaxPoolGradWithArgmax-op3771
+3 480 2168 482
+1 2187
+2179 Gradients/Default/network-YoloWithLossCell/yolo_network-YOLOV5/feature_map-YOLO/backbone-YOLOv5Backbone/spp-SPP/maxpool2-MaxPool2d/gradMaxPool/MaxPoolGradWithArgmax-op3773
+3 480 2168 485
+1 2187
+2184 Gradients/Default/network-YoloWithLossCell/yolo_network-YOLOV5/feature_map-YOLO/backbone-YOLOv5Backbone/spp-SPP/maxpool3-MaxPool2d/gradMaxPool/MaxPoolGradWithArgmax-op3775
+3 480 2168 488
+1 2187
+2187 Default/AddN-op2305
+4 2174 2179 2184 2168
+2 2188 2190
+2188 Gradients/Default/network-YoloWithLossCell/gradMul/Mul-op2307
+2 477 2187
+1 2191
+2190 Gradients/Default/network-YoloWithLossCell/gradMul/Mul-op2306
+2 477 2187
+1 2191
+2191 Default/network-YoloWithLossCell/yolo_network-YOLOV5/feature_map-YOLO/backbone-YOLOv5Backbone/focus-Focus/conv-Conv/act-SiLU/AddN-op2310
+3 477 2188 2190
+2 2194 2197
+2194 Gradients/Default/network-YoloWithLossCell/yolo_network-YOLOV5/feature_map-YOLO/CSP7-BottleneckCSP/conv3-Conv/bn-BatchNorm2d/gradBatchNorm/BNTrainingUpdateGrad-op4587
+3 2191 468 477
+1 2197
+2197 Gradients/Default/network-YoloWithLossCell/yolo_network-YOLOV5/feature_map-YOLO/CSP7-BottleneckCSP/conv3-Conv/bn-BatchNorm2d/gradBatchNorm/BNTrainingReduceGrad-op4590
+4 2191 468 2194 477
+2 2199 2785
+2199 Gradients/Default/network-YoloWithLossCell/yolo_network-YOLOV5/feature_map-YOLO/conv1-Conv/conv-Conv2d/gradConv2D/Conv2DBackpropInput-op2316
+1 2197
+2 2201 2203
+2201 Gradients/Default/network-YoloWithLossCell/gradMul/Mul-op2317
+2 461 2199
+1 2204
+2203 Gradients/Default/network-YoloWithLossCell/gradMul/Mul-op2319
+2 461 2199
+1 2204
+2204 Default/network-YoloWithLossCell/yolo_network-YOLOV5/feature_map-YOLO/backbone-YOLOv5Backbone/focus-Focus/conv-Conv/act-SiLU/AddN-op2321
+3 461 2201 2203
+2 2207 2210
+2207 Gradients/Default/network-YoloWithLossCell/yolo_network-YOLOV5/feature_map-YOLO/CSP7-BottleneckCSP/conv3-Conv/bn-BatchNorm2d/gradBatchNorm/BNTrainingUpdateGrad-op4592
+3 2204 452 461
+1 2210
+2210 Gradients/Default/network-YoloWithLossCell/yolo_network-YOLOV5/feature_map-YOLO/CSP7-BottleneckCSP/conv3-Conv/bn-BatchNorm2d/gradBatchNorm/BNTrainingReduceGrad-op4595
+4 2204 452 2207 461
+2 2212 2791
+2212 Gradients/Default/network-YoloWithLossCell/yolo_network-YOLOV5/feature_map-YOLO/backbone-YOLOv5Backbone/conv4-Conv/conv-Conv2d/gradConv2D/Conv2DBackpropInput-op2327
+1 2210
+1 2215
+2215 Default/network-YoloWithLossCell/yolo_network-YOLOV5/feature_map-YOLO/AddN-op2330
+2 2212 2069
+2 2216 2218
+2216 Gradients/Default/network-YoloWithLossCell/gradMul/Mul-op2332
+2 445 2215
+1 2219
+2218 Gradients/Default/network-YoloWithLossCell/gradMul/Mul-op2331
+2 445 2215
+1 2219
+2219 Default/network-YoloWithLossCell/yolo_network-YOLOV5/feature_map-YOLO/backbone-YOLOv5Backbone/focus-Focus/conv-Conv/act-SiLU/AddN-op2335
+3 445 2216 2218
+2 2222 2225
+2222 Gradients/Default/network-YoloWithLossCell/yolo_network-YOLOV5/feature_map-YOLO/CSP7-BottleneckCSP/conv3-Conv/bn-BatchNorm2d/gradBatchNorm/BNTrainingUpdateGrad-op4597
+3 2219 436 445
+1 2225
+2225 Gradients/Default/network-YoloWithLossCell/yolo_network-YOLOV5/feature_map-YOLO/CSP7-BottleneckCSP/conv3-Conv/bn-BatchNorm2d/gradBatchNorm/BNTrainingReduceGrad-op4600
+4 2219 436 2222 445
+2 2227 2833
+2227 Gradients/Default/network-YoloWithLossCell/yolo_network-YOLOV5/feature_map-YOLO/conv1-Conv/conv-Conv2d/gradConv2D/Conv2DBackpropInput-op2341
+1 2225
+5 2231 2233 2257 2326 2328
+2231 Gradients/Default/network-YoloWithLossCell/gradMul/Mul-op2344
+2 412 2227
+1 2234
+2233 Gradients/Default/network-YoloWithLossCell/gradMul/Mul-op2346
+2 412 2227
+1 2234
+2234 Default/network-YoloWithLossCell/yolo_network-YOLOV5/feature_map-YOLO/backbone-YOLOv5Backbone/focus-Focus/conv-Conv/act-SiLU/AddN-op2348
+3 412 2231 2233
+2 2237 2240
+2237 Gradients/Default/network-YoloWithLossCell/yolo_network-YOLOV5/feature_map-YOLO/CSP7-BottleneckCSP/conv3-Conv/bn-BatchNorm2d/gradBatchNorm/BNTrainingUpdateGrad-op4602
+3 2234 403 412
+1 2240
+2240 Gradients/Default/network-YoloWithLossCell/yolo_network-YOLOV5/feature_map-YOLO/CSP7-BottleneckCSP/conv3-Conv/bn-BatchNorm2d/gradBatchNorm/BNTrainingReduceGrad-op4605
+4 2234 403 2237 412
+2 2242 2797
+2242 Gradients/Default/network-YoloWithLossCell/yolo_network-YOLOV5/feature_map-YOLO/CSP7-BottleneckCSP/m-SequentialCell/0-Bottleneck/conv2-Conv/conv-Conv2d/gradConv2D/Conv2DBackpropInput-op2354
+1 2240
+2 2244 2246
+2244 Gradients/Default/network-YoloWithLossCell/gradMul/Mul-op2355
+2 396 2242
+1 2247
+2246 Gradients/Default/network-YoloWithLossCell/gradMul/Mul-op2357
+2 396 2242
+1 2247
+2247 Default/network-YoloWithLossCell/yolo_network-YOLOV5/feature_map-YOLO/backbone-YOLOv5Backbone/focus-Focus/conv-Conv/act-SiLU/AddN-op2359
+3 396 2244 2246
+2 2250 2253
+2250 Gradients/Default/network-YoloWithLossCell/yolo_network-YOLOV5/feature_map-YOLO/CSP7-BottleneckCSP/conv3-Conv/bn-BatchNorm2d/gradBatchNorm/BNTrainingUpdateGrad-op4607
+3 2247 387 396
+1 2253
+2253 Gradients/Default/network-YoloWithLossCell/yolo_network-YOLOV5/feature_map-YOLO/CSP7-BottleneckCSP/conv3-Conv/bn-BatchNorm2d/gradBatchNorm/BNTrainingReduceGrad-op4610
+4 2247 387 2250 396
+2 2255 2803
+2255 Gradients/Default/network-YoloWithLossCell/yolo_network-YOLOV5/feature_map-YOLO/conv2-Conv/conv-Conv2d/gradConv2D/Conv2DBackpropInput-op2365
+1 2253
+1 2257
+2257 Default/network-YoloWithLossCell/yolo_network-YOLOV5/feature_map-YOLO/backbone-YOLOv5Backbone/CSP1-BottleneckCSP/m-SequentialCell/0-Bottleneck/AddN-op2367
+2 2255 2227
+3 2258 2260 2284
+2258 Gradients/Default/network-YoloWithLossCell/gradMul/Mul-op2369
+2 379 2257
+1 2261
+2260 Gradients/Default/network-YoloWithLossCell/gradMul/Mul-op2368
+2 379 2257
+1 2261
+2261 Default/network-YoloWithLossCell/yolo_network-YOLOV5/feature_map-YOLO/backbone-YOLOv5Backbone/focus-Focus/conv-Conv/act-SiLU/AddN-op2373
+3 379 2258 2260
+2 2264 2267
+2264 Gradients/Default/network-YoloWithLossCell/yolo_network-YOLOV5/feature_map-YOLO/CSP7-BottleneckCSP/conv3-Conv/bn-BatchNorm2d/gradBatchNorm/BNTrainingUpdateGrad-op4612
+3 2261 370 379
+1 2267
+2267 Gradients/Default/network-YoloWithLossCell/yolo_network-YOLOV5/feature_map-YOLO/CSP7-BottleneckCSP/conv3-Conv/bn-BatchNorm2d/gradBatchNorm/BNTrainingReduceGrad-op4615
+4 2261 370 2264 379
+2 2269 2809
+2269 Gradients/Default/network-YoloWithLossCell/yolo_network-YOLOV5/feature_map-YOLO/CSP7-BottleneckCSP/m-SequentialCell/0-Bottleneck/conv2-Conv/conv-Conv2d/gradConv2D/Conv2DBackpropInput-op2379
+1 2267
+2 2271 2273
+2271 Gradients/Default/network-YoloWithLossCell/gradMul/Mul-op2380
+2 363 2269
+1 2274
+2273 Gradients/Default/network-YoloWithLossCell/gradMul/Mul-op2382
+2 363 2269
+1 2274
+2274 Default/network-YoloWithLossCell/yolo_network-YOLOV5/feature_map-YOLO/backbone-YOLOv5Backbone/focus-Focus/conv-Conv/act-SiLU/AddN-op2384
+3 363 2271 2273
+2 2277 2280
+2277 Gradients/Default/network-YoloWithLossCell/yolo_network-YOLOV5/feature_map-YOLO/CSP7-BottleneckCSP/conv3-Conv/bn-BatchNorm2d/gradBatchNorm/BNTrainingUpdateGrad-op4617
+3 2274 354 363
+1 2280
+2280 Gradients/Default/network-YoloWithLossCell/yolo_network-YOLOV5/feature_map-YOLO/CSP7-BottleneckCSP/conv3-Conv/bn-BatchNorm2d/gradBatchNorm/BNTrainingReduceGrad-op4620
+4 2274 354 2277 363
+2 2282 2815
+2282 Gradients/Default/network-YoloWithLossCell/yolo_network-YOLOV5/feature_map-YOLO/conv2-Conv/conv-Conv2d/gradConv2D/Conv2DBackpropInput-op2390
+1 2280
+1 2284
+2284 Default/network-YoloWithLossCell/yolo_network-YOLOV5/feature_map-YOLO/backbone-YOLOv5Backbone/CSP1-BottleneckCSP/m-SequentialCell/0-Bottleneck/AddN-op2391
+2 2282 2257
+3 2285 2287 2311
+2285 Gradients/Default/network-YoloWithLossCell/gradMul/Mul-op2393
+2 346 2284
+1 2288
+2287 Gradients/Default/network-YoloWithLossCell/gradMul/Mul-op2392
+2 346 2284
+1 2288
+2288 Default/network-YoloWithLossCell/yolo_network-YOLOV5/feature_map-YOLO/backbone-YOLOv5Backbone/focus-Focus/conv-Conv/act-SiLU/AddN-op2397
+3 346 2285 2287
+2 2291 2294
+2291 Gradients/Default/network-YoloWithLossCell/yolo_network-YOLOV5/feature_map-YOLO/CSP7-BottleneckCSP/conv3-Conv/bn-BatchNorm2d/gradBatchNorm/BNTrainingUpdateGrad-op4622
+3 2288 337 346
+1 2294
+2294 Gradients/Default/network-YoloWithLossCell/yolo_network-YOLOV5/feature_map-YOLO/CSP7-BottleneckCSP/conv3-Conv/bn-BatchNorm2d/gradBatchNorm/BNTrainingReduceGrad-op4625
+4 2288 337 2291 346
+2 2296 2821
+2296 Gradients/Default/network-YoloWithLossCell/yolo_network-YOLOV5/feature_map-YOLO/CSP7-BottleneckCSP/m-SequentialCell/0-Bottleneck/conv2-Conv/conv-Conv2d/gradConv2D/Conv2DBackpropInput-op2403
+1 2294
+2 2298 2300
+2298 Gradients/Default/network-YoloWithLossCell/gradMul/Mul-op2404
+2 330 2296
+1 2301
+2300 Gradients/Default/network-YoloWithLossCell/gradMul/Mul-op2406
+2 330 2296
+1 2301
+2301 Default/network-YoloWithLossCell/yolo_network-YOLOV5/feature_map-YOLO/backbone-YOLOv5Backbone/focus-Focus/conv-Conv/act-SiLU/AddN-op2408
+3 330 2298 2300
+2 2304 2307
+2304 Gradients/Default/network-YoloWithLossCell/yolo_network-YOLOV5/feature_map-YOLO/CSP7-BottleneckCSP/conv3-Conv/bn-BatchNorm2d/gradBatchNorm/BNTrainingUpdateGrad-op4627
+3 2301 321 330
+1 2307
+2307 Gradients/Default/network-YoloWithLossCell/yolo_network-YOLOV5/feature_map-YOLO/CSP7-BottleneckCSP/conv3-Conv/bn-BatchNorm2d/gradBatchNorm/BNTrainingReduceGrad-op4630
+4 2301 321 2304 330
+2 2309 2827
+2309 Gradients/Default/network-YoloWithLossCell/yolo_network-YOLOV5/feature_map-YOLO/conv2-Conv/conv-Conv2d/gradConv2D/Conv2DBackpropInput-op2414
+1 2307
+1 2311
+2311 Default/network-YoloWithLossCell/yolo_network-YOLOV5/feature_map-YOLO/backbone-YOLOv5Backbone/CSP1-BottleneckCSP/m-SequentialCell/0-Bottleneck/AddN-op2415
+2 2309 2284
+2 2312 2314
+2312 Gradients/Default/network-YoloWithLossCell/gradMul/Mul-op2417
+2 314 2311
+1 2315
+2314 Gradients/Default/network-YoloWithLossCell/gradMul/Mul-op2416
+2 314 2311
+1 2315
+2315 Default/network-YoloWithLossCell/yolo_network-YOLOV5/feature_map-YOLO/backbone-YOLOv5Backbone/focus-Focus/conv-Conv/act-SiLU/AddN-op2420
+3 314 2312 2314
+2 2318 2321
+2318 Gradients/Default/network-YoloWithLossCell/yolo_network-YOLOV5/feature_map-YOLO/CSP7-BottleneckCSP/conv3-Conv/bn-BatchNorm2d/gradBatchNorm/BNTrainingUpdateGrad-op4632
+3 2315 305 314
+1 2321
+2321 Gradients/Default/network-YoloWithLossCell/yolo_network-YOLOV5/feature_map-YOLO/CSP7-BottleneckCSP/conv3-Conv/bn-BatchNorm2d/gradBatchNorm/BNTrainingReduceGrad-op4635
+4 2315 305 2318 314
+2 2323 2845
+2323 Gradients/Default/network-YoloWithLossCell/yolo_network-YOLOV5/feature_map-YOLO/conv2-Conv/conv-Conv2d/gradConv2D/Conv2DBackpropInput-op2426
+1 2321
+1 2339
+2326 Gradients/Default/network-YoloWithLossCell/gradMul/Mul-op2428
+2 428 2227
+1 2329
+2328 Gradients/Default/network-YoloWithLossCell/gradMul/Mul-op2430
+2 428 2227
+1 2329
+2329 Default/network-YoloWithLossCell/yolo_network-YOLOV5/feature_map-YOLO/backbone-YOLOv5Backbone/focus-Focus/conv-Conv/act-SiLU/AddN-op2432
+3 428 2326 2328
+2 2332 2335
+2332 Gradients/Default/network-YoloWithLossCell/yolo_network-YOLOV5/feature_map-YOLO/CSP7-BottleneckCSP/conv3-Conv/bn-BatchNorm2d/gradBatchNorm/BNTrainingUpdateGrad-op4637
+3 2329 419 428
+1 2335
+2335 Gradients/Default/network-YoloWithLossCell/yolo_network-YOLOV5/feature_map-YOLO/CSP7-BottleneckCSP/conv3-Conv/bn-BatchNorm2d/gradBatchNorm/BNTrainingReduceGrad-op4640
+4 2329 419 2332 428
+2 2337 2839
+2337 Gradients/Default/network-YoloWithLossCell/yolo_network-YOLOV5/feature_map-YOLO/conv2-Conv/conv-Conv2d/gradConv2D/Conv2DBackpropInput-op2438
+1 2335
+1 2339
+2339 Default/network-YoloWithLossCell/yolo_network-YOLOV5/feature_map-YOLO/conv2-Conv/conv-Conv2d/AddN-op2440
+2 2323 2337
+2 2340 2342
+2340 Gradients/Default/network-YoloWithLossCell/gradMul/Mul-op2442
+2 298 2339
+1 2343
+2342 Gradients/Default/network-YoloWithLossCell/gradMul/Mul-op2441
+2 298 2339
+1 2343
+2343 Default/network-YoloWithLossCell/yolo_network-YOLOV5/feature_map-YOLO/backbone-YOLOv5Backbone/focus-Focus/conv-Conv/act-SiLU/AddN-op2445
+3 298 2340 2342
+2 2346 2349
+2346 Gradients/Default/network-YoloWithLossCell/yolo_network-YOLOV5/feature_map-YOLO/CSP7-BottleneckCSP/conv3-Conv/bn-BatchNorm2d/gradBatchNorm/BNTrainingUpdateGrad-op4642
+3 2343 289 298
+1 2349
+2349 Gradients/Default/network-YoloWithLossCell/yolo_network-YOLOV5/feature_map-YOLO/CSP7-BottleneckCSP/conv3-Conv/bn-BatchNorm2d/gradBatchNorm/BNTrainingReduceGrad-op4645
+4 2343 289 2346 298
+2 2351 2851
+2351 Gradients/Default/network-YoloWithLossCell/yolo_network-YOLOV5/feature_map-YOLO/conv4-Conv/conv-Conv2d/gradConv2D/Conv2DBackpropInput-op2451
+1 2349
+1 2354
+2354 Default/network-YoloWithLossCell/yolo_network-YOLOV5/feature_map-YOLO/AddN-op2454
+2 2351 1982
+2 2355 2357
+2355 Gradients/Default/network-YoloWithLossCell/gradMul/Mul-op2456
+2 282 2354
+1 2358
+2357 Gradients/Default/network-YoloWithLossCell/gradMul/Mul-op2455
+2 282 2354
+1 2358
+2358 Default/network-YoloWithLossCell/yolo_network-YOLOV5/feature_map-YOLO/backbone-YOLOv5Backbone/focus-Focus/conv-Conv/act-SiLU/AddN-op2459
+3 282 2355 2357
+2 2361 2364
+2361 Gradients/Default/network-YoloWithLossCell/yolo_network-YOLOV5/feature_map-YOLO/CSP7-BottleneckCSP/conv3-Conv/bn-BatchNorm2d/gradBatchNorm/BNTrainingUpdateGrad-op4647
+3 2358 273 282
+1 2364
+2364 Gradients/Default/network-YoloWithLossCell/yolo_network-YOLOV5/feature_map-YOLO/CSP7-BottleneckCSP/conv3-Conv/bn-BatchNorm2d/gradBatchNorm/BNTrainingReduceGrad-op4650
+4 2358 273 2361 282
+2 2366 2893
+2366 Gradients/Default/network-YoloWithLossCell/yolo_network-YOLOV5/feature_map-YOLO/conv2-Conv/conv-Conv2d/gradConv2D/Conv2DBackpropInput-op2465
+1 2364
+5 2370 2372 2396 2465 2467
+2370 Gradients/Default/network-YoloWithLossCell/gradMul/Mul-op2468
+2 249 2366
+1 2373
+2372 Gradients/Default/network-YoloWithLossCell/gradMul/Mul-op2470
+2 249 2366
+1 2373
+2373 Default/network-YoloWithLossCell/yolo_network-YOLOV5/feature_map-YOLO/backbone-YOLOv5Backbone/focus-Focus/conv-Conv/act-SiLU/AddN-op2472
+3 249 2370 2372
+2 2376 2379
+2376 Gradients/Default/network-YoloWithLossCell/yolo_network-YOLOV5/feature_map-YOLO/CSP7-BottleneckCSP/conv3-Conv/bn-BatchNorm2d/gradBatchNorm/BNTrainingUpdateGrad-op4652
+3 2373 240 249
+1 2379
+2379 Gradients/Default/network-YoloWithLossCell/yolo_network-YOLOV5/feature_map-YOLO/CSP7-BottleneckCSP/conv3-Conv/bn-BatchNorm2d/gradBatchNorm/BNTrainingReduceGrad-op4655
+4 2373 240 2376 249
+2 2381 2857
+2381 Gradients/Default/network-YoloWithLossCell/yolo_network-YOLOV5/feature_map-YOLO/CSP6-BottleneckCSP/m-SequentialCell/0-Bottleneck/conv2-Conv/conv-Conv2d/gradConv2D/Conv2DBackpropInput-op2478
+1 2379
+2 2383 2385
+2383 Gradients/Default/network-YoloWithLossCell/gradMul/Mul-op2479
+2 233 2381
+1 2386
+2385 Gradients/Default/network-YoloWithLossCell/gradMul/Mul-op2481
+2 233 2381
+1 2386
+2386 Default/network-YoloWithLossCell/yolo_network-YOLOV5/feature_map-YOLO/backbone-YOLOv5Backbone/focus-Focus/conv-Conv/act-SiLU/AddN-op2483
+3 233 2383 2385
+2 2389 2392
+2389 Gradients/Default/network-YoloWithLossCell/yolo_network-YOLOV5/feature_map-YOLO/CSP7-BottleneckCSP/conv3-Conv/bn-BatchNorm2d/gradBatchNorm/BNTrainingUpdateGrad-op4657
+3 2386 224 233
+1 2392
+2392 Gradients/Default/network-YoloWithLossCell/yolo_network-YOLOV5/feature_map-YOLO/CSP7-BottleneckCSP/conv3-Conv/bn-BatchNorm2d/gradBatchNorm/BNTrainingReduceGrad-op4660
+4 2386 224 2389 233
+2 2394 2863
+2394 Gradients/Default/network-YoloWithLossCell/yolo_network-YOLOV5/feature_map-YOLO/CSP6-BottleneckCSP/conv2-Conv/conv-Conv2d/gradConv2D/Conv2DBackpropInput-op2489
+1 2392
+1 2396
+2396 Default/network-YoloWithLossCell/yolo_network-YOLOV5/feature_map-YOLO/backbone-YOLOv5Backbone/CSP1-BottleneckCSP/m-SequentialCell/0-Bottleneck/AddN-op2491
+2 2394 2366
+3 2397 2399 2423
+2397 Gradients/Default/network-YoloWithLossCell/gradMul/Mul-op2493
+2 216 2396
+1 2400
+2399 Gradients/Default/network-YoloWithLossCell/gradMul/Mul-op2492
+2 216 2396
+1 2400
+2400 Default/network-YoloWithLossCell/yolo_network-YOLOV5/feature_map-YOLO/backbone-YOLOv5Backbone/focus-Focus/conv-Conv/act-SiLU/AddN-op2497
+3 216 2397 2399
+2 2403 2406
+2403 Gradients/Default/network-YoloWithLossCell/yolo_network-YOLOV5/feature_map-YOLO/CSP7-BottleneckCSP/conv3-Conv/bn-BatchNorm2d/gradBatchNorm/BNTrainingUpdateGrad-op4662
+3 2400 207 216
+1 2406
+2406 Gradients/Default/network-YoloWithLossCell/yolo_network-YOLOV5/feature_map-YOLO/CSP7-BottleneckCSP/conv3-Conv/bn-BatchNorm2d/gradBatchNorm/BNTrainingReduceGrad-op4665
+4 2400 207 2403 216
+2 2408 2869
+2408 Gradients/Default/network-YoloWithLossCell/yolo_network-YOLOV5/feature_map-YOLO/CSP6-BottleneckCSP/m-SequentialCell/0-Bottleneck/conv2-Conv/conv-Conv2d/gradConv2D/Conv2DBackpropInput-op2503
+1 2406
+2 2410 2412
+2410 Gradients/Default/network-YoloWithLossCell/gradMul/Mul-op2504
+2 200 2408
+1 2413
+2412 Gradients/Default/network-YoloWithLossCell/gradMul/Mul-op2506
+2 200 2408
+1 2413
+2413 Default/network-YoloWithLossCell/yolo_network-YOLOV5/feature_map-YOLO/backbone-YOLOv5Backbone/focus-Focus/conv-Conv/act-SiLU/AddN-op2508
+3 200 2410 2412
+2 2416 2419
+2416 Gradients/Default/network-YoloWithLossCell/yolo_network-YOLOV5/feature_map-YOLO/CSP7-BottleneckCSP/conv3-Conv/bn-BatchNorm2d/gradBatchNorm/BNTrainingUpdateGrad-op4667
+3 2413 191 200
+1 2419
+2419 Gradients/Default/network-YoloWithLossCell/yolo_network-YOLOV5/feature_map-YOLO/CSP7-BottleneckCSP/conv3-Conv/bn-BatchNorm2d/gradBatchNorm/BNTrainingReduceGrad-op4670
+4 2413 191 2416 200
+2 2421 2875
+2421 Gradients/Default/network-YoloWithLossCell/yolo_network-YOLOV5/feature_map-YOLO/CSP6-BottleneckCSP/conv2-Conv/conv-Conv2d/gradConv2D/Conv2DBackpropInput-op2514
+1 2419
+1 2423
+2423 Default/network-YoloWithLossCell/yolo_network-YOLOV5/feature_map-YOLO/backbone-YOLOv5Backbone/CSP1-BottleneckCSP/m-SequentialCell/0-Bottleneck/AddN-op2515
+2 2421 2396
+3 2424 2426 2450
+2424 Gradients/Default/network-YoloWithLossCell/gradMul/Mul-op2517
+2 183 2423
+1 2427
+2426 Gradients/Default/network-YoloWithLossCell/gradMul/Mul-op2516
+2 183 2423
+1 2427
+2427 Default/network-YoloWithLossCell/yolo_network-YOLOV5/feature_map-YOLO/backbone-YOLOv5Backbone/focus-Focus/conv-Conv/act-SiLU/AddN-op2521
+3 183 2424 2426
+2 2430 2433
+2430 Gradients/Default/network-YoloWithLossCell/yolo_network-YOLOV5/feature_map-YOLO/CSP7-BottleneckCSP/conv3-Conv/bn-BatchNorm2d/gradBatchNorm/BNTrainingUpdateGrad-op4672
+3 2427 174 183
+1 2433
+2433 Gradients/Default/network-YoloWithLossCell/yolo_network-YOLOV5/feature_map-YOLO/CSP7-BottleneckCSP/conv3-Conv/bn-BatchNorm2d/gradBatchNorm/BNTrainingReduceGrad-op4675
+4 2427 174 2430 183
+2 2435 2881
+2435 Gradients/Default/network-YoloWithLossCell/yolo_network-YOLOV5/feature_map-YOLO/CSP6-BottleneckCSP/m-SequentialCell/0-Bottleneck/conv2-Conv/conv-Conv2d/gradConv2D/Conv2DBackpropInput-op2527
+1 2433
+2 2437 2439
+2437 Gradients/Default/network-YoloWithLossCell/gradMul/Mul-op2528
+2 167 2435
+1 2440
+2439 Gradients/Default/network-YoloWithLossCell/gradMul/Mul-op2530
+2 167 2435
+1 2440
+2440 Default/network-YoloWithLossCell/yolo_network-YOLOV5/feature_map-YOLO/backbone-YOLOv5Backbone/focus-Focus/conv-Conv/act-SiLU/AddN-op2532
+3 167 2437 2439
+2 2443 2446
+2443 Gradients/Default/network-YoloWithLossCell/yolo_network-YOLOV5/feature_map-YOLO/CSP7-BottleneckCSP/conv3-Conv/bn-BatchNorm2d/gradBatchNorm/BNTrainingUpdateGrad-op4677
+3 2440 158 167
+1 2446
+2446 Gradients/Default/network-YoloWithLossCell/yolo_network-YOLOV5/feature_map-YOLO/CSP7-BottleneckCSP/conv3-Conv/bn-BatchNorm2d/gradBatchNorm/BNTrainingReduceGrad-op4680
+4 2440 158 2443 167
+2 2448 2887
+2448 Gradients/Default/network-YoloWithLossCell/yolo_network-YOLOV5/feature_map-YOLO/CSP6-BottleneckCSP/conv2-Conv/conv-Conv2d/gradConv2D/Conv2DBackpropInput-op2538
+1 2446
+1 2450
+2450 Default/network-YoloWithLossCell/yolo_network-YOLOV5/feature_map-YOLO/backbone-YOLOv5Backbone/CSP1-BottleneckCSP/m-SequentialCell/0-Bottleneck/AddN-op2539
+2 2448 2423
+2 2451 2453
+2451 Gradients/Default/network-YoloWithLossCell/gradMul/Mul-op2541
+2 151 2450
+1 2454
+2453 Gradients/Default/network-YoloWithLossCell/gradMul/Mul-op2540
+2 151 2450
+1 2454
+2454 Default/network-YoloWithLossCell/yolo_network-YOLOV5/feature_map-YOLO/backbone-YOLOv5Backbone/focus-Focus/conv-Conv/act-SiLU/AddN-op2544
+3 151 2451 2453
+2 2457 2460
+2457 Gradients/Default/network-YoloWithLossCell/yolo_network-YOLOV5/feature_map-YOLO/CSP7-BottleneckCSP/conv3-Conv/bn-BatchNorm2d/gradBatchNorm/BNTrainingUpdateGrad-op4682
+3 2454 142 151
+1 2460
+2460 Gradients/Default/network-YoloWithLossCell/yolo_network-YOLOV5/feature_map-YOLO/CSP7-BottleneckCSP/conv3-Conv/bn-BatchNorm2d/gradBatchNorm/BNTrainingReduceGrad-op4685
+4 2454 142 2457 151
+2 2462 2905
+2462 Gradients/Default/network-YoloWithLossCell/yolo_network-YOLOV5/feature_map-YOLO/CSP6-BottleneckCSP/conv2-Conv/conv-Conv2d/gradConv2D/Conv2DBackpropInput-op2550
+1 2460
+1 2478
+2465 Gradients/Default/network-YoloWithLossCell/gradMul/Mul-op2552
+2 265 2366
+1 2468
+2467 Gradients/Default/network-YoloWithLossCell/gradMul/Mul-op2554
+2 265 2366
+1 2468
+2468 Default/network-YoloWithLossCell/yolo_network-YOLOV5/feature_map-YOLO/backbone-YOLOv5Backbone/focus-Focus/conv-Conv/act-SiLU/AddN-op2556
+3 265 2465 2467
+2 2471 2474
+2471 Gradients/Default/network-YoloWithLossCell/yolo_network-YOLOV5/feature_map-YOLO/CSP7-BottleneckCSP/conv3-Conv/bn-BatchNorm2d/gradBatchNorm/BNTrainingUpdateGrad-op4687
+3 2468 256 265
+1 2474
+2474 Gradients/Default/network-YoloWithLossCell/yolo_network-YOLOV5/feature_map-YOLO/CSP7-BottleneckCSP/conv3-Conv/bn-BatchNorm2d/gradBatchNorm/BNTrainingReduceGrad-op4690
+4 2468 256 2471 265
+2 2476 2899
+2476 Gradients/Default/network-YoloWithLossCell/yolo_network-YOLOV5/feature_map-YOLO/CSP6-BottleneckCSP/conv2-Conv/conv-Conv2d/gradConv2D/Conv2DBackpropInput-op2562
+1 2474
+1 2478
+2478 Default/network-YoloWithLossCell/yolo_network-YOLOV5/feature_map-YOLO/backbone-YOLOv5Backbone/CSP2-BottleneckCSP/conv2-Conv/conv-Conv2d/AddN-op2564
+2 2462 2476
+2 2479 2481
+2479 Gradients/Default/network-YoloWithLossCell/gradMul/Mul-op2566
+2 135 2478
+1 2482
+2481 Gradients/Default/network-YoloWithLossCell/gradMul/Mul-op2565
+2 135 2478
+1 2482
+2482 Default/network-YoloWithLossCell/yolo_network-YOLOV5/feature_map-YOLO/backbone-YOLOv5Backbone/focus-Focus/conv-Conv/act-SiLU/AddN-op2569
+3 135 2479 2481
+2 2485 2488
+2485 Gradients/Default/network-YoloWithLossCell/yolo_network-YOLOV5/feature_map-YOLO/CSP7-BottleneckCSP/conv3-Conv/bn-BatchNorm2d/gradBatchNorm/BNTrainingUpdateGrad-op4692
+3 2482 126 135
+1 2488
+2488 Gradients/Default/network-YoloWithLossCell/yolo_network-YOLOV5/feature_map-YOLO/CSP7-BottleneckCSP/conv3-Conv/bn-BatchNorm2d/gradBatchNorm/BNTrainingReduceGrad-op4695
+4 2482 126 2485 135
+2 2490 2911
+2490 Gradients/Default/network-YoloWithLossCell/yolo_network-YOLOV5/feature_map-YOLO/conv3-Conv/conv-Conv2d/gradConv2D/Conv2DBackpropInput-op2575
+1 2488
+2 2492 2494
+2492 Gradients/Default/network-YoloWithLossCell/gradMul/Mul-op2576
+2 119 2490
+1 2495
+2494 Gradients/Default/network-YoloWithLossCell/gradMul/Mul-op2578
+2 119 2490
+1 2495
+2495 Default/network-YoloWithLossCell/yolo_network-YOLOV5/feature_map-YOLO/backbone-YOLOv5Backbone/focus-Focus/conv-Conv/act-SiLU/AddN-op2580
+3 119 2492 2494
+2 2498 2501
+2498 Gradients/Default/network-YoloWithLossCell/yolo_network-YOLOV5/feature_map-YOLO/CSP7-BottleneckCSP/conv3-Conv/bn-BatchNorm2d/gradBatchNorm/BNTrainingUpdateGrad-op4697
+3 2495 110 119
+1 2501
+2501 Gradients/Default/network-YoloWithLossCell/yolo_network-YOLOV5/feature_map-YOLO/CSP7-BottleneckCSP/conv3-Conv/bn-BatchNorm2d/gradBatchNorm/BNTrainingReduceGrad-op4700
+4 2495 110 2498 119
+2 2503 2929
+2503 Gradients/Default/network-YoloWithLossCell/yolo_network-YOLOV5/feature_map-YOLO/CSP6-BottleneckCSP/conv2-Conv/conv-Conv2d/gradConv2D/Conv2DBackpropInput-op2586
+1 2501
+5 2507 2509 2533 2548 2550
+2507 Gradients/Default/network-YoloWithLossCell/gradMul/Mul-op2589
+2 86 2503
+1 2510
+2509 Gradients/Default/network-YoloWithLossCell/gradMul/Mul-op2591
+2 86 2503
+1 2510
+2510 Default/network-YoloWithLossCell/yolo_network-YOLOV5/feature_map-YOLO/backbone-YOLOv5Backbone/focus-Focus/conv-Conv/act-SiLU/AddN-op2593
+3 86 2507 2509
+2 2513 2516
+2513 Gradients/Default/network-YoloWithLossCell/yolo_network-YOLOV5/feature_map-YOLO/CSP7-BottleneckCSP/conv3-Conv/bn-BatchNorm2d/gradBatchNorm/BNTrainingUpdateGrad-op4702
+3 2510 77 86
+1 2516
+2516 Gradients/Default/network-YoloWithLossCell/yolo_network-YOLOV5/feature_map-YOLO/CSP7-BottleneckCSP/conv3-Conv/bn-BatchNorm2d/gradBatchNorm/BNTrainingReduceGrad-op4705
+4 2510 77 2513 86
+2 2518 2917
+2518 Gradients/Default/network-YoloWithLossCell/yolo_network-YOLOV5/feature_map-YOLO/backbone-YOLOv5Backbone/focus-Focus/conv-Conv/conv-Conv2d/gradConv2D/Conv2DBackpropInput-op2599
+1 2516
+2 2520 2522
+2520 Gradients/Default/network-YoloWithLossCell/gradMul/Mul-op2600
+2 70 2518
+1 2523
+2522 Gradients/Default/network-YoloWithLossCell/gradMul/Mul-op2602
+2 70 2518
+1 2523
+2523 Default/network-YoloWithLossCell/yolo_network-YOLOV5/feature_map-YOLO/backbone-YOLOv5Backbone/focus-Focus/conv-Conv/act-SiLU/AddN-op2604
+3 70 2520 2522
+2 2526 2529
+2526 Gradients/Default/network-YoloWithLossCell/yolo_network-YOLOV5/feature_map-YOLO/CSP7-BottleneckCSP/conv3-Conv/bn-BatchNorm2d/gradBatchNorm/BNTrainingUpdateGrad-op4707
+3 2523 61 70
+1 2529
+2529 Gradients/Default/network-YoloWithLossCell/yolo_network-YOLOV5/feature_map-YOLO/CSP7-BottleneckCSP/conv3-Conv/bn-BatchNorm2d/gradBatchNorm/BNTrainingReduceGrad-op4710
+4 2523 61 2526 70
+2 2531 2923
+2531 Gradients/Default/network-YoloWithLossCell/yolo_network-YOLOV5/feature_map-YOLO/backbone-YOLOv5Backbone/CSP1-BottleneckCSP/conv2-Conv/conv-Conv2d/gradConv2D/Conv2DBackpropInput-op2610
+1 2529
+1 2533
+2533 Default/network-YoloWithLossCell/yolo_network-YOLOV5/feature_map-YOLO/backbone-YOLOv5Backbone/CSP1-BottleneckCSP/m-SequentialCell/0-Bottleneck/AddN-op2612
+2 2531 2503
+2 2534 2536
+2534 Gradients/Default/network-YoloWithLossCell/gradMul/Mul-op2614
+2 54 2533
+1 2537
+2536 Gradients/Default/network-YoloWithLossCell/gradMul/Mul-op2613
+2 54 2533
+1 2537
+2537 Default/network-YoloWithLossCell/yolo_network-YOLOV5/feature_map-YOLO/backbone-YOLOv5Backbone/focus-Focus/conv-Conv/act-SiLU/AddN-op2617
+3 54 2534 2536
+2 2540 2543
+2540 Gradients/Default/network-YoloWithLossCell/yolo_network-YOLOV5/feature_map-YOLO/CSP7-BottleneckCSP/conv3-Conv/bn-BatchNorm2d/gradBatchNorm/BNTrainingUpdateGrad-op4712
+3 2537 45 54
+1 2543
+2543 Gradients/Default/network-YoloWithLossCell/yolo_network-YOLOV5/feature_map-YOLO/CSP7-BottleneckCSP/conv3-Conv/bn-BatchNorm2d/gradBatchNorm/BNTrainingReduceGrad-op4715
+4 2537 45 2540 54
+2 2545 2941
+2545 Gradients/Default/network-YoloWithLossCell/yolo_network-YOLOV5/feature_map-YOLO/backbone-YOLOv5Backbone/CSP1-BottleneckCSP/conv2-Conv/conv-Conv2d/gradConv2D/Conv2DBackpropInput-op2623
+1 2543
+1 2561
+2548 Gradients/Default/network-YoloWithLossCell/gradMul/Mul-op2625
+2 102 2503
+1 2551
+2550 Gradients/Default/network-YoloWithLossCell/gradMul/Mul-op2627
+2 102 2503
+1 2551
+2551 Default/network-YoloWithLossCell/yolo_network-YOLOV5/feature_map-YOLO/backbone-YOLOv5Backbone/focus-Focus/conv-Conv/act-SiLU/AddN-op2629
+3 102 2548 2550
+2 2554 2557
+2554 Gradients/Default/network-YoloWithLossCell/yolo_network-YOLOV5/feature_map-YOLO/CSP7-BottleneckCSP/conv3-Conv/bn-BatchNorm2d/gradBatchNorm/BNTrainingUpdateGrad-op4717
+3 2551 93 102
+1 2557
+2557 Gradients/Default/network-YoloWithLossCell/yolo_network-YOLOV5/feature_map-YOLO/CSP7-BottleneckCSP/conv3-Conv/bn-BatchNorm2d/gradBatchNorm/BNTrainingReduceGrad-op4720
+4 2551 93 2554 102
+2 2559 2935
+2559 Gradients/Default/network-YoloWithLossCell/yolo_network-YOLOV5/feature_map-YOLO/backbone-YOLOv5Backbone/CSP1-BottleneckCSP/conv2-Conv/conv-Conv2d/gradConv2D/Conv2DBackpropInput-op2635
+1 2557
+1 2561
+2561 Default/network-YoloWithLossCell/yolo_network-YOLOV5/feature_map-YOLO/backbone-YOLOv5Backbone/CSP1-BottleneckCSP/conv2-Conv/conv-Conv2d/AddN-op2637
+2 2545 2559
+2 2562 2564
+2562 Gradients/Default/network-YoloWithLossCell/gradMul/Mul-op2639
+2 38 2561
+1 2565
+2564 Gradients/Default/network-YoloWithLossCell/gradMul/Mul-op2638
+2 38 2561
+1 2565
+2565 Default/network-YoloWithLossCell/yolo_network-YOLOV5/feature_map-YOLO/backbone-YOLOv5Backbone/focus-Focus/conv-Conv/act-SiLU/AddN-op2642
+3 38 2562 2564
+2 2568 2571
+2568 Gradients/Default/network-YoloWithLossCell/yolo_network-YOLOV5/feature_map-YOLO/CSP7-BottleneckCSP/conv3-Conv/bn-BatchNorm2d/gradBatchNorm/BNTrainingUpdateGrad-op4722
+3 2565 29 38
+1 2571
+2571 Gradients/Default/network-YoloWithLossCell/yolo_network-YOLOV5/feature_map-YOLO/CSP7-BottleneckCSP/conv3-Conv/bn-BatchNorm2d/gradBatchNorm/BNTrainingReduceGrad-op4725
+4 2565 29 2568 38
+2 2573 2947
+2573 Gradients/Default/network-YoloWithLossCell/yolo_network-YOLOV5/feature_map-YOLO/backbone-YOLOv5Backbone/conv1-Conv/conv-Conv2d/gradConv2D/Conv2DBackpropInput-op2648
+1 2571
+2 2575 2577
+2575 Gradients/Default/network-YoloWithLossCell/gradMul/Mul-op2649
+2 22 2573
+1 2578
+2577 Gradients/Default/network-YoloWithLossCell/gradMul/Mul-op2651
+2 22 2573
+1 2578
+2578 Default/network-YoloWithLossCell/yolo_network-YOLOV5/feature_map-YOLO/backbone-YOLOv5Backbone/focus-Focus/conv-Conv/act-SiLU/AddN-op2653
+3 22 2575 2577
+2 2581 2954
+2581 Gradients/Default/network-YoloWithLossCell/yolo_network-YOLOV5/feature_map-YOLO/CSP7-BottleneckCSP/conv3-Conv/bn-BatchNorm2d/gradBatchNorm/BNTrainingUpdateGrad-op4727
+3 2578 13 22
+1 2954
+2587 Gradients/Default/network-YoloWithLossCell/yolo_network-YOLOV5/feature_map-YOLO/back_block1-YoloBlock/conv-Conv2d/gradConv2D/Conv2DBackpropFilter-op1295
+2 1530 977
+0
+2593 Gradients/Default/network-YoloWithLossCell/yolo_network-YOLOV5/feature_map-YOLO/back_block1-YoloBlock/conv-Conv2d/gradConv2D/Conv2DBackpropFilter-op2672
+2 1719 880
+0
+2599 Gradients/Default/network-YoloWithLossCell/yolo_network-YOLOV5/feature_map-YOLO/back_block1-YoloBlock/conv-Conv2d/gradConv2D/Conv2DBackpropFilter-op2679
+2 1909 783
+0
+2605 Gradients/Default/network-YoloWithLossCell/yolo_network-YOLOV5/feature_map-YOLO/CSP8-BottleneckCSP/m-SequentialCell/0-Bottleneck/conv2-Conv/conv-Conv2d/gradConv2D/Conv2DBackpropFilter-op2686
+2 1558 929
+0
+2611 Gradients/Default/network-YoloWithLossCell/yolo_network-YOLOV5/feature_map-YOLO/conv1-Conv/conv-Conv2d/gradConv2D/Conv2DBackpropFilter-op2693
+2 1571 913
+0
+2617 Gradients/Default/network-YoloWithLossCell/yolo_network-YOLOV5/feature_map-YOLO/CSP8-BottleneckCSP/conv3-Conv/conv-Conv2d/gradConv2D/Conv2DBackpropFilter-op2700
+3 1543 945 960
+0
+2623 Gradients/Default/network-YoloWithLossCell/yolo_network-YOLOV5/feature_map-YOLO/conv1-Conv/conv-Conv2d/gradConv2D/Conv2DBackpropFilter-op2707
+3 1598 896 603
+0
+2629 Gradients/Default/network-YoloWithLossCell/yolo_network-YOLOV5/feature_map-YOLO/conv1-Conv/conv-Conv2d/gradConv2D/Conv2DBackpropFilter-op2714
+3 1584 896 603
+0
+2635 Gradients/Default/network-YoloWithLossCell/yolo_network-YOLOV5/feature_map-YOLO/conv4-Conv/conv-Conv2d/gradConv2D/Conv2DBackpropFilter-op2721
+2 1614 880
+0
+2641 Gradients/Default/network-YoloWithLossCell/yolo_network-YOLOV5/feature_map-YOLO/CSP7-BottleneckCSP/m-SequentialCell/0-Bottleneck/conv2-Conv/conv-Conv2d/gradConv2D/Conv2DBackpropFilter-op2728
+2 1748 832
+0
+2647 Gradients/Default/network-YoloWithLossCell/yolo_network-YOLOV5/feature_map-YOLO/conv2-Conv/conv-Conv2d/gradConv2D/Conv2DBackpropFilter-op2735
+2 1761 816
+0
+2653 Gradients/Default/network-YoloWithLossCell/yolo_network-YOLOV5/feature_map-YOLO/conv1-Conv/conv-Conv2d/gradConv2D/Conv2DBackpropFilter-op2742
+3 1733 848 863
+0
+2659 Gradients/Default/network-YoloWithLossCell/yolo_network-YOLOV5/feature_map-YOLO/conv2-Conv/conv-Conv2d/gradConv2D/Conv2DBackpropFilter-op2749
+3 1788 799 701
+0
+2665 Gradients/Default/network-YoloWithLossCell/yolo_network-YOLOV5/feature_map-YOLO/conv2-Conv/conv-Conv2d/gradConv2D/Conv2DBackpropFilter-op2756
+3 1774 799 701
+0
+2671 Gradients/Default/network-YoloWithLossCell/yolo_network-YOLOV5/feature_map-YOLO/conv3-Conv/conv-Conv2d/gradConv2D/Conv2DBackpropFilter-op2763
+2 1804 783
+0
+2677 Gradients/Default/network-YoloWithLossCell/yolo_network-YOLOV5/feature_map-YOLO/CSP6-BottleneckCSP/m-SequentialCell/0-Bottleneck/conv2-Conv/conv-Conv2d/gradConv2D/Conv2DBackpropFilter-op2770
+2 1938 735
+0
+2683 Gradients/Default/network-YoloWithLossCell/yolo_network-YOLOV5/feature_map-YOLO/CSP6-BottleneckCSP/conv2-Conv/conv-Conv2d/gradConv2D/Conv2DBackpropFilter-op2777
+2 1951 719
+0
+2689 Gradients/Default/network-YoloWithLossCell/yolo_network-YOLOV5/feature_map-YOLO/conv2-Conv/conv-Conv2d/gradConv2D/Conv2DBackpropFilter-op2784
+3 1923 751 766
+0
+2695 Gradients/Default/network-YoloWithLossCell/yolo_network-YOLOV5/feature_map-YOLO/CSP6-BottleneckCSP/conv2-Conv/conv-Conv2d/gradConv2D/Conv2DBackpropFilter-op2791
+3 1978 701 285
+0
+2701 Gradients/Default/network-YoloWithLossCell/yolo_network-YOLOV5/feature_map-YOLO/CSP6-BottleneckCSP/conv2-Conv/conv-Conv2d/gradConv2D/Conv2DBackpropFilter-op2798
+3 1964 701 285
+0
+2707 Gradients/Default/network-YoloWithLossCell/yolo_network-YOLOV5/feature_map-YOLO/conv2-Conv/conv-Conv2d/gradConv2D/Conv2DBackpropFilter-op2805
+2 1997 685
+0
+2713 Gradients/Default/network-YoloWithLossCell/yolo_network-YOLOV5/feature_map-YOLO/CSP7-BottleneckCSP/m-SequentialCell/0-Bottleneck/conv2-Conv/conv-Conv2d/gradConv2D/Conv2DBackpropFilter-op2812
+2 2025 637
+0
+2719 Gradients/Default/network-YoloWithLossCell/yolo_network-YOLOV5/feature_map-YOLO/conv2-Conv/conv-Conv2d/gradConv2D/Conv2DBackpropFilter-op2819
+2 2038 621
+0
+2725 Gradients/Default/network-YoloWithLossCell/yolo_network-YOLOV5/feature_map-YOLO/conv1-Conv/conv-Conv2d/gradConv2D/Conv2DBackpropFilter-op2826
+3 2010 653 668
+0
+2731 Gradients/Default/network-YoloWithLossCell/yolo_network-YOLOV5/feature_map-YOLO/conv2-Conv/conv-Conv2d/gradConv2D/Conv2DBackpropFilter-op2833
+3 2065 603 448
+0
+2737 Gradients/Default/network-YoloWithLossCell/yolo_network-YOLOV5/feature_map-YOLO/conv2-Conv/conv-Conv2d/gradConv2D/Conv2DBackpropFilter-op2840
+3 2051 603 448
+0
+2743 Gradients/Default/network-YoloWithLossCell/yolo_network-YOLOV5/feature_map-YOLO/conv1-Conv/conv-Conv2d/gradConv2D/Conv2DBackpropFilter-op2847
+2 2084 587
+0
+2749 Gradients/Default/network-YoloWithLossCell/yolo_network-YOLOV5/feature_map-YOLO/CSP8-BottleneckCSP/m-SequentialCell/0-Bottleneck/conv2-Conv/conv-Conv2d/gradConv2D/Conv2DBackpropFilter-op2854
+2 2112 539
+0
+2755 Gradients/Default/network-YoloWithLossCell/yolo_network-YOLOV5/feature_map-YOLO/conv1-Conv/conv-Conv2d/gradConv2D/Conv2DBackpropFilter-op2861
+2 2125 523
+0
+2761 Gradients/Default/network-YoloWithLossCell/yolo_network-YOLOV5/feature_map-YOLO/CSP8-BottleneckCSP/conv3-Conv/conv-Conv2d/gradConv2D/Conv2DBackpropFilter-op2868
+3 2097 555 570
+0
+2767 Gradients/Default/network-YoloWithLossCell/yolo_network-YOLOV5/feature_map-YOLO/conv1-Conv/conv-Conv2d/gradConv2D/Conv2DBackpropFilter-op2875
+2 2152 507
+0
+2773 Gradients/Default/network-YoloWithLossCell/yolo_network-YOLOV5/feature_map-YOLO/conv1-Conv/conv-Conv2d/gradConv2D/Conv2DBackpropFilter-op2882
+2 2138 507
+0
+2779 Gradients/Default/network-YoloWithLossCell/yolo_network-YOLOV5/feature_map-YOLO/CSP8-BottleneckCSP/conv3-Conv/conv-Conv2d/gradConv2D/Conv2DBackpropFilter-op2889
+5 2166 480 482 485 488
+0
+2785 Gradients/Default/network-YoloWithLossCell/yolo_network-YOLOV5/feature_map-YOLO/conv1-Conv/conv-Conv2d/gradConv2D/Conv2DBackpropFilter-op2896
+2 2197 464
+0
+2791 Gradients/Default/network-YoloWithLossCell/yolo_network-YOLOV5/feature_map-YOLO/backbone-YOLOv5Backbone/conv4-Conv/conv-Conv2d/gradConv2D/Conv2DBackpropFilter-op2903
+2 2210 448
+0
+2797 Gradients/Default/network-YoloWithLossCell/yolo_network-YOLOV5/feature_map-YOLO/CSP7-BottleneckCSP/m-SequentialCell/0-Bottleneck/conv2-Conv/conv-Conv2d/gradConv2D/Conv2DBackpropFilter-op2910
+2 2240 399
+0
+2803 Gradients/Default/network-YoloWithLossCell/yolo_network-YOLOV5/feature_map-YOLO/conv2-Conv/conv-Conv2d/gradConv2D/Conv2DBackpropFilter-op2917
+4 2253 317 349 382
+0
+2809 Gradients/Default/network-YoloWithLossCell/yolo_network-YOLOV5/feature_map-YOLO/CSP7-BottleneckCSP/m-SequentialCell/0-Bottleneck/conv2-Conv/conv-Conv2d/gradConv2D/Conv2DBackpropFilter-op2924
+2 2267 366
+0
+2815 Gradients/Default/network-YoloWithLossCell/yolo_network-YOLOV5/feature_map-YOLO/conv2-Conv/conv-Conv2d/gradConv2D/Conv2DBackpropFilter-op2931
+3 2280 317 349
+0
+2821 Gradients/Default/network-YoloWithLossCell/yolo_network-YOLOV5/feature_map-YOLO/CSP7-BottleneckCSP/m-SequentialCell/0-Bottleneck/conv2-Conv/conv-Conv2d/gradConv2D/Conv2DBackpropFilter-op2938
+2 2294 333
+0
+2827 Gradients/Default/network-YoloWithLossCell/yolo_network-YOLOV5/feature_map-YOLO/conv2-Conv/conv-Conv2d/gradConv2D/Conv2DBackpropFilter-op2945
+2 2307 317
+0
+2833 Gradients/Default/network-YoloWithLossCell/yolo_network-YOLOV5/feature_map-YOLO/conv1-Conv/conv-Conv2d/gradConv2D/Conv2DBackpropFilter-op2952
+6 2225 317 349 382 415 431
+0
+2839 Gradients/Default/network-YoloWithLossCell/yolo_network-YOLOV5/feature_map-YOLO/conv2-Conv/conv-Conv2d/gradConv2D/Conv2DBackpropFilter-op2959
+2 2335 301
+0
+2845 Gradients/Default/network-YoloWithLossCell/yolo_network-YOLOV5/feature_map-YOLO/conv2-Conv/conv-Conv2d/gradConv2D/Conv2DBackpropFilter-op2966
+2 2321 301
+0
+2851 Gradients/Default/network-YoloWithLossCell/yolo_network-YOLOV5/feature_map-YOLO/conv4-Conv/conv-Conv2d/gradConv2D/Conv2DBackpropFilter-op2973
+2 2349 285
+0
+2857 Gradients/Default/network-YoloWithLossCell/yolo_network-YOLOV5/feature_map-YOLO/CSP6-BottleneckCSP/m-SequentialCell/0-Bottleneck/conv2-Conv/conv-Conv2d/gradConv2D/Conv2DBackpropFilter-op2980
+2 2379 236
+0
+2863 Gradients/Default/network-YoloWithLossCell/yolo_network-YOLOV5/feature_map-YOLO/CSP6-BottleneckCSP/conv2-Conv/conv-Conv2d/gradConv2D/Conv2DBackpropFilter-op2987
+4 2392 154 186 219
+0
+2869 Gradients/Default/network-YoloWithLossCell/yolo_network-YOLOV5/feature_map-YOLO/CSP6-BottleneckCSP/m-SequentialCell/0-Bottleneck/conv2-Conv/conv-Conv2d/gradConv2D/Conv2DBackpropFilter-op2994
+2 2406 203
+0
+2875 Gradients/Default/network-YoloWithLossCell/yolo_network-YOLOV5/feature_map-YOLO/CSP6-BottleneckCSP/conv2-Conv/conv-Conv2d/gradConv2D/Conv2DBackpropFilter-op3001
+3 2419 154 186
+0
+2881 Gradients/Default/network-YoloWithLossCell/yolo_network-YOLOV5/feature_map-YOLO/CSP6-BottleneckCSP/m-SequentialCell/0-Bottleneck/conv2-Conv/conv-Conv2d/gradConv2D/Conv2DBackpropFilter-op3008
+2 2433 170
+0
+2887 Gradients/Default/network-YoloWithLossCell/yolo_network-YOLOV5/feature_map-YOLO/CSP6-BottleneckCSP/conv2-Conv/conv-Conv2d/gradConv2D/Conv2DBackpropFilter-op3015
+2 2446 154
+0
+2893 Gradients/Default/network-YoloWithLossCell/yolo_network-YOLOV5/feature_map-YOLO/conv2-Conv/conv-Conv2d/gradConv2D/Conv2DBackpropFilter-op3022
+6 2364 154 186 219 252 268
+0
+2899 Gradients/Default/network-YoloWithLossCell/yolo_network-YOLOV5/feature_map-YOLO/CSP6-BottleneckCSP/conv2-Conv/conv-Conv2d/gradConv2D/Conv2DBackpropFilter-op3029
+2 2474 138
+0
+2905 Gradients/Default/network-YoloWithLossCell/yolo_network-YOLOV5/feature_map-YOLO/CSP6-BottleneckCSP/conv2-Conv/conv-Conv2d/gradConv2D/Conv2DBackpropFilter-op3036
+2 2460 138
+0
+2911 Gradients/Default/network-YoloWithLossCell/yolo_network-YOLOV5/feature_map-YOLO/conv3-Conv/conv-Conv2d/gradConv2D/Conv2DBackpropFilter-op3043
+2 2488 122
+0
+2917 Gradients/Default/network-YoloWithLossCell/yolo_network-YOLOV5/feature_map-YOLO/backbone-YOLOv5Backbone/focus-Focus/conv-Conv/conv-Conv2d/gradConv2D/Conv2DBackpropFilter-op3050
+2 2516 73
+0
+2923 Gradients/Default/network-YoloWithLossCell/yolo_network-YOLOV5/feature_map-YOLO/backbone-YOLOv5Backbone/CSP1-BottleneckCSP/conv2-Conv/conv-Conv2d/gradConv2D/Conv2DBackpropFilter-op3057
+2 2529 57
+0
+2929 Gradients/Default/network-YoloWithLossCell/yolo_network-YOLOV5/feature_map-YOLO/CSP6-BottleneckCSP/conv2-Conv/conv-Conv2d/gradConv2D/Conv2DBackpropFilter-op3064
+4 2501 57 89 105
+0
+2935 Gradients/Default/network-YoloWithLossCell/yolo_network-YOLOV5/feature_map-YOLO/backbone-YOLOv5Backbone/CSP1-BottleneckCSP/conv2-Conv/conv-Conv2d/gradConv2D/Conv2DBackpropFilter-op3071
+2 2557 41
+0
+2941 Gradients/Default/network-YoloWithLossCell/yolo_network-YOLOV5/feature_map-YOLO/backbone-YOLOv5Backbone/CSP1-BottleneckCSP/conv2-Conv/conv-Conv2d/gradConv2D/Conv2DBackpropFilter-op3078
+2 2543 41
+0
+2947 Gradients/Default/network-YoloWithLossCell/yolo_network-YOLOV5/feature_map-YOLO/backbone-YOLOv5Backbone/conv1-Conv/conv-Conv2d/gradConv2D/Conv2DBackpropFilter-op3085
+2 2571 25
+0
+2954 Gradients/Default/network-YoloWithLossCell/yolo_network-YOLOV5/feature_map-YOLO/CSP7-BottleneckCSP/conv3-Conv/bn-BatchNorm2d/gradBatchNorm/BNTrainingReduceGrad-op4730
+4 2578 13 2581 22
+1 2956
+2956 Gradients/Default/network-YoloWithLossCell/yolo_network-YOLOV5/feature_map-YOLO/backbone-YOLOv5Backbone/focus-Focus/conv-Conv/conv-Conv2d/gradConv2D/Conv2DBackpropFilter-op3093
+2 2954 9
+0
