@@ -1,0 +1,470 @@
+1	W_l2
+W_l2 cst1
+2	Default/GetNext-op6
+3	Default/TupleGetItem-op420
+2 cst2
+4	Default/TensorMove-op272
+3
+5	Default/network-TrainStepWrap/network-NetWithLossClass/network-DeepFMModel/Gather-op8
+1 4
+6	Default/TupleGetItem-op421
+2 cst3
+7	Default/TensorMove-op274
+6
+8	Default/network-TrainStepWrap/network-NetWithLossClass/network-DeepFMModel/Reshape-op11
+7
+9	Default/network-TrainStepWrap/network-NetWithLossClass/network-DeepFMModel/Mul-op9
+5 8
+10	Default/network-TrainStepWrap/network-NetWithLossClass/network-DeepFMModel/ReduceSum-op14
+9
+11	V_l2
+V_l2 cst1
+12	Default/network-TrainStepWrap/network-NetWithLossClass/network-DeepFMModel/Gather-op17
+11 4
+13	Default/network-TrainStepWrap/network-NetWithLossClass/network-DeepFMModel/Mul-op13
+12 8
+14	Default/network-TrainStepWrap/network-NetWithLossClass/network-DeepFMModel/ReduceSum-op19
+13
+15	Default/network-TrainStepWrap/network-NetWithLossClass/network-DeepFMModel/Square-op20
+14
+16	Default/network-TrainStepWrap/network-NetWithLossClass/network-DeepFMModel/SquareSumV1-op256
+13
+17	Default/network-TrainStepWrap/network-NetWithLossClass/network-DeepFMModel/Sub-op21
+15 16
+18	Default/network-TrainStepWrap/network-NetWithLossClass/network-DeepFMModel/ReduceSum-op24
+17
+19	Default/network-TrainStepWrap/network-NetWithLossClass/network-DeepFMModel/Mul-op25
+cst4 18
+20	Default/network-TrainStepWrap/network-NetWithLossClass/network-DeepFMModel/Reshape-op26
+19
+21	Default/network-TrainStepWrap/network-NetWithLossClass/network-DeepFMModel/Add-op15
+10 20
+22	Default/network-TrainStepWrap/network-NetWithLossClass/network-DeepFMModel/TransData-op278
+21
+23	Default/network-TrainStepWrap/network-NetWithLossClass/network-DeepFMModel/Reshape-op18
+13
+24	Default/network-TrainStepWrap/network-NetWithLossClass/network-DeepFMModel/dense_layer_1-DenseLayer/Cast-op28
+23
+25	Default/network-TrainStepWrap/network-NetWithLossClass/network-DeepFMModel/dense_layer_1-DenseLayer/TransData-op359
+24
+26	dense_layer_1.weight
+dense_layer_1.weight cst1
+27	Default/network-TrainStepWrap/network-NetWithLossClass/network-DeepFMModel/dense_layer_1-DenseLayer/Cast-op31
+26
+28	Default/network-TrainStepWrap/network-NetWithLossClass/network-DeepFMModel/dense_layer_1-DenseLayer/TransData-op360
+27
+29	dense_layer_1.bias
+dense_layer_1.bias cst1
+30	Default/network-TrainStepWrap/network-NetWithLossClass/network-DeepFMModel/dense_layer_1-DenseLayer/Cast-op34
+29
+31	Default/network-TrainStepWrap/network-NetWithLossClass/network-DeepFMModel/dense_layer_1-DenseLayer/FusionOp_MatMul_ReLU-op532
+25 28 30
+32	dense_layer_2.weight
+dense_layer_2.weight cst1
+33	Default/network-TrainStepWrap/network-NetWithLossClass/network-DeepFMModel/dense_layer_2-DenseLayer/Cast-op38
+32
+34	Default/network-TrainStepWrap/network-NetWithLossClass/network-DeepFMModel/dense_layer_2-DenseLayer/TransData-op354
+33
+35	dense_layer_2.bias
+dense_layer_2.bias cst1
+36	Default/network-TrainStepWrap/network-NetWithLossClass/network-DeepFMModel/dense_layer_2-DenseLayer/Cast-op41
+35
+37	Default/network-TrainStepWrap/network-NetWithLossClass/network-DeepFMModel/dense_layer_2-DenseLayer/FusionOp_MatMul_ReLU-op533
+31 34 36
+38	dense_layer_3.weight
+dense_layer_3.weight cst1
+39	Default/network-TrainStepWrap/network-NetWithLossClass/network-DeepFMModel/dense_layer_3-DenseLayer/Cast-op45
+38
+40	Default/network-TrainStepWrap/network-NetWithLossClass/network-DeepFMModel/dense_layer_3-DenseLayer/TransData-op357
+39
+41	dense_layer_3.bias
+dense_layer_3.bias cst1
+42	Default/network-TrainStepWrap/network-NetWithLossClass/network-DeepFMModel/dense_layer_3-DenseLayer/Cast-op48
+41
+43	Default/network-TrainStepWrap/network-NetWithLossClass/network-DeepFMModel/dense_layer_3-DenseLayer/FusionOp_MatMul_ReLU-op534
+37 40 42
+44	dense_layer_4.weight
+dense_layer_4.weight cst1
+45	Default/network-TrainStepWrap/network-NetWithLossClass/network-DeepFMModel/dense_layer_4-DenseLayer/Cast-op52
+44
+46	Default/network-TrainStepWrap/network-NetWithLossClass/network-DeepFMModel/dense_layer_4-DenseLayer/TransData-op342
+45
+47	dense_layer_4.bias
+dense_layer_4.bias cst1
+48	Default/network-TrainStepWrap/network-NetWithLossClass/network-DeepFMModel/dense_layer_4-DenseLayer/Cast-op55
+47
+49	Default/network-TrainStepWrap/network-NetWithLossClass/network-DeepFMModel/dense_layer_4-DenseLayer/FusionOp_MatMul_ReLU-op535
+43 46 48
+50	dense_layer_5.weight
+dense_layer_5.weight cst1
+51	Default/network-TrainStepWrap/network-NetWithLossClass/network-DeepFMModel/dense_layer_5-DenseLayer/Cast-op59
+50
+52	Default/network-TrainStepWrap/network-NetWithLossClass/network-DeepFMModel/dense_layer_5-DenseLayer/TransData-op298
+51
+53	dense_layer_5.bias
+dense_layer_5.bias cst1
+54	Default/network-TrainStepWrap/network-NetWithLossClass/network-DeepFMModel/dense_layer_5-DenseLayer/Cast-op62
+53
+55	Default/network-TrainStepWrap/network-NetWithLossClass/network-DeepFMModel/dense_layer_5-DenseLayer/MatMul-op267
+49 52 54
+56	Default/network-TrainStepWrap/network-NetWithLossClass/network-DeepFMModel/dense_layer_5-DenseLayer/Cast-op63
+55
+57	Default/network-TrainStepWrap/network-NetWithLossClass/network-DeepFMModel/Add-op27
+22 56
+58	Default/network-TrainStepWrap/network-NetWithLossClass/network-DeepFMModel/TransData-op280
+57
+59	Default/TupleGetItem-op422
+2 cst5
+60	Default/TensorMove-op276
+59
+61	Default/network-TrainStepWrap/network-NetWithLossClass/SigmoidCrossEntropyWithLogits-op65
+58 60
+62	Default/network-TrainStepWrap/network-NetWithLossClass/ReduceMean-op67
+61
+63	Default/network-TrainStepWrap/network-NetWithLossClass/SquareSumV2-op257
+11
+64	Default/TupleGetItem-op424
+63 cst6
+65	Default/network-TrainStepWrap/network-NetWithLossClass/SquareSumV2-op259
+1
+66	Default/TupleGetItem-op427
+65 cst7
+67	Default/network-TrainStepWrap/network-NetWithLossClass/network-DeepFMModel/Add-op71
+64 66
+68	Default/network-TrainStepWrap/network-NetWithLossClass/Mul-op74
+67 cst8
+69	Default/network-TrainStepWrap/network-NetWithLossClass/network-DeepFMModel/Add-op68
+62 68
+70	beta1_power
+beta1_power cst1
+71	Default/network-TrainStepWrap/optimizer-Adam/Mul-op77
+70 cst9
+72	Default/network-TrainStepWrap/optimizer-Adam/MakeTuple-op79
+50 44 38 32 26 1 11 29 35 41 47 53 70
+73	Default/network-TrainStepWrap/optimizer-Adam/UpdateState-op80
+cst1 72 71
+74	Default/network-TrainStepWrap/optimizer-Adam/Assign-op82
+beta1_power 71 73
+75	Default/network-TrainStepWrap/UpdateState-op81
+73 74
+76	beta2_power
+beta2_power 75
+77	Default/network-TrainStepWrap/optimizer-Adam/Mul-op85
+76 cst10
+78	Gradients/Default/network-TrainStepWrap/network-NetWithLossClass/gradSigmoidCrossEntropyWithLogits/SigmoidCrossEntropyWithLogitsGrad-op64
+58 60 cst11
+79	Gradients/Default/network-TrainStepWrap/network-NetWithLossClass/gradReduceSum/Reshape-op86
+78
+80	Gradients/Default/network-TrainStepWrap/network-NetWithLossClass/gradReduceSum/Tile-op87
+79
+81	Gradients/Default/network-TrainStepWrap/network-NetWithLossClass/gradMul/Mul-op12
+8 80
+82	Gradients/Default/network-TrainStepWrap/network-NetWithLossClass/network-DeepFMModel/gradGather/Padding-op268
+81
+83	Gradients/Default/network-TrainStepWrap/network-NetWithLossClass/network-DeepFMModel/gradGather/UnsortedSegmentSum-op269
+82 4
+84	Gradients/Default/network-TrainStepWrap/network-NetWithLossClass/network-DeepFMModel/gradGather/Slice-op270
+83
+85	Default/Mul-op89
+1 cst12
+86	Default/network-TrainStepWrap/network-NetWithLossClass/AddN-op91
+84 85
+87	Default/network-TrainStepWrap/optimizer-Adam/Mul-op92
+86 cst13
+88	Default/network-TrainStepWrap/optimizer-Adam/UpdateState-op83
+75 76 77
+89	Default/network-TrainStepWrap/optimizer-Adam/Assign-op95
+beta2_power 77 88
+90	Default/network-TrainStepWrap/UpdateState-op545
+88 89 5 85
+91	Default/network-TrainStepWrap/optimizer-Adam/Adam-op93
+W_l2 moment1.W_l2 moment2.W_l2 71 77 learning_rate cst9 cst10 cst14 87 90
+92	Default/network-TrainStepWrap/optimizer-Adam/TupleGetItem-op478
+91 cst15
+93	Default/network-TrainStepWrap/optimizer-Adam/TupleGetItem-op479
+91 cst16
+94	Default/network-TrainStepWrap/optimizer-Adam/TupleGetItem-op480
+91 cst17
+95	Default/MakeTuple-op211
+92 93 94
+96	Default/network-TrainStepWrap/optimizer-Adam/Depend-op196
+cst18 95
+97	Gradients/Default/network-TrainStepWrap/network-NetWithLossClass/network-DeepFMModel/gradReshape/Reshape-op99
+78
+98	Gradients/Default/network-TrainStepWrap/network-NetWithLossClass/gradMul/Mul-op100
+cst4 97
+99	Gradients/Default/network-TrainStepWrap/network-NetWithLossClass/gradReduceSum/Reshape-op101
+98
+100	Gradients/Default/network-TrainStepWrap/network-NetWithLossClass/gradReduceSum/Tile-op102
+99
+101	Gradients/Default/network-TrainStepWrap/network-NetWithLossClass/gradSquare/Mul-op103
+100 14
+102	Gradients/Default/network-TrainStepWrap/network-NetWithLossClass/gradSquare/Mul-op104
+cst19 101
+103	Gradients/Default/network-TrainStepWrap/network-NetWithLossClass/gradReduceSum/Reshape-op105
+102
+104	Gradients/Default/network-TrainStepWrap/network-NetWithLossClass/gradReduceSum/Tile-op106
+103
+105	Gradients/Default/network-TrainStepWrap/network-NetWithLossClass/network-DeepFMModel/gradSub/Neg-op107
+100
+106	Gradients/Default/network-TrainStepWrap/network-NetWithLossClass/gradReduceSum/Reshape-op108
+105
+107	Gradients/Default/network-TrainStepWrap/network-NetWithLossClass/gradReduceSum/Tile-op109
+106
+108	Gradients/Default/network-TrainStepWrap/network-NetWithLossClass/gradSquare/Mul-op110
+107 13
+109	Gradients/Default/network-TrainStepWrap/network-NetWithLossClass/gradSquare/Mul-op111
+cst20 108
+110	Gradients/Default/network-TrainStepWrap/network-NetWithLossClass/network-DeepFMModel/dense_layer_5-DenseLayer/gradCast/Cast-op112
+78
+111	Gradients/Default/network-TrainStepWrap/network-NetWithLossClass/network-DeepFMModel/dense_layer_5-DenseLayer/gradCast/TransData-op333
+110
+112	Gradients/Default/network-TrainStepWrap/network-NetWithLossClass/network-DeepFMModel/dense_layer_5-DenseLayer/gradMatMul/MatMul-op113
+111 52
+113	Gradients/Default/network-TrainStepWrap/network-NetWithLossClass/network-DeepFMModel/dense_layer_4-DenseLayer/gradReLU/ReluGrad-op114
+112 49
+114	Gradients/Default/network-TrainStepWrap/network-NetWithLossClass/network-DeepFMModel/dense_layer_5-DenseLayer/gradMatMul/MatMul-op115
+113 46
+115	Gradients/Default/network-TrainStepWrap/network-NetWithLossClass/network-DeepFMModel/dense_layer_4-DenseLayer/gradReLU/ReluGrad-op116
+114 43
+116	Gradients/Default/network-TrainStepWrap/network-NetWithLossClass/network-DeepFMModel/dense_layer_5-DenseLayer/gradMatMul/MatMul-op117
+115 40
+117	Gradients/Default/network-TrainStepWrap/network-NetWithLossClass/network-DeepFMModel/dense_layer_4-DenseLayer/gradReLU/ReluGrad-op118
+116 37
+118	Gradients/Default/network-TrainStepWrap/network-NetWithLossClass/network-DeepFMModel/dense_layer_5-DenseLayer/gradMatMul/MatMul-op119
+117 34
+119	Gradients/Default/network-TrainStepWrap/network-NetWithLossClass/network-DeepFMModel/dense_layer_4-DenseLayer/gradReLU/ReluGrad-op120
+118 31
+120	Gradients/Default/network-TrainStepWrap/network-NetWithLossClass/network-DeepFMModel/dense_layer_5-DenseLayer/gradMatMul/MatMul-op121
+119 28
+121	Gradients/Default/network-TrainStepWrap/network-NetWithLossClass/network-DeepFMModel/dense_layer_5-DenseLayer/gradMatMul/TransData-op338
+120
+122	Gradients/Default/network-TrainStepWrap/network-NetWithLossClass/network-DeepFMModel/gradReshape/Reshape-op123
+121
+123	Default/AddN-op125
+104 109 122
+124	Gradients/Default/network-TrainStepWrap/network-NetWithLossClass/gradMul/Mul-op126
+8 123
+125	Gradients/Default/network-TrainStepWrap/network-NetWithLossClass/network-DeepFMModel/gradGather/UnsortedSegmentSum-op127
+124 4
+126	Default/Mul-op128
+11 cst21
+127	Default/network-TrainStepWrap/network-NetWithLossClass/AddN-op130
+125 126
+128	Default/network-TrainStepWrap/optimizer-Adam/Mul-op131
+127 cst13
+129	Default/network-TrainStepWrap/optimizer-Adam/UpdateState-op546
+90 91 12 126
+130	Default/network-TrainStepWrap/optimizer-Adam/Adam-op132
+V_l2 moment1.V_l2 moment2.V_l2 71 77 learning_rate cst9 cst10 cst14 128 129
+131	Default/network-TrainStepWrap/optimizer-Adam/TupleGetItem-op482
+130 cst22
+132	Default/network-TrainStepWrap/optimizer-Adam/TupleGetItem-op483
+130 cst23
+133	Default/network-TrainStepWrap/optimizer-Adam/TupleGetItem-op484
+130 cst24
+134	Default/MakeTuple-op215
+131 132 133
+135	Default/network-TrainStepWrap/optimizer-Adam/Depend-op197
+cst25 134
+136	Default/network-TrainStepWrap/optimizer-Adam/FusionOp_MatMul_Mul-op543
+25 119 cst13
+137	Default/network-TrainStepWrap/optimizer-Adam/TransData-op290
+136
+138	Default/network-TrainStepWrap/optimizer-Adam/UpdateState-op133
+129 130 27
+139	Default/network-TrainStepWrap/optimizer-Adam/Adam-op138
+dense_layer_1.weight moment1.dense_layer_1.weight moment2.dense_layer_1.weight 71 77 learning_rate cst9 cst10 cst14 137 138
+140	Default/network-TrainStepWrap/optimizer-Adam/TupleGetItem-op486
+139 cst26
+141	Default/network-TrainStepWrap/optimizer-Adam/TupleGetItem-op487
+139 cst27
+142	Default/network-TrainStepWrap/optimizer-Adam/TupleGetItem-op488
+139 cst28
+143	Default/MakeTuple-op219
+140 141 142
+144	Default/network-TrainStepWrap/optimizer-Adam/Depend-op198
+cst29 143
+145	Gradients/Default/network-TrainStepWrap/network-NetWithLossClass/network-DeepFMModel/dense_layer_5-DenseLayer/gradBiasAdd/BiasAddGrad-op141
+119
+146	Gradients/Default/network-TrainStepWrap/network-NetWithLossClass/network-DeepFMModel/dense_layer_5-DenseLayer/gradCast/Cast-op142
+145
+147	Default/network-TrainStepWrap/optimizer-Adam/Mul-op143
+146 cst13
+148	Default/network-TrainStepWrap/optimizer-Adam/UpdateState-op139
+138 139 30
+149	Default/network-TrainStepWrap/optimizer-Adam/Adam-op144
+dense_layer_1.bias moment1.dense_layer_1.bias moment2.dense_layer_1.bias 71 77 learning_rate cst9 cst10 cst14 147 148
+150	Default/network-TrainStepWrap/optimizer-Adam/TupleGetItem-op490
+149 cst30
+151	Default/network-TrainStepWrap/optimizer-Adam/TupleGetItem-op491
+149 cst31
+152	Default/network-TrainStepWrap/optimizer-Adam/TupleGetItem-op492
+149 cst32
+153	Default/MakeTuple-op223
+150 151 152
+154	Default/network-TrainStepWrap/optimizer-Adam/Depend-op199
+cst33 153
+155	Default/network-TrainStepWrap/optimizer-Adam/FusionOp_MatMul_Mul-op544
+31 117 cst13
+156	Default/network-TrainStepWrap/optimizer-Adam/TransData-op292
+155
+157	Default/network-TrainStepWrap/optimizer-Adam/UpdateState-op145
+148 149 33
+158	Default/network-TrainStepWrap/optimizer-Adam/Adam-op150
+dense_layer_2.weight moment1.dense_layer_2.weight moment2.dense_layer_2.weight 71 77 learning_rate cst9 cst10 cst14 156 157
+159	Default/network-TrainStepWrap/optimizer-Adam/TupleGetItem-op494
+158 cst34
+160	Default/network-TrainStepWrap/optimizer-Adam/TupleGetItem-op495
+158 cst35
+161	Default/network-TrainStepWrap/optimizer-Adam/TupleGetItem-op496
+158 cst36
+162	Default/MakeTuple-op227
+159 160 161
+163	Default/network-TrainStepWrap/optimizer-Adam/Depend-op200
+cst37 162
+164	Gradients/Default/network-TrainStepWrap/network-NetWithLossClass/network-DeepFMModel/dense_layer_5-DenseLayer/gradBiasAdd/BiasAddGrad-op153
+117
+165	Gradients/Default/network-TrainStepWrap/network-NetWithLossClass/network-DeepFMModel/dense_layer_5-DenseLayer/gradCast/Cast-op154
+164
+166	Default/network-TrainStepWrap/optimizer-Adam/Mul-op155
+165 cst13
+167	Default/network-TrainStepWrap/optimizer-Adam/UpdateState-op151
+157 158 36
+168	Default/network-TrainStepWrap/optimizer-Adam/Adam-op156
+dense_layer_2.bias moment1.dense_layer_2.bias moment2.dense_layer_2.bias 71 77 learning_rate cst9 cst10 cst14 166 167
+169	Default/network-TrainStepWrap/optimizer-Adam/TupleGetItem-op498
+168 cst38
+170	Default/network-TrainStepWrap/optimizer-Adam/TupleGetItem-op499
+168 cst39
+171	Default/network-TrainStepWrap/optimizer-Adam/TupleGetItem-op500
+168 cst40
+172	Default/MakeTuple-op231
+169 170 171
+173	Default/network-TrainStepWrap/optimizer-Adam/Depend-op201
+cst41 172
+174	Default/network-TrainStepWrap/optimizer-Adam/FusionOp_MatMul_Mul-op531
+37 115 cst13
+175	Default/network-TrainStepWrap/optimizer-Adam/TransData-op286
+174
+176	Default/network-TrainStepWrap/optimizer-Adam/UpdateState-op157
+167 168 39
+177	Default/network-TrainStepWrap/optimizer-Adam/Adam-op162
+dense_layer_3.weight moment1.dense_layer_3.weight moment2.dense_layer_3.weight 71 77 learning_rate cst9 cst10 cst14 175 176
+178	Default/network-TrainStepWrap/optimizer-Adam/TupleGetItem-op502
+177 cst42
+179	Default/network-TrainStepWrap/optimizer-Adam/TupleGetItem-op503
+177 cst43
+180	Default/network-TrainStepWrap/optimizer-Adam/TupleGetItem-op504
+177 cst44
+181	Default/MakeTuple-op235
+178 179 180
+182	Default/network-TrainStepWrap/optimizer-Adam/Depend-op202
+cst45 181
+183	Gradients/Default/network-TrainStepWrap/network-NetWithLossClass/network-DeepFMModel/dense_layer_5-DenseLayer/gradBiasAdd/BiasAddGrad-op165
+115
+184	Gradients/Default/network-TrainStepWrap/network-NetWithLossClass/network-DeepFMModel/dense_layer_5-DenseLayer/gradCast/Cast-op166
+183
+185	Default/network-TrainStepWrap/optimizer-Adam/Mul-op167
+184 cst13
+186	Default/network-TrainStepWrap/optimizer-Adam/UpdateState-op163
+176 177 42
+187	Default/network-TrainStepWrap/optimizer-Adam/Adam-op168
+dense_layer_3.bias moment1.dense_layer_3.bias moment2.dense_layer_3.bias 71 77 learning_rate cst9 cst10 cst14 185 186
+188	Default/network-TrainStepWrap/optimizer-Adam/TupleGetItem-op506
+187 cst46
+189	Default/network-TrainStepWrap/optimizer-Adam/TupleGetItem-op507
+187 cst47
+190	Default/network-TrainStepWrap/optimizer-Adam/TupleGetItem-op508
+187 cst48
+191	Default/MakeTuple-op239
+188 189 190
+192	Default/network-TrainStepWrap/optimizer-Adam/Depend-op203
+cst49 191
+193	Default/network-TrainStepWrap/optimizer-Adam/FusionOp_MatMul_Mul-op529
+43 113 cst13
+194	Default/network-TrainStepWrap/optimizer-Adam/TransData-op288
+193
+195	Default/network-TrainStepWrap/optimizer-Adam/UpdateState-op169
+186 187 45
+196	Default/network-TrainStepWrap/optimizer-Adam/Adam-op174
+dense_layer_4.weight moment1.dense_layer_4.weight moment2.dense_layer_4.weight 71 77 learning_rate cst9 cst10 cst14 194 195
+197	Default/network-TrainStepWrap/optimizer-Adam/TupleGetItem-op510
+196 cst50
+198	Default/network-TrainStepWrap/optimizer-Adam/TupleGetItem-op511
+196 cst51
+199	Default/network-TrainStepWrap/optimizer-Adam/TupleGetItem-op512
+196 cst52
+200	Default/MakeTuple-op243
+197 198 199
+201	Default/network-TrainStepWrap/optimizer-Adam/Depend-op204
+cst53 200
+202	Gradients/Default/network-TrainStepWrap/network-NetWithLossClass/network-DeepFMModel/dense_layer_5-DenseLayer/gradBiasAdd/BiasAddGrad-op177
+113
+203	Gradients/Default/network-TrainStepWrap/network-NetWithLossClass/network-DeepFMModel/dense_layer_5-DenseLayer/gradCast/Cast-op178
+202
+204	Default/network-TrainStepWrap/optimizer-Adam/Mul-op179
+203 cst13
+205	Default/network-TrainStepWrap/optimizer-Adam/UpdateState-op175
+195 196 48
+206	Default/network-TrainStepWrap/optimizer-Adam/Adam-op180
+dense_layer_4.bias moment1.dense_layer_4.bias moment2.dense_layer_4.bias 71 77 learning_rate cst9 cst10 cst14 204 205
+207	Default/network-TrainStepWrap/optimizer-Adam/TupleGetItem-op514
+206 cst54
+208	Default/network-TrainStepWrap/optimizer-Adam/TupleGetItem-op515
+206 cst55
+209	Default/network-TrainStepWrap/optimizer-Adam/TupleGetItem-op516
+206 cst56
+210	Default/MakeTuple-op247
+207 208 209
+211	Default/network-TrainStepWrap/optimizer-Adam/Depend-op205
+cst57 210
+212	Default/network-TrainStepWrap/optimizer-Adam/FusionOp_MatMul_Mul-op527
+49 111 cst13
+213	Default/network-TrainStepWrap/optimizer-Adam/TransData-op282
+212
+214	Default/network-TrainStepWrap/optimizer-Adam/UpdateState-op181
+205 206 51
+215	Default/network-TrainStepWrap/optimizer-Adam/Adam-op186
+dense_layer_5.weight moment1.dense_layer_5.weight moment2.dense_layer_5.weight 71 77 learning_rate cst9 cst10 cst14 213 214
+216	Default/network-TrainStepWrap/optimizer-Adam/TupleGetItem-op518
+215 cst58
+217	Default/network-TrainStepWrap/optimizer-Adam/TupleGetItem-op519
+215 cst59
+218	Default/network-TrainStepWrap/optimizer-Adam/TupleGetItem-op520
+215 cst60
+219	Default/MakeTuple-op251
+216 217 218
+220	Default/network-TrainStepWrap/optimizer-Adam/Depend-op206
+cst61 219
+221	Gradients/Default/network-TrainStepWrap/network-NetWithLossClass/network-DeepFMModel/dense_layer_5-DenseLayer/gradBiasAdd/BiasAddGrad-op189
+110
+222	Gradients/Default/network-TrainStepWrap/network-NetWithLossClass/network-DeepFMModel/dense_layer_5-DenseLayer/gradCast/Cast-op190
+221
+223	Default/network-TrainStepWrap/optimizer-Adam/Mul-op191
+222 cst13
+224	Default/network-TrainStepWrap/optimizer-Adam/UpdateState-op187
+214 215 54
+225	Default/network-TrainStepWrap/optimizer-Adam/Adam-op78
+dense_layer_5.bias moment1.dense_layer_5.bias moment2.dense_layer_5.bias 71 77 learning_rate cst9 cst10 cst14 223 224
+226	Default/network-TrainStepWrap/optimizer-Adam/TupleGetItem-op522
+225 cst62
+227	Default/network-TrainStepWrap/optimizer-Adam/TupleGetItem-op523
+225 cst63
+228	Default/network-TrainStepWrap/optimizer-Adam/TupleGetItem-op524
+225 cst64
+229	Default/MakeTuple-op255
+226 227 228
+230	Default/network-TrainStepWrap/optimizer-Adam/Depend-op207
+cst65 229
+231	Default/network-TrainStepWrap/optimizer-Adam/MakeTuple-op98
+96 135 144 154 163 173 182 192 201 211 220 230
+232	Default/network-TrainStepWrap/Depend-op75
+69 231
+233	Default/network-TrainStepWrap/optimizer-Adam/UpdateState-op192
+224 225
+234	Default/Depend-op194
+232 233
+235	Default/MakeTuple-op547
+234
+9 13 22 25 28 34 40 46 52 55 58 81 108 109 111 112 114 116 118 120 121 123 124 136 137 155 156 174 175 193 194 212 213

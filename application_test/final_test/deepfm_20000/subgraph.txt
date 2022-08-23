@@ -1,0 +1,99 @@
+9 Default/network-TrainStepWrap/network-NetWithLossClass/network-DeepFMModel/Mul-op9
+0
+1 22
+13 Default/network-TrainStepWrap/network-NetWithLossClass/network-DeepFMModel/Mul-op13
+0
+4 22 25 108 123
+22 Default/network-TrainStepWrap/network-NetWithLossClass/network-DeepFMModel/TransData-op278
+2 9 13
+1 58
+25 Default/network-TrainStepWrap/network-NetWithLossClass/network-DeepFMModel/dense_layer_1-DenseLayer/TransData-op359
+1 13
+10 55 114 116 118 120 136 155 174 193 212
+28 Default/network-TrainStepWrap/network-NetWithLossClass/network-DeepFMModel/dense_layer_1-DenseLayer/TransData-op360
+0
+10 55 114 116 118 120 136 155 174 193 212
+34 Default/network-TrainStepWrap/network-NetWithLossClass/network-DeepFMModel/dense_layer_2-DenseLayer/TransData-op354
+0
+8 55 114 116 118 155 174 193 212
+40 Default/network-TrainStepWrap/network-NetWithLossClass/network-DeepFMModel/dense_layer_3-DenseLayer/TransData-op357
+0
+6 55 114 116 174 193 212
+46 Default/network-TrainStepWrap/network-NetWithLossClass/network-DeepFMModel/dense_layer_4-DenseLayer/TransData-op342
+0
+4 55 114 193 212
+52 Default/network-TrainStepWrap/network-NetWithLossClass/network-DeepFMModel/dense_layer_5-DenseLayer/TransData-op298
+0
+2 55 112
+55 Default/network-TrainStepWrap/network-NetWithLossClass/network-DeepFMModel/dense_layer_5-DenseLayer/MatMul-op267
+6 25 28 34 40 46 52
+1 58
+58 Default/network-TrainStepWrap/network-NetWithLossClass/network-DeepFMModel/TransData-op280
+2 22 55
+4 81 108 111 123
+81 Gradients/Default/network-TrainStepWrap/network-NetWithLossClass/gradMul/Mul-op12
+1 58
+0
+108 Gradients/Default/network-TrainStepWrap/network-NetWithLossClass/gradSquare/Mul-op110
+2 58 13
+1 109
+109 Gradients/Default/network-TrainStepWrap/network-NetWithLossClass/gradSquare/Mul-op111
+1 108
+1 123
+111 Gradients/Default/network-TrainStepWrap/network-NetWithLossClass/network-DeepFMModel/dense_layer_5-DenseLayer/gradCast/TransData-op333
+1 58
+2 112 212
+112 Gradients/Default/network-TrainStepWrap/network-NetWithLossClass/network-DeepFMModel/dense_layer_5-DenseLayer/gradMatMul/MatMul-op113
+2 111 52
+2 114 193
+114 Gradients/Default/network-TrainStepWrap/network-NetWithLossClass/network-DeepFMModel/dense_layer_5-DenseLayer/gradMatMul/MatMul-op115
+6 112 25 28 34 40 46
+2 116 174
+116 Gradients/Default/network-TrainStepWrap/network-NetWithLossClass/network-DeepFMModel/dense_layer_5-DenseLayer/gradMatMul/MatMul-op117
+5 114 25 28 34 40
+2 118 155
+118 Gradients/Default/network-TrainStepWrap/network-NetWithLossClass/network-DeepFMModel/dense_layer_5-DenseLayer/gradMatMul/MatMul-op119
+4 116 25 28 34
+2 120 136
+120 Gradients/Default/network-TrainStepWrap/network-NetWithLossClass/network-DeepFMModel/dense_layer_5-DenseLayer/gradMatMul/MatMul-op121
+3 118 25 28
+1 121
+121 Gradients/Default/network-TrainStepWrap/network-NetWithLossClass/network-DeepFMModel/dense_layer_5-DenseLayer/gradMatMul/TransData-op338
+1 120
+1 123
+123 Default/AddN-op125
+4 58 13 109 121
+1 124
+124 Gradients/Default/network-TrainStepWrap/network-NetWithLossClass/gradMul/Mul-op126
+1 123
+0
+136 Default/network-TrainStepWrap/optimizer-Adam/FusionOp_MatMul_Mul-op543
+3 25 118 28
+1 137
+137 Default/network-TrainStepWrap/optimizer-Adam/TransData-op290
+1 136
+0
+155 Default/network-TrainStepWrap/optimizer-Adam/FusionOp_MatMul_Mul-op544
+4 25 28 116 34
+1 156
+156 Default/network-TrainStepWrap/optimizer-Adam/TransData-op292
+1 155
+0
+174 Default/network-TrainStepWrap/optimizer-Adam/FusionOp_MatMul_Mul-op531
+5 25 28 34 114 40
+1 175
+175 Default/network-TrainStepWrap/optimizer-Adam/TransData-op286
+1 174
+0
+193 Default/network-TrainStepWrap/optimizer-Adam/FusionOp_MatMul_Mul-op529
+6 25 28 34 40 112 46
+1 194
+194 Default/network-TrainStepWrap/optimizer-Adam/TransData-op288
+1 193
+0
+212 Default/network-TrainStepWrap/optimizer-Adam/FusionOp_MatMul_Mul-op527
+6 25 28 34 40 46 111
+1 213
+213 Default/network-TrainStepWrap/optimizer-Adam/TransData-op282
+1 212
+0

@@ -1,0 +1,1479 @@
+28 Default/network/network/bert/bert/bert_embedding_postprocessor/layernorm/LayerNorm-op714
+0
+2 37 1261
+37 Default/network/network/bert/bert/bert_encoder/TransData-op11713
+1 28
+8 43 50 68 85 1234 1307 1323 1339
+40 Default/network/network/bert/cls2/dense/TransData-op11867
+0
+2 43 1251
+43 Default/network/network/bert/cls2/dense/MatMul-op9089
+2 37 40
+7 77 1248 1251 1307 1323 1339 1355
+47 Default/network/network/bert/cls2/dense/TransData-op11870
+0
+2 50 1251
+50 Default/network/network/bert/cls2/dense/MatMul-op9090
+2 37 47
+7 77 1248 1251 1307 1323 1339 1355
+65 Default/network/network/bert/cls2/dense/TransData-op12050
+0
+2 68 1248
+68 Default/network/network/bert/cls2/dense/MatMul-op9091
+2 37 65
+5 77 1251 1307 1323 1355
+74 Default/network/network/bert/cls2/dense/TransData-op12122
+0
+2 77 1237
+77 Default/network/network/bert/cls2/dense/MatMul-op9092
+4 43 50 68 74
+2 85 1234
+85 Default/network/network/bert/bert/bert_encoder/layers/0/attention/output/layernorm/LayerNorm-op773
+2 37 77
+5 92 107 1226 1234 1387
+89 Default/network/network/bert/cls1/dense/TransData-op11227
+0
+2 92 1234
+92 Default/network/network/bert/cls1/dense/activation/FusionOp_MatMul_GeLU-op12848
+2 85 89
+3 99 1230 1403
+96 Default/network/network/bert/cls2/dense/TransData-op12119
+0
+2 99 1230
+99 Default/network/network/bert/cls2/dense/MatMul-op9094
+2 92 96
+2 107 1226
+107 Default/network/network/bert/bert/bert_encoder/layers/0/output/layernorm/LayerNorm-op795
+2 85 99
+9 114 121 132 149 1207 1226 1435 1451 1467
+111 Default/network/network/bert/cls2/dense/TransData-op11854
+0
+2 114 1226
+114 Default/network/network/bert/cls2/dense/MatMul-op9095
+2 107 111
+7 141 1221 1226 1435 1451 1467 1483
+118 Default/network/network/bert/cls2/dense/TransData-op11857
+0
+2 121 1226
+121 Default/network/network/bert/cls2/dense/MatMul-op9096
+2 107 118
+7 141 1221 1226 1435 1451 1467 1483
+129 Default/network/network/bert/cls2/dense/TransData-op12047
+0
+2 132 1221
+132 Default/network/network/bert/cls2/dense/MatMul-op9097
+2 107 129
+5 141 1226 1435 1451 1483
+138 Default/network/network/bert/cls2/dense/TransData-op12116
+0
+2 141 1210
+141 Default/network/network/bert/cls2/dense/MatMul-op9098
+4 114 121 132 138
+2 149 1207
+149 Default/network/network/bert/bert/bert_encoder/layers/1/attention/output/layernorm/LayerNorm-op843
+2 107 141
+5 156 171 1199 1207 1515
+153 Default/network/network/bert/cls1/dense/TransData-op11202
+0
+2 156 1207
+156 Default/network/network/bert/cls1/dense/activation/FusionOp_MatMul_GeLU-op12870
+2 149 153
+3 163 1203 1531
+160 Default/network/network/bert/cls2/dense/TransData-op12113
+0
+2 163 1203
+163 Default/network/network/bert/cls2/dense/MatMul-op9100
+2 156 160
+2 171 1199
+171 Default/network/network/bert/bert/bert_encoder/layers/1/output/layernorm/LayerNorm-op865
+2 149 163
+9 178 185 196 213 1180 1199 1563 1579 1595
+175 Default/network/network/bert/cls2/dense/TransData-op11841
+0
+2 178 1199
+178 Default/network/network/bert/cls2/dense/MatMul-op9101
+2 171 175
+7 205 1194 1199 1563 1579 1595 1611
+182 Default/network/network/bert/cls2/dense/TransData-op11844
+0
+2 185 1199
+185 Default/network/network/bert/cls2/dense/MatMul-op9102
+2 171 182
+7 205 1194 1199 1563 1579 1595 1611
+193 Default/network/network/bert/cls2/dense/TransData-op12044
+0
+2 196 1194
+196 Default/network/network/bert/cls2/dense/MatMul-op9103
+2 171 193
+5 205 1199 1563 1579 1611
+202 Default/network/network/bert/cls2/dense/TransData-op12110
+0
+2 205 1183
+205 Default/network/network/bert/cls2/dense/MatMul-op9104
+4 178 185 196 202
+2 213 1180
+213 Default/network/network/bert/bert/bert_encoder/layers/2/attention/output/layernorm/LayerNorm-op913
+2 171 205
+5 220 235 1172 1180 1643
+217 Default/network/network/bert/cls1/dense/TransData-op11177
+0
+2 220 1180
+220 Default/network/network/bert/cls1/dense/activation/FusionOp_MatMul_GeLU-op12861
+2 213 217
+3 227 1176 1659
+224 Default/network/network/bert/cls2/dense/TransData-op12107
+0
+2 227 1176
+227 Default/network/network/bert/cls2/dense/MatMul-op9106
+2 220 224
+2 235 1172
+235 Default/network/network/bert/bert/bert_encoder/layers/2/output/layernorm/LayerNorm-op935
+2 213 227
+9 242 249 260 277 1153 1172 1691 1707 1723
+239 Default/network/network/bert/cls2/dense/TransData-op11828
+0
+2 242 1172
+242 Default/network/network/bert/cls2/dense/MatMul-op9107
+2 235 239
+7 269 1167 1172 1691 1707 1723 1739
+246 Default/network/network/bert/cls2/dense/TransData-op11831
+0
+2 249 1172
+249 Default/network/network/bert/cls2/dense/MatMul-op9108
+2 235 246
+7 269 1167 1172 1691 1707 1723 1739
+257 Default/network/network/bert/cls2/dense/TransData-op12041
+0
+2 260 1167
+260 Default/network/network/bert/cls2/dense/MatMul-op9109
+2 235 257
+5 269 1172 1691 1707 1739
+266 Default/network/network/bert/cls2/dense/TransData-op12104
+0
+2 269 1156
+269 Default/network/network/bert/cls2/dense/MatMul-op9110
+4 242 249 260 266
+2 277 1153
+277 Default/network/network/bert/bert/bert_encoder/layers/3/attention/output/layernorm/LayerNorm-op983
+2 235 269
+5 284 299 1145 1153 1771
+281 Default/network/network/bert/cls1/dense/TransData-op11152
+0
+2 284 1153
+284 Default/network/network/bert/cls1/dense/activation/FusionOp_MatMul_GeLU-op12849
+2 277 281
+3 291 1149 1787
+288 Default/network/network/bert/cls2/dense/TransData-op12101
+0
+2 291 1149
+291 Default/network/network/bert/cls2/dense/MatMul-op9112
+2 284 288
+2 299 1145
+299 Default/network/network/bert/bert/bert_encoder/layers/3/output/layernorm/LayerNorm-op1005
+2 277 291
+9 306 313 324 341 1126 1145 1819 1835 1851
+303 Default/network/network/bert/cls2/dense/TransData-op11815
+0
+2 306 1145
+306 Default/network/network/bert/cls2/dense/MatMul-op9113
+2 299 303
+7 333 1140 1145 1819 1835 1851 1867
+310 Default/network/network/bert/cls2/dense/TransData-op11818
+0
+2 313 1145
+313 Default/network/network/bert/cls2/dense/MatMul-op9114
+2 299 310
+7 333 1140 1145 1819 1835 1851 1867
+321 Default/network/network/bert/cls2/dense/TransData-op12038
+0
+2 324 1140
+324 Default/network/network/bert/cls2/dense/MatMul-op9115
+2 299 321
+5 333 1145 1819 1835 1867
+330 Default/network/network/bert/cls2/dense/TransData-op12098
+0
+2 333 1129
+333 Default/network/network/bert/cls2/dense/MatMul-op9116
+4 306 313 324 330
+2 341 1126
+341 Default/network/network/bert/bert/bert_encoder/layers/4/attention/output/layernorm/LayerNorm-op1053
+2 299 333
+5 348 363 1118 1126 1899
+345 Default/network/network/bert/cls1/dense/TransData-op11127
+0
+2 348 1126
+348 Default/network/network/bert/cls1/dense/activation/FusionOp_MatMul_GeLU-op12892
+2 341 345
+3 355 1122 1915
+352 Default/network/network/bert/cls2/dense/TransData-op12095
+0
+2 355 1122
+355 Default/network/network/bert/cls2/dense/MatMul-op9118
+2 348 352
+2 363 1118
+363 Default/network/network/bert/bert/bert_encoder/layers/4/output/layernorm/LayerNorm-op1075
+2 341 355
+9 370 377 388 405 1099 1118 1947 1963 1979
+367 Default/network/network/bert/cls2/dense/TransData-op11802
+0
+2 370 1118
+370 Default/network/network/bert/cls2/dense/MatMul-op9119
+2 363 367
+8 397 1111 1114 1118 1947 1963 1979 1995
+374 Default/network/network/bert/cls2/dense/TransData-op11805
+0
+2 377 1111
+377 Default/network/network/bert/cls2/dense/MatMul-op9120
+2 363 374
+8 397 1111 1114 1118 1947 1963 1979 1995
+385 Default/network/network/bert/cls2/dense/TransData-op12035
+0
+2 388 1114
+388 Default/network/network/bert/cls2/dense/MatMul-op9121
+2 363 385
+6 397 1111 1118 1947 1963 1995
+394 Default/network/network/bert/cls2/dense/TransData-op12092
+0
+2 397 1102
+397 Default/network/network/bert/cls2/dense/MatMul-op9122
+4 370 377 388 394
+2 405 1099
+405 Default/network/network/bert/bert/bert_encoder/layers/5/attention/output/layernorm/LayerNorm-op1123
+2 363 397
+5 412 427 1091 1099 2027
+409 Default/network/network/bert/cls1/dense/TransData-op11102
+0
+2 412 1099
+412 Default/network/network/bert/cls1/dense/activation/FusionOp_MatMul_GeLU-op12901
+2 405 409
+3 419 1095 2043
+416 Default/network/network/bert/cls2/dense/TransData-op12089
+0
+2 419 1095
+419 Default/network/network/bert/cls2/dense/MatMul-op9124
+2 412 416
+2 427 1091
+427 Default/network/network/bert/bert/bert_encoder/layers/5/output/layernorm/LayerNorm-op1145
+2 405 419
+9 434 441 452 469 1072 1091 2075 2091 2107
+431 Default/network/network/bert/cls2/dense/TransData-op11789
+0
+2 434 1091
+434 Default/network/network/bert/cls2/dense/MatMul-op9125
+2 427 431
+8 461 1084 1087 1091 2075 2091 2107 2123
+438 Default/network/network/bert/cls2/dense/TransData-op11792
+0
+2 441 1084
+441 Default/network/network/bert/cls2/dense/MatMul-op9126
+2 427 438
+8 461 1084 1087 1091 2075 2091 2107 2123
+449 Default/network/network/bert/cls2/dense/TransData-op12032
+0
+2 452 1087
+452 Default/network/network/bert/cls2/dense/MatMul-op9127
+2 427 449
+6 461 1084 1091 2075 2091 2123
+458 Default/network/network/bert/cls2/dense/TransData-op12086
+0
+2 461 1075
+461 Default/network/network/bert/cls2/dense/MatMul-op9128
+4 434 441 452 458
+2 469 1072
+469 Default/network/network/bert/bert/bert_encoder/layers/6/attention/output/layernorm/LayerNorm-op1193
+2 427 461
+5 476 491 1064 1072 2155
+473 Default/network/network/bert/cls1/dense/TransData-op11077
+0
+2 476 1072
+476 Default/network/network/bert/cls1/dense/activation/FusionOp_MatMul_GeLU-op12842
+2 469 473
+3 483 1068 2171
+480 Default/network/network/bert/cls2/dense/TransData-op12083
+0
+2 483 1068
+483 Default/network/network/bert/cls2/dense/MatMul-op9130
+2 476 480
+2 491 1064
+491 Default/network/network/bert/bert/bert_encoder/layers/6/output/layernorm/LayerNorm-op1215
+2 469 483
+9 498 505 516 533 1045 1064 2203 2219 2235
+495 Default/network/network/bert/cls2/dense/TransData-op11776
+0
+2 498 1064
+498 Default/network/network/bert/cls2/dense/MatMul-op9131
+2 491 495
+8 525 1057 1060 1064 2203 2219 2235 2251
+502 Default/network/network/bert/cls2/dense/TransData-op11779
+0
+2 505 1057
+505 Default/network/network/bert/cls2/dense/MatMul-op9132
+2 491 502
+8 525 1057 1060 1064 2203 2219 2235 2251
+513 Default/network/network/bert/cls2/dense/TransData-op12029
+0
+2 516 1060
+516 Default/network/network/bert/cls2/dense/MatMul-op9133
+2 491 513
+6 525 1057 1064 2203 2219 2251
+522 Default/network/network/bert/cls2/dense/TransData-op12080
+0
+2 525 1048
+525 Default/network/network/bert/cls2/dense/MatMul-op9134
+4 498 505 516 522
+2 533 1045
+533 Default/network/network/bert/bert/bert_encoder/layers/7/attention/output/layernorm/LayerNorm-op1263
+2 491 525
+5 540 555 1037 1045 2283
+537 Default/network/network/bert/cls1/dense/TransData-op11052
+0
+2 540 1045
+540 Default/network/network/bert/cls1/dense/activation/FusionOp_MatMul_GeLU-op12834
+2 533 537
+3 547 1041 2299
+544 Default/network/network/bert/cls2/dense/TransData-op12077
+0
+2 547 1041
+547 Default/network/network/bert/cls2/dense/MatMul-op9136
+2 540 544
+2 555 1037
+555 Default/network/network/bert/bert/bert_encoder/layers/7/output/layernorm/LayerNorm-op1285
+2 533 547
+9 562 569 580 597 1018 1037 2331 2347 2363
+559 Default/network/network/bert/cls2/dense/TransData-op11763
+0
+2 562 1037
+562 Default/network/network/bert/cls2/dense/MatMul-op9137
+2 555 559
+8 589 1030 1033 1037 2331 2347 2363 2379
+566 Default/network/network/bert/cls2/dense/TransData-op11766
+0
+2 569 1030
+569 Default/network/network/bert/cls2/dense/MatMul-op9138
+2 555 566
+8 589 1030 1033 1037 2331 2347 2363 2379
+577 Default/network/network/bert/cls2/dense/TransData-op12026
+0
+2 580 1033
+580 Default/network/network/bert/cls2/dense/MatMul-op9139
+2 555 577
+6 589 1030 1037 2331 2347 2379
+586 Default/network/network/bert/cls2/dense/TransData-op12074
+0
+2 589 1021
+589 Default/network/network/bert/cls2/dense/MatMul-op9140
+4 562 569 580 586
+2 597 1018
+597 Default/network/network/bert/bert/bert_encoder/layers/8/attention/output/layernorm/LayerNorm-op1333
+2 555 589
+5 604 619 1010 1018 2411
+601 Default/network/network/bert/cls1/dense/TransData-op11027
+0
+2 604 1018
+604 Default/network/network/bert/cls1/dense/activation/FusionOp_MatMul_GeLU-op12830
+2 597 601
+3 611 1014 2427
+608 Default/network/network/bert/cls2/dense/TransData-op12071
+0
+2 611 1014
+611 Default/network/network/bert/cls2/dense/MatMul-op9142
+2 604 608
+2 619 1010
+619 Default/network/network/bert/bert/bert_encoder/layers/8/output/layernorm/LayerNorm-op1355
+2 597 611
+9 626 633 644 661 991 1010 2459 2475 2491
+623 Default/network/network/bert/cls2/dense/TransData-op11750
+0
+2 626 1010
+626 Default/network/network/bert/cls2/dense/MatMul-op9143
+2 619 623
+8 653 1003 1006 1010 2459 2475 2491 2507
+630 Default/network/network/bert/cls2/dense/TransData-op11753
+0
+2 633 1003
+633 Default/network/network/bert/cls2/dense/MatMul-op9144
+2 619 630
+8 653 1003 1006 1010 2459 2475 2491 2507
+641 Default/network/network/bert/cls2/dense/TransData-op12023
+0
+2 644 1006
+644 Default/network/network/bert/cls2/dense/MatMul-op9145
+2 619 641
+6 653 1003 1010 2459 2475 2507
+650 Default/network/network/bert/cls2/dense/TransData-op12068
+0
+2 653 994
+653 Default/network/network/bert/cls2/dense/MatMul-op9146
+4 626 633 644 650
+2 661 991
+661 Default/network/network/bert/bert/bert_encoder/layers/9/attention/output/layernorm/LayerNorm-op1403
+2 619 653
+5 668 683 983 991 2539
+665 Default/network/network/bert/cls1/dense/TransData-op11002
+0
+2 668 991
+668 Default/network/network/bert/cls1/dense/activation/FusionOp_MatMul_GeLU-op12828
+2 661 665
+3 675 987 2555
+672 Default/network/network/bert/cls2/dense/TransData-op12065
+0
+2 675 987
+675 Default/network/network/bert/cls2/dense/MatMul-op9148
+2 668 672
+2 683 983
+683 Default/network/network/bert/bert/bert_encoder/layers/9/output/layernorm/LayerNorm-op1425
+2 661 675
+9 690 697 708 725 964 983 2587 2603 2619
+687 Default/network/network/bert/cls2/dense/TransData-op11737
+0
+2 690 983
+690 Default/network/network/bert/cls2/dense/MatMul-op9149
+2 683 687
+8 717 976 979 983 2587 2603 2619 2635
+694 Default/network/network/bert/cls2/dense/TransData-op11740
+0
+2 697 976
+697 Default/network/network/bert/cls2/dense/MatMul-op9150
+2 683 694
+8 717 976 979 983 2587 2603 2619 2635
+705 Default/network/network/bert/cls2/dense/TransData-op12020
+0
+2 708 979
+708 Default/network/network/bert/cls2/dense/MatMul-op9151
+2 683 705
+6 717 976 983 2587 2603 2635
+714 Default/network/network/bert/cls2/dense/TransData-op12062
+0
+2 717 967
+717 Default/network/network/bert/cls2/dense/MatMul-op9152
+4 690 697 708 714
+2 725 964
+725 Default/network/network/bert/bert/bert_encoder/layers/10/attention/output/layernorm/LayerNorm-op1473
+2 683 717
+5 732 747 956 964 2667
+729 Default/network/network/bert/cls1/dense/TransData-op10977
+0
+2 732 964
+732 Default/network/network/bert/cls1/dense/activation/FusionOp_MatMul_GeLU-op12826
+2 725 729
+3 739 960 2683
+736 Default/network/network/bert/cls2/dense/TransData-op12059
+0
+2 739 960
+739 Default/network/network/bert/cls2/dense/MatMul-op9154
+2 732 736
+2 747 956
+747 Default/network/network/bert/bert/bert_encoder/layers/10/output/layernorm/LayerNorm-op1495
+2 725 739
+9 754 761 772 789 937 956 2715 2731 2747
+751 Default/network/network/bert/cls2/dense/TransData-op11724
+0
+2 754 956
+754 Default/network/network/bert/cls2/dense/MatMul-op9155
+2 747 751
+7 781 951 956 2715 2731 2747 2763
+758 Default/network/network/bert/cls2/dense/TransData-op11727
+0
+2 761 956
+761 Default/network/network/bert/cls2/dense/MatMul-op9156
+2 747 758
+7 781 951 956 2715 2731 2747 2763
+769 Default/network/network/bert/cls2/dense/TransData-op12017
+0
+2 772 951
+772 Default/network/network/bert/cls2/dense/MatMul-op9157
+2 747 769
+5 781 956 2715 2731 2763
+778 Default/network/network/bert/cls2/dense/TransData-op12056
+0
+2 781 940
+781 Default/network/network/bert/cls2/dense/MatMul-op9158
+4 754 761 772 778
+2 789 937
+789 Default/network/network/bert/bert/bert_encoder/layers/11/attention/output/layernorm/LayerNorm-op1543
+2 747 781
+5 796 811 929 937 2795
+793 Default/network/network/bert/cls1/dense/TransData-op10952
+0
+2 796 937
+796 Default/network/network/bert/cls1/dense/activation/FusionOp_MatMul_GeLU-op12821
+2 789 793
+3 803 933 2811
+800 Default/network/network/bert/cls2/dense/TransData-op12053
+0
+2 803 933
+803 Default/network/network/bert/cls2/dense/MatMul-op9160
+2 796 800
+2 811 929
+811 Default/network/network/bert/bert/bert_encoder/layers/11/output/layernorm/LayerNorm-op1565
+2 789 803
+2 813 929
+813 Default/network/network/bert/bert/bert_encoder/layers/11/output/layernorm/TransData-op11616
+1 811
+2 822 860
+822 Default/network/network/bert/cls1/TransData-op10934
+1 813
+2 828 2866
+825 Default/network/network/bert/cls1/dense/TransData-op10935
+0
+2 828 902
+828 Default/network/network/bert/cls1/dense/activation/FusionOp_MatMul_GeLU-op12819
+2 822 825
+3 834 898 901
+834 Default/network/network/bert/cls1/layernorm/LayerNorm-op1586
+1 828
+3 838 898 1266
+837 Default/network/network/bert/cls1/TransData-op10005
+0
+2 838 895
+838 Default/network/network/bert/cls1/MatMul-op1593
+2 834 837
+1 839
+839 Default/network/network/bert/cls1/TransData-op10006
+1 838
+78 894 914 1270 1307 1323 1339 1355 1387 1403 1435 1451 1467 1483 1515 1531 1563 1579 1595 1611 1643 1659 1691 1707 1723 1739 1771 1787 1819 1835 1851 1867 1899 1915 1947 1963 1979 1995 2027 2043 2075 2091 2107 2123 2155 2171 2203 2219 2235 2251 2283 2299 2331 2347 2363 2379 2411 2427 2459 2475 2491 2507 2539 2555 2587 2603 2619 2635 2667 2683 2715 2731 2747 2763 2795 2811 2843 2866 2898
+860 Default/network/network/bert/bert/dense/TransData-op10941
+1 813
+4 872 906 2843 2898
+863 Default/network/network/bert/bert/dense/TransData-op10942
+0
+4 872 906 919 2898
+869 Default/network/network/bert/cls2/dense/TransData-op10618
+0
+2 872 915
+872 Default/network/network/bert/cls2/dense/MatMul-op9163
+3 860 863 869
+1 873
+873 Default/network/network/bert/cls2/dense/TransData-op10619
+1 872
+78 894 914 1270 1307 1323 1339 1355 1387 1403 1435 1451 1467 1483 1515 1531 1563 1579 1595 1611 1643 1659 1691 1707 1723 1739 1771 1787 1819 1835 1851 1867 1899 1915 1947 1963 1979 1995 2027 2043 2075 2091 2107 2123 2155 2171 2203 2219 2235 2251 2283 2299 2331 2347 2363 2379 2411 2427 2459 2475 2491 2507 2539 2555 2587 2603 2619 2635 2667 2683 2715 2731 2747 2763 2795 2811 2843 2866 2898
+894 Gradients/Default/network/network/bert/cls1/gradCast/TransData-op10842
+2 839 873
+2 895 1266
+895 Gradients/Default/network/network/bert/cls1/gradMatMul/MatMul-op1647
+2 894 837
+1 898
+898 Gradients/Default/network/network/bert/cls1/layernorm/gradLayerNorm/LayerNormXBackpropV2-op8375
+3 828 895 834
+1 901
+901 Gradients/Default/network/network/bert/cls1/dense/activation/gradGeLU/GeLUGrad-op1652
+2 898 828
+2 902 2866
+902 Gradients/Default/network/network/bert/cls1/gradMatMul/MatMul-op1653
+2 901 825
+1 903
+903 Gradients/Default/network/network/bert/cls1/gradMatMul/TransData-op11572
+1 902
+1 923
+906 Default/network/network/bert/bert/dense/activation/TransData-op10445
+2 860 863
+1 918
+914 Gradients/Default/network/network/bert/cls1/gradCast/TransData-op10446
+2 873 839
+2 915 2898
+915 Gradients/Default/network/network/bert/cls1/gradMatMul/MatMul-op1665
+2 914 869
+1 916
+916 Gradients/Default/network/network/bert/cls1/gradMatMul/TransData-op10448
+1 915
+1 918
+918 Gradients/Default/network/network/bert/bert/dense/activation/gradTanh/TransData-op11573
+2 906 916
+2 919 2843
+919 Gradients/Default/network/network/bert/cls1/gradMatMul/MatMul-op1667
+2 918 863
+1 920
+920 Gradients/Default/network/network/bert/cls1/gradMatMul/TransData-op11575
+1 919
+1 923
+923 Default/network/network/bert/bert/AddN-op1672
+2 903 920
+1 926
+926 Gradients/Default/network/network/loss/gradReshape/TransData-op10945
+1 923
+1 929
+929 Gradients/Default/network/network/bert/cls1/layernorm/gradLayerNorm/LayerNormXBackpropV2-op8382
+4 789 803 926 811
+3 933 937 2811
+933 Gradients/Default/network/network/bert/cls1/dense/activation/gradGeLU/FusionOp_MatMul_GeLUGrad-op12817
+3 929 800 796
+2 937 2795
+937 Gradients/Default/network/network/bert/cls1/layernorm/gradLayerNorm/LayerNormXBackpropV2-op8389
+6 747 781 933 793 929 789
+3 940 956 2763
+940 Gradients/Default/network/network/bert/cls1/gradMatMul/MatMul-op1692
+2 937 778
+5 951 956 2715 2731 2747
+951 Gradients/Default/network/network/bert/cls1/gradMatMul/MatMul-op1714
+4 754 761 940 769
+1 956
+956 Gradients/Default/network/network/bert/cls1/layernorm/gradLayerNorm/LayerNormXBackpropV2-op8396
+11 725 739 940 772 754 761 751 758 951 937 747
+3 960 964 2683
+960 Gradients/Default/network/network/bert/cls1/dense/activation/gradGeLU/FusionOp_MatMul_GeLUGrad-op12807
+3 956 736 732
+2 964 2667
+964 Gradients/Default/network/network/bert/cls1/layernorm/gradLayerNorm/LayerNormXBackpropV2-op8403
+6 683 717 960 729 956 725
+3 967 983 2635
+967 Gradients/Default/network/network/bert/cls1/gradMatMul/MatMul-op1736
+2 964 714
+6 976 979 983 2587 2603 2619
+976 Gradients/Default/network/network/bert/cls1/gradMatMul/MatMul-op1754
+5 967 708 690 697 694
+1 983
+979 Gradients/Default/network/network/bert/cls1/gradMatMul/MatMul-op1758
+4 690 697 967 705
+1 983
+983 Gradients/Default/network/network/bert/cls1/layernorm/gradLayerNorm/LayerNormXBackpropV2-op8410
+11 661 675 967 708 690 697 687 976 979 964 683
+3 987 991 2555
+987 Gradients/Default/network/network/bert/cls1/dense/activation/gradGeLU/FusionOp_MatMul_GeLUGrad-op12801
+3 983 672 668
+2 991 2539
+991 Gradients/Default/network/network/bert/cls1/layernorm/gradLayerNorm/LayerNormXBackpropV2-op8417
+6 619 653 987 665 983 661
+3 994 1010 2507
+994 Gradients/Default/network/network/bert/cls1/gradMatMul/MatMul-op1778
+2 991 650
+6 1003 1006 1010 2459 2475 2491
+1003 Gradients/Default/network/network/bert/cls1/gradMatMul/MatMul-op1796
+5 994 644 626 633 630
+1 1010
+1006 Gradients/Default/network/network/bert/cls1/gradMatMul/MatMul-op1800
+4 626 633 994 641
+1 1010
+1010 Gradients/Default/network/network/bert/cls1/layernorm/gradLayerNorm/LayerNormXBackpropV2-op8424
+11 597 611 994 644 626 633 623 1003 1006 991 619
+3 1014 1018 2427
+1014 Gradients/Default/network/network/bert/cls1/dense/activation/gradGeLU/FusionOp_MatMul_GeLUGrad-op12795
+3 1010 608 604
+2 1018 2411
+1018 Gradients/Default/network/network/bert/cls1/layernorm/gradLayerNorm/LayerNormXBackpropV2-op8431
+6 555 589 1014 601 1010 597
+3 1021 1037 2379
+1021 Gradients/Default/network/network/bert/cls1/gradMatMul/MatMul-op1820
+2 1018 586
+6 1030 1033 1037 2331 2347 2363
+1030 Gradients/Default/network/network/bert/cls1/gradMatMul/MatMul-op1838
+5 1021 580 562 569 566
+1 1037
+1033 Gradients/Default/network/network/bert/cls1/gradMatMul/MatMul-op1842
+4 562 569 1021 577
+1 1037
+1037 Gradients/Default/network/network/bert/cls1/layernorm/gradLayerNorm/LayerNormXBackpropV2-op8438
+11 533 547 1021 580 562 569 559 1030 1033 1018 555
+3 1041 1045 2299
+1041 Gradients/Default/network/network/bert/cls1/dense/activation/gradGeLU/FusionOp_MatMul_GeLUGrad-op12783
+3 1037 544 540
+2 1045 2283
+1045 Gradients/Default/network/network/bert/cls1/layernorm/gradLayerNorm/LayerNormXBackpropV2-op8445
+6 491 525 1041 537 1037 533
+3 1048 1064 2251
+1048 Gradients/Default/network/network/bert/cls1/gradMatMul/MatMul-op1862
+2 1045 522
+6 1057 1060 1064 2203 2219 2235
+1057 Gradients/Default/network/network/bert/cls1/gradMatMul/MatMul-op1880
+5 1048 516 498 505 502
+1 1064
+1060 Gradients/Default/network/network/bert/cls1/gradMatMul/MatMul-op1884
+4 498 505 1048 513
+1 1064
+1064 Gradients/Default/network/network/bert/cls1/layernorm/gradLayerNorm/LayerNormXBackpropV2-op8452
+11 469 483 1048 516 498 505 495 1057 1060 1045 491
+3 1068 1072 2171
+1068 Gradients/Default/network/network/bert/cls1/dense/activation/gradGeLU/FusionOp_MatMul_GeLUGrad-op12784
+3 1064 480 476
+2 1072 2155
+1072 Gradients/Default/network/network/bert/cls1/layernorm/gradLayerNorm/LayerNormXBackpropV2-op8459
+6 427 461 1068 473 1064 469
+3 1075 1091 2123
+1075 Gradients/Default/network/network/bert/cls1/gradMatMul/MatMul-op1904
+2 1072 458
+6 1084 1087 1091 2075 2091 2107
+1084 Gradients/Default/network/network/bert/cls1/gradMatMul/MatMul-op1922
+5 1075 452 434 441 438
+1 1091
+1087 Gradients/Default/network/network/bert/cls1/gradMatMul/MatMul-op1926
+4 434 441 1075 449
+1 1091
+1091 Gradients/Default/network/network/bert/cls1/layernorm/gradLayerNorm/LayerNormXBackpropV2-op8466
+11 405 419 1075 452 434 441 431 1084 1087 1072 427
+3 1095 1099 2043
+1095 Gradients/Default/network/network/bert/cls1/dense/activation/gradGeLU/FusionOp_MatMul_GeLUGrad-op12776
+3 1091 416 412
+2 1099 2027
+1099 Gradients/Default/network/network/bert/cls1/layernorm/gradLayerNorm/LayerNormXBackpropV2-op8473
+6 363 397 1095 409 1091 405
+3 1102 1118 1995
+1102 Gradients/Default/network/network/bert/cls1/gradMatMul/MatMul-op1946
+2 1099 394
+6 1111 1114 1118 1947 1963 1979
+1111 Gradients/Default/network/network/bert/cls1/gradMatMul/MatMul-op1964
+5 1102 388 370 377 374
+1 1118
+1114 Gradients/Default/network/network/bert/cls1/gradMatMul/MatMul-op1968
+4 370 377 1102 385
+1 1118
+1118 Gradients/Default/network/network/bert/cls1/layernorm/gradLayerNorm/LayerNormXBackpropV2-op8480
+11 341 355 1102 388 370 377 367 1111 1114 1099 363
+3 1122 1126 1915
+1122 Gradients/Default/network/network/bert/cls1/dense/activation/gradGeLU/FusionOp_MatMul_GeLUGrad-op12919
+3 1118 352 348
+2 1126 1899
+1126 Gradients/Default/network/network/bert/cls1/layernorm/gradLayerNorm/LayerNormXBackpropV2-op8487
+6 299 333 1122 345 1118 341
+3 1129 1145 1867
+1129 Gradients/Default/network/network/bert/cls1/gradMatMul/MatMul-op1988
+2 1126 330
+5 1140 1145 1819 1835 1851
+1140 Gradients/Default/network/network/bert/cls1/gradMatMul/MatMul-op2010
+4 306 313 1129 321
+1 1145
+1145 Gradients/Default/network/network/bert/cls1/layernorm/gradLayerNorm/LayerNormXBackpropV2-op8494
+11 277 291 1129 324 306 313 303 310 1140 1126 299
+3 1149 1153 1787
+1149 Gradients/Default/network/network/bert/cls1/dense/activation/gradGeLU/FusionOp_MatMul_GeLUGrad-op12927
+3 1145 288 284
+2 1153 1771
+1153 Gradients/Default/network/network/bert/cls1/layernorm/gradLayerNorm/LayerNormXBackpropV2-op8501
+6 235 269 1149 281 1145 277
+3 1156 1172 1739
+1156 Gradients/Default/network/network/bert/cls1/gradMatMul/MatMul-op2032
+2 1153 266
+5 1167 1172 1691 1707 1723
+1167 Gradients/Default/network/network/bert/cls1/gradMatMul/MatMul-op2054
+4 242 249 1156 257
+1 1172
+1172 Gradients/Default/network/network/bert/cls1/layernorm/gradLayerNorm/LayerNormXBackpropV2-op8508
+11 213 227 1156 260 242 249 239 246 1167 1153 235
+3 1176 1180 1659
+1176 Gradients/Default/network/network/bert/cls1/dense/activation/gradGeLU/FusionOp_MatMul_GeLUGrad-op12935
+3 1172 224 220
+2 1180 1643
+1180 Gradients/Default/network/network/bert/cls1/layernorm/gradLayerNorm/LayerNormXBackpropV2-op8515
+6 171 205 1176 217 1172 213
+3 1183 1199 1611
+1183 Gradients/Default/network/network/bert/cls1/gradMatMul/MatMul-op2076
+2 1180 202
+5 1194 1199 1563 1579 1595
+1194 Gradients/Default/network/network/bert/cls1/gradMatMul/MatMul-op2098
+4 178 185 1183 193
+1 1199
+1199 Gradients/Default/network/network/bert/cls1/layernorm/gradLayerNorm/LayerNormXBackpropV2-op8522
+11 149 163 1183 196 178 185 175 182 1194 1180 171
+3 1203 1207 1531
+1203 Gradients/Default/network/network/bert/cls1/dense/activation/gradGeLU/FusionOp_MatMul_GeLUGrad-op12943
+3 1199 160 156
+2 1207 1515
+1207 Gradients/Default/network/network/bert/cls1/layernorm/gradLayerNorm/LayerNormXBackpropV2-op8529
+6 107 141 1203 153 1199 149
+3 1210 1226 1483
+1210 Gradients/Default/network/network/bert/cls1/gradMatMul/MatMul-op2120
+2 1207 138
+5 1221 1226 1435 1451 1467
+1221 Gradients/Default/network/network/bert/cls1/gradMatMul/MatMul-op2142
+4 114 121 1210 129
+1 1226
+1226 Gradients/Default/network/network/bert/cls1/layernorm/gradLayerNorm/LayerNormXBackpropV2-op8536
+11 85 99 1210 132 114 121 111 118 1221 1207 107
+3 1230 1234 1403
+1230 Gradients/Default/network/network/bert/cls1/dense/activation/gradGeLU/FusionOp_MatMul_GeLUGrad-op12858
+3 1226 96 92
+2 1234 1387
+1234 Gradients/Default/network/network/bert/cls1/layernorm/gradLayerNorm/LayerNormXBackpropV2-op8543
+6 37 77 1230 89 1226 85
+3 1237 1251 1355
+1237 Gradients/Default/network/network/bert/cls1/gradMatMul/MatMul-op2164
+2 1234 74
+5 1248 1251 1307 1323 1339
+1248 Gradients/Default/network/network/bert/cls1/gradMatMul/MatMul-op2186
+4 43 50 1237 65
+1 1251
+1251 Default/TransData-op11569
+8 1237 68 43 50 40 47 1248 1234
+1 1261
+1261 Gradients/Default/network/network/bert/cls1/layernorm/gradLayerNorm/LayerNormXBackpropV2-op8550
+2 28 1251
+1 1265
+1265 Gradients/Default/network/network/bert/cls1/gradGather/TransData-op10435
+1 1261
+1 1270
+1266 Gradients/Default/network/network/bert/cls1/gradMatMul/MatMul-op2205
+2 894 834
+1 1270
+1270 Default/network/network/loss/TransData-op10160
+4 1265 1266 839 873
+0
+1307 Default/network/network/loss/FusionOp_MatMul_Mul-op12910
+7 1237 68 43 50 37 839 873
+2 1308 1313
+1308 Default/network/network/loss/TransData-op10431
+1 1307
+1 1313
+1313 Default/network/network/loss/TransData-op10154
+2 1307 1308
+0
+1323 Default/network/network/loss/FusionOp_MatMul_Mul-op12913
+7 1237 68 43 50 37 839 873
+2 1324 1329
+1324 Default/network/network/loss/TransData-op10428
+1 1323
+1 1329
+1329 Default/network/network/loss/TransData-op10152
+2 1323 1324
+0
+1339 Default/network/network/loss/FusionOp_MatMul_Mul-op12918
+6 43 50 1237 37 839 873
+2 1340 1345
+1340 Default/network/network/loss/TransData-op10425
+1 1339
+1 1345
+1345 Default/network/network/loss/TransData-op10150
+2 1339 1340
+0
+1355 Default/network/network/loss/FusionOp_MatMul_Mul-op12838
+6 1234 43 50 68 839 873
+2 1356 1361
+1356 Default/network/network/loss/TransData-op10422
+1 1355
+1 1361
+1361 Default/network/network/loss/TransData-op10148
+2 1355 1356
+0
+1387 Default/network/network/loss/FusionOp_MatMul_Mul-op12832
+4 1230 85 839 873
+2 1388 1393
+1388 Default/network/network/loss/TransData-op10417
+1 1387
+1 1393
+1393 Default/network/network/loss/TransData-op10146
+2 1387 1388
+0
+1403 Default/network/network/loss/FusionOp_MatMul_Mul-op12950
+4 1226 92 839 873
+2 1404 1409
+1404 Default/network/network/loss/TransData-op10414
+1 1403
+1 1409
+1409 Default/network/network/loss/TransData-op10144
+2 1403 1404
+0
+1435 Default/network/network/loss/FusionOp_MatMul_Mul-op12952
+7 1210 132 114 121 107 839 873
+2 1436 1441
+1436 Default/network/network/loss/TransData-op10409
+1 1435
+1 1441
+1441 Default/network/network/loss/TransData-op10142
+2 1435 1436
+0
+1451 Default/network/network/loss/FusionOp_MatMul_Mul-op12954
+7 1210 132 114 121 107 839 873
+2 1452 1457
+1452 Default/network/network/loss/TransData-op10406
+1 1451
+1 1457
+1457 Default/network/network/loss/TransData-op10140
+2 1451 1452
+0
+1467 Default/network/network/loss/FusionOp_MatMul_Mul-op12956
+6 114 121 1210 107 839 873
+2 1468 1473
+1468 Default/network/network/loss/TransData-op10403
+1 1467
+1 1473
+1473 Default/network/network/loss/TransData-op10138
+2 1467 1468
+0
+1483 Default/network/network/loss/FusionOp_MatMul_Mul-op12958
+6 1207 114 121 132 839 873
+2 1484 1489
+1484 Default/network/network/loss/TransData-op10400
+1 1483
+1 1489
+1489 Default/network/network/loss/TransData-op10136
+2 1483 1484
+0
+1515 Default/network/network/loss/FusionOp_MatMul_Mul-op12960
+4 1203 149 839 873
+2 1516 1521
+1516 Default/network/network/loss/TransData-op10395
+1 1515
+1 1521
+1521 Default/network/network/loss/TransData-op10134
+2 1515 1516
+0
+1531 Default/network/network/loss/FusionOp_MatMul_Mul-op12962
+4 1199 156 839 873
+2 1532 1537
+1532 Default/network/network/loss/TransData-op10392
+1 1531
+1 1537
+1537 Default/network/network/loss/TransData-op10132
+2 1531 1532
+0
+1563 Default/network/network/loss/FusionOp_MatMul_Mul-op12964
+7 1183 196 178 185 171 839 873
+2 1564 1569
+1564 Default/network/network/loss/TransData-op10387
+1 1563
+1 1569
+1569 Default/network/network/loss/TransData-op10130
+2 1563 1564
+0
+1579 Default/network/network/loss/FusionOp_MatMul_Mul-op12966
+7 1183 196 178 185 171 839 873
+2 1580 1585
+1580 Default/network/network/loss/TransData-op10384
+1 1579
+1 1585
+1585 Default/network/network/loss/TransData-op10128
+2 1579 1580
+0
+1595 Default/network/network/loss/FusionOp_MatMul_Mul-op12968
+6 178 185 1183 171 839 873
+2 1596 1601
+1596 Default/network/network/loss/TransData-op10381
+1 1595
+1 1601
+1601 Default/network/network/loss/TransData-op10126
+2 1595 1596
+0
+1611 Default/network/network/loss/FusionOp_MatMul_Mul-op12970
+6 1180 178 185 196 839 873
+2 1612 1617
+1612 Default/network/network/loss/TransData-op10378
+1 1611
+1 1617
+1617 Default/network/network/loss/TransData-op10124
+2 1611 1612
+0
+1643 Default/network/network/loss/FusionOp_MatMul_Mul-op12972
+4 1176 213 839 873
+2 1644 1649
+1644 Default/network/network/loss/TransData-op10373
+1 1643
+1 1649
+1649 Default/network/network/loss/TransData-op10122
+2 1643 1644
+0
+1659 Default/network/network/loss/FusionOp_MatMul_Mul-op12974
+4 1172 220 839 873
+2 1660 1665
+1660 Default/network/network/loss/TransData-op10370
+1 1659
+1 1665
+1665 Default/network/network/loss/TransData-op10120
+2 1659 1660
+0
+1691 Default/network/network/loss/FusionOp_MatMul_Mul-op12976
+7 1156 260 242 249 235 839 873
+2 1692 1697
+1692 Default/network/network/loss/TransData-op10365
+1 1691
+1 1697
+1697 Default/network/network/loss/TransData-op10118
+2 1691 1692
+0
+1707 Default/network/network/loss/FusionOp_MatMul_Mul-op12978
+7 1156 260 242 249 235 839 873
+2 1708 1713
+1708 Default/network/network/loss/TransData-op10362
+1 1707
+1 1713
+1713 Default/network/network/loss/TransData-op10116
+2 1707 1708
+0
+1723 Default/network/network/loss/FusionOp_MatMul_Mul-op12980
+6 242 249 1156 235 839 873
+2 1724 1729
+1724 Default/network/network/loss/TransData-op10359
+1 1723
+1 1729
+1729 Default/network/network/loss/TransData-op10114
+2 1723 1724
+0
+1739 Default/network/network/loss/FusionOp_MatMul_Mul-op12982
+6 1153 242 249 260 839 873
+2 1740 1745
+1740 Default/network/network/loss/TransData-op10356
+1 1739
+1 1745
+1745 Default/network/network/loss/TransData-op10112
+2 1739 1740
+0
+1771 Default/network/network/loss/FusionOp_MatMul_Mul-op12984
+4 1149 277 839 873
+2 1772 1777
+1772 Default/network/network/loss/TransData-op10351
+1 1771
+1 1777
+1777 Default/network/network/loss/TransData-op10110
+2 1771 1772
+0
+1787 Default/network/network/loss/FusionOp_MatMul_Mul-op12986
+4 1145 284 839 873
+2 1788 1793
+1788 Default/network/network/loss/TransData-op10348
+1 1787
+1 1793
+1793 Default/network/network/loss/TransData-op10108
+2 1787 1788
+0
+1819 Default/network/network/loss/FusionOp_MatMul_Mul-op12988
+7 1129 324 306 313 299 839 873
+2 1820 1825
+1820 Default/network/network/loss/TransData-op10343
+1 1819
+1 1825
+1825 Default/network/network/loss/TransData-op10106
+2 1819 1820
+0
+1835 Default/network/network/loss/FusionOp_MatMul_Mul-op12990
+7 1129 324 306 313 299 839 873
+2 1836 1841
+1836 Default/network/network/loss/TransData-op10340
+1 1835
+1 1841
+1841 Default/network/network/loss/TransData-op10104
+2 1835 1836
+0
+1851 Default/network/network/loss/FusionOp_MatMul_Mul-op12992
+6 306 313 1129 299 839 873
+2 1852 1857
+1852 Default/network/network/loss/TransData-op10337
+1 1851
+1 1857
+1857 Default/network/network/loss/TransData-op10102
+2 1851 1852
+0
+1867 Default/network/network/loss/FusionOp_MatMul_Mul-op12994
+6 1126 306 313 324 839 873
+2 1868 1873
+1868 Default/network/network/loss/TransData-op10334
+1 1867
+1 1873
+1873 Default/network/network/loss/TransData-op10100
+2 1867 1868
+0
+1899 Default/network/network/loss/FusionOp_MatMul_Mul-op12996
+4 1122 341 839 873
+2 1900 1905
+1900 Default/network/network/loss/TransData-op10329
+1 1899
+1 1905
+1905 Default/network/network/loss/TransData-op10098
+2 1899 1900
+0
+1915 Default/network/network/loss/FusionOp_MatMul_Mul-op12998
+4 1118 348 839 873
+2 1916 1921
+1916 Default/network/network/loss/TransData-op10326
+1 1915
+1 1921
+1921 Default/network/network/loss/TransData-op10096
+2 1915 1916
+0
+1947 Default/network/network/loss/FusionOp_MatMul_Mul-op13000
+7 1102 388 370 377 363 839 873
+2 1948 1953
+1948 Default/network/network/loss/TransData-op10321
+1 1947
+1 1953
+1953 Default/network/network/loss/TransData-op10094
+2 1947 1948
+0
+1963 Default/network/network/loss/FusionOp_MatMul_Mul-op13002
+7 1102 388 370 377 363 839 873
+2 1964 1969
+1964 Default/network/network/loss/TransData-op10318
+1 1963
+1 1969
+1969 Default/network/network/loss/TransData-op10092
+2 1963 1964
+0
+1979 Default/network/network/loss/FusionOp_MatMul_Mul-op13004
+6 370 377 1102 363 839 873
+2 1980 1985
+1980 Default/network/network/loss/TransData-op10315
+1 1979
+1 1985
+1985 Default/network/network/loss/TransData-op10090
+2 1979 1980
+0
+1995 Default/network/network/loss/FusionOp_MatMul_Mul-op13006
+6 1099 370 377 388 839 873
+2 1996 2001
+1996 Default/network/network/loss/TransData-op10312
+1 1995
+1 2001
+2001 Default/network/network/loss/TransData-op10088
+2 1995 1996
+0
+2027 Default/network/network/loss/FusionOp_MatMul_Mul-op13008
+4 1095 405 839 873
+2 2028 2033
+2028 Default/network/network/loss/TransData-op10307
+1 2027
+1 2033
+2033 Default/network/network/loss/TransData-op10086
+2 2027 2028
+0
+2043 Default/network/network/loss/FusionOp_MatMul_Mul-op13010
+4 1091 412 839 873
+2 2044 2049
+2044 Default/network/network/loss/TransData-op10304
+1 2043
+1 2049
+2049 Default/network/network/loss/TransData-op10084
+2 2043 2044
+0
+2075 Default/network/network/loss/FusionOp_MatMul_Mul-op13012
+7 1075 452 434 441 427 839 873
+2 2076 2081
+2076 Default/network/network/loss/TransData-op10299
+1 2075
+1 2081
+2081 Default/network/network/loss/TransData-op10082
+2 2075 2076
+0
+2091 Default/network/network/loss/FusionOp_MatMul_Mul-op13014
+7 1075 452 434 441 427 839 873
+2 2092 2097
+2092 Default/network/network/loss/TransData-op10296
+1 2091
+1 2097
+2097 Default/network/network/loss/TransData-op10080
+2 2091 2092
+0
+2107 Default/network/network/loss/FusionOp_MatMul_Mul-op13016
+6 434 441 1075 427 839 873
+2 2108 2113
+2108 Default/network/network/loss/TransData-op10293
+1 2107
+1 2113
+2113 Default/network/network/loss/TransData-op10078
+2 2107 2108
+0
+2123 Default/network/network/loss/FusionOp_MatMul_Mul-op13018
+6 1072 434 441 452 839 873
+2 2124 2129
+2124 Default/network/network/loss/TransData-op10290
+1 2123
+1 2129
+2129 Default/network/network/loss/TransData-op10076
+2 2123 2124
+0
+2155 Default/network/network/loss/FusionOp_MatMul_Mul-op13020
+4 1068 469 839 873
+2 2156 2161
+2156 Default/network/network/loss/TransData-op10285
+1 2155
+1 2161
+2161 Default/network/network/loss/TransData-op10074
+2 2155 2156
+0
+2171 Default/network/network/loss/FusionOp_MatMul_Mul-op13022
+4 1064 476 839 873
+2 2172 2177
+2172 Default/network/network/loss/TransData-op10282
+1 2171
+1 2177
+2177 Default/network/network/loss/TransData-op10072
+2 2171 2172
+0
+2203 Default/network/network/loss/FusionOp_MatMul_Mul-op13024
+7 1048 516 498 505 491 839 873
+2 2204 2209
+2204 Default/network/network/loss/TransData-op10277
+1 2203
+1 2209
+2209 Default/network/network/loss/TransData-op10070
+2 2203 2204
+0
+2219 Default/network/network/loss/FusionOp_MatMul_Mul-op13026
+7 1048 516 498 505 491 839 873
+2 2220 2225
+2220 Default/network/network/loss/TransData-op10274
+1 2219
+1 2225
+2225 Default/network/network/loss/TransData-op10068
+2 2219 2220
+0
+2235 Default/network/network/loss/FusionOp_MatMul_Mul-op13028
+6 498 505 1048 491 839 873
+2 2236 2241
+2236 Default/network/network/loss/TransData-op10271
+1 2235
+1 2241
+2241 Default/network/network/loss/TransData-op10066
+2 2235 2236
+0
+2251 Default/network/network/loss/FusionOp_MatMul_Mul-op12770
+6 1045 498 505 516 839 873
+2 2252 2257
+2252 Default/network/network/loss/TransData-op10268
+1 2251
+1 2257
+2257 Default/network/network/loss/TransData-op10064
+2 2251 2252
+0
+2283 Default/network/network/loss/FusionOp_MatMul_Mul-op12768
+4 1041 533 839 873
+2 2284 2289
+2284 Default/network/network/loss/TransData-op10263
+1 2283
+1 2289
+2289 Default/network/network/loss/TransData-op10062
+2 2283 2284
+0
+2299 Default/network/network/loss/FusionOp_MatMul_Mul-op12766
+4 1037 540 839 873
+2 2300 2305
+2300 Default/network/network/loss/TransData-op10260
+1 2299
+1 2305
+2305 Default/network/network/loss/TransData-op10060
+2 2299 2300
+0
+2331 Default/network/network/loss/FusionOp_MatMul_Mul-op12764
+7 1021 580 562 569 555 839 873
+2 2332 2337
+2332 Default/network/network/loss/TransData-op10255
+1 2331
+1 2337
+2337 Default/network/network/loss/TransData-op10058
+2 2331 2332
+0
+2347 Default/network/network/loss/FusionOp_MatMul_Mul-op12762
+7 1021 580 562 569 555 839 873
+2 2348 2353
+2348 Default/network/network/loss/TransData-op10252
+1 2347
+1 2353
+2353 Default/network/network/loss/TransData-op10056
+2 2347 2348
+0
+2363 Default/network/network/loss/FusionOp_MatMul_Mul-op12760
+6 562 569 1021 555 839 873
+2 2364 2369
+2364 Default/network/network/loss/TransData-op10249
+1 2363
+1 2369
+2369 Default/network/network/loss/TransData-op10054
+2 2363 2364
+0
+2379 Default/network/network/loss/FusionOp_MatMul_Mul-op12758
+6 1018 562 569 580 839 873
+2 2380 2385
+2380 Default/network/network/loss/TransData-op10246
+1 2379
+1 2385
+2385 Default/network/network/loss/TransData-op10052
+2 2379 2380
+0
+2411 Default/network/network/loss/FusionOp_MatMul_Mul-op12756
+4 1014 597 839 873
+2 2412 2417
+2412 Default/network/network/loss/TransData-op10241
+1 2411
+1 2417
+2417 Default/network/network/loss/TransData-op10050
+2 2411 2412
+0
+2427 Default/network/network/loss/FusionOp_MatMul_Mul-op12754
+4 1010 604 839 873
+2 2428 2433
+2428 Default/network/network/loss/TransData-op10238
+1 2427
+1 2433
+2433 Default/network/network/loss/TransData-op10048
+2 2427 2428
+0
+2459 Default/network/network/loss/FusionOp_MatMul_Mul-op12752
+7 994 644 626 633 619 839 873
+2 2460 2465
+2460 Default/network/network/loss/TransData-op10233
+1 2459
+1 2465
+2465 Default/network/network/loss/TransData-op10046
+2 2459 2460
+0
+2475 Default/network/network/loss/FusionOp_MatMul_Mul-op12750
+7 994 644 626 633 619 839 873
+2 2476 2481
+2476 Default/network/network/loss/TransData-op10230
+1 2475
+1 2481
+2481 Default/network/network/loss/TransData-op10044
+2 2475 2476
+0
+2491 Default/network/network/loss/FusionOp_MatMul_Mul-op12748
+6 626 633 994 619 839 873
+2 2492 2497
+2492 Default/network/network/loss/TransData-op10227
+1 2491
+1 2497
+2497 Default/network/network/loss/TransData-op10042
+2 2491 2492
+0
+2507 Default/network/network/loss/FusionOp_MatMul_Mul-op12746
+6 991 626 633 644 839 873
+2 2508 2513
+2508 Default/network/network/loss/TransData-op10224
+1 2507
+1 2513
+2513 Default/network/network/loss/TransData-op10040
+2 2507 2508
+0
+2539 Default/network/network/loss/FusionOp_MatMul_Mul-op12744
+4 987 661 839 873
+2 2540 2545
+2540 Default/network/network/loss/TransData-op10219
+1 2539
+1 2545
+2545 Default/network/network/loss/TransData-op10038
+2 2539 2540
+0
+2555 Default/network/network/loss/FusionOp_MatMul_Mul-op12742
+4 983 668 839 873
+2 2556 2561
+2556 Default/network/network/loss/TransData-op10216
+1 2555
+1 2561
+2561 Default/network/network/loss/TransData-op10036
+2 2555 2556
+0
+2587 Default/network/network/loss/FusionOp_MatMul_Mul-op12740
+7 967 708 690 697 683 839 873
+2 2588 2593
+2588 Default/network/network/loss/TransData-op10211
+1 2587
+1 2593
+2593 Default/network/network/loss/TransData-op10034
+2 2587 2588
+0
+2603 Default/network/network/loss/FusionOp_MatMul_Mul-op12738
+7 967 708 690 697 683 839 873
+2 2604 2609
+2604 Default/network/network/loss/TransData-op10208
+1 2603
+1 2609
+2609 Default/network/network/loss/TransData-op10032
+2 2603 2604
+0
+2619 Default/network/network/loss/FusionOp_MatMul_Mul-op12736
+6 690 697 967 683 839 873
+2 2620 2625
+2620 Default/network/network/loss/TransData-op10205
+1 2619
+1 2625
+2625 Default/network/network/loss/TransData-op10030
+2 2619 2620
+0
+2635 Default/network/network/loss/FusionOp_MatMul_Mul-op12734
+6 964 690 697 708 839 873
+2 2636 2641
+2636 Default/network/network/loss/TransData-op10202
+1 2635
+1 2641
+2641 Default/network/network/loss/TransData-op10028
+2 2635 2636
+0
+2667 Default/network/network/loss/FusionOp_MatMul_Mul-op12732
+4 960 725 839 873
+2 2668 2673
+2668 Default/network/network/loss/TransData-op10197
+1 2667
+1 2673
+2673 Default/network/network/loss/TransData-op10026
+2 2667 2668
+0
+2683 Default/network/network/loss/FusionOp_MatMul_Mul-op12730
+4 956 732 839 873
+2 2684 2689
+2684 Default/network/network/loss/TransData-op10194
+1 2683
+1 2689
+2689 Default/network/network/loss/TransData-op10024
+2 2683 2684
+0
+2715 Default/network/network/loss/FusionOp_MatMul_Mul-op12728
+7 940 772 754 761 747 839 873
+2 2716 2721
+2716 Default/network/network/loss/TransData-op10189
+1 2715
+1 2721
+2721 Default/network/network/loss/TransData-op10022
+2 2715 2716
+0
+2731 Default/network/network/loss/FusionOp_MatMul_Mul-op12726
+7 940 772 754 761 747 839 873
+2 2732 2737
+2732 Default/network/network/loss/TransData-op10186
+1 2731
+1 2737
+2737 Default/network/network/loss/TransData-op10020
+2 2731 2732
+0
+2747 Default/network/network/loss/FusionOp_MatMul_Mul-op12724
+6 754 761 940 747 839 873
+2 2748 2753
+2748 Default/network/network/loss/TransData-op10183
+1 2747
+1 2753
+2753 Default/network/network/loss/TransData-op10018
+2 2747 2748
+0
+2763 Default/network/network/loss/FusionOp_MatMul_Mul-op12722
+6 937 754 761 772 839 873
+2 2764 2769
+2764 Default/network/network/loss/TransData-op10180
+1 2763
+1 2769
+2769 Default/network/network/loss/TransData-op10016
+2 2763 2764
+0
+2795 Default/network/network/loss/FusionOp_MatMul_Mul-op12720
+4 933 789 839 873
+2 2796 2801
+2796 Default/network/network/loss/TransData-op10175
+1 2795
+1 2801
+2801 Default/network/network/loss/TransData-op10014
+2 2795 2796
+0
+2811 Default/network/network/loss/FusionOp_MatMul_Mul-op12718
+4 929 796 839 873
+2 2812 2817
+2812 Default/network/network/loss/TransData-op10172
+1 2811
+1 2817
+2817 Default/network/network/loss/TransData-op10012
+2 2811 2812
+0
+2843 Default/network/network/loss/FusionOp_MatMul_Mul-op12716
+4 918 860 839 873
+2 2844 2849
+2844 Default/network/network/loss/TransData-op10167
+1 2843
+1 2849
+2849 Default/network/network/loss/TransData-op10010
+2 2843 2844
+0
+2866 Default/network/network/loss/FusionOp_MatMul_Mul-op12714
+4 901 822 839 873
+2 2867 2872
+2867 Default/network/network/loss/TransData-op10165
+1 2866
+1 2872
+2872 Default/network/network/loss/TransData-op10008
+2 2866 2867
+0
+2898 Default/network/network/loss/FusionOp_MatMul_Mul-op12712
+5 914 860 863 839 873
+1 2899
+2899 Default/network/network/loss/TransData-op10158
+1 2898
+0
