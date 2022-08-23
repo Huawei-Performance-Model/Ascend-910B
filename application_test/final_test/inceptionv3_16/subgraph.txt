@@ -1,0 +1,2535 @@
+2 Default/network-WithLossCell/_backbone-InceptionV3/TransData-op7593
+0
+2 5 2113
+5 Default/network-WithLossCell/_backbone-InceptionV3/Conv2d_2a-BasicConv2d/bn-BatchNorm2d/FusionOp_Conv2D_BNTrainingReduce-op17999
+1 2
+3 13 2109 2112
+13 Default/network-WithLossCell/_backbone-InceptionV3/Conv2d_1a-BasicConv2d/relu-ReLU/FusionOp_BNTrainingUpdate_ReLUV2-op17995
+1 5
+5 17 2106 2109 2112 3642
+17 Default/network-WithLossCell/_backbone-InceptionV3/Conv2d_2a-BasicConv2d/bn-BatchNorm2d/FusionOp_Conv2D_BNTrainingReduce-op17990
+1 13
+3 25 2101 2104
+25 Default/network-WithLossCell/_backbone-InceptionV3/Conv2d_2a-BasicConv2d/relu-ReLU/FusionOp_BNTrainingUpdate_ReLUV2-op17986
+1 17
+5 29 2098 2101 2104 3626
+29 Default/network-WithLossCell/_backbone-InceptionV3/Mixed_5d-Inception_A/branch0-BasicConv2d/bn-BatchNorm2d/FusionOp_Conv2D_BNTrainingReduce-op17981
+1 25
+3 37 2093 2096
+37 Default/network-WithLossCell/_backbone-InceptionV3/Conv2d_2b-BasicConv2d/relu-ReLU/FusionOp_BNTrainingUpdate_ReLUV2-op17977
+1 29
+5 39 2088 2090 2093 2096
+39 Default/network-WithLossCell/_backbone-InceptionV3/maxpool1-MaxPool2d/MaxPoolWithArgmax-op4401
+1 37
+3 43 2088 3610
+43 Default/network-WithLossCell/_backbone-InceptionV3/Conv2d_3b-BasicConv2d/bn-BatchNorm2d/FusionOp_Conv2D_BNTrainingReduce-op17993
+1 39
+3 51 2082 2085
+51 Default/network-WithLossCell/_backbone-InceptionV3/Conv2d_3b-BasicConv2d/relu-ReLU/FusionOp_BNTrainingUpdate_ReLUV2-op17972
+1 43
+5 55 2079 2082 2085 3594
+55 Default/network-WithLossCell/_backbone-InceptionV3/Mixed_6e-Inception_C/branch0-BasicConv2d/bn-BatchNorm2d/FusionOp_Conv2D_BNTrainingReduce-op17984
+1 51
+3 63 2074 2077
+63 Default/network-WithLossCell/_backbone-InceptionV3/Conv2d_4a-BasicConv2d/relu-ReLU/FusionOp_BNTrainingUpdate_ReLUV2-op17967
+1 55
+5 65 2069 2071 2074 2077
+65 Default/network-WithLossCell/_backbone-InceptionV3/maxpool2-MaxPool2d/MaxPoolWithArgmax-op4403
+1 63
+9 69 81 105 142 2069 3482 3530 3562 3578
+69 Default/network-WithLossCell/_backbone-InceptionV3/Mixed_5d-Inception_A/branch0-BasicConv2d/bn-BatchNorm2d/FusionOp_Conv2D_BNTrainingReduce-op17975
+1 65
+3 77 2007 2010
+77 Default/network-WithLossCell/_backbone-InceptionV3/Mixed_5b-Inception_A/branch0-BasicConv2d/relu-ReLU/FusionOp_BNTrainingUpdate_ReLUV2-op17964
+1 69
+11 155 167 191 228 2004 2007 2010 3370 3418 3450 3466
+81 Default/network-WithLossCell/_backbone-InceptionV3/Mixed_5d-Inception_A/branch1-SequentialCell/0-BasicConv2d/bn-BatchNorm2d/FusionOp_Conv2D_BNTrainingReduce-op17970
+1 65
+3 89 2025 2028
+89 Default/network-WithLossCell/_backbone-InceptionV3/Mixed_5b-Inception_A/branch1-SequentialCell/0-BasicConv2d/relu-ReLU/FusionOp_BNTrainingUpdate_ReLUV2-op18001
+1 81
+5 93 2022 2025 2028 3546
+93 Default/network-WithLossCell/_backbone-InceptionV3/Mixed_5d-Inception_A/branch0-BasicConv2d/bn-BatchNorm2d/FusionOp_Conv2D_BNTrainingReduce-op17996
+1 89
+3 101 2017 2020
+101 Default/network-WithLossCell/_backbone-InceptionV3/Mixed_5b-Inception_A/branch1-SequentialCell/1-BasicConv2d/relu-ReLU/FusionOp_BNTrainingUpdate_ReLUV2-op18004
+1 93
+11 155 167 191 228 2014 2017 2020 3370 3418 3450 3466
+105 Default/network-WithLossCell/_backbone-InceptionV3/Mixed_5d-Inception_A/branch0-BasicConv2d/bn-BatchNorm2d/FusionOp_Conv2D_BNTrainingReduce-op17987
+1 65
+3 113 2051 2054
+113 Default/network-WithLossCell/_backbone-InceptionV3/Mixed_5b-Inception_A/branch2-SequentialCell/0-BasicConv2d/relu-ReLU/FusionOp_BNTrainingUpdate_ReLUV2-op18007
+1 105
+5 117 2048 2051 2054 3514
+117 Default/network-WithLossCell/_backbone-InceptionV3/Mixed_6a-Inception_B/branch1-SequentialCell/1-BasicConv2d/bn-BatchNorm2d/FusionOp_Conv2D_BNTrainingReduce-op17978
+1 113
+3 125 2043 2046
+125 Default/network-WithLossCell/_backbone-InceptionV3/Mixed_5b-Inception_A/branch2-SequentialCell/1-BasicConv2d/relu-ReLU/FusionOp_BNTrainingUpdate_ReLUV2-op18008
+1 117
+5 129 2040 2043 2046 3498
+129 Default/network-WithLossCell/_backbone-InceptionV3/Mixed_6a-Inception_B/branch1-SequentialCell/1-BasicConv2d/bn-BatchNorm2d/FusionOp_Conv2D_BNTrainingReduce-op17973
+1 125
+3 137 2035 2038
+137 Default/network-WithLossCell/_backbone-InceptionV3/Mixed_5b-Inception_A/branch2-SequentialCell/2-BasicConv2d/relu-ReLU/FusionOp_BNTrainingUpdate_ReLUV2-op18009
+1 129
+11 155 167 191 228 2032 2035 2038 3370 3418 3450 3466
+142 Default/network-WithLossCell/_backbone-InceptionV3/Conv2d_2a-BasicConv2d/bn-BatchNorm2d/FusionOp_Conv2D_BNTrainingReduce-op17968
+1 65
+3 150 2061 2064
+150 Default/network-WithLossCell/_backbone-InceptionV3/Mixed_5b-Inception_A/branch_pool-SequentialCell/1-BasicConv2d/relu-ReLU/FusionOp_BNTrainingUpdate_ReLUV2-op18010
+1 142
+11 155 167 191 228 2058 2061 2064 3370 3418 3450 3466
+155 Default/network-WithLossCell/_backbone-InceptionV3/Mixed_5d-Inception_A/branch0-BasicConv2d/bn-BatchNorm2d/FusionOp_Conv2D_BNTrainingReduce-op17965
+4 77 101 137 150
+3 163 1941 1944
+163 Default/network-WithLossCell/_backbone-InceptionV3/Mixed_5c-Inception_A/branch0-BasicConv2d/relu-ReLU/FusionOp_BNTrainingUpdate_ReLUV2-op18011
+1 155
+11 241 253 277 314 1938 1941 1944 3258 3306 3338 3354
+167 Default/network-WithLossCell/_backbone-InceptionV3/Mixed_5d-Inception_A/branch1-SequentialCell/0-BasicConv2d/bn-BatchNorm2d/FusionOp_Conv2D_BNTrainingReduce-op18002
+4 77 101 137 150
+3 175 1959 1962
+175 Default/network-WithLossCell/_backbone-InceptionV3/Mixed_5c-Inception_A/branch1-SequentialCell/0-BasicConv2d/relu-ReLU/FusionOp_BNTrainingUpdate_ReLUV2-op18012
+1 167
+5 179 1956 1959 1962 3434
+179 Default/network-WithLossCell/_backbone-InceptionV3/Mixed_5d-Inception_A/branch0-BasicConv2d/bn-BatchNorm2d/FusionOp_Conv2D_BNTrainingReduce-op18005
+1 175
+3 187 1951 1954
+187 Default/network-WithLossCell/_backbone-InceptionV3/Mixed_5c-Inception_A/branch1-SequentialCell/1-BasicConv2d/relu-ReLU/FusionOp_BNTrainingUpdate_ReLUV2-op17963
+1 179
+11 241 253 277 314 1948 1951 1954 3258 3306 3338 3354
+191 Default/network-WithLossCell/_backbone-InceptionV3/Mixed_5d-Inception_A/branch0-BasicConv2d/bn-BatchNorm2d/FusionOp_Conv2D_BNTrainingReduce-op17961
+4 77 101 137 150
+3 199 1985 1988
+199 Default/network-WithLossCell/_backbone-InceptionV3/Mixed_5c-Inception_A/branch2-SequentialCell/0-BasicConv2d/relu-ReLU/FusionOp_BNTrainingUpdate_ReLUV2-op17960
+1 191
+5 203 1982 1985 1988 3402
+203 Default/network-WithLossCell/_backbone-InceptionV3/Mixed_6a-Inception_B/branch1-SequentialCell/1-BasicConv2d/bn-BatchNorm2d/FusionOp_Conv2D_BNTrainingReduce-op17958
+1 199
+3 211 1977 1980
+211 Default/network-WithLossCell/_backbone-InceptionV3/Mixed_5c-Inception_A/branch2-SequentialCell/1-BasicConv2d/relu-ReLU/FusionOp_BNTrainingUpdate_ReLUV2-op17957
+1 203
+5 215 1974 1977 1980 3386
+215 Default/network-WithLossCell/_backbone-InceptionV3/Mixed_6a-Inception_B/branch1-SequentialCell/1-BasicConv2d/bn-BatchNorm2d/FusionOp_Conv2D_BNTrainingReduce-op17955
+1 211
+3 223 1969 1972
+223 Default/network-WithLossCell/_backbone-InceptionV3/Mixed_5c-Inception_A/branch2-SequentialCell/2-BasicConv2d/relu-ReLU/FusionOp_BNTrainingUpdate_ReLUV2-op17954
+1 215
+11 241 253 277 314 1966 1969 1972 3258 3306 3338 3354
+228 Default/network-WithLossCell/_backbone-InceptionV3/Mixed_5d-Inception_A/branch0-BasicConv2d/bn-BatchNorm2d/FusionOp_Conv2D_BNTrainingReduce-op17952
+4 77 101 137 150
+3 236 1995 1998
+236 Default/network-WithLossCell/_backbone-InceptionV3/Mixed_5c-Inception_A/branch_pool-SequentialCell/1-BasicConv2d/relu-ReLU/FusionOp_BNTrainingUpdate_ReLUV2-op17951
+1 228
+11 241 253 277 314 1992 1995 1998 3258 3306 3338 3354
+241 Default/network-WithLossCell/_backbone-InceptionV3/Mixed_5d-Inception_A/branch0-BasicConv2d/bn-BatchNorm2d/FusionOp_Conv2D_BNTrainingReduce-op17949
+4 163 187 223 236
+3 249 1875 1878
+249 Default/network-WithLossCell/_backbone-InceptionV3/Mixed_5d-Inception_A/branch0-BasicConv2d/relu-ReLU/FusionOp_BNTrainingUpdate_ReLUV2-op17948
+1 241
+9 327 339 373 1868 1872 1875 1878 3226 3242
+253 Default/network-WithLossCell/_backbone-InceptionV3/Mixed_5d-Inception_A/branch1-SequentialCell/0-BasicConv2d/bn-BatchNorm2d/FusionOp_Conv2D_BNTrainingReduce-op17946
+4 163 187 223 236
+3 261 1893 1896
+261 Default/network-WithLossCell/_backbone-InceptionV3/Mixed_5d-Inception_A/branch1-SequentialCell/0-BasicConv2d/relu-ReLU/FusionOp_BNTrainingUpdate_ReLUV2-op17945
+1 253
+5 265 1890 1893 1896 3322
+265 Default/network-WithLossCell/_backbone-InceptionV3/Mixed_5d-Inception_A/branch0-BasicConv2d/bn-BatchNorm2d/FusionOp_Conv2D_BNTrainingReduce-op17943
+1 261
+3 273 1885 1888
+273 Default/network-WithLossCell/_backbone-InceptionV3/Mixed_5d-Inception_A/branch1-SequentialCell/1-BasicConv2d/relu-ReLU/FusionOp_BNTrainingUpdate_ReLUV2-op17942
+1 265
+9 327 339 373 1868 1882 1885 1888 3226 3242
+277 Default/network-WithLossCell/_backbone-InceptionV3/Mixed_5d-Inception_A/branch0-BasicConv2d/bn-BatchNorm2d/FusionOp_Conv2D_BNTrainingReduce-op17940
+4 163 187 223 236
+3 285 1919 1922
+285 Default/network-WithLossCell/_backbone-InceptionV3/Mixed_5d-Inception_A/branch2-SequentialCell/0-BasicConv2d/relu-ReLU/FusionOp_BNTrainingUpdate_ReLUV2-op17939
+1 277
+5 289 1916 1919 1922 3290
+289 Default/network-WithLossCell/_backbone-InceptionV3/Mixed_6a-Inception_B/branch1-SequentialCell/1-BasicConv2d/bn-BatchNorm2d/FusionOp_Conv2D_BNTrainingReduce-op17937
+1 285
+3 297 1911 1914
+297 Default/network-WithLossCell/_backbone-InceptionV3/Mixed_5d-Inception_A/branch2-SequentialCell/1-BasicConv2d/relu-ReLU/FusionOp_BNTrainingUpdate_ReLUV2-op17936
+1 289
+5 301 1908 1911 1914 3274
+301 Default/network-WithLossCell/_backbone-InceptionV3/Mixed_6a-Inception_B/branch1-SequentialCell/1-BasicConv2d/bn-BatchNorm2d/FusionOp_Conv2D_BNTrainingReduce-op17934
+1 297
+3 309 1903 1906
+309 Default/network-WithLossCell/_backbone-InceptionV3/Mixed_5d-Inception_A/branch2-SequentialCell/2-BasicConv2d/relu-ReLU/FusionOp_BNTrainingUpdate_ReLUV2-op17998
+1 301
+9 327 339 373 1868 1900 1903 1906 3226 3242
+314 Default/network-WithLossCell/_backbone-InceptionV3/Mixed_5d-Inception_A/branch0-BasicConv2d/bn-BatchNorm2d/FusionOp_Conv2D_BNTrainingReduce-op17932
+4 163 187 223 236
+3 322 1929 1932
+322 Default/network-WithLossCell/_backbone-InceptionV3/Mixed_5d-Inception_A/branch_pool-SequentialCell/1-BasicConv2d/relu-ReLU/FusionOp_BNTrainingUpdate_ReLUV2-op17989
+1 314
+9 327 339 373 1868 1926 1929 1932 3226 3242
+327 Default/network-WithLossCell/_backbone-InceptionV3/Mixed_6a-Inception_B/branch0-BasicConv2d/bn-BatchNorm2d/FusionOp_Conv2D_BNTrainingReduce-op17930
+4 249 273 309 322
+3 335 1835 1838
+335 Default/network-WithLossCell/_backbone-InceptionV3/Mixed_6a-Inception_B/branch0-BasicConv2d/relu-ReLU/FusionOp_BNTrainingUpdate_ReLUV2-op17980
+1 327
+11 378 390 426 487 1832 1835 1838 3034 3114 3162 3178
+339 Default/network-WithLossCell/_backbone-InceptionV3/Mixed_5d-Inception_A/branch0-BasicConv2d/bn-BatchNorm2d/FusionOp_Conv2D_BNTrainingReduce-op17928
+4 249 273 309 322
+3 347 1861 1864
+347 Default/network-WithLossCell/_backbone-InceptionV3/Mixed_6a-Inception_B/branch1-SequentialCell/0-BasicConv2d/relu-ReLU/FusionOp_BNTrainingUpdate_ReLUV2-op17992
+1 339
+5 351 1858 1861 1864 3210
+351 Default/network-WithLossCell/_backbone-InceptionV3/Mixed_6a-Inception_B/branch1-SequentialCell/1-BasicConv2d/bn-BatchNorm2d/FusionOp_Conv2D_BNTrainingReduce-op17926
+1 347
+3 359 1853 1856
+359 Default/network-WithLossCell/_backbone-InceptionV3/Mixed_6a-Inception_B/branch1-SequentialCell/1-BasicConv2d/relu-ReLU/FusionOp_BNTrainingUpdate_ReLUV2-op17983
+1 351
+5 363 1850 1853 1856 3194
+363 Default/network-WithLossCell/_backbone-InceptionV3/Mixed_6a-Inception_B/branch1-SequentialCell/1-BasicConv2d/bn-BatchNorm2d/FusionOp_Conv2D_BNTrainingReduce-op17924
+1 359
+3 371 1845 1848
+371 Default/network-WithLossCell/_backbone-InceptionV3/Mixed_6a-Inception_B/branch1-SequentialCell/2-BasicConv2d/relu-ReLU/FusionOp_BNTrainingUpdate_ReLUV2-op18013
+1 363
+11 378 390 426 487 1842 1845 1848 3034 3114 3162 3178
+373 Default/network-WithLossCell/_backbone-InceptionV3/Mixed_6a-Inception_B/branch_pool-MaxPool2d/MaxPoolWithArgmax-op4405
+4 249 273 309 322
+9 378 390 426 487 1868 3034 3114 3162 3178
+378 Default/network-WithLossCell/_backbone-InceptionV3/Mixed_6e-Inception_C/branch0-BasicConv2d/bn-BatchNorm2d/FusionOp_Conv2D_BNTrainingReduce-op18014
+3 335 371 373
+3 386 1745 1748
+386 Default/network-WithLossCell/_backbone-InceptionV3/Mixed_6b-Inception_C/branch0-BasicConv2d/relu-ReLU/FusionOp_BNTrainingUpdate_ReLUV2-op18015
+1 378
+11 500 512 548 609 1742 1745 1748 2874 2954 3002 3018
+390 Default/network-WithLossCell/_backbone-InceptionV3/Mixed_6b-Inception_C/branch1-SequentialCell/0-BasicConv2d/bn-BatchNorm2d/FusionOp_Conv2D_BNTrainingReduce-op18016
+3 335 371 373
+3 398 1771 1774
+398 Default/network-WithLossCell/_backbone-InceptionV3/Mixed_6b-Inception_C/branch1-SequentialCell/0-BasicConv2d/relu-ReLU/FusionOp_BNTrainingUpdate_ReLUV2-op18017
+1 390
+5 402 1768 1771 1774 3146
+402 Default/network-WithLossCell/_backbone-InceptionV3/Mixed_6b-Inception_C/branch1-SequentialCell/0-BasicConv2d/bn-BatchNorm2d/FusionOp_Conv2D_BNTrainingReduce-op18018
+1 398
+3 410 1763 1766
+410 Default/network-WithLossCell/_backbone-InceptionV3/Mixed_6b-Inception_C/branch1-SequentialCell/1-BasicConv2d/relu-ReLU/FusionOp_BNTrainingUpdate_ReLUV2-op18019
+1 402
+5 414 1760 1763 1766 3130
+414 Default/network-WithLossCell/_backbone-InceptionV3/Mixed_6e-Inception_C/branch0-BasicConv2d/bn-BatchNorm2d/FusionOp_Conv2D_BNTrainingReduce-op18020
+1 410
+3 422 1755 1758
+422 Default/network-WithLossCell/_backbone-InceptionV3/Mixed_6b-Inception_C/branch1-SequentialCell/2-BasicConv2d/relu-ReLU/FusionOp_BNTrainingUpdate_ReLUV2-op18000
+1 414
+11 500 512 548 609 1752 1755 1758 2874 2954 3002 3018
+426 Default/network-WithLossCell/_backbone-InceptionV3/Mixed_6b-Inception_C/branch1-SequentialCell/0-BasicConv2d/bn-BatchNorm2d/FusionOp_Conv2D_BNTrainingReduce-op18021
+3 335 371 373
+3 434 1813 1816
+434 Default/network-WithLossCell/_backbone-InceptionV3/Mixed_6b-Inception_C/branch2-SequentialCell/0-BasicConv2d/relu-ReLU/FusionOp_BNTrainingUpdate_ReLUV2-op17991
+1 426
+5 438 1810 1813 1816 3098
+438 Default/network-WithLossCell/_backbone-InceptionV3/Mixed_6b-Inception_C/branch1-SequentialCell/0-BasicConv2d/bn-BatchNorm2d/FusionOp_Conv2D_BNTrainingReduce-op18022
+1 434
+3 446 1805 1808
+446 Default/network-WithLossCell/_backbone-InceptionV3/Mixed_6b-Inception_C/branch2-SequentialCell/1-BasicConv2d/relu-ReLU/FusionOp_BNTrainingUpdate_ReLUV2-op17982
+1 438
+5 450 1802 1805 1808 3082
+450 Default/network-WithLossCell/_backbone-InceptionV3/Mixed_6b-Inception_C/branch1-SequentialCell/0-BasicConv2d/bn-BatchNorm2d/FusionOp_Conv2D_BNTrainingReduce-op18023
+1 446
+3 458 1797 1800
+458 Default/network-WithLossCell/_backbone-InceptionV3/Mixed_6b-Inception_C/branch2-SequentialCell/2-BasicConv2d/relu-ReLU/FusionOp_BNTrainingUpdate_ReLUV2-op17994
+1 450
+5 462 1794 1797 1800 3066
+462 Default/network-WithLossCell/_backbone-InceptionV3/Mixed_6b-Inception_C/branch1-SequentialCell/0-BasicConv2d/bn-BatchNorm2d/FusionOp_Conv2D_BNTrainingReduce-op18024
+1 458
+3 470 1789 1792
+470 Default/network-WithLossCell/_backbone-InceptionV3/Mixed_6b-Inception_C/branch2-SequentialCell/3-BasicConv2d/relu-ReLU/FusionOp_BNTrainingUpdate_ReLUV2-op17985
+1 462
+5 474 1786 1789 1792 3050
+474 Default/network-WithLossCell/_backbone-InceptionV3/Mixed_6e-Inception_C/branch0-BasicConv2d/bn-BatchNorm2d/FusionOp_Conv2D_BNTrainingReduce-op18025
+1 470
+3 482 1781 1784
+482 Default/network-WithLossCell/_backbone-InceptionV3/Mixed_6b-Inception_C/branch2-SequentialCell/4-BasicConv2d/relu-ReLU/FusionOp_BNTrainingUpdate_ReLUV2-op17976
+1 474
+11 500 512 548 609 1778 1781 1784 2874 2954 3002 3018
+487 Default/network-WithLossCell/_backbone-InceptionV3/Mixed_6e-Inception_C/branch0-BasicConv2d/bn-BatchNorm2d/FusionOp_Conv2D_BNTrainingReduce-op18026
+3 335 371 373
+3 495 1823 1826
+495 Default/network-WithLossCell/_backbone-InceptionV3/Mixed_6b-Inception_C/branch_pool-SequentialCell/1-BasicConv2d/relu-ReLU/FusionOp_BNTrainingUpdate_ReLUV2-op17971
+1 487
+11 500 512 548 609 1820 1823 1826 2874 2954 3002 3018
+500 Default/network-WithLossCell/_backbone-InceptionV3/Mixed_6e-Inception_C/branch0-BasicConv2d/bn-BatchNorm2d/FusionOp_Conv2D_BNTrainingReduce-op18027
+4 386 422 482 495
+3 508 1654 1657
+508 Default/network-WithLossCell/_backbone-InceptionV3/Mixed_6c-Inception_C/branch0-BasicConv2d/relu-ReLU/FusionOp_BNTrainingUpdate_ReLUV2-op17997
+1 500
+11 622 634 670 731 1651 1654 1657 2714 2794 2842 2858
+512 Default/network-WithLossCell/_backbone-InceptionV3/Mixed_6d-Inception_C/branch1-SequentialCell/0-BasicConv2d/bn-BatchNorm2d/FusionOp_Conv2D_BNTrainingReduce-op18028
+4 386 422 482 495
+3 520 1680 1683
+520 Default/network-WithLossCell/_backbone-InceptionV3/Mixed_6c-Inception_C/branch1-SequentialCell/0-BasicConv2d/relu-ReLU/FusionOp_BNTrainingUpdate_ReLUV2-op17988
+1 512
+5 524 1677 1680 1683 2986
+524 Default/network-WithLossCell/_backbone-InceptionV3/Mixed_6d-Inception_C/branch1-SequentialCell/0-BasicConv2d/bn-BatchNorm2d/FusionOp_Conv2D_BNTrainingReduce-op18029
+1 520
+3 532 1672 1675
+532 Default/network-WithLossCell/_backbone-InceptionV3/Mixed_6c-Inception_C/branch1-SequentialCell/1-BasicConv2d/relu-ReLU/FusionOp_BNTrainingUpdate_ReLUV2-op17979
+1 524
+5 536 1669 1672 1675 2970
+536 Default/network-WithLossCell/_backbone-InceptionV3/Mixed_6e-Inception_C/branch0-BasicConv2d/bn-BatchNorm2d/FusionOp_Conv2D_BNTrainingReduce-op18030
+1 532
+3 544 1664 1667
+544 Default/network-WithLossCell/_backbone-InceptionV3/Mixed_6c-Inception_C/branch1-SequentialCell/2-BasicConv2d/relu-ReLU/FusionOp_BNTrainingUpdate_ReLUV2-op17974
+1 536
+11 622 634 670 731 1661 1664 1667 2714 2794 2842 2858
+548 Default/network-WithLossCell/_backbone-InceptionV3/Mixed_6d-Inception_C/branch1-SequentialCell/0-BasicConv2d/bn-BatchNorm2d/FusionOp_Conv2D_BNTrainingReduce-op18031
+4 386 422 482 495
+3 556 1722 1725
+556 Default/network-WithLossCell/_backbone-InceptionV3/Mixed_6c-Inception_C/branch2-SequentialCell/0-BasicConv2d/relu-ReLU/FusionOp_BNTrainingUpdate_ReLUV2-op17969
+1 548
+5 560 1719 1722 1725 2938
+560 Default/network-WithLossCell/_backbone-InceptionV3/Mixed_6d-Inception_C/branch1-SequentialCell/0-BasicConv2d/bn-BatchNorm2d/FusionOp_Conv2D_BNTrainingReduce-op18032
+1 556
+3 568 1714 1717
+568 Default/network-WithLossCell/_backbone-InceptionV3/Mixed_6c-Inception_C/branch2-SequentialCell/1-BasicConv2d/relu-ReLU/FusionOp_BNTrainingUpdate_ReLUV2-op17966
+1 560
+5 572 1711 1714 1717 2922
+572 Default/network-WithLossCell/_backbone-InceptionV3/Mixed_6d-Inception_C/branch1-SequentialCell/0-BasicConv2d/bn-BatchNorm2d/FusionOp_Conv2D_BNTrainingReduce-op18033
+1 568
+3 580 1706 1709
+580 Default/network-WithLossCell/_backbone-InceptionV3/Mixed_6c-Inception_C/branch2-SequentialCell/2-BasicConv2d/relu-ReLU/FusionOp_BNTrainingUpdate_ReLUV2-op18003
+1 572
+5 584 1703 1706 1709 2906
+584 Default/network-WithLossCell/_backbone-InceptionV3/Mixed_6d-Inception_C/branch1-SequentialCell/0-BasicConv2d/bn-BatchNorm2d/FusionOp_Conv2D_BNTrainingReduce-op18034
+1 580
+3 592 1698 1701
+592 Default/network-WithLossCell/_backbone-InceptionV3/Mixed_6c-Inception_C/branch2-SequentialCell/3-BasicConv2d/relu-ReLU/FusionOp_BNTrainingUpdate_ReLUV2-op18006
+1 584
+5 596 1695 1698 1701 2890
+596 Default/network-WithLossCell/_backbone-InceptionV3/Mixed_6e-Inception_C/branch0-BasicConv2d/bn-BatchNorm2d/FusionOp_Conv2D_BNTrainingReduce-op18035
+1 592
+3 604 1690 1693
+604 Default/network-WithLossCell/_backbone-InceptionV3/Mixed_6c-Inception_C/branch2-SequentialCell/4-BasicConv2d/relu-ReLU/FusionOp_BNTrainingUpdate_ReLUV2-op17962
+1 596
+11 622 634 670 731 1687 1690 1693 2714 2794 2842 2858
+609 Default/network-WithLossCell/_backbone-InceptionV3/Mixed_6e-Inception_C/branch0-BasicConv2d/bn-BatchNorm2d/FusionOp_Conv2D_BNTrainingReduce-op18036
+4 386 422 482 495
+3 617 1732 1735
+617 Default/network-WithLossCell/_backbone-InceptionV3/Mixed_6c-Inception_C/branch_pool-SequentialCell/1-BasicConv2d/relu-ReLU/FusionOp_BNTrainingUpdate_ReLUV2-op17959
+1 609
+11 622 634 670 731 1729 1732 1735 2714 2794 2842 2858
+622 Default/network-WithLossCell/_backbone-InceptionV3/Mixed_6e-Inception_C/branch0-BasicConv2d/bn-BatchNorm2d/FusionOp_Conv2D_BNTrainingReduce-op18037
+4 508 544 604 617
+3 630 1563 1566
+630 Default/network-WithLossCell/_backbone-InceptionV3/Mixed_6d-Inception_C/branch0-BasicConv2d/relu-ReLU/FusionOp_BNTrainingUpdate_ReLUV2-op17956
+1 622
+11 744 756 792 853 1560 1563 1566 2554 2634 2682 2698
+634 Default/network-WithLossCell/_backbone-InceptionV3/Mixed_6d-Inception_C/branch1-SequentialCell/0-BasicConv2d/bn-BatchNorm2d/FusionOp_Conv2D_BNTrainingReduce-op18038
+4 508 544 604 617
+3 642 1589 1592
+642 Default/network-WithLossCell/_backbone-InceptionV3/Mixed_6d-Inception_C/branch1-SequentialCell/0-BasicConv2d/relu-ReLU/FusionOp_BNTrainingUpdate_ReLUV2-op17953
+1 634
+5 646 1586 1589 1592 2826
+646 Default/network-WithLossCell/_backbone-InceptionV3/Mixed_6d-Inception_C/branch1-SequentialCell/0-BasicConv2d/bn-BatchNorm2d/FusionOp_Conv2D_BNTrainingReduce-op18039
+1 642
+3 654 1581 1584
+654 Default/network-WithLossCell/_backbone-InceptionV3/Mixed_6d-Inception_C/branch1-SequentialCell/1-BasicConv2d/relu-ReLU/FusionOp_BNTrainingUpdate_ReLUV2-op17950
+1 646
+5 658 1578 1581 1584 2810
+658 Default/network-WithLossCell/_backbone-InceptionV3/Mixed_6e-Inception_C/branch0-BasicConv2d/bn-BatchNorm2d/FusionOp_Conv2D_BNTrainingReduce-op18040
+1 654
+3 666 1573 1576
+666 Default/network-WithLossCell/_backbone-InceptionV3/Mixed_6d-Inception_C/branch1-SequentialCell/2-BasicConv2d/relu-ReLU/FusionOp_BNTrainingUpdate_ReLUV2-op17947
+1 658
+11 744 756 792 853 1570 1573 1576 2554 2634 2682 2698
+670 Default/network-WithLossCell/_backbone-InceptionV3/Mixed_6d-Inception_C/branch1-SequentialCell/0-BasicConv2d/bn-BatchNorm2d/FusionOp_Conv2D_BNTrainingReduce-op18041
+4 508 544 604 617
+3 678 1631 1634
+678 Default/network-WithLossCell/_backbone-InceptionV3/Mixed_6d-Inception_C/branch2-SequentialCell/0-BasicConv2d/relu-ReLU/FusionOp_BNTrainingUpdate_ReLUV2-op17944
+1 670
+5 682 1628 1631 1634 2778
+682 Default/network-WithLossCell/_backbone-InceptionV3/Mixed_6d-Inception_C/branch1-SequentialCell/0-BasicConv2d/bn-BatchNorm2d/FusionOp_Conv2D_BNTrainingReduce-op18042
+1 678
+3 690 1623 1626
+690 Default/network-WithLossCell/_backbone-InceptionV3/Mixed_6d-Inception_C/branch2-SequentialCell/1-BasicConv2d/relu-ReLU/FusionOp_BNTrainingUpdate_ReLUV2-op17941
+1 682
+5 694 1620 1623 1626 2762
+694 Default/network-WithLossCell/_backbone-InceptionV3/Mixed_6d-Inception_C/branch1-SequentialCell/0-BasicConv2d/bn-BatchNorm2d/FusionOp_Conv2D_BNTrainingReduce-op18043
+1 690
+3 702 1615 1618
+702 Default/network-WithLossCell/_backbone-InceptionV3/Mixed_6d-Inception_C/branch2-SequentialCell/2-BasicConv2d/relu-ReLU/FusionOp_BNTrainingUpdate_ReLUV2-op17938
+1 694
+5 706 1612 1615 1618 2746
+706 Default/network-WithLossCell/_backbone-InceptionV3/Mixed_6d-Inception_C/branch1-SequentialCell/0-BasicConv2d/bn-BatchNorm2d/FusionOp_Conv2D_BNTrainingReduce-op18044
+1 702
+3 714 1607 1610
+714 Default/network-WithLossCell/_backbone-InceptionV3/Mixed_6d-Inception_C/branch2-SequentialCell/3-BasicConv2d/relu-ReLU/FusionOp_BNTrainingUpdate_ReLUV2-op17935
+1 706
+5 718 1604 1607 1610 2730
+718 Default/network-WithLossCell/_backbone-InceptionV3/Mixed_6e-Inception_C/branch0-BasicConv2d/bn-BatchNorm2d/FusionOp_Conv2D_BNTrainingReduce-op18045
+1 714
+3 726 1599 1602
+726 Default/network-WithLossCell/_backbone-InceptionV3/Mixed_6d-Inception_C/branch2-SequentialCell/4-BasicConv2d/relu-ReLU/FusionOp_BNTrainingUpdate_ReLUV2-op17933
+1 718
+11 744 756 792 853 1596 1599 1602 2554 2634 2682 2698
+731 Default/network-WithLossCell/_backbone-InceptionV3/Mixed_6e-Inception_C/branch0-BasicConv2d/bn-BatchNorm2d/FusionOp_Conv2D_BNTrainingReduce-op18046
+4 508 544 604 617
+3 739 1641 1644
+739 Default/network-WithLossCell/_backbone-InceptionV3/Mixed_6d-Inception_C/branch_pool-SequentialCell/1-BasicConv2d/relu-ReLU/FusionOp_BNTrainingUpdate_ReLUV2-op17931
+1 731
+11 744 756 792 853 1638 1641 1644 2554 2634 2682 2698
+744 Default/network-WithLossCell/_backbone-InceptionV3/Mixed_6e-Inception_C/branch0-BasicConv2d/bn-BatchNorm2d/FusionOp_Conv2D_BNTrainingReduce-op18047
+4 630 666 726 739
+3 752 1472 1475
+752 Default/network-WithLossCell/_backbone-InceptionV3/Mixed_6e-Inception_C/branch0-BasicConv2d/relu-ReLU/FusionOp_BNTrainingUpdate_ReLUV2-op17929
+1 744
+11 866 890 936 1184 1453 1469 1472 1475 2154 2506 2538
+756 Default/network-WithLossCell/_backbone-InceptionV3/Mixed_6e-Inception_C/branch0-BasicConv2d/bn-BatchNorm2d/FusionOp_Conv2D_BNTrainingReduce-op18048
+4 630 666 726 739
+3 764 1498 1501
+764 Default/network-WithLossCell/_backbone-InceptionV3/Mixed_6e-Inception_C/branch1-SequentialCell/0-BasicConv2d/relu-ReLU/FusionOp_BNTrainingUpdate_ReLUV2-op17927
+1 756
+5 768 1495 1498 1501 2666
+768 Default/network-WithLossCell/_backbone-InceptionV3/Mixed_6e-Inception_C/branch0-BasicConv2d/bn-BatchNorm2d/FusionOp_Conv2D_BNTrainingReduce-op18049
+1 764
+3 776 1490 1493
+776 Default/network-WithLossCell/_backbone-InceptionV3/Mixed_6e-Inception_C/branch1-SequentialCell/1-BasicConv2d/relu-ReLU/FusionOp_BNTrainingUpdate_ReLUV2-op17925
+1 768
+5 780 1487 1490 1493 2650
+780 Default/network-WithLossCell/_backbone-InceptionV3/Mixed_6e-Inception_C/branch0-BasicConv2d/bn-BatchNorm2d/FusionOp_Conv2D_BNTrainingReduce-op18050
+1 776
+3 788 1482 1485
+788 Default/network-WithLossCell/_backbone-InceptionV3/Mixed_6e-Inception_C/branch1-SequentialCell/2-BasicConv2d/relu-ReLU/FusionOp_BNTrainingUpdate_ReLUV2-op17923
+1 780
+11 866 890 936 1184 1453 1479 1482 1485 2154 2506 2538
+792 Default/network-WithLossCell/_backbone-InceptionV3/Mixed_6e-Inception_C/branch0-BasicConv2d/bn-BatchNorm2d/FusionOp_Conv2D_BNTrainingReduce-op17922
+4 630 666 726 739
+3 800 1540 1543
+800 Default/network-WithLossCell/_backbone-InceptionV3/Mixed_6e-Inception_C/branch2-SequentialCell/0-BasicConv2d/relu-ReLU/FusionOp_BNTrainingUpdate_ReLUV2-op17921
+1 792
+5 804 1537 1540 1543 2618
+804 Default/network-WithLossCell/_backbone-InceptionV3/Mixed_6e-Inception_C/branch0-BasicConv2d/bn-BatchNorm2d/FusionOp_Conv2D_BNTrainingReduce-op17920
+1 800
+3 812 1532 1535
+812 Default/network-WithLossCell/_backbone-InceptionV3/Mixed_6e-Inception_C/branch2-SequentialCell/1-BasicConv2d/relu-ReLU/FusionOp_BNTrainingUpdate_ReLUV2-op17919
+1 804
+5 816 1529 1532 1535 2602
+816 Default/network-WithLossCell/_backbone-InceptionV3/Mixed_6e-Inception_C/branch0-BasicConv2d/bn-BatchNorm2d/FusionOp_Conv2D_BNTrainingReduce-op17918
+1 812
+3 824 1524 1527
+824 Default/network-WithLossCell/_backbone-InceptionV3/Mixed_6e-Inception_C/branch2-SequentialCell/2-BasicConv2d/relu-ReLU/FusionOp_BNTrainingUpdate_ReLUV2-op17917
+1 816
+5 828 1521 1524 1527 2586
+828 Default/network-WithLossCell/_backbone-InceptionV3/Mixed_6e-Inception_C/branch0-BasicConv2d/bn-BatchNorm2d/FusionOp_Conv2D_BNTrainingReduce-op17916
+1 824
+3 836 1516 1519
+836 Default/network-WithLossCell/_backbone-InceptionV3/Mixed_6e-Inception_C/branch2-SequentialCell/3-BasicConv2d/relu-ReLU/FusionOp_BNTrainingUpdate_ReLUV2-op17915
+1 828
+5 840 1513 1516 1519 2570
+840 Default/network-WithLossCell/_backbone-InceptionV3/Mixed_6e-Inception_C/branch0-BasicConv2d/bn-BatchNorm2d/FusionOp_Conv2D_BNTrainingReduce-op17914
+1 836
+3 848 1508 1511
+848 Default/network-WithLossCell/_backbone-InceptionV3/Mixed_6e-Inception_C/branch2-SequentialCell/4-BasicConv2d/relu-ReLU/FusionOp_BNTrainingUpdate_ReLUV2-op17913
+1 840
+11 866 890 936 1184 1453 1505 1508 1511 2154 2506 2538
+853 Default/network-WithLossCell/_backbone-InceptionV3/Mixed_6e-Inception_C/branch0-BasicConv2d/bn-BatchNorm2d/FusionOp_Conv2D_BNTrainingReduce-op17912
+4 630 666 726 739
+3 861 1550 1553
+861 Default/network-WithLossCell/_backbone-InceptionV3/Mixed_6e-Inception_C/branch_pool-SequentialCell/1-BasicConv2d/relu-ReLU/FusionOp_BNTrainingUpdate_ReLUV2-op17911
+1 853
+11 866 890 936 1184 1453 1547 1550 1553 2154 2506 2538
+866 Default/network-WithLossCell/_backbone-InceptionV3/Mixed_6e-Inception_C/branch0-BasicConv2d/bn-BatchNorm2d/FusionOp_Conv2D_BNTrainingReduce-op17910
+4 752 788 848 861
+3 874 1412 1415
+874 Default/network-WithLossCell/_backbone-InceptionV3/Mixed_7a-Inception_D/branch0-SequentialCell/0-BasicConv2d/relu-ReLU/FusionOp_BNTrainingUpdate_ReLUV2-op17909
+1 866
+5 878 1409 1412 1415 2522
+878 Default/network-WithLossCell/_backbone-InceptionV3/Mixed_7c-Inception_E/branch0-BasicConv2d/bn-BatchNorm2d/FusionOp_Conv2D_BNTrainingReduce-op17908
+1 874
+3 886 1404 1407
+886 Default/network-WithLossCell/_backbone-InceptionV3/Mixed_7a-Inception_D/branch0-SequentialCell/1-BasicConv2d/relu-ReLU/FusionOp_BNTrainingUpdate_ReLUV2-op17907
+1 878
+11 941 953 990 1040 1401 1404 1407 2314 2378 2426 2442
+890 Default/network-WithLossCell/_backbone-InceptionV3/Mixed_6e-Inception_C/branch0-BasicConv2d/bn-BatchNorm2d/FusionOp_Conv2D_BNTrainingReduce-op17906
+4 752 788 848 861
+3 898 1446 1449
+898 Default/network-WithLossCell/_backbone-InceptionV3/Mixed_7a-Inception_D/branch1-SequentialCell/0-BasicConv2d/relu-ReLU/FusionOp_BNTrainingUpdate_ReLUV2-op17905
+1 890
+5 902 1443 1446 1449 2490
+902 Default/network-WithLossCell/_backbone-InceptionV3/Mixed_6e-Inception_C/branch0-BasicConv2d/bn-BatchNorm2d/FusionOp_Conv2D_BNTrainingReduce-op17904
+1 898
+3 910 1438 1441
+910 Default/network-WithLossCell/_backbone-InceptionV3/Mixed_7a-Inception_D/branch1-SequentialCell/1-BasicConv2d/relu-ReLU/FusionOp_BNTrainingUpdate_ReLUV2-op17903
+1 902
+5 914 1435 1438 1441 2474
+914 Default/network-WithLossCell/_backbone-InceptionV3/Mixed_6e-Inception_C/branch0-BasicConv2d/bn-BatchNorm2d/FusionOp_Conv2D_BNTrainingReduce-op17902
+1 910
+3 922 1430 1433
+922 Default/network-WithLossCell/_backbone-InceptionV3/Mixed_7a-Inception_D/branch1-SequentialCell/2-BasicConv2d/relu-ReLU/FusionOp_BNTrainingUpdate_ReLUV2-op17901
+1 914
+5 926 1427 1430 1433 2458
+926 Default/network-WithLossCell/_backbone-InceptionV3/Mixed_6e-Inception_C/branch0-BasicConv2d/bn-BatchNorm2d/FusionOp_Conv2D_BNTrainingReduce-op17900
+1 922
+3 934 1422 1425
+934 Default/network-WithLossCell/_backbone-InceptionV3/Mixed_7a-Inception_D/branch1-SequentialCell/3-BasicConv2d/relu-ReLU/FusionOp_BNTrainingUpdate_ReLUV2-op17899
+1 926
+11 941 953 990 1040 1419 1422 1425 2314 2378 2426 2442
+936 Default/network-WithLossCell/_backbone-InceptionV3/Mixed_7a-Inception_D/branch_pool-MaxPool2d/MaxPoolWithArgmax-op4407
+4 752 788 848 861
+9 941 953 990 1040 1453 2314 2378 2426 2442
+941 Default/network-WithLossCell/_backbone-InceptionV3/Mixed_7c-Inception_E/branch0-BasicConv2d/bn-BatchNorm2d/FusionOp_Conv2D_BNTrainingReduce-op17898
+3 886 934 936
+3 949 1314 1317
+949 Default/network-WithLossCell/_backbone-InceptionV3/Mixed_7b-Inception_E/branch0-BasicConv2d/relu-ReLU/FusionOp_BNTrainingUpdate_ReLUV2-op17897
+1 941
+11 1053 1065 1102 1152 1311 1314 1317 2170 2234 2282 2298
+953 Default/network-WithLossCell/_backbone-InceptionV3/Mixed_6a-Inception_B/branch0-BasicConv2d/bn-BatchNorm2d/FusionOp_Conv2D_BNTrainingReduce-op17896
+3 886 934 936
+3 961 1344 1347
+961 Default/network-WithLossCell/_backbone-InceptionV3/Mixed_7b-Inception_E/branch1-BasicConv2d/relu-ReLU/FusionOp_BNTrainingUpdate_ReLUV2-op17895
+1 953
+7 965 977 1341 1344 1347 2394 2410
+965 Default/network-WithLossCell/_backbone-InceptionV3/Mixed_6a-Inception_B/branch0-BasicConv2d/bn-BatchNorm2d/FusionOp_Conv2D_BNTrainingReduce-op17894
+1 961
+3 973 1335 1338
+973 Default/network-WithLossCell/_backbone-InceptionV3/Mixed_7b-Inception_E/branch1_a-BasicConv2d/relu-ReLU/FusionOp_BNTrainingUpdate_ReLUV2-op17893
+1 965
+11 1053 1065 1102 1152 1332 1335 1338 2170 2234 2282 2298
+977 Default/network-WithLossCell/_backbone-InceptionV3/Mixed_6a-Inception_B/branch0-BasicConv2d/bn-BatchNorm2d/FusionOp_Conv2D_BNTrainingReduce-op17892
+1 961
+3 985 1326 1329
+985 Default/network-WithLossCell/_backbone-InceptionV3/Mixed_7b-Inception_E/branch1_b-BasicConv2d/relu-ReLU/FusionOp_BNTrainingUpdate_ReLUV2-op17891
+1 977
+11 1053 1065 1102 1152 1323 1326 1329 2170 2234 2282 2298
+990 Default/network-WithLossCell/_backbone-InceptionV3/Mixed_7c-Inception_E/branch2-SequentialCell/0-BasicConv2d/bn-BatchNorm2d/FusionOp_Conv2D_BNTrainingReduce-op17890
+3 886 934 936
+3 998 1382 1385
+998 Default/network-WithLossCell/_backbone-InceptionV3/Mixed_7b-Inception_E/branch2-SequentialCell/0-BasicConv2d/relu-ReLU/FusionOp_BNTrainingUpdate_ReLUV2-op17889
+1 990
+5 1002 1379 1382 1385 2362
+1002 Default/network-WithLossCell/_backbone-InceptionV3/Mixed_6a-Inception_B/branch0-BasicConv2d/bn-BatchNorm2d/FusionOp_Conv2D_BNTrainingReduce-op17888
+1 998
+3 1010 1374 1377
+1010 Default/network-WithLossCell/_backbone-InceptionV3/Mixed_7b-Inception_E/branch2-SequentialCell/1-BasicConv2d/relu-ReLU/FusionOp_BNTrainingUpdate_ReLUV2-op17887
+1 1002
+7 1014 1026 1371 1374 1377 2330 2346
+1014 Default/network-WithLossCell/_backbone-InceptionV3/Mixed_6a-Inception_B/branch0-BasicConv2d/bn-BatchNorm2d/FusionOp_Conv2D_BNTrainingReduce-op17886
+1 1010
+3 1022 1365 1368
+1022 Default/network-WithLossCell/_backbone-InceptionV3/Mixed_7b-Inception_E/branch2_a-BasicConv2d/relu-ReLU/FusionOp_BNTrainingUpdate_ReLUV2-op17885
+1 1014
+11 1053 1065 1102 1152 1362 1365 1368 2170 2234 2282 2298
+1026 Default/network-WithLossCell/_backbone-InceptionV3/Mixed_6a-Inception_B/branch0-BasicConv2d/bn-BatchNorm2d/FusionOp_Conv2D_BNTrainingReduce-op17884
+1 1010
+3 1034 1356 1359
+1034 Default/network-WithLossCell/_backbone-InceptionV3/Mixed_7b-Inception_E/branch2_b-BasicConv2d/relu-ReLU/FusionOp_BNTrainingUpdate_ReLUV2-op17883
+1 1026
+11 1053 1065 1102 1152 1353 1356 1359 2170 2234 2282 2298
+1040 Default/network-WithLossCell/_backbone-InceptionV3/Mixed_6e-Inception_C/branch0-BasicConv2d/bn-BatchNorm2d/FusionOp_Conv2D_BNTrainingReduce-op17882
+3 886 934 936
+3 1048 1392 1395
+1048 Default/network-WithLossCell/_backbone-InceptionV3/Mixed_7b-Inception_E/branch_pool-SequentialCell/1-BasicConv2d/relu-ReLU/FusionOp_BNTrainingUpdate_ReLUV2-op17881
+1 1040
+11 1053 1065 1102 1152 1389 1392 1395 2170 2234 2282 2298
+1053 Default/network-WithLossCell/_backbone-InceptionV3/Mixed_7c-Inception_E/branch0-BasicConv2d/bn-BatchNorm2d/FusionOp_Conv2D_BNTrainingReduce-op17880
+6 949 973 985 1022 1034 1048
+3 1061 1224 1227
+1061 Default/network-WithLossCell/_backbone-InceptionV3/Mixed_7c-Inception_E/branch0-BasicConv2d/relu-ReLU/FusionOp_BNTrainingUpdate_ReLUV2-op17879
+1 1053
+4 1164 1221 1224 1227
+1065 Default/network-WithLossCell/_backbone-InceptionV3/Mixed_6a-Inception_B/branch0-BasicConv2d/bn-BatchNorm2d/FusionOp_Conv2D_BNTrainingReduce-op17878
+6 949 973 985 1022 1034 1048
+3 1073 1254 1257
+1073 Default/network-WithLossCell/_backbone-InceptionV3/Mixed_7c-Inception_E/branch1-BasicConv2d/relu-ReLU/FusionOp_BNTrainingUpdate_ReLUV2-op17877
+1 1065
+7 1077 1089 1251 1254 1257 2250 2266
+1077 Default/network-WithLossCell/_backbone-InceptionV3/Mixed_6a-Inception_B/branch0-BasicConv2d/bn-BatchNorm2d/FusionOp_Conv2D_BNTrainingReduce-op17876
+1 1073
+3 1085 1245 1248
+1085 Default/network-WithLossCell/_backbone-InceptionV3/Mixed_7c-Inception_E/branch1_a-BasicConv2d/relu-ReLU/FusionOp_BNTrainingUpdate_ReLUV2-op17875
+1 1077
+4 1164 1242 1245 1248
+1089 Default/network-WithLossCell/_backbone-InceptionV3/Mixed_6a-Inception_B/branch0-BasicConv2d/bn-BatchNorm2d/FusionOp_Conv2D_BNTrainingReduce-op17874
+1 1073
+3 1097 1236 1239
+1097 Default/network-WithLossCell/_backbone-InceptionV3/Mixed_7c-Inception_E/branch1_b-BasicConv2d/relu-ReLU/FusionOp_BNTrainingUpdate_ReLUV2-op17873
+1 1089
+4 1164 1233 1236 1239
+1102 Default/network-WithLossCell/_backbone-InceptionV3/Mixed_7c-Inception_E/branch2-SequentialCell/0-BasicConv2d/bn-BatchNorm2d/FusionOp_Conv2D_BNTrainingReduce-op17872
+6 949 973 985 1022 1034 1048
+3 1110 1292 1295
+1110 Default/network-WithLossCell/_backbone-InceptionV3/Mixed_7c-Inception_E/branch2-SequentialCell/0-BasicConv2d/relu-ReLU/FusionOp_BNTrainingUpdate_ReLUV2-op17871
+1 1102
+5 1114 1289 1292 1295 2218
+1114 Default/network-WithLossCell/_backbone-InceptionV3/Mixed_6a-Inception_B/branch0-BasicConv2d/bn-BatchNorm2d/FusionOp_Conv2D_BNTrainingReduce-op17870
+1 1110
+3 1122 1284 1287
+1122 Default/network-WithLossCell/_backbone-InceptionV3/Mixed_7c-Inception_E/branch2-SequentialCell/1-BasicConv2d/relu-ReLU/FusionOp_BNTrainingUpdate_ReLUV2-op17869
+1 1114
+7 1126 1138 1281 1284 1287 2186 2202
+1126 Default/network-WithLossCell/_backbone-InceptionV3/Mixed_6a-Inception_B/branch0-BasicConv2d/bn-BatchNorm2d/FusionOp_Conv2D_BNTrainingReduce-op17868
+1 1122
+3 1134 1275 1278
+1134 Default/network-WithLossCell/_backbone-InceptionV3/Mixed_7c-Inception_E/branch2_a-BasicConv2d/relu-ReLU/FusionOp_BNTrainingUpdate_ReLUV2-op17867
+1 1126
+4 1164 1272 1275 1278
+1138 Default/network-WithLossCell/_backbone-InceptionV3/Mixed_6a-Inception_B/branch0-BasicConv2d/bn-BatchNorm2d/FusionOp_Conv2D_BNTrainingReduce-op17866
+1 1122
+3 1146 1266 1269
+1146 Default/network-WithLossCell/_backbone-InceptionV3/Mixed_7c-Inception_E/branch2_b-BasicConv2d/relu-ReLU/FusionOp_BNTrainingUpdate_ReLUV2-op17865
+1 1138
+4 1164 1263 1266 1269
+1152 Default/network-WithLossCell/_backbone-InceptionV3/Mixed_6e-Inception_C/branch0-BasicConv2d/bn-BatchNorm2d/FusionOp_Conv2D_BNTrainingReduce-op17864
+6 949 973 985 1022 1034 1048
+3 1160 1302 1305
+1160 Default/network-WithLossCell/_backbone-InceptionV3/Mixed_7c-Inception_E/branch_pool-SequentialCell/1-BasicConv2d/relu-ReLU/FusionOp_BNTrainingUpdate_ReLUV2-op17863
+1 1152
+4 1164 1299 1302 1305
+1164 Default/network-WithLossCell/_backbone-InceptionV3/logits-Logits/avg_pool-AvgPool2d/TransData-op9778
+6 1061 1085 1097 1134 1146 1160
+1 1168
+1168 Default/network-WithLossCell/_backbone-InceptionV3/logits-Logits/TransData-op7602
+1 1164
+2 1174 2127
+1171 Default/network-WithLossCell/_backbone-InceptionV3/aux_logits-AuxLogits/fc-Dense/TransData-op7603
+0
+2 1174 1213
+1174 Default/network-WithLossCell/_backbone-InceptionV3/aux_logits-AuxLogits/fc-Dense/MatMul-op6235
+2 1168 1171
+1 1175
+1175 Default/network-WithLossCell/_backbone-InceptionV3/aux_logits-AuxLogits/fc-Dense/TransData-op7604
+1 1174
+1 1212
+1184 Default/network-WithLossCell/_backbone-InceptionV3/aux_logits-AuxLogits/conv2d_0-Conv2d/Conv2D-op1193
+4 752 788 848 861
+2 1187 2148
+1187 Default/network-WithLossCell/_backbone-InceptionV3/aux_logits-AuxLogits/conv2d_1-Conv2d/Conv2D-op1196
+1 1184
+1 1188
+1188 Default/network-WithLossCell/_backbone-InceptionV3/aux_logits-AuxLogits/conv2d_1-Conv2d/TransData-op9781
+1 1187
+1 1190
+1190 Default/network-WithLossCell/_backbone-InceptionV3/aux_logits-AuxLogits/TransData-op8070
+1 1188
+2 1196 2141
+1193 Default/network-WithLossCell/_backbone-InceptionV3/aux_logits-AuxLogits/fc-Dense/TransData-op8071
+0
+2 1196 1458
+1196 Default/network-WithLossCell/_backbone-InceptionV3/aux_logits-AuxLogits/fc-Dense/MatMul-op6236
+2 1190 1193
+1 1197
+1197 Default/network-WithLossCell/_backbone-InceptionV3/aux_logits-AuxLogits/fc-Dense/TransData-op8072
+1 1196
+1 1457
+1212 Gradients/Default/network-WithLossCell/gradCast/TransData-op10773
+1 1175
+2 1213 2127
+1213 Gradients/Default/network-WithLossCell/_backbone-InceptionV3/aux_logits-AuxLogits/fc-Dense/gradMatMul/MatMul-op1224
+2 1212 1171
+1 1214
+1214 Gradients/Default/network-WithLossCell/_backbone-InceptionV3/aux_logits-AuxLogits/fc-Dense/gradMatMul/TransData-op10775
+1 1213
+1 1217
+1217 Gradients/Default/network-WithLossCell/_backbone-InceptionV3/logits-Logits/dropout-Dropout/gradDropout/TransData-op10601
+1 1214
+6 1221 1233 1242 1263 1272 1299
+1221 Gradients/Default/network-WithLossCell/_backbone-InceptionV3/Mixed_6e-Inception_C/branch0-BasicConv2d/relu-ReLU/gradReLU/ReluGradV2-op6426
+2 1217 1061
+2 1224 1227
+1224 Gradients/Default/network-WithLossCell/_backbone-InceptionV3/Mixed_6e-Inception_C/branch0-BasicConv2d/bn-BatchNorm2d/gradBatchNorm/BNTrainingUpdateGrad-op5477
+3 1221 1053 1061
+3 1227 2289 2294
+1227 Gradients/Default/network-WithLossCell/_backbone-InceptionV3/Mixed_6e-Inception_C/branch0-BasicConv2d/bn-BatchNorm2d/gradBatchNorm/BNTrainingReduceGrad-op5480
+4 1221 1053 1224 1061
+2 1228 2298
+1228 Gradients/Default/network-WithLossCell/_backbone-InceptionV3/Mixed_7b-Inception_E/branch0-BasicConv2d/conv-Conv2d/gradConv2D/Conv2DBackpropInput-op1236
+1 1227
+1 1308
+1233 Gradients/Default/network-WithLossCell/_backbone-InceptionV3/Mixed_6e-Inception_C/branch0-BasicConv2d/relu-ReLU/gradReLU/ReluGradV2-op6430
+2 1217 1097
+2 1236 1239
+1236 Gradients/Default/network-WithLossCell/_backbone-InceptionV3/Mixed_6e-Inception_C/branch0-BasicConv2d/bn-BatchNorm2d/gradBatchNorm/BNTrainingUpdateGrad-op5487
+3 1233 1089 1097
+3 1239 2241 2246
+1239 Gradients/Default/network-WithLossCell/_backbone-InceptionV3/Mixed_6e-Inception_C/branch0-BasicConv2d/bn-BatchNorm2d/gradBatchNorm/BNTrainingReduceGrad-op5490
+4 1233 1089 1236 1097
+2 1251 2250
+1242 Gradients/Default/network-WithLossCell/_backbone-InceptionV3/Mixed_6e-Inception_C/branch0-BasicConv2d/relu-ReLU/gradReLU/ReluGradV2-op6428
+2 1217 1085
+2 1245 1248
+1245 Gradients/Default/network-WithLossCell/_backbone-InceptionV3/Mixed_6e-Inception_C/branch0-BasicConv2d/bn-BatchNorm2d/gradBatchNorm/BNTrainingUpdateGrad-op5482
+3 1242 1077 1085
+3 1248 2257 2262
+1248 Gradients/Default/network-WithLossCell/_backbone-InceptionV3/Mixed_6e-Inception_C/branch0-BasicConv2d/bn-BatchNorm2d/gradBatchNorm/BNTrainingReduceGrad-op5485
+4 1242 1077 1245 1085
+2 1249 2266
+1249 Gradients/Default/network-WithLossCell/_backbone-InceptionV3/Mixed_7b-Inception_E/branch2_a-BasicConv2d/conv-Conv2d/gradConv2D/Conv2DBackpropInput-op1246
+1 1248
+1 1251
+1251 Gradients/Default/network-WithLossCell/_backbone-InceptionV3/Mixed_6e-Inception_C/branch0-BasicConv2d/relu-ReLU/gradReLU/FusionOp_Conv2DBackpropInput_AddN_ReluGradV2-op17861
+3 1239 1249 1073
+2 1254 1257
+1254 Gradients/Default/network-WithLossCell/_backbone-InceptionV3/Mixed_6e-Inception_C/branch0-BasicConv2d/bn-BatchNorm2d/gradBatchNorm/BNTrainingUpdateGrad-op5492
+3 1251 1065 1073
+3 1257 2273 2278
+1257 Gradients/Default/network-WithLossCell/_backbone-InceptionV3/Mixed_6e-Inception_C/branch0-BasicConv2d/bn-BatchNorm2d/gradBatchNorm/BNTrainingReduceGrad-op5495
+4 1251 1065 1254 1073
+2 1258 2282
+1258 Gradients/Default/network-WithLossCell/_backbone-InceptionV3/Mixed_7b-Inception_E/branch1-BasicConv2d/conv-Conv2d/gradConv2D/Conv2DBackpropInput-op1263
+1 1257
+1 1308
+1263 Gradients/Default/network-WithLossCell/_backbone-InceptionV3/Mixed_6e-Inception_C/branch0-BasicConv2d/relu-ReLU/gradReLU/ReluGradV2-op6436
+2 1217 1146
+2 1266 1269
+1266 Gradients/Default/network-WithLossCell/_backbone-InceptionV3/Mixed_6e-Inception_C/branch0-BasicConv2d/bn-BatchNorm2d/gradBatchNorm/BNTrainingUpdateGrad-op5502
+3 1263 1138 1146
+3 1269 2177 2182
+1269 Gradients/Default/network-WithLossCell/_backbone-InceptionV3/Mixed_6e-Inception_C/branch0-BasicConv2d/bn-BatchNorm2d/gradBatchNorm/BNTrainingReduceGrad-op5505
+4 1263 1138 1266 1146
+2 1281 2186
+1272 Gradients/Default/network-WithLossCell/_backbone-InceptionV3/Mixed_6e-Inception_C/branch0-BasicConv2d/relu-ReLU/gradReLU/ReluGradV2-op6434
+2 1217 1134
+2 1275 1278
+1275 Gradients/Default/network-WithLossCell/_backbone-InceptionV3/Mixed_6e-Inception_C/branch0-BasicConv2d/bn-BatchNorm2d/gradBatchNorm/BNTrainingUpdateGrad-op5497
+3 1272 1126 1134
+3 1278 2193 2198
+1278 Gradients/Default/network-WithLossCell/_backbone-InceptionV3/Mixed_6e-Inception_C/branch0-BasicConv2d/bn-BatchNorm2d/gradBatchNorm/BNTrainingReduceGrad-op5500
+4 1272 1126 1275 1134
+2 1279 2202
+1279 Gradients/Default/network-WithLossCell/_backbone-InceptionV3/Mixed_7b-Inception_E/branch2_a-BasicConv2d/conv-Conv2d/gradConv2D/Conv2DBackpropInput-op1273
+1 1278
+1 1281
+1281 Gradients/Default/network-WithLossCell/_backbone-InceptionV3/Mixed_6e-Inception_C/branch0-BasicConv2d/relu-ReLU/gradReLU/FusionOp_Conv2DBackpropInput_AddN_ReluGradV2-op17860
+3 1269 1279 1122
+2 1284 1287
+1284 Gradients/Default/network-WithLossCell/_backbone-InceptionV3/Mixed_6e-Inception_C/branch0-BasicConv2d/bn-BatchNorm2d/gradBatchNorm/BNTrainingUpdateGrad-op5507
+3 1281 1114 1122
+3 1287 2209 2214
+1287 Gradients/Default/network-WithLossCell/_backbone-InceptionV3/Mixed_6e-Inception_C/branch0-BasicConv2d/bn-BatchNorm2d/gradBatchNorm/BNTrainingReduceGrad-op5510
+4 1281 1114 1284 1122
+2 1289 2218
+1289 Gradients/Default/network-WithLossCell/_backbone-InceptionV3/Mixed_6e-Inception_C/branch0-BasicConv2d/relu-ReLU/gradReLU/FusionOp_Conv2DBackpropInput_ReluGradV2-op17859
+2 1287 1110
+2 1292 1295
+1292 Gradients/Default/network-WithLossCell/_backbone-InceptionV3/Mixed_6e-Inception_C/branch0-BasicConv2d/bn-BatchNorm2d/gradBatchNorm/BNTrainingUpdateGrad-op5512
+3 1289 1102 1110
+3 1295 2225 2230
+1295 Gradients/Default/network-WithLossCell/_backbone-InceptionV3/Mixed_6e-Inception_C/branch0-BasicConv2d/bn-BatchNorm2d/gradBatchNorm/BNTrainingReduceGrad-op5515
+4 1289 1102 1292 1110
+2 1296 2234
+1296 Gradients/Default/network-WithLossCell/_backbone-InceptionV3/Mixed_7b-Inception_E/branch2-SequentialCell/0-BasicConv2d/conv-Conv2d/gradConv2D/Conv2DBackpropInput-op1297
+1 1295
+1 1308
+1299 Gradients/Default/network-WithLossCell/_backbone-InceptionV3/Mixed_6e-Inception_C/branch0-BasicConv2d/relu-ReLU/gradReLU/ReluGradV2-op6442
+2 1217 1160
+2 1302 1305
+1302 Gradients/Default/network-WithLossCell/_backbone-InceptionV3/Mixed_6e-Inception_C/branch0-BasicConv2d/bn-BatchNorm2d/gradBatchNorm/BNTrainingUpdateGrad-op5517
+3 1299 1152 1160
+3 1305 2161 2166
+1305 Gradients/Default/network-WithLossCell/_backbone-InceptionV3/Mixed_6e-Inception_C/branch0-BasicConv2d/bn-BatchNorm2d/gradBatchNorm/BNTrainingReduceGrad-op5520
+4 1299 1152 1302 1160
+2 1306 2170
+1306 Gradients/Default/network-WithLossCell/_backbone-InceptionV3/Mixed_6e-Inception_C/branch0-BasicConv2d/conv-Conv2d/gradConv2D/Conv2DBackpropInput-op1305
+1 1305
+1 1308
+1308 Default/AddN-op1308
+4 1228 1258 1296 1306
+6 1311 1323 1332 1353 1362 1389
+1311 Gradients/Default/network-WithLossCell/_backbone-InceptionV3/Mixed_6e-Inception_C/branch0-BasicConv2d/relu-ReLU/gradReLU/ReluGradV2-op6444
+2 1308 949
+2 1314 1317
+1314 Gradients/Default/network-WithLossCell/_backbone-InceptionV3/Mixed_6e-Inception_C/branch0-BasicConv2d/bn-BatchNorm2d/gradBatchNorm/BNTrainingUpdateGrad-op5522
+3 1311 941 949
+3 1317 2433 2438
+1317 Gradients/Default/network-WithLossCell/_backbone-InceptionV3/Mixed_6e-Inception_C/branch0-BasicConv2d/bn-BatchNorm2d/gradBatchNorm/BNTrainingReduceGrad-op5525
+4 1311 941 1314 949
+2 1318 2442
+1318 Gradients/Default/network-WithLossCell/_backbone-InceptionV3/Mixed_7b-Inception_E/branch0-BasicConv2d/conv-Conv2d/gradConv2D/Conv2DBackpropInput-op1319
+1 1317
+1 1398
+1323 Gradients/Default/network-WithLossCell/_backbone-InceptionV3/Mixed_6e-Inception_C/branch0-BasicConv2d/relu-ReLU/gradReLU/ReluGradV2-op6448
+2 1308 985
+2 1326 1329
+1326 Gradients/Default/network-WithLossCell/_backbone-InceptionV3/Mixed_6e-Inception_C/branch0-BasicConv2d/bn-BatchNorm2d/gradBatchNorm/BNTrainingUpdateGrad-op5532
+3 1323 977 985
+3 1329 2385 2390
+1329 Gradients/Default/network-WithLossCell/_backbone-InceptionV3/Mixed_6e-Inception_C/branch0-BasicConv2d/bn-BatchNorm2d/gradBatchNorm/BNTrainingReduceGrad-op5535
+4 1323 977 1326 985
+2 1341 2394
+1332 Gradients/Default/network-WithLossCell/_backbone-InceptionV3/Mixed_6e-Inception_C/branch0-BasicConv2d/relu-ReLU/gradReLU/ReluGradV2-op6446
+2 1308 973
+2 1335 1338
+1335 Gradients/Default/network-WithLossCell/_backbone-InceptionV3/Mixed_6e-Inception_C/branch0-BasicConv2d/bn-BatchNorm2d/gradBatchNorm/BNTrainingUpdateGrad-op5527
+3 1332 965 973
+3 1338 2401 2406
+1338 Gradients/Default/network-WithLossCell/_backbone-InceptionV3/Mixed_6e-Inception_C/branch0-BasicConv2d/bn-BatchNorm2d/gradBatchNorm/BNTrainingReduceGrad-op5530
+4 1332 965 1335 973
+2 1339 2410
+1339 Gradients/Default/network-WithLossCell/_backbone-InceptionV3/Mixed_7b-Inception_E/branch2_a-BasicConv2d/conv-Conv2d/gradConv2D/Conv2DBackpropInput-op1328
+1 1338
+1 1341
+1341 Gradients/Default/network-WithLossCell/_backbone-InceptionV3/Mixed_6e-Inception_C/branch0-BasicConv2d/relu-ReLU/gradReLU/FusionOp_Conv2DBackpropInput_AddN_ReluGradV2-op17858
+3 1329 1339 961
+2 1344 1347
+1344 Gradients/Default/network-WithLossCell/_backbone-InceptionV3/Mixed_6e-Inception_C/branch0-BasicConv2d/bn-BatchNorm2d/gradBatchNorm/BNTrainingUpdateGrad-op5537
+3 1341 953 961
+3 1347 2417 2422
+1347 Gradients/Default/network-WithLossCell/_backbone-InceptionV3/Mixed_6e-Inception_C/branch0-BasicConv2d/bn-BatchNorm2d/gradBatchNorm/BNTrainingReduceGrad-op5540
+4 1341 953 1344 961
+2 1348 2426
+1348 Gradients/Default/network-WithLossCell/_backbone-InceptionV3/Mixed_7b-Inception_E/branch1-BasicConv2d/conv-Conv2d/gradConv2D/Conv2DBackpropInput-op1345
+1 1347
+1 1398
+1353 Gradients/Default/network-WithLossCell/_backbone-InceptionV3/Mixed_6e-Inception_C/branch0-BasicConv2d/relu-ReLU/gradReLU/ReluGradV2-op6454
+2 1308 1034
+2 1356 1359
+1356 Gradients/Default/network-WithLossCell/_backbone-InceptionV3/Mixed_6e-Inception_C/branch0-BasicConv2d/bn-BatchNorm2d/gradBatchNorm/BNTrainingUpdateGrad-op5547
+3 1353 1026 1034
+3 1359 2321 2326
+1359 Gradients/Default/network-WithLossCell/_backbone-InceptionV3/Mixed_6e-Inception_C/branch0-BasicConv2d/bn-BatchNorm2d/gradBatchNorm/BNTrainingReduceGrad-op5550
+4 1353 1026 1356 1034
+2 1371 2330
+1362 Gradients/Default/network-WithLossCell/_backbone-InceptionV3/Mixed_6e-Inception_C/branch0-BasicConv2d/relu-ReLU/gradReLU/ReluGradV2-op6452
+2 1308 1022
+2 1365 1368
+1365 Gradients/Default/network-WithLossCell/_backbone-InceptionV3/Mixed_6e-Inception_C/branch0-BasicConv2d/bn-BatchNorm2d/gradBatchNorm/BNTrainingUpdateGrad-op5542
+3 1362 1014 1022
+3 1368 2337 2342
+1368 Gradients/Default/network-WithLossCell/_backbone-InceptionV3/Mixed_6e-Inception_C/branch0-BasicConv2d/bn-BatchNorm2d/gradBatchNorm/BNTrainingReduceGrad-op5545
+4 1362 1014 1365 1022
+2 1369 2346
+1369 Gradients/Default/network-WithLossCell/_backbone-InceptionV3/Mixed_7b-Inception_E/branch2_a-BasicConv2d/conv-Conv2d/gradConv2D/Conv2DBackpropInput-op1354
+1 1368
+1 1371
+1371 Gradients/Default/network-WithLossCell/_backbone-InceptionV3/Mixed_6e-Inception_C/branch0-BasicConv2d/relu-ReLU/gradReLU/FusionOp_Conv2DBackpropInput_AddN_ReluGradV2-op17857
+3 1359 1369 1010
+2 1374 1377
+1374 Gradients/Default/network-WithLossCell/_backbone-InceptionV3/Mixed_6e-Inception_C/branch0-BasicConv2d/bn-BatchNorm2d/gradBatchNorm/BNTrainingUpdateGrad-op5552
+3 1371 1002 1010
+3 1377 2353 2358
+1377 Gradients/Default/network-WithLossCell/_backbone-InceptionV3/Mixed_6e-Inception_C/branch0-BasicConv2d/bn-BatchNorm2d/gradBatchNorm/BNTrainingReduceGrad-op5555
+4 1371 1002 1374 1010
+2 1379 2362
+1379 Gradients/Default/network-WithLossCell/_backbone-InceptionV3/Mixed_6e-Inception_C/branch0-BasicConv2d/relu-ReLU/gradReLU/FusionOp_Conv2DBackpropInput_ReluGradV2-op17856
+2 1377 998
+2 1382 1385
+1382 Gradients/Default/network-WithLossCell/_backbone-InceptionV3/Mixed_6e-Inception_C/branch0-BasicConv2d/bn-BatchNorm2d/gradBatchNorm/BNTrainingUpdateGrad-op5557
+3 1379 990 998
+3 1385 2369 2374
+1385 Gradients/Default/network-WithLossCell/_backbone-InceptionV3/Mixed_6e-Inception_C/branch0-BasicConv2d/bn-BatchNorm2d/gradBatchNorm/BNTrainingReduceGrad-op5560
+4 1379 990 1382 998
+2 1386 2378
+1386 Gradients/Default/network-WithLossCell/_backbone-InceptionV3/Mixed_7b-Inception_E/branch2-SequentialCell/0-BasicConv2d/conv-Conv2d/gradConv2D/Conv2DBackpropInput-op1378
+1 1385
+1 1398
+1389 Gradients/Default/network-WithLossCell/_backbone-InceptionV3/Mixed_6e-Inception_C/branch0-BasicConv2d/relu-ReLU/gradReLU/ReluGradV2-op6460
+2 1308 1048
+2 1392 1395
+1392 Gradients/Default/network-WithLossCell/_backbone-InceptionV3/Mixed_6e-Inception_C/branch0-BasicConv2d/bn-BatchNorm2d/gradBatchNorm/BNTrainingUpdateGrad-op5562
+3 1389 1040 1048
+3 1395 2305 2310
+1395 Gradients/Default/network-WithLossCell/_backbone-InceptionV3/Mixed_6e-Inception_C/branch0-BasicConv2d/bn-BatchNorm2d/gradBatchNorm/BNTrainingReduceGrad-op5565
+4 1389 1040 1392 1048
+2 1396 2314
+1396 Gradients/Default/network-WithLossCell/_backbone-InceptionV3/Mixed_6e-Inception_C/branch0-BasicConv2d/conv-Conv2d/gradConv2D/Conv2DBackpropInput-op1385
+1 1395
+1 1398
+1398 Default/AddN-op1388
+4 1318 1348 1386 1396
+3 1401 1419 1453
+1401 Gradients/Default/network-WithLossCell/_backbone-InceptionV3/Mixed_6e-Inception_C/branch0-BasicConv2d/relu-ReLU/gradReLU/ReluGradV2-op6462
+2 1398 886
+2 1404 1407
+1404 Gradients/Default/network-WithLossCell/_backbone-InceptionV3/Mixed_6e-Inception_C/branch0-BasicConv2d/bn-BatchNorm2d/gradBatchNorm/BNTrainingUpdateGrad-op5567
+3 1401 878 886
+3 1407 2513 2518
+1407 Gradients/Default/network-WithLossCell/_backbone-InceptionV3/Mixed_6e-Inception_C/branch0-BasicConv2d/bn-BatchNorm2d/gradBatchNorm/BNTrainingReduceGrad-op5570
+4 1401 878 1404 886
+2 1409 2522
+1409 Gradients/Default/network-WithLossCell/_backbone-InceptionV3/Mixed_6e-Inception_C/branch0-BasicConv2d/relu-ReLU/gradReLU/FusionOp_Conv2DBackpropInput_ReluGradV2-op17855
+2 1407 874
+2 1412 1415
+1412 Gradients/Default/network-WithLossCell/_backbone-InceptionV3/Mixed_6e-Inception_C/branch0-BasicConv2d/bn-BatchNorm2d/gradBatchNorm/BNTrainingUpdateGrad-op5572
+3 1409 866 874
+3 1415 2529 2534
+1415 Gradients/Default/network-WithLossCell/_backbone-InceptionV3/Mixed_6e-Inception_C/branch0-BasicConv2d/bn-BatchNorm2d/gradBatchNorm/BNTrainingReduceGrad-op5575
+4 1409 866 1412 874
+2 1416 2538
+1416 Gradients/Default/network-WithLossCell/_backbone-InceptionV3/Mixed_6e-Inception_C/branch0-BasicConv2d/conv-Conv2d/gradConv2D/Conv2DBackpropInput-op1405
+1 1415
+1 1465
+1419 Gradients/Default/network-WithLossCell/_backbone-InceptionV3/Mixed_6e-Inception_C/branch0-BasicConv2d/relu-ReLU/gradReLU/ReluGradV2-op6466
+2 1398 934
+2 1422 1425
+1422 Gradients/Default/network-WithLossCell/_backbone-InceptionV3/Mixed_6e-Inception_C/branch0-BasicConv2d/bn-BatchNorm2d/gradBatchNorm/BNTrainingUpdateGrad-op5577
+3 1419 926 934
+3 1425 2449 2454
+1425 Gradients/Default/network-WithLossCell/_backbone-InceptionV3/Mixed_6e-Inception_C/branch0-BasicConv2d/bn-BatchNorm2d/gradBatchNorm/BNTrainingReduceGrad-op5580
+4 1419 926 1422 934
+2 1427 2458
+1427 Gradients/Default/network-WithLossCell/_backbone-InceptionV3/Mixed_6e-Inception_C/branch0-BasicConv2d/relu-ReLU/gradReLU/FusionOp_Conv2DBackpropInput_ReluGradV2-op17854
+2 1425 922
+2 1430 1433
+1430 Gradients/Default/network-WithLossCell/_backbone-InceptionV3/Mixed_6e-Inception_C/branch0-BasicConv2d/bn-BatchNorm2d/gradBatchNorm/BNTrainingUpdateGrad-op5582
+3 1427 914 922
+3 1433 2465 2470
+1433 Gradients/Default/network-WithLossCell/_backbone-InceptionV3/Mixed_6e-Inception_C/branch0-BasicConv2d/bn-BatchNorm2d/gradBatchNorm/BNTrainingReduceGrad-op5585
+4 1427 914 1430 922
+2 1435 2474
+1435 Gradients/Default/network-WithLossCell/_backbone-InceptionV3/Mixed_6e-Inception_C/branch0-BasicConv2d/relu-ReLU/gradReLU/FusionOp_Conv2DBackpropInput_ReluGradV2-op17853
+2 1433 910
+2 1438 1441
+1438 Gradients/Default/network-WithLossCell/_backbone-InceptionV3/Mixed_6e-Inception_C/branch0-BasicConv2d/bn-BatchNorm2d/gradBatchNorm/BNTrainingUpdateGrad-op5587
+3 1435 902 910
+3 1441 2481 2486
+1441 Gradients/Default/network-WithLossCell/_backbone-InceptionV3/Mixed_6e-Inception_C/branch0-BasicConv2d/bn-BatchNorm2d/gradBatchNorm/BNTrainingReduceGrad-op5590
+4 1435 902 1438 910
+2 1443 2490
+1443 Gradients/Default/network-WithLossCell/_backbone-InceptionV3/Mixed_6e-Inception_C/branch0-BasicConv2d/relu-ReLU/gradReLU/FusionOp_Conv2DBackpropInput_ReluGradV2-op17852
+2 1441 898
+2 1446 1449
+1446 Gradients/Default/network-WithLossCell/_backbone-InceptionV3/Mixed_6e-Inception_C/branch0-BasicConv2d/bn-BatchNorm2d/gradBatchNorm/BNTrainingUpdateGrad-op5592
+3 1443 890 898
+3 1449 2497 2502
+1449 Gradients/Default/network-WithLossCell/_backbone-InceptionV3/Mixed_6e-Inception_C/branch0-BasicConv2d/bn-BatchNorm2d/gradBatchNorm/BNTrainingReduceGrad-op5595
+4 1443 890 1446 898
+2 1450 2506
+1450 Gradients/Default/network-WithLossCell/_backbone-InceptionV3/Mixed_6e-Inception_C/branch0-BasicConv2d/conv-Conv2d/gradConv2D/Conv2DBackpropInput-op1433
+1 1449
+1 1465
+1453 Gradients/Default/network-WithLossCell/_backbone-InceptionV3/Mixed_7a-Inception_D/branch_pool-MaxPool2d/gradMaxPool/MaxPoolGradWithArgmax-op4410
+6 752 788 848 861 1398 936
+1 1465
+1457 Gradients/Default/network-WithLossCell/gradCast/TransData-op10642
+1 1197
+2 1458 2141
+1458 Gradients/Default/network-WithLossCell/_backbone-InceptionV3/aux_logits-AuxLogits/fc-Dense/gradMatMul/MatMul-op1437
+2 1457 1193
+1 1459
+1459 Gradients/Default/network-WithLossCell/_backbone-InceptionV3/aux_logits-AuxLogits/fc-Dense/gradMatMul/TransData-op10644
+1 1458
+1 1461
+1461 Gradients/Default/network-WithLossCell/_backbone-InceptionV3/aux_logits-AuxLogits/gradFlatten/TransData-op10631
+1 1459
+2 1462 2148
+1462 Gradients/Default/network-WithLossCell/_backbone-InceptionV3/aux_logits-AuxLogits/conv2d_1-Conv2d/gradConv2D/Conv2DBackpropInput-op1439
+1 1461
+2 1463 2154
+1463 Gradients/Default/network-WithLossCell/_backbone-InceptionV3/aux_logits-AuxLogits/conv2d_0-Conv2d/gradConv2D/Conv2DBackpropInput-op1440
+1 1462
+1 1465
+1465 Default/AddN-op1443
+4 1416 1450 1453 1463
+4 1469 1479 1505 1547
+1469 Gradients/Default/network-WithLossCell/_backbone-InceptionV3/Mixed_6e-Inception_C/branch0-BasicConv2d/relu-ReLU/gradReLU/ReluGradV2-op6474
+2 1465 752
+2 1472 1475
+1472 Gradients/Default/network-WithLossCell/_backbone-InceptionV3/Mixed_6e-Inception_C/branch0-BasicConv2d/bn-BatchNorm2d/gradBatchNorm/BNTrainingUpdateGrad-op5597
+3 1469 744 752
+3 1475 2689 2694
+1475 Gradients/Default/network-WithLossCell/_backbone-InceptionV3/Mixed_6e-Inception_C/branch0-BasicConv2d/bn-BatchNorm2d/gradBatchNorm/BNTrainingReduceGrad-op5600
+4 1469 744 1472 752
+2 1476 2698
+1476 Gradients/Default/network-WithLossCell/_backbone-InceptionV3/Mixed_6e-Inception_C/branch0-BasicConv2d/conv-Conv2d/gradConv2D/Conv2DBackpropInput-op1452
+1 1475
+1 1556
+1479 Gradients/Default/network-WithLossCell/_backbone-InceptionV3/Mixed_6e-Inception_C/branch0-BasicConv2d/relu-ReLU/gradReLU/ReluGradV2-op6476
+2 1465 788
+2 1482 1485
+1482 Gradients/Default/network-WithLossCell/_backbone-InceptionV3/Mixed_6e-Inception_C/branch0-BasicConv2d/bn-BatchNorm2d/gradBatchNorm/BNTrainingUpdateGrad-op5602
+3 1479 780 788
+3 1485 2641 2646
+1485 Gradients/Default/network-WithLossCell/_backbone-InceptionV3/Mixed_6e-Inception_C/branch0-BasicConv2d/bn-BatchNorm2d/gradBatchNorm/BNTrainingReduceGrad-op5605
+4 1479 780 1482 788
+2 1487 2650
+1487 Gradients/Default/network-WithLossCell/_backbone-InceptionV3/Mixed_6e-Inception_C/branch0-BasicConv2d/relu-ReLU/gradReLU/FusionOp_Conv2DBackpropInput_ReluGradV2-op17850
+2 1485 776
+2 1490 1493
+1490 Gradients/Default/network-WithLossCell/_backbone-InceptionV3/Mixed_6e-Inception_C/branch0-BasicConv2d/bn-BatchNorm2d/gradBatchNorm/BNTrainingUpdateGrad-op5607
+3 1487 768 776
+3 1493 2657 2662
+1493 Gradients/Default/network-WithLossCell/_backbone-InceptionV3/Mixed_6e-Inception_C/branch0-BasicConv2d/bn-BatchNorm2d/gradBatchNorm/BNTrainingReduceGrad-op5610
+4 1487 768 1490 776
+2 1495 2666
+1495 Gradients/Default/network-WithLossCell/_backbone-InceptionV3/Mixed_6e-Inception_C/branch0-BasicConv2d/relu-ReLU/gradReLU/FusionOp_Conv2DBackpropInput_ReluGradV2-op17849
+2 1493 764
+2 1498 1501
+1498 Gradients/Default/network-WithLossCell/_backbone-InceptionV3/Mixed_6e-Inception_C/branch0-BasicConv2d/bn-BatchNorm2d/gradBatchNorm/BNTrainingUpdateGrad-op5612
+3 1495 756 764
+3 1501 2673 2678
+1501 Gradients/Default/network-WithLossCell/_backbone-InceptionV3/Mixed_6e-Inception_C/branch0-BasicConv2d/bn-BatchNorm2d/gradBatchNorm/BNTrainingReduceGrad-op5615
+4 1495 756 1498 764
+2 1502 2682
+1502 Gradients/Default/network-WithLossCell/_backbone-InceptionV3/Mixed_6e-Inception_C/branch0-BasicConv2d/conv-Conv2d/gradConv2D/Conv2DBackpropInput-op1474
+1 1501
+1 1556
+1505 Gradients/Default/network-WithLossCell/_backbone-InceptionV3/Mixed_6e-Inception_C/branch0-BasicConv2d/relu-ReLU/gradReLU/ReluGradV2-op6482
+2 1465 848
+2 1508 1511
+1508 Gradients/Default/network-WithLossCell/_backbone-InceptionV3/Mixed_6e-Inception_C/branch0-BasicConv2d/bn-BatchNorm2d/gradBatchNorm/BNTrainingUpdateGrad-op5617
+3 1505 840 848
+3 1511 2561 2566
+1511 Gradients/Default/network-WithLossCell/_backbone-InceptionV3/Mixed_6e-Inception_C/branch0-BasicConv2d/bn-BatchNorm2d/gradBatchNorm/BNTrainingReduceGrad-op5620
+4 1505 840 1508 848
+2 1513 2570
+1513 Gradients/Default/network-WithLossCell/_backbone-InceptionV3/Mixed_6e-Inception_C/branch0-BasicConv2d/relu-ReLU/gradReLU/FusionOp_Conv2DBackpropInput_ReluGradV2-op17848
+2 1511 836
+2 1516 1519
+1516 Gradients/Default/network-WithLossCell/_backbone-InceptionV3/Mixed_6e-Inception_C/branch0-BasicConv2d/bn-BatchNorm2d/gradBatchNorm/BNTrainingUpdateGrad-op5622
+3 1513 828 836
+3 1519 2577 2582
+1519 Gradients/Default/network-WithLossCell/_backbone-InceptionV3/Mixed_6e-Inception_C/branch0-BasicConv2d/bn-BatchNorm2d/gradBatchNorm/BNTrainingReduceGrad-op5625
+4 1513 828 1516 836
+2 1521 2586
+1521 Gradients/Default/network-WithLossCell/_backbone-InceptionV3/Mixed_6e-Inception_C/branch0-BasicConv2d/relu-ReLU/gradReLU/FusionOp_Conv2DBackpropInput_ReluGradV2-op17847
+2 1519 824
+2 1524 1527
+1524 Gradients/Default/network-WithLossCell/_backbone-InceptionV3/Mixed_6e-Inception_C/branch0-BasicConv2d/bn-BatchNorm2d/gradBatchNorm/BNTrainingUpdateGrad-op5627
+3 1521 816 824
+3 1527 2593 2598
+1527 Gradients/Default/network-WithLossCell/_backbone-InceptionV3/Mixed_6e-Inception_C/branch0-BasicConv2d/bn-BatchNorm2d/gradBatchNorm/BNTrainingReduceGrad-op5630
+4 1521 816 1524 824
+2 1529 2602
+1529 Gradients/Default/network-WithLossCell/_backbone-InceptionV3/Mixed_6e-Inception_C/branch0-BasicConv2d/relu-ReLU/gradReLU/FusionOp_Conv2DBackpropInput_ReluGradV2-op17846
+2 1527 812
+2 1532 1535
+1532 Gradients/Default/network-WithLossCell/_backbone-InceptionV3/Mixed_6e-Inception_C/branch0-BasicConv2d/bn-BatchNorm2d/gradBatchNorm/BNTrainingUpdateGrad-op5632
+3 1529 804 812
+3 1535 2609 2614
+1535 Gradients/Default/network-WithLossCell/_backbone-InceptionV3/Mixed_6e-Inception_C/branch0-BasicConv2d/bn-BatchNorm2d/gradBatchNorm/BNTrainingReduceGrad-op5635
+4 1529 804 1532 812
+2 1537 2618
+1537 Gradients/Default/network-WithLossCell/_backbone-InceptionV3/Mixed_6e-Inception_C/branch0-BasicConv2d/relu-ReLU/gradReLU/FusionOp_Conv2DBackpropInput_ReluGradV2-op17845
+2 1535 800
+2 1540 1543
+1540 Gradients/Default/network-WithLossCell/_backbone-InceptionV3/Mixed_6e-Inception_C/branch0-BasicConv2d/bn-BatchNorm2d/gradBatchNorm/BNTrainingUpdateGrad-op5637
+3 1537 792 800
+3 1543 2625 2630
+1543 Gradients/Default/network-WithLossCell/_backbone-InceptionV3/Mixed_6e-Inception_C/branch0-BasicConv2d/bn-BatchNorm2d/gradBatchNorm/BNTrainingReduceGrad-op5640
+4 1537 792 1540 800
+2 1544 2634
+1544 Gradients/Default/network-WithLossCell/_backbone-InceptionV3/Mixed_6e-Inception_C/branch0-BasicConv2d/conv-Conv2d/gradConv2D/Conv2DBackpropInput-op1510
+1 1543
+1 1556
+1547 Gradients/Default/network-WithLossCell/_backbone-InceptionV3/Mixed_6e-Inception_C/branch0-BasicConv2d/relu-ReLU/gradReLU/ReluGradV2-op6492
+2 1465 861
+2 1550 1553
+1550 Gradients/Default/network-WithLossCell/_backbone-InceptionV3/Mixed_6e-Inception_C/branch0-BasicConv2d/bn-BatchNorm2d/gradBatchNorm/BNTrainingUpdateGrad-op5642
+3 1547 853 861
+3 1553 2545 2550
+1553 Gradients/Default/network-WithLossCell/_backbone-InceptionV3/Mixed_6e-Inception_C/branch0-BasicConv2d/bn-BatchNorm2d/gradBatchNorm/BNTrainingReduceGrad-op5645
+4 1547 853 1550 861
+2 1554 2554
+1554 Gradients/Default/network-WithLossCell/_backbone-InceptionV3/Mixed_6e-Inception_C/branch0-BasicConv2d/conv-Conv2d/gradConv2D/Conv2DBackpropInput-op1518
+1 1553
+1 1556
+1556 Default/AddN-op1521
+4 1476 1502 1544 1554
+4 1560 1570 1596 1638
+1560 Gradients/Default/network-WithLossCell/_backbone-InceptionV3/Mixed_6e-Inception_C/branch0-BasicConv2d/relu-ReLU/gradReLU/ReluGradV2-op6494
+2 1556 630
+2 1563 1566
+1563 Gradients/Default/network-WithLossCell/_backbone-InceptionV3/Mixed_6e-Inception_C/branch0-BasicConv2d/bn-BatchNorm2d/gradBatchNorm/BNTrainingUpdateGrad-op5647
+3 1560 622 630
+3 1566 2849 2854
+1566 Gradients/Default/network-WithLossCell/_backbone-InceptionV3/Mixed_6e-Inception_C/branch0-BasicConv2d/bn-BatchNorm2d/gradBatchNorm/BNTrainingReduceGrad-op5650
+4 1560 622 1563 630
+2 1567 2858
+1567 Gradients/Default/network-WithLossCell/_backbone-InceptionV3/Mixed_6e-Inception_C/branch0-BasicConv2d/conv-Conv2d/gradConv2D/Conv2DBackpropInput-op1530
+1 1566
+1 1647
+1570 Gradients/Default/network-WithLossCell/_backbone-InceptionV3/Mixed_6e-Inception_C/branch0-BasicConv2d/relu-ReLU/gradReLU/ReluGradV2-op6496
+2 1556 666
+2 1573 1576
+1573 Gradients/Default/network-WithLossCell/_backbone-InceptionV3/Mixed_6e-Inception_C/branch0-BasicConv2d/bn-BatchNorm2d/gradBatchNorm/BNTrainingUpdateGrad-op5652
+3 1570 658 666
+3 1576 2801 2806
+1576 Gradients/Default/network-WithLossCell/_backbone-InceptionV3/Mixed_6e-Inception_C/branch0-BasicConv2d/bn-BatchNorm2d/gradBatchNorm/BNTrainingReduceGrad-op5655
+4 1570 658 1573 666
+2 1578 2810
+1578 Gradients/Default/network-WithLossCell/_backbone-InceptionV3/Mixed_6e-Inception_C/branch0-BasicConv2d/relu-ReLU/gradReLU/FusionOp_Conv2DBackpropInput_ReluGradV2-op17844
+2 1576 654
+2 1581 1584
+1581 Gradients/Default/network-WithLossCell/_backbone-InceptionV3/Mixed_6e-Inception_C/branch0-BasicConv2d/bn-BatchNorm2d/gradBatchNorm/BNTrainingUpdateGrad-op5657
+3 1578 646 654
+3 1584 2817 2822
+1584 Gradients/Default/network-WithLossCell/_backbone-InceptionV3/Mixed_6e-Inception_C/branch0-BasicConv2d/bn-BatchNorm2d/gradBatchNorm/BNTrainingReduceGrad-op5660
+4 1578 646 1581 654
+2 1586 2826
+1586 Gradients/Default/network-WithLossCell/_backbone-InceptionV3/Mixed_6e-Inception_C/branch0-BasicConv2d/relu-ReLU/gradReLU/FusionOp_Conv2DBackpropInput_ReluGradV2-op17843
+2 1584 642
+2 1589 1592
+1589 Gradients/Default/network-WithLossCell/_backbone-InceptionV3/Mixed_6e-Inception_C/branch0-BasicConv2d/bn-BatchNorm2d/gradBatchNorm/BNTrainingUpdateGrad-op5662
+3 1586 634 642
+3 1592 2833 2838
+1592 Gradients/Default/network-WithLossCell/_backbone-InceptionV3/Mixed_6e-Inception_C/branch0-BasicConv2d/bn-BatchNorm2d/gradBatchNorm/BNTrainingReduceGrad-op5665
+4 1586 634 1589 642
+2 1593 2842
+1593 Gradients/Default/network-WithLossCell/_backbone-InceptionV3/Mixed_6d-Inception_C/branch2-SequentialCell/0-BasicConv2d/conv-Conv2d/gradConv2D/Conv2DBackpropInput-op1552
+1 1592
+1 1647
+1596 Gradients/Default/network-WithLossCell/_backbone-InceptionV3/Mixed_6e-Inception_C/branch0-BasicConv2d/relu-ReLU/gradReLU/ReluGradV2-op6502
+2 1556 726
+2 1599 1602
+1599 Gradients/Default/network-WithLossCell/_backbone-InceptionV3/Mixed_6e-Inception_C/branch0-BasicConv2d/bn-BatchNorm2d/gradBatchNorm/BNTrainingUpdateGrad-op5667
+3 1596 718 726
+3 1602 2721 2726
+1602 Gradients/Default/network-WithLossCell/_backbone-InceptionV3/Mixed_6e-Inception_C/branch0-BasicConv2d/bn-BatchNorm2d/gradBatchNorm/BNTrainingReduceGrad-op5670
+4 1596 718 1599 726
+2 1604 2730
+1604 Gradients/Default/network-WithLossCell/_backbone-InceptionV3/Mixed_6e-Inception_C/branch0-BasicConv2d/relu-ReLU/gradReLU/FusionOp_Conv2DBackpropInput_ReluGradV2-op17842
+2 1602 714
+2 1607 1610
+1607 Gradients/Default/network-WithLossCell/_backbone-InceptionV3/Mixed_6e-Inception_C/branch0-BasicConv2d/bn-BatchNorm2d/gradBatchNorm/BNTrainingUpdateGrad-op5672
+3 1604 706 714
+3 1610 2737 2742
+1610 Gradients/Default/network-WithLossCell/_backbone-InceptionV3/Mixed_6e-Inception_C/branch0-BasicConv2d/bn-BatchNorm2d/gradBatchNorm/BNTrainingReduceGrad-op5675
+4 1604 706 1607 714
+2 1612 2746
+1612 Gradients/Default/network-WithLossCell/_backbone-InceptionV3/Mixed_6e-Inception_C/branch0-BasicConv2d/relu-ReLU/gradReLU/FusionOp_Conv2DBackpropInput_ReluGradV2-op17841
+2 1610 702
+2 1615 1618
+1615 Gradients/Default/network-WithLossCell/_backbone-InceptionV3/Mixed_6e-Inception_C/branch0-BasicConv2d/bn-BatchNorm2d/gradBatchNorm/BNTrainingUpdateGrad-op5677
+3 1612 694 702
+3 1618 2753 2758
+1618 Gradients/Default/network-WithLossCell/_backbone-InceptionV3/Mixed_6e-Inception_C/branch0-BasicConv2d/bn-BatchNorm2d/gradBatchNorm/BNTrainingReduceGrad-op5680
+4 1612 694 1615 702
+2 1620 2762
+1620 Gradients/Default/network-WithLossCell/_backbone-InceptionV3/Mixed_6e-Inception_C/branch0-BasicConv2d/relu-ReLU/gradReLU/FusionOp_Conv2DBackpropInput_ReluGradV2-op17840
+2 1618 690
+2 1623 1626
+1623 Gradients/Default/network-WithLossCell/_backbone-InceptionV3/Mixed_6e-Inception_C/branch0-BasicConv2d/bn-BatchNorm2d/gradBatchNorm/BNTrainingUpdateGrad-op5682
+3 1620 682 690
+3 1626 2769 2774
+1626 Gradients/Default/network-WithLossCell/_backbone-InceptionV3/Mixed_6e-Inception_C/branch0-BasicConv2d/bn-BatchNorm2d/gradBatchNorm/BNTrainingReduceGrad-op5685
+4 1620 682 1623 690
+2 1628 2778
+1628 Gradients/Default/network-WithLossCell/_backbone-InceptionV3/Mixed_6e-Inception_C/branch0-BasicConv2d/relu-ReLU/gradReLU/FusionOp_Conv2DBackpropInput_ReluGradV2-op17839
+2 1626 678
+2 1631 1634
+1631 Gradients/Default/network-WithLossCell/_backbone-InceptionV3/Mixed_6e-Inception_C/branch0-BasicConv2d/bn-BatchNorm2d/gradBatchNorm/BNTrainingUpdateGrad-op5687
+3 1628 670 678
+3 1634 2785 2790
+1634 Gradients/Default/network-WithLossCell/_backbone-InceptionV3/Mixed_6e-Inception_C/branch0-BasicConv2d/bn-BatchNorm2d/gradBatchNorm/BNTrainingReduceGrad-op5690
+4 1628 670 1631 678
+2 1635 2794
+1635 Gradients/Default/network-WithLossCell/_backbone-InceptionV3/Mixed_6d-Inception_C/branch2-SequentialCell/0-BasicConv2d/conv-Conv2d/gradConv2D/Conv2DBackpropInput-op1588
+1 1634
+1 1647
+1638 Gradients/Default/network-WithLossCell/_backbone-InceptionV3/Mixed_6e-Inception_C/branch0-BasicConv2d/relu-ReLU/gradReLU/ReluGradV2-op6512
+2 1556 739
+2 1641 1644
+1641 Gradients/Default/network-WithLossCell/_backbone-InceptionV3/Mixed_6e-Inception_C/branch0-BasicConv2d/bn-BatchNorm2d/gradBatchNorm/BNTrainingUpdateGrad-op5692
+3 1638 731 739
+3 1644 2705 2710
+1644 Gradients/Default/network-WithLossCell/_backbone-InceptionV3/Mixed_6e-Inception_C/branch0-BasicConv2d/bn-BatchNorm2d/gradBatchNorm/BNTrainingReduceGrad-op5695
+4 1638 731 1641 739
+2 1645 2714
+1645 Gradients/Default/network-WithLossCell/_backbone-InceptionV3/Mixed_6e-Inception_C/branch0-BasicConv2d/conv-Conv2d/gradConv2D/Conv2DBackpropInput-op1596
+1 1644
+1 1647
+1647 Default/AddN-op1599
+4 1567 1593 1635 1645
+4 1651 1661 1687 1729
+1651 Gradients/Default/network-WithLossCell/_backbone-InceptionV3/Mixed_6e-Inception_C/branch0-BasicConv2d/relu-ReLU/gradReLU/ReluGradV2-op6514
+2 1647 508
+2 1654 1657
+1654 Gradients/Default/network-WithLossCell/_backbone-InceptionV3/Mixed_6e-Inception_C/branch0-BasicConv2d/bn-BatchNorm2d/gradBatchNorm/BNTrainingUpdateGrad-op5697
+3 1651 500 508
+3 1657 3009 3014
+1657 Gradients/Default/network-WithLossCell/_backbone-InceptionV3/Mixed_6e-Inception_C/branch0-BasicConv2d/bn-BatchNorm2d/gradBatchNorm/BNTrainingReduceGrad-op5700
+4 1651 500 1654 508
+2 1658 3018
+1658 Gradients/Default/network-WithLossCell/_backbone-InceptionV3/Mixed_6e-Inception_C/branch0-BasicConv2d/conv-Conv2d/gradConv2D/Conv2DBackpropInput-op1608
+1 1657
+1 1738
+1661 Gradients/Default/network-WithLossCell/_backbone-InceptionV3/Mixed_6e-Inception_C/branch0-BasicConv2d/relu-ReLU/gradReLU/ReluGradV2-op6516
+2 1647 544
+2 1664 1667
+1664 Gradients/Default/network-WithLossCell/_backbone-InceptionV3/Mixed_6e-Inception_C/branch0-BasicConv2d/bn-BatchNorm2d/gradBatchNorm/BNTrainingUpdateGrad-op5702
+3 1661 536 544
+3 1667 2961 2966
+1667 Gradients/Default/network-WithLossCell/_backbone-InceptionV3/Mixed_6e-Inception_C/branch0-BasicConv2d/bn-BatchNorm2d/gradBatchNorm/BNTrainingReduceGrad-op5705
+4 1661 536 1664 544
+2 1669 2970
+1669 Gradients/Default/network-WithLossCell/_backbone-InceptionV3/Mixed_6e-Inception_C/branch0-BasicConv2d/relu-ReLU/gradReLU/FusionOp_Conv2DBackpropInput_ReluGradV2-op17838
+2 1667 532
+2 1672 1675
+1672 Gradients/Default/network-WithLossCell/_backbone-InceptionV3/Mixed_6e-Inception_C/branch0-BasicConv2d/bn-BatchNorm2d/gradBatchNorm/BNTrainingUpdateGrad-op5707
+3 1669 524 532
+3 1675 2977 2982
+1675 Gradients/Default/network-WithLossCell/_backbone-InceptionV3/Mixed_6e-Inception_C/branch0-BasicConv2d/bn-BatchNorm2d/gradBatchNorm/BNTrainingReduceGrad-op5710
+4 1669 524 1672 532
+2 1677 2986
+1677 Gradients/Default/network-WithLossCell/_backbone-InceptionV3/Mixed_6e-Inception_C/branch0-BasicConv2d/relu-ReLU/gradReLU/FusionOp_Conv2DBackpropInput_ReluGradV2-op17837
+2 1675 520
+2 1680 1683
+1680 Gradients/Default/network-WithLossCell/_backbone-InceptionV3/Mixed_6e-Inception_C/branch0-BasicConv2d/bn-BatchNorm2d/gradBatchNorm/BNTrainingUpdateGrad-op5712
+3 1677 512 520
+3 1683 2993 2998
+1683 Gradients/Default/network-WithLossCell/_backbone-InceptionV3/Mixed_6e-Inception_C/branch0-BasicConv2d/bn-BatchNorm2d/gradBatchNorm/BNTrainingReduceGrad-op5715
+4 1677 512 1680 520
+2 1684 3002
+1684 Gradients/Default/network-WithLossCell/_backbone-InceptionV3/Mixed_6d-Inception_C/branch2-SequentialCell/0-BasicConv2d/conv-Conv2d/gradConv2D/Conv2DBackpropInput-op1630
+1 1683
+1 1738
+1687 Gradients/Default/network-WithLossCell/_backbone-InceptionV3/Mixed_6e-Inception_C/branch0-BasicConv2d/relu-ReLU/gradReLU/ReluGradV2-op6522
+2 1647 604
+2 1690 1693
+1690 Gradients/Default/network-WithLossCell/_backbone-InceptionV3/Mixed_6e-Inception_C/branch0-BasicConv2d/bn-BatchNorm2d/gradBatchNorm/BNTrainingUpdateGrad-op5717
+3 1687 596 604
+3 1693 2881 2886
+1693 Gradients/Default/network-WithLossCell/_backbone-InceptionV3/Mixed_6e-Inception_C/branch0-BasicConv2d/bn-BatchNorm2d/gradBatchNorm/BNTrainingReduceGrad-op5720
+4 1687 596 1690 604
+2 1695 2890
+1695 Gradients/Default/network-WithLossCell/_backbone-InceptionV3/Mixed_6e-Inception_C/branch0-BasicConv2d/relu-ReLU/gradReLU/FusionOp_Conv2DBackpropInput_ReluGradV2-op17836
+2 1693 592
+2 1698 1701
+1698 Gradients/Default/network-WithLossCell/_backbone-InceptionV3/Mixed_6e-Inception_C/branch0-BasicConv2d/bn-BatchNorm2d/gradBatchNorm/BNTrainingUpdateGrad-op5722
+3 1695 584 592
+3 1701 2897 2902
+1701 Gradients/Default/network-WithLossCell/_backbone-InceptionV3/Mixed_6e-Inception_C/branch0-BasicConv2d/bn-BatchNorm2d/gradBatchNorm/BNTrainingReduceGrad-op5725
+4 1695 584 1698 592
+2 1703 2906
+1703 Gradients/Default/network-WithLossCell/_backbone-InceptionV3/Mixed_6e-Inception_C/branch0-BasicConv2d/relu-ReLU/gradReLU/FusionOp_Conv2DBackpropInput_ReluGradV2-op17835
+2 1701 580
+2 1706 1709
+1706 Gradients/Default/network-WithLossCell/_backbone-InceptionV3/Mixed_6e-Inception_C/branch0-BasicConv2d/bn-BatchNorm2d/gradBatchNorm/BNTrainingUpdateGrad-op5727
+3 1703 572 580
+3 1709 2913 2918
+1709 Gradients/Default/network-WithLossCell/_backbone-InceptionV3/Mixed_6e-Inception_C/branch0-BasicConv2d/bn-BatchNorm2d/gradBatchNorm/BNTrainingReduceGrad-op5730
+4 1703 572 1706 580
+2 1711 2922
+1711 Gradients/Default/network-WithLossCell/_backbone-InceptionV3/Mixed_6e-Inception_C/branch0-BasicConv2d/relu-ReLU/gradReLU/FusionOp_Conv2DBackpropInput_ReluGradV2-op17834
+2 1709 568
+2 1714 1717
+1714 Gradients/Default/network-WithLossCell/_backbone-InceptionV3/Mixed_6e-Inception_C/branch0-BasicConv2d/bn-BatchNorm2d/gradBatchNorm/BNTrainingUpdateGrad-op5732
+3 1711 560 568
+3 1717 2929 2934
+1717 Gradients/Default/network-WithLossCell/_backbone-InceptionV3/Mixed_6e-Inception_C/branch0-BasicConv2d/bn-BatchNorm2d/gradBatchNorm/BNTrainingReduceGrad-op5735
+4 1711 560 1714 568
+2 1719 2938
+1719 Gradients/Default/network-WithLossCell/_backbone-InceptionV3/Mixed_6e-Inception_C/branch0-BasicConv2d/relu-ReLU/gradReLU/FusionOp_Conv2DBackpropInput_ReluGradV2-op17833
+2 1717 556
+2 1722 1725
+1722 Gradients/Default/network-WithLossCell/_backbone-InceptionV3/Mixed_6e-Inception_C/branch0-BasicConv2d/bn-BatchNorm2d/gradBatchNorm/BNTrainingUpdateGrad-op5737
+3 1719 548 556
+3 1725 2945 2950
+1725 Gradients/Default/network-WithLossCell/_backbone-InceptionV3/Mixed_6e-Inception_C/branch0-BasicConv2d/bn-BatchNorm2d/gradBatchNorm/BNTrainingReduceGrad-op5740
+4 1719 548 1722 556
+2 1726 2954
+1726 Gradients/Default/network-WithLossCell/_backbone-InceptionV3/Mixed_6d-Inception_C/branch2-SequentialCell/0-BasicConv2d/conv-Conv2d/gradConv2D/Conv2DBackpropInput-op1666
+1 1725
+1 1738
+1729 Gradients/Default/network-WithLossCell/_backbone-InceptionV3/Mixed_6e-Inception_C/branch0-BasicConv2d/relu-ReLU/gradReLU/ReluGradV2-op6532
+2 1647 617
+2 1732 1735
+1732 Gradients/Default/network-WithLossCell/_backbone-InceptionV3/Mixed_6e-Inception_C/branch0-BasicConv2d/bn-BatchNorm2d/gradBatchNorm/BNTrainingUpdateGrad-op5742
+3 1729 609 617
+3 1735 2865 2870
+1735 Gradients/Default/network-WithLossCell/_backbone-InceptionV3/Mixed_6e-Inception_C/branch0-BasicConv2d/bn-BatchNorm2d/gradBatchNorm/BNTrainingReduceGrad-op5745
+4 1729 609 1732 617
+2 1736 2874
+1736 Gradients/Default/network-WithLossCell/_backbone-InceptionV3/Mixed_6e-Inception_C/branch0-BasicConv2d/conv-Conv2d/gradConv2D/Conv2DBackpropInput-op1674
+1 1735
+1 1738
+1738 Default/AddN-op1677
+4 1658 1684 1726 1736
+4 1742 1752 1778 1820
+1742 Gradients/Default/network-WithLossCell/_backbone-InceptionV3/Mixed_6e-Inception_C/branch0-BasicConv2d/relu-ReLU/gradReLU/ReluGradV2-op6534
+2 1738 386
+2 1745 1748
+1745 Gradients/Default/network-WithLossCell/_backbone-InceptionV3/Mixed_6e-Inception_C/branch0-BasicConv2d/bn-BatchNorm2d/gradBatchNorm/BNTrainingUpdateGrad-op5747
+3 1742 378 386
+3 1748 3169 3174
+1748 Gradients/Default/network-WithLossCell/_backbone-InceptionV3/Mixed_6e-Inception_C/branch0-BasicConv2d/bn-BatchNorm2d/gradBatchNorm/BNTrainingReduceGrad-op5750
+4 1742 378 1745 386
+2 1749 3178
+1749 Gradients/Default/network-WithLossCell/_backbone-InceptionV3/Mixed_6e-Inception_C/branch0-BasicConv2d/conv-Conv2d/gradConv2D/Conv2DBackpropInput-op1686
+1 1748
+1 1829
+1752 Gradients/Default/network-WithLossCell/_backbone-InceptionV3/Mixed_6e-Inception_C/branch0-BasicConv2d/relu-ReLU/gradReLU/ReluGradV2-op6536
+2 1738 422
+2 1755 1758
+1755 Gradients/Default/network-WithLossCell/_backbone-InceptionV3/Mixed_6e-Inception_C/branch0-BasicConv2d/bn-BatchNorm2d/gradBatchNorm/BNTrainingUpdateGrad-op5752
+3 1752 414 422
+3 1758 3121 3126
+1758 Gradients/Default/network-WithLossCell/_backbone-InceptionV3/Mixed_6e-Inception_C/branch0-BasicConv2d/bn-BatchNorm2d/gradBatchNorm/BNTrainingReduceGrad-op5755
+4 1752 414 1755 422
+2 1760 3130
+1760 Gradients/Default/network-WithLossCell/_backbone-InceptionV3/Mixed_6e-Inception_C/branch0-BasicConv2d/relu-ReLU/gradReLU/FusionOp_Conv2DBackpropInput_ReluGradV2-op17832
+2 1758 410
+2 1763 1766
+1763 Gradients/Default/network-WithLossCell/_backbone-InceptionV3/Mixed_6e-Inception_C/branch0-BasicConv2d/bn-BatchNorm2d/gradBatchNorm/BNTrainingUpdateGrad-op5757
+3 1760 402 410
+3 1766 3137 3142
+1766 Gradients/Default/network-WithLossCell/_backbone-InceptionV3/Mixed_6e-Inception_C/branch0-BasicConv2d/bn-BatchNorm2d/gradBatchNorm/BNTrainingReduceGrad-op5760
+4 1760 402 1763 410
+2 1768 3146
+1768 Gradients/Default/network-WithLossCell/_backbone-InceptionV3/Mixed_6e-Inception_C/branch0-BasicConv2d/relu-ReLU/gradReLU/FusionOp_Conv2DBackpropInput_ReluGradV2-op17831
+2 1766 398
+2 1771 1774
+1771 Gradients/Default/network-WithLossCell/_backbone-InceptionV3/Mixed_6e-Inception_C/branch0-BasicConv2d/bn-BatchNorm2d/gradBatchNorm/BNTrainingUpdateGrad-op5762
+3 1768 390 398
+3 1774 3153 3158
+1774 Gradients/Default/network-WithLossCell/_backbone-InceptionV3/Mixed_6e-Inception_C/branch0-BasicConv2d/bn-BatchNorm2d/gradBatchNorm/BNTrainingReduceGrad-op5765
+4 1768 390 1771 398
+2 1775 3162
+1775 Gradients/Default/network-WithLossCell/_backbone-InceptionV3/aux_logits-AuxLogits/conv2d_0-Conv2d/gradConv2D/Conv2DBackpropInput-op1708
+1 1774
+1 1829
+1778 Gradients/Default/network-WithLossCell/_backbone-InceptionV3/Mixed_6e-Inception_C/branch0-BasicConv2d/relu-ReLU/gradReLU/ReluGradV2-op6542
+2 1738 482
+2 1781 1784
+1781 Gradients/Default/network-WithLossCell/_backbone-InceptionV3/Mixed_6e-Inception_C/branch0-BasicConv2d/bn-BatchNorm2d/gradBatchNorm/BNTrainingUpdateGrad-op5767
+3 1778 474 482
+3 1784 3041 3046
+1784 Gradients/Default/network-WithLossCell/_backbone-InceptionV3/Mixed_6e-Inception_C/branch0-BasicConv2d/bn-BatchNorm2d/gradBatchNorm/BNTrainingReduceGrad-op5770
+4 1778 474 1781 482
+2 1786 3050
+1786 Gradients/Default/network-WithLossCell/_backbone-InceptionV3/Mixed_6e-Inception_C/branch0-BasicConv2d/relu-ReLU/gradReLU/FusionOp_Conv2DBackpropInput_ReluGradV2-op17830
+2 1784 470
+2 1789 1792
+1789 Gradients/Default/network-WithLossCell/_backbone-InceptionV3/Mixed_6e-Inception_C/branch0-BasicConv2d/bn-BatchNorm2d/gradBatchNorm/BNTrainingUpdateGrad-op5772
+3 1786 462 470
+3 1792 3057 3062
+1792 Gradients/Default/network-WithLossCell/_backbone-InceptionV3/Mixed_6e-Inception_C/branch0-BasicConv2d/bn-BatchNorm2d/gradBatchNorm/BNTrainingReduceGrad-op5775
+4 1786 462 1789 470
+2 1794 3066
+1794 Gradients/Default/network-WithLossCell/_backbone-InceptionV3/Mixed_6e-Inception_C/branch0-BasicConv2d/relu-ReLU/gradReLU/FusionOp_Conv2DBackpropInput_ReluGradV2-op17829
+2 1792 458
+2 1797 1800
+1797 Gradients/Default/network-WithLossCell/_backbone-InceptionV3/Mixed_6e-Inception_C/branch0-BasicConv2d/bn-BatchNorm2d/gradBatchNorm/BNTrainingUpdateGrad-op5777
+3 1794 450 458
+3 1800 3073 3078
+1800 Gradients/Default/network-WithLossCell/_backbone-InceptionV3/Mixed_6e-Inception_C/branch0-BasicConv2d/bn-BatchNorm2d/gradBatchNorm/BNTrainingReduceGrad-op5780
+4 1794 450 1797 458
+2 1802 3082
+1802 Gradients/Default/network-WithLossCell/_backbone-InceptionV3/Mixed_6e-Inception_C/branch0-BasicConv2d/relu-ReLU/gradReLU/FusionOp_Conv2DBackpropInput_ReluGradV2-op17828
+2 1800 446
+2 1805 1808
+1805 Gradients/Default/network-WithLossCell/_backbone-InceptionV3/Mixed_6e-Inception_C/branch0-BasicConv2d/bn-BatchNorm2d/gradBatchNorm/BNTrainingUpdateGrad-op5782
+3 1802 438 446
+3 1808 3089 3094
+1808 Gradients/Default/network-WithLossCell/_backbone-InceptionV3/Mixed_6e-Inception_C/branch0-BasicConv2d/bn-BatchNorm2d/gradBatchNorm/BNTrainingReduceGrad-op5785
+4 1802 438 1805 446
+2 1810 3098
+1810 Gradients/Default/network-WithLossCell/_backbone-InceptionV3/Mixed_6e-Inception_C/branch0-BasicConv2d/relu-ReLU/gradReLU/FusionOp_Conv2DBackpropInput_ReluGradV2-op17827
+2 1808 434
+2 1813 1816
+1813 Gradients/Default/network-WithLossCell/_backbone-InceptionV3/Mixed_6e-Inception_C/branch0-BasicConv2d/bn-BatchNorm2d/gradBatchNorm/BNTrainingUpdateGrad-op5787
+3 1810 426 434
+3 1816 3105 3110
+1816 Gradients/Default/network-WithLossCell/_backbone-InceptionV3/Mixed_6e-Inception_C/branch0-BasicConv2d/bn-BatchNorm2d/gradBatchNorm/BNTrainingReduceGrad-op5790
+4 1810 426 1813 434
+2 1817 3114
+1817 Gradients/Default/network-WithLossCell/_backbone-InceptionV3/aux_logits-AuxLogits/conv2d_0-Conv2d/gradConv2D/Conv2DBackpropInput-op1744
+1 1816
+1 1829
+1820 Gradients/Default/network-WithLossCell/_backbone-InceptionV3/Mixed_6e-Inception_C/branch0-BasicConv2d/relu-ReLU/gradReLU/ReluGradV2-op6552
+2 1738 495
+2 1823 1826
+1823 Gradients/Default/network-WithLossCell/_backbone-InceptionV3/Mixed_6e-Inception_C/branch0-BasicConv2d/bn-BatchNorm2d/gradBatchNorm/BNTrainingUpdateGrad-op5792
+3 1820 487 495
+3 1826 3025 3030
+1826 Gradients/Default/network-WithLossCell/_backbone-InceptionV3/Mixed_6e-Inception_C/branch0-BasicConv2d/bn-BatchNorm2d/gradBatchNorm/BNTrainingReduceGrad-op5795
+4 1820 487 1823 495
+2 1827 3034
+1827 Gradients/Default/network-WithLossCell/_backbone-InceptionV3/Mixed_6e-Inception_C/branch0-BasicConv2d/conv-Conv2d/gradConv2D/Conv2DBackpropInput-op1752
+1 1826
+1 1829
+1829 Default/AddN-op1755
+4 1749 1775 1817 1827
+3 1832 1842 1868
+1832 Gradients/Default/network-WithLossCell/_backbone-InceptionV3/Mixed_6e-Inception_C/branch0-BasicConv2d/relu-ReLU/gradReLU/ReluGradV2-op6554
+2 1829 335
+2 1835 1838
+1835 Gradients/Default/network-WithLossCell/_backbone-InceptionV3/Mixed_6e-Inception_C/branch0-BasicConv2d/bn-BatchNorm2d/gradBatchNorm/BNTrainingUpdateGrad-op5797
+3 1832 327 335
+3 1838 3233 3238
+1838 Gradients/Default/network-WithLossCell/_backbone-InceptionV3/Mixed_6e-Inception_C/branch0-BasicConv2d/bn-BatchNorm2d/gradBatchNorm/BNTrainingReduceGrad-op5800
+4 1832 327 1835 335
+2 1839 3242
+1839 Gradients/Default/network-WithLossCell/_backbone-InceptionV3/Mixed_6a-Inception_B/branch0-BasicConv2d/conv-Conv2d/gradConv2D/Conv2DBackpropInput-op1765
+1 1838
+1 1869
+1842 Gradients/Default/network-WithLossCell/_backbone-InceptionV3/Mixed_6e-Inception_C/branch0-BasicConv2d/relu-ReLU/gradReLU/ReluGradV2-op6556
+2 1829 371
+2 1845 1848
+1845 Gradients/Default/network-WithLossCell/_backbone-InceptionV3/Mixed_6e-Inception_C/branch0-BasicConv2d/bn-BatchNorm2d/gradBatchNorm/BNTrainingUpdateGrad-op5802
+3 1842 363 371
+3 1848 3185 3190
+1848 Gradients/Default/network-WithLossCell/_backbone-InceptionV3/Mixed_6e-Inception_C/branch0-BasicConv2d/bn-BatchNorm2d/gradBatchNorm/BNTrainingReduceGrad-op5805
+4 1842 363 1845 371
+2 1850 3194
+1850 Gradients/Default/network-WithLossCell/_backbone-InceptionV3/Mixed_6e-Inception_C/branch0-BasicConv2d/relu-ReLU/gradReLU/FusionOp_Conv2DBackpropInput_ReluGradV2-op17826
+2 1848 359
+2 1853 1856
+1853 Gradients/Default/network-WithLossCell/_backbone-InceptionV3/Mixed_6e-Inception_C/branch0-BasicConv2d/bn-BatchNorm2d/gradBatchNorm/BNTrainingUpdateGrad-op5807
+3 1850 351 359
+3 1856 3201 3206
+1856 Gradients/Default/network-WithLossCell/_backbone-InceptionV3/Mixed_6e-Inception_C/branch0-BasicConv2d/bn-BatchNorm2d/gradBatchNorm/BNTrainingReduceGrad-op5810
+4 1850 351 1853 359
+2 1858 3210
+1858 Gradients/Default/network-WithLossCell/_backbone-InceptionV3/Mixed_6e-Inception_C/branch0-BasicConv2d/relu-ReLU/gradReLU/FusionOp_Conv2DBackpropInput_ReluGradV2-op17825
+2 1856 347
+2 1861 1864
+1861 Gradients/Default/network-WithLossCell/_backbone-InceptionV3/Mixed_6e-Inception_C/branch0-BasicConv2d/bn-BatchNorm2d/gradBatchNorm/BNTrainingUpdateGrad-op5812
+3 1858 339 347
+3 1864 3217 3222
+1864 Gradients/Default/network-WithLossCell/_backbone-InceptionV3/Mixed_6e-Inception_C/branch0-BasicConv2d/bn-BatchNorm2d/gradBatchNorm/BNTrainingReduceGrad-op5815
+4 1858 339 1861 347
+2 1865 3226
+1865 Gradients/Default/network-WithLossCell/_backbone-InceptionV3/Mixed_5d-Inception_A/branch0-BasicConv2d/conv-Conv2d/gradConv2D/Conv2DBackpropInput-op1786
+1 1864
+1 1869
+1868 Gradients/Default/network-WithLossCell/_backbone-InceptionV3/Mixed_7a-Inception_D/branch_pool-MaxPool2d/gradMaxPool/MaxPoolGradWithArgmax-op4412
+6 249 273 309 322 1829 373
+1 1869
+1869 Default/AddN-op1789
+3 1839 1865 1868
+4 1872 1882 1900 1926
+1872 Gradients/Default/network-WithLossCell/_backbone-InceptionV3/Mixed_6e-Inception_C/branch0-BasicConv2d/relu-ReLU/gradReLU/ReluGradV2-op6562
+2 1869 249
+2 1875 1878
+1875 Gradients/Default/network-WithLossCell/_backbone-InceptionV3/Mixed_6e-Inception_C/branch0-BasicConv2d/bn-BatchNorm2d/gradBatchNorm/BNTrainingUpdateGrad-op5817
+3 1872 241 249
+3 1878 3345 3350
+1878 Gradients/Default/network-WithLossCell/_backbone-InceptionV3/Mixed_6e-Inception_C/branch0-BasicConv2d/bn-BatchNorm2d/gradBatchNorm/BNTrainingReduceGrad-op5820
+4 1872 241 1875 249
+2 1879 3354
+1879 Gradients/Default/network-WithLossCell/_backbone-InceptionV3/Mixed_5d-Inception_A/branch0-BasicConv2d/conv-Conv2d/gradConv2D/Conv2DBackpropInput-op1800
+1 1878
+1 1935
+1882 Gradients/Default/network-WithLossCell/_backbone-InceptionV3/Mixed_6e-Inception_C/branch0-BasicConv2d/relu-ReLU/gradReLU/ReluGradV2-op6564
+2 1869 273
+2 1885 1888
+1885 Gradients/Default/network-WithLossCell/_backbone-InceptionV3/Mixed_6e-Inception_C/branch0-BasicConv2d/bn-BatchNorm2d/gradBatchNorm/BNTrainingUpdateGrad-op5822
+3 1882 265 273
+3 1888 3313 3318
+1888 Gradients/Default/network-WithLossCell/_backbone-InceptionV3/Mixed_6e-Inception_C/branch0-BasicConv2d/bn-BatchNorm2d/gradBatchNorm/BNTrainingReduceGrad-op5825
+4 1882 265 1885 273
+2 1890 3322
+1890 Gradients/Default/network-WithLossCell/_backbone-InceptionV3/Mixed_6e-Inception_C/branch0-BasicConv2d/relu-ReLU/gradReLU/FusionOp_Conv2DBackpropInput_ReluGradV2-op17824
+2 1888 261
+2 1893 1896
+1893 Gradients/Default/network-WithLossCell/_backbone-InceptionV3/Mixed_6e-Inception_C/branch0-BasicConv2d/bn-BatchNorm2d/gradBatchNorm/BNTrainingUpdateGrad-op5827
+3 1890 253 261
+3 1896 3329 3334
+1896 Gradients/Default/network-WithLossCell/_backbone-InceptionV3/Mixed_6e-Inception_C/branch0-BasicConv2d/bn-BatchNorm2d/gradBatchNorm/BNTrainingReduceGrad-op5830
+4 1890 253 1893 261
+2 1897 3338
+1897 Gradients/Default/network-WithLossCell/_backbone-InceptionV3/Mixed_5d-Inception_A/branch1-SequentialCell/0-BasicConv2d/conv-Conv2d/gradConv2D/Conv2DBackpropInput-op1814
+1 1896
+1 1935
+1900 Gradients/Default/network-WithLossCell/_backbone-InceptionV3/Mixed_6e-Inception_C/branch0-BasicConv2d/relu-ReLU/gradReLU/ReluGradV2-op6568
+2 1869 309
+2 1903 1906
+1903 Gradients/Default/network-WithLossCell/_backbone-InceptionV3/Mixed_6e-Inception_C/branch0-BasicConv2d/bn-BatchNorm2d/gradBatchNorm/BNTrainingUpdateGrad-op5832
+3 1900 301 309
+3 1906 3265 3270
+1906 Gradients/Default/network-WithLossCell/_backbone-InceptionV3/Mixed_6e-Inception_C/branch0-BasicConv2d/bn-BatchNorm2d/gradBatchNorm/BNTrainingReduceGrad-op5835
+4 1900 301 1903 309
+2 1908 3274
+1908 Gradients/Default/network-WithLossCell/_backbone-InceptionV3/Mixed_6e-Inception_C/branch0-BasicConv2d/relu-ReLU/gradReLU/FusionOp_Conv2DBackpropInput_ReluGradV2-op17823
+2 1906 297
+2 1911 1914
+1911 Gradients/Default/network-WithLossCell/_backbone-InceptionV3/Mixed_6e-Inception_C/branch0-BasicConv2d/bn-BatchNorm2d/gradBatchNorm/BNTrainingUpdateGrad-op5837
+3 1908 289 297
+3 1914 3281 3286
+1914 Gradients/Default/network-WithLossCell/_backbone-InceptionV3/Mixed_6e-Inception_C/branch0-BasicConv2d/bn-BatchNorm2d/gradBatchNorm/BNTrainingReduceGrad-op5840
+4 1908 289 1911 297
+2 1916 3290
+1916 Gradients/Default/network-WithLossCell/_backbone-InceptionV3/Mixed_6e-Inception_C/branch0-BasicConv2d/relu-ReLU/gradReLU/FusionOp_Conv2DBackpropInput_ReluGradV2-op17822
+2 1914 285
+2 1919 1922
+1919 Gradients/Default/network-WithLossCell/_backbone-InceptionV3/Mixed_6e-Inception_C/branch0-BasicConv2d/bn-BatchNorm2d/gradBatchNorm/BNTrainingUpdateGrad-op5842
+3 1916 277 285
+3 1922 3297 3302
+1922 Gradients/Default/network-WithLossCell/_backbone-InceptionV3/Mixed_6e-Inception_C/branch0-BasicConv2d/bn-BatchNorm2d/gradBatchNorm/BNTrainingReduceGrad-op5845
+4 1916 277 1919 285
+2 1923 3306
+1923 Gradients/Default/network-WithLossCell/_backbone-InceptionV3/Mixed_5d-Inception_A/branch0-BasicConv2d/conv-Conv2d/gradConv2D/Conv2DBackpropInput-op1835
+1 1922
+1 1935
+1926 Gradients/Default/network-WithLossCell/_backbone-InceptionV3/Mixed_6e-Inception_C/branch0-BasicConv2d/relu-ReLU/gradReLU/ReluGradV2-op6574
+2 1869 322
+2 1929 1932
+1929 Gradients/Default/network-WithLossCell/_backbone-InceptionV3/Mixed_6e-Inception_C/branch0-BasicConv2d/bn-BatchNorm2d/gradBatchNorm/BNTrainingUpdateGrad-op5847
+3 1926 314 322
+3 1932 3249 3254
+1932 Gradients/Default/network-WithLossCell/_backbone-InceptionV3/Mixed_6e-Inception_C/branch0-BasicConv2d/bn-BatchNorm2d/gradBatchNorm/BNTrainingReduceGrad-op5850
+4 1926 314 1929 322
+2 1933 3258
+1933 Gradients/Default/network-WithLossCell/_backbone-InceptionV3/Mixed_5d-Inception_A/branch0-BasicConv2d/conv-Conv2d/gradConv2D/Conv2DBackpropInput-op1842
+1 1932
+1 1935
+1935 Default/AddN-op1845
+4 1879 1897 1923 1933
+4 1938 1948 1966 1992
+1938 Gradients/Default/network-WithLossCell/_backbone-InceptionV3/Mixed_6e-Inception_C/branch0-BasicConv2d/relu-ReLU/gradReLU/ReluGradV2-op6576
+2 1935 163
+2 1941 1944
+1941 Gradients/Default/network-WithLossCell/_backbone-InceptionV3/Mixed_6e-Inception_C/branch0-BasicConv2d/bn-BatchNorm2d/gradBatchNorm/BNTrainingUpdateGrad-op5852
+3 1938 155 163
+3 1944 3457 3462
+1944 Gradients/Default/network-WithLossCell/_backbone-InceptionV3/Mixed_6e-Inception_C/branch0-BasicConv2d/bn-BatchNorm2d/gradBatchNorm/BNTrainingReduceGrad-op5855
+4 1938 155 1941 163
+2 1945 3466
+1945 Gradients/Default/network-WithLossCell/_backbone-InceptionV3/Mixed_5d-Inception_A/branch0-BasicConv2d/conv-Conv2d/gradConv2D/Conv2DBackpropInput-op1856
+1 1944
+1 2001
+1948 Gradients/Default/network-WithLossCell/_backbone-InceptionV3/Mixed_6e-Inception_C/branch0-BasicConv2d/relu-ReLU/gradReLU/ReluGradV2-op6578
+2 1935 187
+2 1951 1954
+1951 Gradients/Default/network-WithLossCell/_backbone-InceptionV3/Mixed_6e-Inception_C/branch0-BasicConv2d/bn-BatchNorm2d/gradBatchNorm/BNTrainingUpdateGrad-op5857
+3 1948 179 187
+3 1954 3425 3430
+1954 Gradients/Default/network-WithLossCell/_backbone-InceptionV3/Mixed_6e-Inception_C/branch0-BasicConv2d/bn-BatchNorm2d/gradBatchNorm/BNTrainingReduceGrad-op5860
+4 1948 179 1951 187
+2 1956 3434
+1956 Gradients/Default/network-WithLossCell/_backbone-InceptionV3/Mixed_6e-Inception_C/branch0-BasicConv2d/relu-ReLU/gradReLU/FusionOp_Conv2DBackpropInput_ReluGradV2-op17821
+2 1954 175
+2 1959 1962
+1959 Gradients/Default/network-WithLossCell/_backbone-InceptionV3/Mixed_6e-Inception_C/branch0-BasicConv2d/bn-BatchNorm2d/gradBatchNorm/BNTrainingUpdateGrad-op5862
+3 1956 167 175
+3 1962 3441 3446
+1962 Gradients/Default/network-WithLossCell/_backbone-InceptionV3/Mixed_6e-Inception_C/branch0-BasicConv2d/bn-BatchNorm2d/gradBatchNorm/BNTrainingReduceGrad-op5865
+4 1956 167 1959 175
+2 1963 3450
+1963 Gradients/Default/network-WithLossCell/_backbone-InceptionV3/Mixed_5d-Inception_A/branch1-SequentialCell/0-BasicConv2d/conv-Conv2d/gradConv2D/Conv2DBackpropInput-op1870
+1 1962
+1 2001
+1966 Gradients/Default/network-WithLossCell/_backbone-InceptionV3/Mixed_6e-Inception_C/branch0-BasicConv2d/relu-ReLU/gradReLU/ReluGradV2-op6582
+2 1935 223
+2 1969 1972
+1969 Gradients/Default/network-WithLossCell/_backbone-InceptionV3/Mixed_6e-Inception_C/branch0-BasicConv2d/bn-BatchNorm2d/gradBatchNorm/BNTrainingUpdateGrad-op5867
+3 1966 215 223
+3 1972 3377 3382
+1972 Gradients/Default/network-WithLossCell/_backbone-InceptionV3/Mixed_6e-Inception_C/branch0-BasicConv2d/bn-BatchNorm2d/gradBatchNorm/BNTrainingReduceGrad-op5870
+4 1966 215 1969 223
+2 1974 3386
+1974 Gradients/Default/network-WithLossCell/_backbone-InceptionV3/Mixed_6e-Inception_C/branch0-BasicConv2d/relu-ReLU/gradReLU/FusionOp_Conv2DBackpropInput_ReluGradV2-op17820
+2 1972 211
+2 1977 1980
+1977 Gradients/Default/network-WithLossCell/_backbone-InceptionV3/Mixed_6e-Inception_C/branch0-BasicConv2d/bn-BatchNorm2d/gradBatchNorm/BNTrainingUpdateGrad-op5872
+3 1974 203 211
+3 1980 3393 3398
+1980 Gradients/Default/network-WithLossCell/_backbone-InceptionV3/Mixed_6e-Inception_C/branch0-BasicConv2d/bn-BatchNorm2d/gradBatchNorm/BNTrainingReduceGrad-op5875
+4 1974 203 1977 211
+2 1982 3402
+1982 Gradients/Default/network-WithLossCell/_backbone-InceptionV3/Mixed_6e-Inception_C/branch0-BasicConv2d/relu-ReLU/gradReLU/FusionOp_Conv2DBackpropInput_ReluGradV2-op17819
+2 1980 199
+2 1985 1988
+1985 Gradients/Default/network-WithLossCell/_backbone-InceptionV3/Mixed_6e-Inception_C/branch0-BasicConv2d/bn-BatchNorm2d/gradBatchNorm/BNTrainingUpdateGrad-op5877
+3 1982 191 199
+3 1988 3409 3414
+1988 Gradients/Default/network-WithLossCell/_backbone-InceptionV3/Mixed_6e-Inception_C/branch0-BasicConv2d/bn-BatchNorm2d/gradBatchNorm/BNTrainingReduceGrad-op5880
+4 1982 191 1985 199
+2 1989 3418
+1989 Gradients/Default/network-WithLossCell/_backbone-InceptionV3/Mixed_5d-Inception_A/branch0-BasicConv2d/conv-Conv2d/gradConv2D/Conv2DBackpropInput-op1891
+1 1988
+1 2001
+1992 Gradients/Default/network-WithLossCell/_backbone-InceptionV3/Mixed_6e-Inception_C/branch0-BasicConv2d/relu-ReLU/gradReLU/ReluGradV2-op6588
+2 1935 236
+2 1995 1998
+1995 Gradients/Default/network-WithLossCell/_backbone-InceptionV3/Mixed_6e-Inception_C/branch0-BasicConv2d/bn-BatchNorm2d/gradBatchNorm/BNTrainingUpdateGrad-op5882
+3 1992 228 236
+3 1998 3361 3366
+1998 Gradients/Default/network-WithLossCell/_backbone-InceptionV3/Mixed_6e-Inception_C/branch0-BasicConv2d/bn-BatchNorm2d/gradBatchNorm/BNTrainingReduceGrad-op5885
+4 1992 228 1995 236
+2 1999 3370
+1999 Gradients/Default/network-WithLossCell/_backbone-InceptionV3/Mixed_5d-Inception_A/branch0-BasicConv2d/conv-Conv2d/gradConv2D/Conv2DBackpropInput-op1898
+1 1998
+1 2001
+2001 Default/AddN-op1901
+4 1945 1963 1989 1999
+4 2004 2014 2032 2058
+2004 Gradients/Default/network-WithLossCell/_backbone-InceptionV3/Mixed_6e-Inception_C/branch0-BasicConv2d/relu-ReLU/gradReLU/ReluGradV2-op6590
+2 2001 77
+2 2007 2010
+2007 Gradients/Default/network-WithLossCell/_backbone-InceptionV3/Mixed_6e-Inception_C/branch0-BasicConv2d/bn-BatchNorm2d/gradBatchNorm/BNTrainingUpdateGrad-op5887
+3 2004 69 77
+3 2010 3569 3574
+2010 Gradients/Default/network-WithLossCell/_backbone-InceptionV3/Mixed_6e-Inception_C/branch0-BasicConv2d/bn-BatchNorm2d/gradBatchNorm/BNTrainingReduceGrad-op5890
+4 2004 69 2007 77
+2 2011 3578
+2011 Gradients/Default/network-WithLossCell/_backbone-InceptionV3/Mixed_5d-Inception_A/branch0-BasicConv2d/conv-Conv2d/gradConv2D/Conv2DBackpropInput-op1912
+1 2010
+1 2067
+2014 Gradients/Default/network-WithLossCell/_backbone-InceptionV3/Mixed_6e-Inception_C/branch0-BasicConv2d/relu-ReLU/gradReLU/ReluGradV2-op6592
+2 2001 101
+2 2017 2020
+2017 Gradients/Default/network-WithLossCell/_backbone-InceptionV3/Mixed_6e-Inception_C/branch0-BasicConv2d/bn-BatchNorm2d/gradBatchNorm/BNTrainingUpdateGrad-op5892
+3 2014 93 101
+3 2020 3537 3542
+2020 Gradients/Default/network-WithLossCell/_backbone-InceptionV3/Mixed_6e-Inception_C/branch0-BasicConv2d/bn-BatchNorm2d/gradBatchNorm/BNTrainingReduceGrad-op5895
+4 2014 93 2017 101
+2 2022 3546
+2022 Gradients/Default/network-WithLossCell/_backbone-InceptionV3/Mixed_6e-Inception_C/branch0-BasicConv2d/relu-ReLU/gradReLU/FusionOp_Conv2DBackpropInput_ReluGradV2-op17818
+2 2020 89
+2 2025 2028
+2025 Gradients/Default/network-WithLossCell/_backbone-InceptionV3/Mixed_6e-Inception_C/branch0-BasicConv2d/bn-BatchNorm2d/gradBatchNorm/BNTrainingUpdateGrad-op5897
+3 2022 81 89
+3 2028 3553 3558
+2028 Gradients/Default/network-WithLossCell/_backbone-InceptionV3/Mixed_6e-Inception_C/branch0-BasicConv2d/bn-BatchNorm2d/gradBatchNorm/BNTrainingReduceGrad-op5900
+4 2022 81 2025 89
+2 2029 3562
+2029 Gradients/Default/network-WithLossCell/_backbone-InceptionV3/Mixed_5d-Inception_A/branch1-SequentialCell/0-BasicConv2d/conv-Conv2d/gradConv2D/Conv2DBackpropInput-op1926
+1 2028
+1 2067
+2032 Gradients/Default/network-WithLossCell/_backbone-InceptionV3/Mixed_6e-Inception_C/branch0-BasicConv2d/relu-ReLU/gradReLU/ReluGradV2-op6596
+2 2001 137
+2 2035 2038
+2035 Gradients/Default/network-WithLossCell/_backbone-InceptionV3/Mixed_6e-Inception_C/branch0-BasicConv2d/bn-BatchNorm2d/gradBatchNorm/BNTrainingUpdateGrad-op5902
+3 2032 129 137
+3 2038 3489 3494
+2038 Gradients/Default/network-WithLossCell/_backbone-InceptionV3/Mixed_6e-Inception_C/branch0-BasicConv2d/bn-BatchNorm2d/gradBatchNorm/BNTrainingReduceGrad-op5905
+4 2032 129 2035 137
+2 2040 3498
+2040 Gradients/Default/network-WithLossCell/_backbone-InceptionV3/Mixed_6e-Inception_C/branch0-BasicConv2d/relu-ReLU/gradReLU/FusionOp_Conv2DBackpropInput_ReluGradV2-op17817
+2 2038 125
+2 2043 2046
+2043 Gradients/Default/network-WithLossCell/_backbone-InceptionV3/Mixed_6e-Inception_C/branch0-BasicConv2d/bn-BatchNorm2d/gradBatchNorm/BNTrainingUpdateGrad-op5907
+3 2040 117 125
+3 2046 3505 3510
+2046 Gradients/Default/network-WithLossCell/_backbone-InceptionV3/Mixed_6e-Inception_C/branch0-BasicConv2d/bn-BatchNorm2d/gradBatchNorm/BNTrainingReduceGrad-op5910
+4 2040 117 2043 125
+2 2048 3514
+2048 Gradients/Default/network-WithLossCell/_backbone-InceptionV3/Mixed_6e-Inception_C/branch0-BasicConv2d/relu-ReLU/gradReLU/FusionOp_Conv2DBackpropInput_ReluGradV2-op17816
+2 2046 113
+2 2051 2054
+2051 Gradients/Default/network-WithLossCell/_backbone-InceptionV3/Mixed_6e-Inception_C/branch0-BasicConv2d/bn-BatchNorm2d/gradBatchNorm/BNTrainingUpdateGrad-op5912
+3 2048 105 113
+3 2054 3521 3526
+2054 Gradients/Default/network-WithLossCell/_backbone-InceptionV3/Mixed_6e-Inception_C/branch0-BasicConv2d/bn-BatchNorm2d/gradBatchNorm/BNTrainingReduceGrad-op5915
+4 2048 105 2051 113
+2 2055 3530
+2055 Gradients/Default/network-WithLossCell/_backbone-InceptionV3/Mixed_5d-Inception_A/branch0-BasicConv2d/conv-Conv2d/gradConv2D/Conv2DBackpropInput-op1947
+1 2054
+1 2067
+2058 Gradients/Default/network-WithLossCell/_backbone-InceptionV3/Mixed_6e-Inception_C/branch0-BasicConv2d/relu-ReLU/gradReLU/ReluGradV2-op6602
+2 2001 150
+2 2061 2064
+2061 Gradients/Default/network-WithLossCell/_backbone-InceptionV3/Mixed_6e-Inception_C/branch0-BasicConv2d/bn-BatchNorm2d/gradBatchNorm/BNTrainingUpdateGrad-op5917
+3 2058 142 150
+3 2064 3473 3478
+2064 Gradients/Default/network-WithLossCell/_backbone-InceptionV3/Mixed_6e-Inception_C/branch0-BasicConv2d/bn-BatchNorm2d/gradBatchNorm/BNTrainingReduceGrad-op5920
+4 2058 142 2061 150
+2 2065 3482
+2065 Gradients/Default/network-WithLossCell/_backbone-InceptionV3/Mixed_5b-Inception_A/branch_pool-SequentialCell/1-BasicConv2d/conv-Conv2d/gradConv2D/Conv2DBackpropInput-op1954
+1 2064
+1 2067
+2067 Default/AddN-op1957
+4 2011 2029 2055 2065
+1 2069
+2069 Gradients/Default/network-WithLossCell/_backbone-InceptionV3/Mixed_7a-Inception_D/branch_pool-MaxPool2d/gradMaxPool/MaxPoolGradWithArgmax-op4414
+3 63 2067 65
+1 2071
+2071 Gradients/Default/network-WithLossCell/_backbone-InceptionV3/Mixed_6e-Inception_C/branch0-BasicConv2d/relu-ReLU/gradReLU/ReluGradV2-op6604
+2 2069 63
+2 2074 2077
+2074 Gradients/Default/network-WithLossCell/_backbone-InceptionV3/Mixed_6e-Inception_C/branch0-BasicConv2d/bn-BatchNorm2d/gradBatchNorm/BNTrainingUpdateGrad-op5922
+3 2071 55 63
+3 2077 3585 3590
+2077 Gradients/Default/network-WithLossCell/_backbone-InceptionV3/Mixed_6e-Inception_C/branch0-BasicConv2d/bn-BatchNorm2d/gradBatchNorm/BNTrainingReduceGrad-op5925
+4 2071 55 2074 63
+2 2079 3594
+2079 Gradients/Default/network-WithLossCell/_backbone-InceptionV3/Mixed_6e-Inception_C/branch0-BasicConv2d/relu-ReLU/gradReLU/FusionOp_Conv2DBackpropInput_ReluGradV2-op17815
+2 2077 51
+2 2082 2085
+2082 Gradients/Default/network-WithLossCell/_backbone-InceptionV3/Mixed_6e-Inception_C/branch0-BasicConv2d/bn-BatchNorm2d/gradBatchNorm/BNTrainingUpdateGrad-op5927
+3 2079 43 51
+3 2085 3601 3606
+2085 Gradients/Default/network-WithLossCell/_backbone-InceptionV3/Mixed_6e-Inception_C/branch0-BasicConv2d/bn-BatchNorm2d/gradBatchNorm/BNTrainingReduceGrad-op5930
+4 2079 43 2082 51
+2 2086 3610
+2086 Gradients/Default/network-WithLossCell/_backbone-InceptionV3/Conv2d_3b-BasicConv2d/conv-Conv2d/gradConv2D/Conv2DBackpropInput-op1972
+1 2085
+1 2088
+2088 Gradients/Default/network-WithLossCell/_backbone-InceptionV3/Mixed_7a-Inception_D/branch_pool-MaxPool2d/gradMaxPool/MaxPoolGradWithArgmax-op4416
+3 37 2086 39
+1 2090
+2090 Gradients/Default/network-WithLossCell/_backbone-InceptionV3/Mixed_6e-Inception_C/branch0-BasicConv2d/relu-ReLU/gradReLU/ReluGradV2-op6608
+2 2088 37
+2 2093 2096
+2093 Gradients/Default/network-WithLossCell/_backbone-InceptionV3/Mixed_6e-Inception_C/branch0-BasicConv2d/bn-BatchNorm2d/gradBatchNorm/BNTrainingUpdateGrad-op5932
+3 2090 29 37
+3 2096 3617 3622
+2096 Gradients/Default/network-WithLossCell/_backbone-InceptionV3/Mixed_6e-Inception_C/branch0-BasicConv2d/bn-BatchNorm2d/gradBatchNorm/BNTrainingReduceGrad-op5935
+4 2090 29 2093 37
+2 2098 3626
+2098 Gradients/Default/network-WithLossCell/_backbone-InceptionV3/Mixed_6e-Inception_C/branch0-BasicConv2d/relu-ReLU/gradReLU/FusionOp_Conv2DBackpropInput_ReluGradV2-op17814
+2 2096 25
+2 2101 2104
+2101 Gradients/Default/network-WithLossCell/_backbone-InceptionV3/Mixed_6e-Inception_C/branch0-BasicConv2d/bn-BatchNorm2d/gradBatchNorm/BNTrainingUpdateGrad-op5937
+3 2098 17 25
+3 2104 3633 3638
+2104 Gradients/Default/network-WithLossCell/_backbone-InceptionV3/Mixed_6e-Inception_C/branch0-BasicConv2d/bn-BatchNorm2d/gradBatchNorm/BNTrainingReduceGrad-op5940
+4 2098 17 2101 25
+2 2106 3642
+2106 Gradients/Default/network-WithLossCell/_backbone-InceptionV3/Mixed_6e-Inception_C/branch0-BasicConv2d/relu-ReLU/gradReLU/FusionOp_Conv2DBackpropInput_ReluGradV2-op17813
+2 2104 13
+2 2109 2112
+2109 Gradients/Default/network-WithLossCell/_backbone-InceptionV3/Mixed_6e-Inception_C/branch0-BasicConv2d/bn-BatchNorm2d/gradBatchNorm/BNTrainingUpdateGrad-op5942
+3 2106 5 13
+3 2112 3649 3654
+2112 Gradients/Default/network-WithLossCell/_backbone-InceptionV3/Mixed_6e-Inception_C/branch0-BasicConv2d/bn-BatchNorm2d/gradBatchNorm/BNTrainingReduceGrad-op5945
+4 2106 5 2109 13
+1 2113
+2113 Gradients/Default/network-WithLossCell/_backbone-InceptionV3/Conv2d_1a-BasicConv2d/conv-Conv2d/gradConv2D/Conv2DBackpropFilter-op1994
+2 2112 2
+0
+2127 Gradients/Default/network-WithLossCell/_backbone-InceptionV3/aux_logits-AuxLogits/fc-Dense/gradMatMul/MatMul-op2012
+2 1212 1168
+1 2128
+2128 Gradients/Default/network-WithLossCell/_backbone-InceptionV3/aux_logits-AuxLogits/fc-Dense/gradMatMul/TransData-op8824
+1 2127
+0
+2141 Gradients/Default/network-WithLossCell/_backbone-InceptionV3/aux_logits-AuxLogits/fc-Dense/gradMatMul/MatMul-op2028
+2 1457 1190
+1 2142
+2142 Gradients/Default/network-WithLossCell/_backbone-InceptionV3/aux_logits-AuxLogits/fc-Dense/gradMatMul/TransData-op8821
+1 2141
+0
+2148 Gradients/Default/network-WithLossCell/_backbone-InceptionV3/aux_logits-AuxLogits/conv2d_1-Conv2d/gradConv2D/Conv2DBackpropFilter-op2036
+2 1461 1184
+0
+2154 Gradients/Default/network-WithLossCell/_backbone-InceptionV3/aux_logits-AuxLogits/conv2d_0-Conv2d/gradConv2D/Conv2DBackpropFilter-op2044
+5 1462 752 788 848 861
+0
+2161 Default/optimizer-RMSProp/Mul-op2054
+1 1302
+0
+2166 Default/optimizer-RMSProp/Mul-op2061
+1 1302
+0
+2170 Gradients/Default/network-WithLossCell/_backbone-InceptionV3/Mixed_6e-Inception_C/branch0-BasicConv2d/conv-Conv2d/gradConv2D/Conv2DBackpropFilter-op2066
+7 1305 949 973 985 1022 1034 1048
+0
+2177 Default/optimizer-RMSProp/Mul-op2076
+1 1266
+0
+2182 Default/optimizer-RMSProp/Mul-op2083
+1 1266
+0
+2186 Gradients/Default/network-WithLossCell/_backbone-InceptionV3/Mixed_7b-Inception_E/branch2_b-BasicConv2d/conv-Conv2d/gradConv2D/Conv2DBackpropFilter-op2088
+2 1269 1122
+0
+2193 Default/optimizer-RMSProp/Mul-op2098
+1 1275
+0
+2198 Default/optimizer-RMSProp/Mul-op2105
+1 1275
+0
+2202 Gradients/Default/network-WithLossCell/_backbone-InceptionV3/Mixed_7b-Inception_E/branch2_a-BasicConv2d/conv-Conv2d/gradConv2D/Conv2DBackpropFilter-op2110
+2 1278 1122
+0
+2209 Default/optimizer-RMSProp/Mul-op2120
+1 1284
+0
+2214 Default/optimizer-RMSProp/Mul-op2127
+1 1284
+0
+2218 Gradients/Default/network-WithLossCell/_backbone-InceptionV3/Mixed_7b-Inception_E/branch2-SequentialCell/1-BasicConv2d/conv-Conv2d/gradConv2D/Conv2DBackpropFilter-op2132
+2 1287 1110
+0
+2225 Default/optimizer-RMSProp/Mul-op2142
+1 1292
+0
+2230 Default/optimizer-RMSProp/Mul-op2149
+1 1292
+0
+2234 Gradients/Default/network-WithLossCell/_backbone-InceptionV3/Mixed_7b-Inception_E/branch2-SequentialCell/0-BasicConv2d/conv-Conv2d/gradConv2D/Conv2DBackpropFilter-op2154
+7 1295 949 973 985 1022 1034 1048
+0
+2241 Default/optimizer-RMSProp/Mul-op2164
+1 1236
+0
+2246 Default/optimizer-RMSProp/Mul-op2171
+1 1236
+0
+2250 Gradients/Default/network-WithLossCell/_backbone-InceptionV3/Mixed_7b-Inception_E/branch2_b-BasicConv2d/conv-Conv2d/gradConv2D/Conv2DBackpropFilter-op2176
+2 1239 1073
+0
+2257 Default/optimizer-RMSProp/Mul-op2186
+1 1245
+0
+2262 Default/optimizer-RMSProp/Mul-op2193
+1 1245
+0
+2266 Gradients/Default/network-WithLossCell/_backbone-InceptionV3/Mixed_7b-Inception_E/branch2_a-BasicConv2d/conv-Conv2d/gradConv2D/Conv2DBackpropFilter-op2198
+2 1248 1073
+0
+2273 Default/optimizer-RMSProp/Mul-op2208
+1 1254
+0
+2278 Default/optimizer-RMSProp/Mul-op2215
+1 1254
+0
+2282 Gradients/Default/network-WithLossCell/_backbone-InceptionV3/Mixed_7b-Inception_E/branch1-BasicConv2d/conv-Conv2d/gradConv2D/Conv2DBackpropFilter-op2220
+7 1257 949 973 985 1022 1034 1048
+0
+2289 Default/optimizer-RMSProp/Mul-op2230
+1 1224
+0
+2294 Default/optimizer-RMSProp/Mul-op2237
+1 1224
+0
+2298 Gradients/Default/network-WithLossCell/_backbone-InceptionV3/Mixed_7b-Inception_E/branch0-BasicConv2d/conv-Conv2d/gradConv2D/Conv2DBackpropFilter-op2242
+7 1227 949 973 985 1022 1034 1048
+0
+2305 Default/optimizer-RMSProp/Mul-op2252
+1 1392
+0
+2310 Default/optimizer-RMSProp/Mul-op2259
+1 1392
+0
+2314 Gradients/Default/network-WithLossCell/_backbone-InceptionV3/Mixed_6e-Inception_C/branch0-BasicConv2d/conv-Conv2d/gradConv2D/Conv2DBackpropFilter-op2264
+4 1395 886 934 936
+0
+2321 Default/optimizer-RMSProp/Mul-op2274
+1 1356
+0
+2326 Default/optimizer-RMSProp/Mul-op2281
+1 1356
+0
+2330 Gradients/Default/network-WithLossCell/_backbone-InceptionV3/Mixed_7b-Inception_E/branch2_b-BasicConv2d/conv-Conv2d/gradConv2D/Conv2DBackpropFilter-op2286
+2 1359 1010
+0
+2337 Default/optimizer-RMSProp/Mul-op2296
+1 1365
+0
+2342 Default/optimizer-RMSProp/Mul-op2303
+1 1365
+0
+2346 Gradients/Default/network-WithLossCell/_backbone-InceptionV3/Mixed_7b-Inception_E/branch2_a-BasicConv2d/conv-Conv2d/gradConv2D/Conv2DBackpropFilter-op2308
+2 1368 1010
+0
+2353 Default/optimizer-RMSProp/Mul-op2318
+1 1374
+0
+2358 Default/optimizer-RMSProp/Mul-op2325
+1 1374
+0
+2362 Gradients/Default/network-WithLossCell/_backbone-InceptionV3/Mixed_7b-Inception_E/branch2-SequentialCell/1-BasicConv2d/conv-Conv2d/gradConv2D/Conv2DBackpropFilter-op2330
+2 1377 998
+0
+2369 Default/optimizer-RMSProp/Mul-op2340
+1 1382
+0
+2374 Default/optimizer-RMSProp/Mul-op2347
+1 1382
+0
+2378 Gradients/Default/network-WithLossCell/_backbone-InceptionV3/Mixed_7b-Inception_E/branch2-SequentialCell/0-BasicConv2d/conv-Conv2d/gradConv2D/Conv2DBackpropFilter-op2352
+4 1385 886 934 936
+0
+2385 Default/optimizer-RMSProp/Mul-op2362
+1 1326
+0
+2390 Default/optimizer-RMSProp/Mul-op2369
+1 1326
+0
+2394 Gradients/Default/network-WithLossCell/_backbone-InceptionV3/Mixed_7b-Inception_E/branch2_b-BasicConv2d/conv-Conv2d/gradConv2D/Conv2DBackpropFilter-op2374
+2 1329 961
+0
+2401 Default/optimizer-RMSProp/Mul-op2384
+1 1335
+0
+2406 Default/optimizer-RMSProp/Mul-op2391
+1 1335
+0
+2410 Gradients/Default/network-WithLossCell/_backbone-InceptionV3/Mixed_7b-Inception_E/branch2_a-BasicConv2d/conv-Conv2d/gradConv2D/Conv2DBackpropFilter-op2396
+2 1338 961
+0
+2417 Default/optimizer-RMSProp/Mul-op2406
+1 1344
+0
+2422 Default/optimizer-RMSProp/Mul-op2413
+1 1344
+0
+2426 Gradients/Default/network-WithLossCell/_backbone-InceptionV3/Mixed_7b-Inception_E/branch1-BasicConv2d/conv-Conv2d/gradConv2D/Conv2DBackpropFilter-op2418
+4 1347 886 934 936
+0
+2433 Default/optimizer-RMSProp/Mul-op2428
+1 1314
+0
+2438 Default/optimizer-RMSProp/Mul-op2435
+1 1314
+0
+2442 Gradients/Default/network-WithLossCell/_backbone-InceptionV3/Mixed_7b-Inception_E/branch0-BasicConv2d/conv-Conv2d/gradConv2D/Conv2DBackpropFilter-op2440
+4 1317 886 934 936
+0
+2449 Default/optimizer-RMSProp/Mul-op2450
+1 1422
+0
+2454 Default/optimizer-RMSProp/Mul-op2457
+1 1422
+0
+2458 Gradients/Default/network-WithLossCell/_backbone-InceptionV3/Mixed_7a-Inception_D/branch1-SequentialCell/3-BasicConv2d/conv-Conv2d/gradConv2D/Conv2DBackpropFilter-op2462
+2 1425 922
+0
+2465 Default/optimizer-RMSProp/Mul-op2472
+1 1430
+0
+2470 Default/optimizer-RMSProp/Mul-op2479
+1 1430
+0
+2474 Gradients/Default/network-WithLossCell/_backbone-InceptionV3/Mixed_6e-Inception_C/branch2-SequentialCell/1-BasicConv2d/conv-Conv2d/gradConv2D/Conv2DBackpropFilter-op2484
+2 1433 910
+0
+2481 Default/optimizer-RMSProp/Mul-op2494
+1 1438
+0
+2486 Default/optimizer-RMSProp/Mul-op2501
+1 1438
+0
+2490 Gradients/Default/network-WithLossCell/_backbone-InceptionV3/Mixed_7a-Inception_D/branch1-SequentialCell/1-BasicConv2d/conv-Conv2d/gradConv2D/Conv2DBackpropFilter-op2506
+2 1441 898
+0
+2497 Default/optimizer-RMSProp/Mul-op2516
+1 1446
+0
+2502 Default/optimizer-RMSProp/Mul-op2523
+1 1446
+0
+2506 Gradients/Default/network-WithLossCell/_backbone-InceptionV3/Mixed_6e-Inception_C/branch0-BasicConv2d/conv-Conv2d/gradConv2D/Conv2DBackpropFilter-op2528
+5 1449 752 788 848 861
+0
+2513 Default/optimizer-RMSProp/Mul-op2538
+1 1404
+0
+2518 Default/optimizer-RMSProp/Mul-op2545
+1 1404
+0
+2522 Gradients/Default/network-WithLossCell/_backbone-InceptionV3/Mixed_7a-Inception_D/branch0-SequentialCell/1-BasicConv2d/conv-Conv2d/gradConv2D/Conv2DBackpropFilter-op2550
+2 1407 874
+0
+2529 Default/optimizer-RMSProp/Mul-op2560
+1 1412
+0
+2534 Default/optimizer-RMSProp/Mul-op2567
+1 1412
+0
+2538 Gradients/Default/network-WithLossCell/_backbone-InceptionV3/Mixed_6e-Inception_C/branch0-BasicConv2d/conv-Conv2d/gradConv2D/Conv2DBackpropFilter-op2572
+5 1415 752 788 848 861
+0
+2545 Default/optimizer-RMSProp/Mul-op2582
+1 1550
+0
+2550 Default/optimizer-RMSProp/Mul-op2589
+1 1550
+0
+2554 Gradients/Default/network-WithLossCell/_backbone-InceptionV3/Mixed_6e-Inception_C/branch0-BasicConv2d/conv-Conv2d/gradConv2D/Conv2DBackpropFilter-op2594
+5 1553 630 666 726 739
+0
+2561 Default/optimizer-RMSProp/Mul-op2604
+1 1508
+0
+2566 Default/optimizer-RMSProp/Mul-op2611
+1 1508
+0
+2570 Gradients/Default/network-WithLossCell/_backbone-InceptionV3/Mixed_7a-Inception_D/branch1-SequentialCell/1-BasicConv2d/conv-Conv2d/gradConv2D/Conv2DBackpropFilter-op2616
+2 1511 836
+0
+2577 Default/optimizer-RMSProp/Mul-op2626
+1 1516
+0
+2582 Default/optimizer-RMSProp/Mul-op2633
+1 1516
+0
+2586 Gradients/Default/network-WithLossCell/_backbone-InceptionV3/Mixed_6e-Inception_C/branch2-SequentialCell/1-BasicConv2d/conv-Conv2d/gradConv2D/Conv2DBackpropFilter-op2638
+2 1519 824
+0
+2593 Default/optimizer-RMSProp/Mul-op2648
+1 1524
+0
+2598 Default/optimizer-RMSProp/Mul-op2655
+1 1524
+0
+2602 Gradients/Default/network-WithLossCell/_backbone-InceptionV3/Mixed_7a-Inception_D/branch1-SequentialCell/1-BasicConv2d/conv-Conv2d/gradConv2D/Conv2DBackpropFilter-op2660
+2 1527 812
+0
+2609 Default/optimizer-RMSProp/Mul-op2670
+1 1532
+0
+2614 Default/optimizer-RMSProp/Mul-op2677
+1 1532
+0
+2618 Gradients/Default/network-WithLossCell/_backbone-InceptionV3/Mixed_6e-Inception_C/branch2-SequentialCell/1-BasicConv2d/conv-Conv2d/gradConv2D/Conv2DBackpropFilter-op2682
+2 1535 800
+0
+2625 Default/optimizer-RMSProp/Mul-op2692
+1 1540
+0
+2630 Default/optimizer-RMSProp/Mul-op2699
+1 1540
+0
+2634 Gradients/Default/network-WithLossCell/_backbone-InceptionV3/Mixed_6e-Inception_C/branch0-BasicConv2d/conv-Conv2d/gradConv2D/Conv2DBackpropFilter-op2704
+5 1543 630 666 726 739
+0
+2641 Default/optimizer-RMSProp/Mul-op2714
+1 1482
+0
+2646 Default/optimizer-RMSProp/Mul-op2721
+1 1482
+0
+2650 Gradients/Default/network-WithLossCell/_backbone-InceptionV3/Mixed_6e-Inception_C/branch2-SequentialCell/1-BasicConv2d/conv-Conv2d/gradConv2D/Conv2DBackpropFilter-op2726
+2 1485 776
+0
+2657 Default/optimizer-RMSProp/Mul-op2736
+1 1490
+0
+2662 Default/optimizer-RMSProp/Mul-op2743
+1 1490
+0
+2666 Gradients/Default/network-WithLossCell/_backbone-InceptionV3/Mixed_7a-Inception_D/branch1-SequentialCell/1-BasicConv2d/conv-Conv2d/gradConv2D/Conv2DBackpropFilter-op2748
+2 1493 764
+0
+2673 Default/optimizer-RMSProp/Mul-op2758
+1 1498
+0
+2678 Default/optimizer-RMSProp/Mul-op2765
+1 1498
+0
+2682 Gradients/Default/network-WithLossCell/_backbone-InceptionV3/Mixed_6e-Inception_C/branch0-BasicConv2d/conv-Conv2d/gradConv2D/Conv2DBackpropFilter-op2770
+5 1501 630 666 726 739
+0
+2689 Default/optimizer-RMSProp/Mul-op2780
+1 1472
+0
+2694 Default/optimizer-RMSProp/Mul-op2787
+1 1472
+0
+2698 Gradients/Default/network-WithLossCell/_backbone-InceptionV3/Mixed_6e-Inception_C/branch0-BasicConv2d/conv-Conv2d/gradConv2D/Conv2DBackpropFilter-op2792
+5 1475 630 666 726 739
+0
+2705 Default/optimizer-RMSProp/Mul-op2802
+1 1641
+0
+2710 Default/optimizer-RMSProp/Mul-op2809
+1 1641
+0
+2714 Gradients/Default/network-WithLossCell/_backbone-InceptionV3/Mixed_6e-Inception_C/branch0-BasicConv2d/conv-Conv2d/gradConv2D/Conv2DBackpropFilter-op2814
+5 1644 508 544 604 617
+0
+2721 Default/optimizer-RMSProp/Mul-op2824
+1 1599
+0
+2726 Default/optimizer-RMSProp/Mul-op2831
+1 1599
+0
+2730 Gradients/Default/network-WithLossCell/_backbone-InceptionV3/Mixed_7a-Inception_D/branch1-SequentialCell/1-BasicConv2d/conv-Conv2d/gradConv2D/Conv2DBackpropFilter-op2836
+2 1602 714
+0
+2737 Default/optimizer-RMSProp/Mul-op2846
+1 1607
+0
+2742 Default/optimizer-RMSProp/Mul-op2853
+1 1607
+0
+2746 Gradients/Default/network-WithLossCell/_backbone-InceptionV3/Mixed_6d-Inception_C/branch2-SequentialCell/1-BasicConv2d/conv-Conv2d/gradConv2D/Conv2DBackpropFilter-op2858
+2 1610 702
+0
+2753 Default/optimizer-RMSProp/Mul-op2868
+1 1615
+0
+2758 Default/optimizer-RMSProp/Mul-op2875
+1 1615
+0
+2762 Gradients/Default/network-WithLossCell/_backbone-InceptionV3/Mixed_6d-Inception_C/branch1-SequentialCell/1-BasicConv2d/conv-Conv2d/gradConv2D/Conv2DBackpropFilter-op2880
+2 1618 690
+0
+2769 Default/optimizer-RMSProp/Mul-op2890
+1 1623
+0
+2774 Default/optimizer-RMSProp/Mul-op2897
+1 1623
+0
+2778 Gradients/Default/network-WithLossCell/_backbone-InceptionV3/Mixed_6d-Inception_C/branch2-SequentialCell/1-BasicConv2d/conv-Conv2d/gradConv2D/Conv2DBackpropFilter-op2902
+2 1626 678
+0
+2785 Default/optimizer-RMSProp/Mul-op2912
+1 1631
+0
+2790 Default/optimizer-RMSProp/Mul-op2919
+1 1631
+0
+2794 Gradients/Default/network-WithLossCell/_backbone-InceptionV3/Mixed_6d-Inception_C/branch2-SequentialCell/0-BasicConv2d/conv-Conv2d/gradConv2D/Conv2DBackpropFilter-op2924
+5 1634 508 544 604 617
+0
+2801 Default/optimizer-RMSProp/Mul-op2934
+1 1573
+0
+2806 Default/optimizer-RMSProp/Mul-op2941
+1 1573
+0
+2810 Gradients/Default/network-WithLossCell/_backbone-InceptionV3/Mixed_6e-Inception_C/branch2-SequentialCell/1-BasicConv2d/conv-Conv2d/gradConv2D/Conv2DBackpropFilter-op2946
+2 1576 654
+0
+2817 Default/optimizer-RMSProp/Mul-op2956
+1 1581
+0
+2822 Default/optimizer-RMSProp/Mul-op2963
+1 1581
+0
+2826 Gradients/Default/network-WithLossCell/_backbone-InceptionV3/Mixed_6d-Inception_C/branch1-SequentialCell/1-BasicConv2d/conv-Conv2d/gradConv2D/Conv2DBackpropFilter-op2968
+2 1584 642
+0
+2833 Default/optimizer-RMSProp/Mul-op2978
+1 1589
+0
+2838 Default/optimizer-RMSProp/Mul-op2985
+1 1589
+0
+2842 Gradients/Default/network-WithLossCell/_backbone-InceptionV3/Mixed_6d-Inception_C/branch2-SequentialCell/0-BasicConv2d/conv-Conv2d/gradConv2D/Conv2DBackpropFilter-op2990
+5 1592 508 544 604 617
+0
+2849 Default/optimizer-RMSProp/Mul-op3000
+1 1563
+0
+2854 Default/optimizer-RMSProp/Mul-op3007
+1 1563
+0
+2858 Gradients/Default/network-WithLossCell/_backbone-InceptionV3/Mixed_6e-Inception_C/branch0-BasicConv2d/conv-Conv2d/gradConv2D/Conv2DBackpropFilter-op3012
+5 1566 508 544 604 617
+0
+2865 Default/optimizer-RMSProp/Mul-op3022
+1 1732
+0
+2870 Default/optimizer-RMSProp/Mul-op3029
+1 1732
+0
+2874 Gradients/Default/network-WithLossCell/_backbone-InceptionV3/Mixed_6e-Inception_C/branch0-BasicConv2d/conv-Conv2d/gradConv2D/Conv2DBackpropFilter-op3034
+5 1735 386 422 482 495
+0
+2881 Default/optimizer-RMSProp/Mul-op3044
+1 1690
+0
+2886 Default/optimizer-RMSProp/Mul-op3051
+1 1690
+0
+2890 Gradients/Default/network-WithLossCell/_backbone-InceptionV3/Mixed_7a-Inception_D/branch1-SequentialCell/1-BasicConv2d/conv-Conv2d/gradConv2D/Conv2DBackpropFilter-op3056
+2 1693 592
+0
+2897 Default/optimizer-RMSProp/Mul-op3066
+1 1698
+0
+2902 Default/optimizer-RMSProp/Mul-op3073
+1 1698
+0
+2906 Gradients/Default/network-WithLossCell/_backbone-InceptionV3/Mixed_6d-Inception_C/branch2-SequentialCell/1-BasicConv2d/conv-Conv2d/gradConv2D/Conv2DBackpropFilter-op3078
+2 1701 580
+0
+2913 Default/optimizer-RMSProp/Mul-op3088
+1 1706
+0
+2918 Default/optimizer-RMSProp/Mul-op3095
+1 1706
+0
+2922 Gradients/Default/network-WithLossCell/_backbone-InceptionV3/Mixed_6d-Inception_C/branch1-SequentialCell/1-BasicConv2d/conv-Conv2d/gradConv2D/Conv2DBackpropFilter-op3100
+2 1709 568
+0
+2929 Default/optimizer-RMSProp/Mul-op3110
+1 1714
+0
+2934 Default/optimizer-RMSProp/Mul-op3117
+1 1714
+0
+2938 Gradients/Default/network-WithLossCell/_backbone-InceptionV3/Mixed_6d-Inception_C/branch2-SequentialCell/1-BasicConv2d/conv-Conv2d/gradConv2D/Conv2DBackpropFilter-op3122
+2 1717 556
+0
+2945 Default/optimizer-RMSProp/Mul-op3132
+1 1722
+0
+2950 Default/optimizer-RMSProp/Mul-op3139
+1 1722
+0
+2954 Gradients/Default/network-WithLossCell/_backbone-InceptionV3/Mixed_6d-Inception_C/branch2-SequentialCell/0-BasicConv2d/conv-Conv2d/gradConv2D/Conv2DBackpropFilter-op3144
+5 1725 386 422 482 495
+0
+2961 Default/optimizer-RMSProp/Mul-op3154
+1 1664
+0
+2966 Default/optimizer-RMSProp/Mul-op3161
+1 1664
+0
+2970 Gradients/Default/network-WithLossCell/_backbone-InceptionV3/Mixed_6e-Inception_C/branch2-SequentialCell/1-BasicConv2d/conv-Conv2d/gradConv2D/Conv2DBackpropFilter-op3166
+2 1667 532
+0
+2977 Default/optimizer-RMSProp/Mul-op3176
+1 1672
+0
+2982 Default/optimizer-RMSProp/Mul-op3183
+1 1672
+0
+2986 Gradients/Default/network-WithLossCell/_backbone-InceptionV3/Mixed_6d-Inception_C/branch1-SequentialCell/1-BasicConv2d/conv-Conv2d/gradConv2D/Conv2DBackpropFilter-op3188
+2 1675 520
+0
+2993 Default/optimizer-RMSProp/Mul-op3198
+1 1680
+0
+2998 Default/optimizer-RMSProp/Mul-op3205
+1 1680
+0
+3002 Gradients/Default/network-WithLossCell/_backbone-InceptionV3/Mixed_6d-Inception_C/branch2-SequentialCell/0-BasicConv2d/conv-Conv2d/gradConv2D/Conv2DBackpropFilter-op3210
+5 1683 386 422 482 495
+0
+3009 Default/optimizer-RMSProp/Mul-op3220
+1 1654
+0
+3014 Default/optimizer-RMSProp/Mul-op3227
+1 1654
+0
+3018 Gradients/Default/network-WithLossCell/_backbone-InceptionV3/Mixed_6e-Inception_C/branch0-BasicConv2d/conv-Conv2d/gradConv2D/Conv2DBackpropFilter-op3232
+5 1657 386 422 482 495
+0
+3025 Default/optimizer-RMSProp/Mul-op3242
+1 1823
+0
+3030 Default/optimizer-RMSProp/Mul-op3249
+1 1823
+0
+3034 Gradients/Default/network-WithLossCell/_backbone-InceptionV3/Mixed_6e-Inception_C/branch0-BasicConv2d/conv-Conv2d/gradConv2D/Conv2DBackpropFilter-op3254
+4 1826 335 371 373
+0
+3041 Default/optimizer-RMSProp/Mul-op3264
+1 1781
+0
+3046 Default/optimizer-RMSProp/Mul-op3271
+1 1781
+0
+3050 Gradients/Default/network-WithLossCell/_backbone-InceptionV3/Mixed_7a-Inception_D/branch1-SequentialCell/1-BasicConv2d/conv-Conv2d/gradConv2D/Conv2DBackpropFilter-op3276
+2 1784 470
+0
+3057 Default/optimizer-RMSProp/Mul-op3286
+1 1789
+0
+3062 Default/optimizer-RMSProp/Mul-op3293
+1 1789
+0
+3066 Gradients/Default/network-WithLossCell/_backbone-InceptionV3/Mixed_6b-Inception_C/branch2-SequentialCell/1-BasicConv2d/conv-Conv2d/gradConv2D/Conv2DBackpropFilter-op3298
+2 1792 458
+0
+3073 Default/optimizer-RMSProp/Mul-op3308
+1 1797
+0
+3078 Default/optimizer-RMSProp/Mul-op3315
+1 1797
+0
+3082 Gradients/Default/network-WithLossCell/_backbone-InceptionV3/Mixed_6b-Inception_C/branch1-SequentialCell/1-BasicConv2d/conv-Conv2d/gradConv2D/Conv2DBackpropFilter-op3320
+2 1800 446
+0
+3089 Default/optimizer-RMSProp/Mul-op3330
+1 1805
+0
+3094 Default/optimizer-RMSProp/Mul-op3337
+1 1805
+0
+3098 Gradients/Default/network-WithLossCell/_backbone-InceptionV3/Mixed_6b-Inception_C/branch2-SequentialCell/1-BasicConv2d/conv-Conv2d/gradConv2D/Conv2DBackpropFilter-op3342
+2 1808 434
+0
+3105 Default/optimizer-RMSProp/Mul-op3352
+1 1813
+0
+3110 Default/optimizer-RMSProp/Mul-op3359
+1 1813
+0
+3114 Gradients/Default/network-WithLossCell/_backbone-InceptionV3/aux_logits-AuxLogits/conv2d_0-Conv2d/gradConv2D/Conv2DBackpropFilter-op3364
+4 1816 335 371 373
+0
+3121 Default/optimizer-RMSProp/Mul-op3374
+1 1755
+0
+3126 Default/optimizer-RMSProp/Mul-op3381
+1 1755
+0
+3130 Gradients/Default/network-WithLossCell/_backbone-InceptionV3/Mixed_6e-Inception_C/branch2-SequentialCell/1-BasicConv2d/conv-Conv2d/gradConv2D/Conv2DBackpropFilter-op3386
+2 1758 410
+0
+3137 Default/optimizer-RMSProp/Mul-op3396
+1 1763
+0
+3142 Default/optimizer-RMSProp/Mul-op3403
+1 1763
+0
+3146 Gradients/Default/network-WithLossCell/_backbone-InceptionV3/Mixed_6b-Inception_C/branch1-SequentialCell/1-BasicConv2d/conv-Conv2d/gradConv2D/Conv2DBackpropFilter-op3408
+2 1766 398
+0
+3153 Default/optimizer-RMSProp/Mul-op3418
+1 1771
+0
+3158 Default/optimizer-RMSProp/Mul-op3425
+1 1771
+0
+3162 Gradients/Default/network-WithLossCell/_backbone-InceptionV3/aux_logits-AuxLogits/conv2d_0-Conv2d/gradConv2D/Conv2DBackpropFilter-op3430
+4 1774 335 371 373
+0
+3169 Default/optimizer-RMSProp/Mul-op3440
+1 1745
+0
+3174 Default/optimizer-RMSProp/Mul-op3447
+1 1745
+0
+3178 Gradients/Default/network-WithLossCell/_backbone-InceptionV3/Mixed_6e-Inception_C/branch0-BasicConv2d/conv-Conv2d/gradConv2D/Conv2DBackpropFilter-op3452
+4 1748 335 371 373
+0
+3185 Default/optimizer-RMSProp/Mul-op3462
+1 1845
+0
+3190 Default/optimizer-RMSProp/Mul-op3469
+1 1845
+0
+3194 Gradients/Default/network-WithLossCell/_backbone-InceptionV3/Mixed_6a-Inception_B/branch1-SequentialCell/2-BasicConv2d/conv-Conv2d/gradConv2D/Conv2DBackpropFilter-op3474
+2 1848 359
+0
+3201 Default/optimizer-RMSProp/Mul-op3484
+1 1853
+0
+3206 Default/optimizer-RMSProp/Mul-op3491
+1 1853
+0
+3210 Gradients/Default/network-WithLossCell/_backbone-InceptionV3/Mixed_6a-Inception_B/branch1-SequentialCell/1-BasicConv2d/conv-Conv2d/gradConv2D/Conv2DBackpropFilter-op3496
+2 1856 347
+0
+3217 Default/optimizer-RMSProp/Mul-op3506
+1 1861
+0
+3222 Default/optimizer-RMSProp/Mul-op3513
+1 1861
+0
+3226 Gradients/Default/network-WithLossCell/_backbone-InceptionV3/Mixed_5d-Inception_A/branch0-BasicConv2d/conv-Conv2d/gradConv2D/Conv2DBackpropFilter-op3518
+5 1864 249 273 309 322
+0
+3233 Default/optimizer-RMSProp/Mul-op3528
+1 1835
+0
+3238 Default/optimizer-RMSProp/Mul-op3535
+1 1835
+0
+3242 Gradients/Default/network-WithLossCell/_backbone-InceptionV3/Mixed_6a-Inception_B/branch0-BasicConv2d/conv-Conv2d/gradConv2D/Conv2DBackpropFilter-op3540
+5 1838 249 273 309 322
+0
+3249 Default/optimizer-RMSProp/Mul-op3550
+1 1929
+0
+3254 Default/optimizer-RMSProp/Mul-op3557
+1 1929
+0
+3258 Gradients/Default/network-WithLossCell/_backbone-InceptionV3/Mixed_5d-Inception_A/branch0-BasicConv2d/conv-Conv2d/gradConv2D/Conv2DBackpropFilter-op3562
+5 1932 163 187 223 236
+0
+3265 Default/optimizer-RMSProp/Mul-op3572
+1 1903
+0
+3270 Default/optimizer-RMSProp/Mul-op3579
+1 1903
+0
+3274 Gradients/Default/network-WithLossCell/_backbone-InceptionV3/Mixed_6a-Inception_B/branch1-SequentialCell/1-BasicConv2d/conv-Conv2d/gradConv2D/Conv2DBackpropFilter-op3584
+2 1906 297
+0
+3281 Default/optimizer-RMSProp/Mul-op3594
+1 1911
+0
+3286 Default/optimizer-RMSProp/Mul-op3601
+1 1911
+0
+3290 Gradients/Default/network-WithLossCell/_backbone-InceptionV3/Mixed_6a-Inception_B/branch1-SequentialCell/1-BasicConv2d/conv-Conv2d/gradConv2D/Conv2DBackpropFilter-op3606
+2 1914 285
+0
+3297 Default/optimizer-RMSProp/Mul-op3616
+1 1919
+0
+3302 Default/optimizer-RMSProp/Mul-op3623
+1 1919
+0
+3306 Gradients/Default/network-WithLossCell/_backbone-InceptionV3/Mixed_5d-Inception_A/branch0-BasicConv2d/conv-Conv2d/gradConv2D/Conv2DBackpropFilter-op3628
+5 1922 163 187 223 236
+0
+3313 Default/optimizer-RMSProp/Mul-op3638
+1 1885
+0
+3318 Default/optimizer-RMSProp/Mul-op3645
+1 1885
+0
+3322 Gradients/Default/network-WithLossCell/_backbone-InceptionV3/Mixed_5d-Inception_A/branch1-SequentialCell/1-BasicConv2d/conv-Conv2d/gradConv2D/Conv2DBackpropFilter-op3650
+2 1888 261
+0
+3329 Default/optimizer-RMSProp/Mul-op3660
+1 1893
+0
+3334 Default/optimizer-RMSProp/Mul-op3667
+1 1893
+0
+3338 Gradients/Default/network-WithLossCell/_backbone-InceptionV3/Mixed_5d-Inception_A/branch1-SequentialCell/0-BasicConv2d/conv-Conv2d/gradConv2D/Conv2DBackpropFilter-op3672
+5 1896 163 187 223 236
+0
+3345 Default/optimizer-RMSProp/Mul-op3682
+1 1875
+0
+3350 Default/optimizer-RMSProp/Mul-op3689
+1 1875
+0
+3354 Gradients/Default/network-WithLossCell/_backbone-InceptionV3/Mixed_5d-Inception_A/branch0-BasicConv2d/conv-Conv2d/gradConv2D/Conv2DBackpropFilter-op3694
+5 1878 163 187 223 236
+0
+3361 Default/optimizer-RMSProp/Mul-op3704
+1 1995
+0
+3366 Default/optimizer-RMSProp/Mul-op3711
+1 1995
+0
+3370 Gradients/Default/network-WithLossCell/_backbone-InceptionV3/Mixed_5d-Inception_A/branch0-BasicConv2d/conv-Conv2d/gradConv2D/Conv2DBackpropFilter-op3716
+5 1998 77 101 137 150
+0
+3377 Default/optimizer-RMSProp/Mul-op3726
+1 1969
+0
+3382 Default/optimizer-RMSProp/Mul-op3733
+1 1969
+0
+3386 Gradients/Default/network-WithLossCell/_backbone-InceptionV3/Mixed_6a-Inception_B/branch1-SequentialCell/1-BasicConv2d/conv-Conv2d/gradConv2D/Conv2DBackpropFilter-op3738
+2 1972 211
+0
+3393 Default/optimizer-RMSProp/Mul-op3748
+1 1977
+0
+3398 Default/optimizer-RMSProp/Mul-op3755
+1 1977
+0
+3402 Gradients/Default/network-WithLossCell/_backbone-InceptionV3/Mixed_6a-Inception_B/branch1-SequentialCell/1-BasicConv2d/conv-Conv2d/gradConv2D/Conv2DBackpropFilter-op3760
+2 1980 199
+0
+3409 Default/optimizer-RMSProp/Mul-op3770
+1 1985
+0
+3414 Default/optimizer-RMSProp/Mul-op3777
+1 1985
+0
+3418 Gradients/Default/network-WithLossCell/_backbone-InceptionV3/Mixed_5d-Inception_A/branch0-BasicConv2d/conv-Conv2d/gradConv2D/Conv2DBackpropFilter-op3782
+5 1988 77 101 137 150
+0
+3425 Default/optimizer-RMSProp/Mul-op3792
+1 1951
+0
+3430 Default/optimizer-RMSProp/Mul-op3799
+1 1951
+0
+3434 Gradients/Default/network-WithLossCell/_backbone-InceptionV3/Mixed_5d-Inception_A/branch1-SequentialCell/1-BasicConv2d/conv-Conv2d/gradConv2D/Conv2DBackpropFilter-op3804
+2 1954 175
+0
+3441 Default/optimizer-RMSProp/Mul-op3814
+1 1959
+0
+3446 Default/optimizer-RMSProp/Mul-op3821
+1 1959
+0
+3450 Gradients/Default/network-WithLossCell/_backbone-InceptionV3/Mixed_5d-Inception_A/branch1-SequentialCell/0-BasicConv2d/conv-Conv2d/gradConv2D/Conv2DBackpropFilter-op3826
+5 1962 77 101 137 150
+0
+3457 Default/optimizer-RMSProp/Mul-op3836
+1 1941
+0
+3462 Default/optimizer-RMSProp/Mul-op3843
+1 1941
+0
+3466 Gradients/Default/network-WithLossCell/_backbone-InceptionV3/Mixed_5d-Inception_A/branch0-BasicConv2d/conv-Conv2d/gradConv2D/Conv2DBackpropFilter-op3848
+5 1944 77 101 137 150
+0
+3473 Default/optimizer-RMSProp/Mul-op3858
+1 2061
+0
+3478 Default/optimizer-RMSProp/Mul-op3865
+1 2061
+0
+3482 Gradients/Default/network-WithLossCell/_backbone-InceptionV3/Mixed_5b-Inception_A/branch_pool-SequentialCell/1-BasicConv2d/conv-Conv2d/gradConv2D/Conv2DBackpropFilter-op3870
+2 2064 65
+0
+3489 Default/optimizer-RMSProp/Mul-op3880
+1 2035
+0
+3494 Default/optimizer-RMSProp/Mul-op3887
+1 2035
+0
+3498 Gradients/Default/network-WithLossCell/_backbone-InceptionV3/Mixed_6a-Inception_B/branch1-SequentialCell/1-BasicConv2d/conv-Conv2d/gradConv2D/Conv2DBackpropFilter-op3892
+2 2038 125
+0
+3505 Default/optimizer-RMSProp/Mul-op3902
+1 2043
+0
+3510 Default/optimizer-RMSProp/Mul-op3909
+1 2043
+0
+3514 Gradients/Default/network-WithLossCell/_backbone-InceptionV3/Mixed_6a-Inception_B/branch1-SequentialCell/1-BasicConv2d/conv-Conv2d/gradConv2D/Conv2DBackpropFilter-op3914
+2 2046 113
+0
+3521 Default/optimizer-RMSProp/Mul-op3924
+1 2051
+0
+3526 Default/optimizer-RMSProp/Mul-op3931
+1 2051
+0
+3530 Gradients/Default/network-WithLossCell/_backbone-InceptionV3/Mixed_5d-Inception_A/branch0-BasicConv2d/conv-Conv2d/gradConv2D/Conv2DBackpropFilter-op3936
+2 2054 65
+0
+3537 Default/optimizer-RMSProp/Mul-op3946
+1 2017
+0
+3542 Default/optimizer-RMSProp/Mul-op3953
+1 2017
+0
+3546 Gradients/Default/network-WithLossCell/_backbone-InceptionV3/Mixed_5d-Inception_A/branch1-SequentialCell/1-BasicConv2d/conv-Conv2d/gradConv2D/Conv2DBackpropFilter-op3958
+2 2020 89
+0
+3553 Default/optimizer-RMSProp/Mul-op3968
+1 2025
+0
+3558 Default/optimizer-RMSProp/Mul-op3975
+1 2025
+0
+3562 Gradients/Default/network-WithLossCell/_backbone-InceptionV3/Mixed_5d-Inception_A/branch1-SequentialCell/0-BasicConv2d/conv-Conv2d/gradConv2D/Conv2DBackpropFilter-op3980
+2 2028 65
+0
+3569 Default/optimizer-RMSProp/Mul-op3990
+1 2007
+0
+3574 Default/optimizer-RMSProp/Mul-op3997
+1 2007
+0
+3578 Gradients/Default/network-WithLossCell/_backbone-InceptionV3/Mixed_5d-Inception_A/branch0-BasicConv2d/conv-Conv2d/gradConv2D/Conv2DBackpropFilter-op4002
+2 2010 65
+0
+3585 Default/optimizer-RMSProp/Mul-op4012
+1 2074
+0
+3590 Default/optimizer-RMSProp/Mul-op4019
+1 2074
+0
+3594 Gradients/Default/network-WithLossCell/_backbone-InceptionV3/Conv2d_4a-BasicConv2d/conv-Conv2d/gradConv2D/Conv2DBackpropFilter-op4024
+2 2077 51
+0
+3601 Default/optimizer-RMSProp/Mul-op4034
+1 2082
+0
+3606 Default/optimizer-RMSProp/Mul-op4041
+1 2082
+0
+3610 Gradients/Default/network-WithLossCell/_backbone-InceptionV3/Conv2d_3b-BasicConv2d/conv-Conv2d/gradConv2D/Conv2DBackpropFilter-op4046
+2 2085 39
+0
+3617 Default/optimizer-RMSProp/Mul-op4056
+1 2093
+0
+3622 Default/optimizer-RMSProp/Mul-op4063
+1 2093
+0
+3626 Gradients/Default/network-WithLossCell/_backbone-InceptionV3/Conv2d_2b-BasicConv2d/conv-Conv2d/gradConv2D/Conv2DBackpropFilter-op4068
+2 2096 25
+0
+3633 Default/optimizer-RMSProp/Mul-op4078
+1 2101
+0
+3638 Default/optimizer-RMSProp/Mul-op4085
+1 2101
+0
+3642 Gradients/Default/network-WithLossCell/_backbone-InceptionV3/Conv2d_2a-BasicConv2d/conv-Conv2d/gradConv2D/Conv2DBackpropFilter-op4090
+2 2104 13
+0
+3649 Default/optimizer-RMSProp/Mul-op4100
+1 2109
+0
+3654 Default/optimizer-RMSProp/Mul-op4107
+1 2109
+0
