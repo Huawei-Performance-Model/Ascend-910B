@@ -1,0 +1,882 @@
+4 Default/network-TrainOneStepCell/network-WithLossCell/_backbone-ResNet/TransData-op4126
+0
+1 7
+7 Default/network-TrainOneStepCell/network-WithLossCell/_backbone-ResNet/bn1-BatchNorm2d/FusionOp_Conv2D_BNTrainingReduce-op9132
+1 4
+2 15 1118
+15 Default/network-TrainOneStepCell/network-WithLossCell/_backbone-ResNet/FusionOp_BNTrainingUpdate_ReLUV2-op9130
+1 7
+4 17 1113 1115 1118
+17 Default/network-TrainOneStepCell/network-WithLossCell/_backbone-ResNet/maxpool-MaxPool2d/MaxPoolWithArgmax-op2110
+1 15
+5 21 55 1102 1110 1113
+21 Default/network-TrainOneStepCell/network-WithLossCell/_backbone-ResNet/bn1-BatchNorm2d/FusionOp_Conv2D_BNTrainingReduce-op9127
+1 17
+3 29 1097 1102
+29 Default/network-TrainOneStepCell/network-WithLossCell/_backbone-ResNet/layer1-SequentialCell/0-ResidualBlock/relu-ReLU/FusionOp_BNTrainingUpdate_ReLUV2-op9125
+1 21
+4 33 1094 1097 1102
+33 Default/network-TrainOneStepCell/network-WithLossCell/_backbone-ResNet/bn1-BatchNorm2d/FusionOp_Conv2D_BNTrainingReduce-op9122
+1 29
+3 41 1088 1094
+41 Default/network-TrainOneStepCell/network-WithLossCell/_backbone-ResNet/layer1-SequentialCell/0-ResidualBlock/relu-ReLU/FusionOp_BNTrainingUpdate_ReLUV2-op9120
+1 33
+4 45 1085 1088 1094
+45 Default/network-TrainOneStepCell/network-WithLossCell/_backbone-ResNet/layer3-SequentialCell/0-ResidualBlock/bn2-BatchNorm2d/FusionOp_Conv2D_BNTrainingReduce-op9119
+1 41
+3 65 1079 1085
+55 Default/network-TrainOneStepCell/network-WithLossCell/_backbone-ResNet/layer3-SequentialCell/0-ResidualBlock/bn2-BatchNorm2d/FusionOp_Conv2D_BNTrainingReduce-op9117
+1 17
+3 63 1105 1110
+63 Default/network-TrainOneStepCell/network-WithLossCell/_backbone-ResNet/layer3-SequentialCell/0-ResidualBlock/bn2-BatchNorm2d/BNTrainingUpdate-op2517
+1 55
+3 65 1105 1110
+65 Default/network-TrainOneStepCell/network-WithLossCell/_backbone-ResNet/layer1-SequentialCell/0-ResidualBlock/relu-ReLU/FusionOp_BNTrainingUpdate_Add_ReLUV2-op9111
+2 45 63
+5 69 101 1076 1079 1085
+69 Default/network-TrainOneStepCell/network-WithLossCell/_backbone-ResNet/bn1-BatchNorm2d/FusionOp_Conv2D_BNTrainingReduce-op9114
+1 65
+3 77 1070 1076
+77 Default/network-TrainOneStepCell/network-WithLossCell/_backbone-ResNet/layer1-SequentialCell/1-ResidualBlock/relu-ReLU/FusionOp_BNTrainingUpdate_ReLUV2-op9115
+1 69
+4 81 1067 1070 1076
+81 Default/network-TrainOneStepCell/network-WithLossCell/_backbone-ResNet/bn1-BatchNorm2d/FusionOp_Conv2D_BNTrainingReduce-op9108
+1 77
+3 89 1061 1067
+89 Default/network-TrainOneStepCell/network-WithLossCell/_backbone-ResNet/layer1-SequentialCell/1-ResidualBlock/relu-ReLU/FusionOp_BNTrainingUpdate_ReLUV2-op9109
+1 81
+4 93 1058 1061 1067
+93 Default/network-TrainOneStepCell/network-WithLossCell/_backbone-ResNet/layer3-SequentialCell/0-ResidualBlock/bn2-BatchNorm2d/FusionOp_Conv2D_BNTrainingReduce-op9138
+1 89
+3 101 1052 1058
+101 Default/network-TrainOneStepCell/network-WithLossCell/_backbone-ResNet/layer1-SequentialCell/1-ResidualBlock/relu-ReLU/FusionOp_BNTrainingUpdate_Add_ReLUV2-op9134
+2 93 65
+5 105 137 1049 1052 1058
+105 Default/network-TrainOneStepCell/network-WithLossCell/_backbone-ResNet/bn1-BatchNorm2d/FusionOp_Conv2D_BNTrainingReduce-op9140
+1 101
+3 113 1043 1049
+113 Default/network-TrainOneStepCell/network-WithLossCell/_backbone-ResNet/layer1-SequentialCell/2-ResidualBlock/relu-ReLU/FusionOp_BNTrainingUpdate_ReLUV2-op9136
+1 105
+4 117 1040 1043 1049
+117 Default/network-TrainOneStepCell/network-WithLossCell/_backbone-ResNet/bn1-BatchNorm2d/FusionOp_Conv2D_BNTrainingReduce-op9142
+1 113
+3 125 1034 1040
+125 Default/network-TrainOneStepCell/network-WithLossCell/_backbone-ResNet/layer1-SequentialCell/2-ResidualBlock/relu-ReLU/FusionOp_BNTrainingUpdate_ReLUV2-op9131
+1 117
+4 129 1031 1034 1040
+129 Default/network-TrainOneStepCell/network-WithLossCell/_backbone-ResNet/layer3-SequentialCell/0-ResidualBlock/bn2-BatchNorm2d/FusionOp_Conv2D_BNTrainingReduce-op9144
+1 125
+3 137 1025 1031
+137 Default/network-TrainOneStepCell/network-WithLossCell/_backbone-ResNet/layer1-SequentialCell/2-ResidualBlock/relu-ReLU/FusionOp_BNTrainingUpdate_Add_ReLUV2-op9129
+2 129 101
+6 141 175 1020 1022 1025 1031
+141 Default/network-TrainOneStepCell/network-WithLossCell/_backbone-ResNet/layer2-SequentialCell/0-ResidualBlock/bn2-BatchNorm2d/FusionOp_Conv2D_BNTrainingReduce-op9146
+1 137
+3 149 1015 1020
+149 Default/network-TrainOneStepCell/network-WithLossCell/_backbone-ResNet/layer2-SequentialCell/0-ResidualBlock/relu-ReLU/FusionOp_BNTrainingUpdate_ReLUV2-op9126
+1 141
+5 153 1012 1015 1020 1709
+153 Default/network-TrainOneStepCell/network-WithLossCell/_backbone-ResNet/layer2-SequentialCell/0-ResidualBlock/bn2-BatchNorm2d/FusionOp_Conv2D_BNTrainingReduce-op9148
+1 149
+3 161 1007 1010
+161 Default/network-TrainOneStepCell/network-WithLossCell/_backbone-ResNet/layer2-SequentialCell/0-ResidualBlock/relu-ReLU/FusionOp_BNTrainingUpdate_ReLUV2-op9121
+1 153
+4 165 1004 1007 1010
+165 Default/network-TrainOneStepCell/network-WithLossCell/_backbone-ResNet/layer4-SequentialCell/0-ResidualBlock/bn2-BatchNorm2d/FusionOp_Conv2D_BNTrainingReduce-op9149
+1 161
+3 185 998 1004
+175 Default/network-TrainOneStepCell/network-WithLossCell/_backbone-ResNet/layer4-SequentialCell/0-ResidualBlock/bn2-BatchNorm2d/FusionOp_Conv2D_BNTrainingReduce-op9150
+1 137
+3 183 991 1022
+183 Default/network-TrainOneStepCell/network-WithLossCell/_backbone-ResNet/layer4-SequentialCell/0-ResidualBlock/bn2-BatchNorm2d/BNTrainingUpdate-op2557
+1 175
+3 185 991 1022
+185 Default/network-TrainOneStepCell/network-WithLossCell/_backbone-ResNet/layer2-SequentialCell/0-ResidualBlock/relu-ReLU/FusionOp_BNTrainingUpdate_Add_ReLUV2-op9124
+2 165 183
+5 189 221 988 998 1004
+189 Default/network-TrainOneStepCell/network-WithLossCell/_backbone-ResNet/layer2-SequentialCell/0-ResidualBlock/bn2-BatchNorm2d/FusionOp_Conv2D_BNTrainingReduce-op9151
+1 185
+3 197 982 988
+197 Default/network-TrainOneStepCell/network-WithLossCell/_backbone-ResNet/layer2-SequentialCell/1-ResidualBlock/relu-ReLU/FusionOp_BNTrainingUpdate_ReLUV2-op9118
+1 189
+5 201 979 982 988 1653
+201 Default/network-TrainOneStepCell/network-WithLossCell/_backbone-ResNet/layer2-SequentialCell/0-ResidualBlock/bn2-BatchNorm2d/FusionOp_Conv2D_BNTrainingReduce-op9106
+1 197
+3 209 974 977
+209 Default/network-TrainOneStepCell/network-WithLossCell/_backbone-ResNet/layer2-SequentialCell/1-ResidualBlock/relu-ReLU/FusionOp_BNTrainingUpdate_ReLUV2-op9116
+1 201
+4 213 971 974 977
+213 Default/network-TrainOneStepCell/network-WithLossCell/_backbone-ResNet/layer4-SequentialCell/0-ResidualBlock/bn2-BatchNorm2d/FusionOp_Conv2D_BNTrainingReduce-op9105
+1 209
+3 221 965 971
+221 Default/network-TrainOneStepCell/network-WithLossCell/_backbone-ResNet/layer2-SequentialCell/1-ResidualBlock/relu-ReLU/FusionOp_BNTrainingUpdate_Add_ReLUV2-op9104
+2 213 185
+5 225 257 962 965 971
+225 Default/network-TrainOneStepCell/network-WithLossCell/_backbone-ResNet/layer2-SequentialCell/0-ResidualBlock/bn2-BatchNorm2d/FusionOp_Conv2D_BNTrainingReduce-op9103
+1 221
+3 233 956 962
+233 Default/network-TrainOneStepCell/network-WithLossCell/_backbone-ResNet/layer2-SequentialCell/2-ResidualBlock/relu-ReLU/FusionOp_BNTrainingUpdate_ReLUV2-op9113
+1 225
+5 237 953 956 962 1611
+237 Default/network-TrainOneStepCell/network-WithLossCell/_backbone-ResNet/layer2-SequentialCell/0-ResidualBlock/bn2-BatchNorm2d/FusionOp_Conv2D_BNTrainingReduce-op9102
+1 233
+3 245 948 951
+245 Default/network-TrainOneStepCell/network-WithLossCell/_backbone-ResNet/layer2-SequentialCell/2-ResidualBlock/relu-ReLU/FusionOp_BNTrainingUpdate_ReLUV2-op9107
+1 237
+4 249 945 948 951
+249 Default/network-TrainOneStepCell/network-WithLossCell/_backbone-ResNet/layer4-SequentialCell/0-ResidualBlock/bn2-BatchNorm2d/FusionOp_Conv2D_BNTrainingReduce-op9101
+1 245
+3 257 939 945
+257 Default/network-TrainOneStepCell/network-WithLossCell/_backbone-ResNet/layer2-SequentialCell/2-ResidualBlock/relu-ReLU/FusionOp_BNTrainingUpdate_Add_ReLUV2-op9100
+2 249 221
+5 261 293 936 939 945
+261 Default/network-TrainOneStepCell/network-WithLossCell/_backbone-ResNet/layer2-SequentialCell/0-ResidualBlock/bn2-BatchNorm2d/FusionOp_Conv2D_BNTrainingReduce-op9099
+1 257
+3 269 930 936
+269 Default/network-TrainOneStepCell/network-WithLossCell/_backbone-ResNet/layer2-SequentialCell/3-ResidualBlock/relu-ReLU/FusionOp_BNTrainingUpdate_ReLUV2-op9137
+1 261
+5 273 927 930 936 1569
+273 Default/network-TrainOneStepCell/network-WithLossCell/_backbone-ResNet/layer2-SequentialCell/0-ResidualBlock/bn2-BatchNorm2d/FusionOp_Conv2D_BNTrainingReduce-op9098
+1 269
+3 281 922 925
+281 Default/network-TrainOneStepCell/network-WithLossCell/_backbone-ResNet/layer2-SequentialCell/3-ResidualBlock/relu-ReLU/FusionOp_BNTrainingUpdate_ReLUV2-op9139
+1 273
+4 285 919 922 925
+285 Default/network-TrainOneStepCell/network-WithLossCell/_backbone-ResNet/layer4-SequentialCell/0-ResidualBlock/bn2-BatchNorm2d/FusionOp_Conv2D_BNTrainingReduce-op9097
+1 281
+3 293 913 919
+293 Default/network-TrainOneStepCell/network-WithLossCell/_backbone-ResNet/layer2-SequentialCell/3-ResidualBlock/relu-ReLU/FusionOp_BNTrainingUpdate_Add_ReLUV2-op9096
+2 285 257
+7 297 331 910 913 919 1499 1541
+297 Default/network-TrainOneStepCell/network-WithLossCell/_backbone-ResNet/layer3-SequentialCell/0-ResidualBlock/bn2-BatchNorm2d/FusionOp_Conv2D_BNTrainingReduce-op9095
+1 293
+3 305 904 907
+305 Default/network-TrainOneStepCell/network-WithLossCell/_backbone-ResNet/layer3-SequentialCell/0-ResidualBlock/relu-ReLU/FusionOp_BNTrainingUpdate_ReLUV2-op9141
+1 297
+5 309 901 904 907 1527
+309 Default/network-TrainOneStepCell/network-WithLossCell/_backbone-ResNet/layer3-SequentialCell/0-ResidualBlock/bn2-BatchNorm2d/FusionOp_Conv2D_BNTrainingReduce-op9094
+1 305
+3 317 896 899
+317 Default/network-TrainOneStepCell/network-WithLossCell/_backbone-ResNet/layer3-SequentialCell/0-ResidualBlock/relu-ReLU/FusionOp_BNTrainingUpdate_ReLUV2-op9143
+1 309
+5 321 893 896 899 1513
+321 Default/network-TrainOneStepCell/network-WithLossCell/_backbone-ResNet/layer3-SequentialCell/0-ResidualBlock/bn3-BatchNorm2d/FusionOp_Conv2D_BNTrainingReduce-op9093
+1 317
+3 341 888 891
+331 Default/network-TrainOneStepCell/network-WithLossCell/_backbone-ResNet/layer3-SequentialCell/0-ResidualBlock/bn3-BatchNorm2d/FusionOp_Conv2D_BNTrainingReduce-op9110
+1 293
+3 339 882 885
+339 Default/network-TrainOneStepCell/network-WithLossCell/_backbone-ResNet/layer3-SequentialCell/0-ResidualBlock/bn3-BatchNorm2d/BNTrainingUpdate-op2609
+1 331
+3 341 882 885
+341 Default/network-TrainOneStepCell/network-WithLossCell/_backbone-ResNet/layer3-SequentialCell/0-ResidualBlock/relu-ReLU/FusionOp_BNTrainingUpdate_Add_ReLUV2-op9092
+2 321 339
+6 345 377 879 888 891 1485
+345 Default/network-TrainOneStepCell/network-WithLossCell/_backbone-ResNet/layer3-SequentialCell/0-ResidualBlock/bn2-BatchNorm2d/FusionOp_Conv2D_BNTrainingReduce-op9133
+1 341
+3 353 874 877
+353 Default/network-TrainOneStepCell/network-WithLossCell/_backbone-ResNet/layer3-SequentialCell/1-ResidualBlock/relu-ReLU/FusionOp_BNTrainingUpdate_ReLUV2-op9145
+1 345
+5 357 871 874 877 1471
+357 Default/network-TrainOneStepCell/network-WithLossCell/_backbone-ResNet/layer3-SequentialCell/0-ResidualBlock/bn2-BatchNorm2d/FusionOp_Conv2D_BNTrainingReduce-op9128
+1 353
+3 365 866 869
+365 Default/network-TrainOneStepCell/network-WithLossCell/_backbone-ResNet/layer3-SequentialCell/1-ResidualBlock/relu-ReLU/FusionOp_BNTrainingUpdate_ReLUV2-op9147
+1 357
+5 369 863 866 869 1457
+369 Default/network-TrainOneStepCell/network-WithLossCell/_backbone-ResNet/layer3-SequentialCell/0-ResidualBlock/bn3-BatchNorm2d/FusionOp_Conv2D_BNTrainingReduce-op9123
+1 365
+3 377 858 861
+377 Default/network-TrainOneStepCell/network-WithLossCell/_backbone-ResNet/layer3-SequentialCell/1-ResidualBlock/relu-ReLU/FusionOp_BNTrainingUpdate_Add_ReLUV2-op9091
+2 369 341
+6 381 413 855 858 861 1443
+381 Default/network-TrainOneStepCell/network-WithLossCell/_backbone-ResNet/layer3-SequentialCell/0-ResidualBlock/bn2-BatchNorm2d/FusionOp_Conv2D_BNTrainingReduce-op9152
+1 377
+3 389 850 853
+389 Default/network-TrainOneStepCell/network-WithLossCell/_backbone-ResNet/layer3-SequentialCell/2-ResidualBlock/relu-ReLU/FusionOp_BNTrainingUpdate_ReLUV2-op9153
+1 381
+5 393 847 850 853 1429
+393 Default/network-TrainOneStepCell/network-WithLossCell/_backbone-ResNet/layer3-SequentialCell/0-ResidualBlock/bn2-BatchNorm2d/FusionOp_Conv2D_BNTrainingReduce-op9154
+1 389
+3 401 842 845
+401 Default/network-TrainOneStepCell/network-WithLossCell/_backbone-ResNet/layer3-SequentialCell/2-ResidualBlock/relu-ReLU/FusionOp_BNTrainingUpdate_ReLUV2-op9155
+1 393
+5 405 839 842 845 1415
+405 Default/network-TrainOneStepCell/network-WithLossCell/_backbone-ResNet/layer3-SequentialCell/0-ResidualBlock/bn3-BatchNorm2d/FusionOp_Conv2D_BNTrainingReduce-op9156
+1 401
+3 413 834 837
+413 Default/network-TrainOneStepCell/network-WithLossCell/_backbone-ResNet/layer3-SequentialCell/2-ResidualBlock/relu-ReLU/FusionOp_BNTrainingUpdate_Add_ReLUV2-op9157
+2 405 377
+6 417 449 831 834 837 1401
+417 Default/network-TrainOneStepCell/network-WithLossCell/_backbone-ResNet/layer3-SequentialCell/0-ResidualBlock/bn2-BatchNorm2d/FusionOp_Conv2D_BNTrainingReduce-op9159
+1 413
+3 425 826 829
+425 Default/network-TrainOneStepCell/network-WithLossCell/_backbone-ResNet/layer3-SequentialCell/3-ResidualBlock/relu-ReLU/FusionOp_BNTrainingUpdate_ReLUV2-op9160
+1 417
+5 429 823 826 829 1387
+429 Default/network-TrainOneStepCell/network-WithLossCell/_backbone-ResNet/layer3-SequentialCell/0-ResidualBlock/bn2-BatchNorm2d/FusionOp_Conv2D_BNTrainingReduce-op9161
+1 425
+3 437 818 821
+437 Default/network-TrainOneStepCell/network-WithLossCell/_backbone-ResNet/layer3-SequentialCell/3-ResidualBlock/relu-ReLU/FusionOp_BNTrainingUpdate_ReLUV2-op9162
+1 429
+5 441 815 818 821 1373
+441 Default/network-TrainOneStepCell/network-WithLossCell/_backbone-ResNet/layer3-SequentialCell/0-ResidualBlock/bn3-BatchNorm2d/FusionOp_Conv2D_BNTrainingReduce-op9163
+1 437
+3 449 810 813
+449 Default/network-TrainOneStepCell/network-WithLossCell/_backbone-ResNet/layer3-SequentialCell/3-ResidualBlock/relu-ReLU/FusionOp_BNTrainingUpdate_Add_ReLUV2-op9164
+2 441 413
+6 453 485 807 810 813 1359
+453 Default/network-TrainOneStepCell/network-WithLossCell/_backbone-ResNet/layer3-SequentialCell/0-ResidualBlock/bn2-BatchNorm2d/FusionOp_Conv2D_BNTrainingReduce-op9166
+1 449
+3 461 802 805
+461 Default/network-TrainOneStepCell/network-WithLossCell/_backbone-ResNet/layer3-SequentialCell/4-ResidualBlock/relu-ReLU/FusionOp_BNTrainingUpdate_ReLUV2-op9167
+1 453
+5 465 799 802 805 1345
+465 Default/network-TrainOneStepCell/network-WithLossCell/_backbone-ResNet/layer3-SequentialCell/0-ResidualBlock/bn2-BatchNorm2d/FusionOp_Conv2D_BNTrainingReduce-op9168
+1 461
+3 473 794 797
+473 Default/network-TrainOneStepCell/network-WithLossCell/_backbone-ResNet/layer3-SequentialCell/4-ResidualBlock/relu-ReLU/FusionOp_BNTrainingUpdate_ReLUV2-op9169
+1 465
+5 477 791 794 797 1331
+477 Default/network-TrainOneStepCell/network-WithLossCell/_backbone-ResNet/layer3-SequentialCell/0-ResidualBlock/bn3-BatchNorm2d/FusionOp_Conv2D_BNTrainingReduce-op9170
+1 473
+3 485 786 789
+485 Default/network-TrainOneStepCell/network-WithLossCell/_backbone-ResNet/layer3-SequentialCell/4-ResidualBlock/relu-ReLU/FusionOp_BNTrainingUpdate_Add_ReLUV2-op9171
+2 477 449
+6 489 521 783 786 789 1317
+489 Default/network-TrainOneStepCell/network-WithLossCell/_backbone-ResNet/layer3-SequentialCell/0-ResidualBlock/bn2-BatchNorm2d/FusionOp_Conv2D_BNTrainingReduce-op9173
+1 485
+3 497 778 781
+497 Default/network-TrainOneStepCell/network-WithLossCell/_backbone-ResNet/layer3-SequentialCell/5-ResidualBlock/relu-ReLU/FusionOp_BNTrainingUpdate_ReLUV2-op9174
+1 489
+5 501 775 778 781 1303
+501 Default/network-TrainOneStepCell/network-WithLossCell/_backbone-ResNet/layer3-SequentialCell/0-ResidualBlock/bn2-BatchNorm2d/FusionOp_Conv2D_BNTrainingReduce-op9175
+1 497
+3 509 770 773
+509 Default/network-TrainOneStepCell/network-WithLossCell/_backbone-ResNet/layer3-SequentialCell/5-ResidualBlock/relu-ReLU/FusionOp_BNTrainingUpdate_ReLUV2-op9176
+1 501
+5 513 767 770 773 1289
+513 Default/network-TrainOneStepCell/network-WithLossCell/_backbone-ResNet/layer3-SequentialCell/0-ResidualBlock/bn3-BatchNorm2d/FusionOp_Conv2D_BNTrainingReduce-op9177
+1 509
+3 521 762 765
+521 Default/network-TrainOneStepCell/network-WithLossCell/_backbone-ResNet/layer3-SequentialCell/5-ResidualBlock/relu-ReLU/FusionOp_BNTrainingUpdate_Add_ReLUV2-op9178
+2 513 485
+7 525 559 759 762 765 1233 1275
+525 Default/network-TrainOneStepCell/network-WithLossCell/_backbone-ResNet/layer4-SequentialCell/0-ResidualBlock/bn2-BatchNorm2d/FusionOp_Conv2D_BNTrainingReduce-op9180
+1 521
+3 533 753 756
+533 Default/network-TrainOneStepCell/network-WithLossCell/_backbone-ResNet/layer4-SequentialCell/0-ResidualBlock/relu-ReLU/FusionOp_BNTrainingUpdate_ReLUV2-op9181
+1 525
+5 537 750 753 756 1261
+537 Default/network-TrainOneStepCell/network-WithLossCell/_backbone-ResNet/layer4-SequentialCell/0-ResidualBlock/bn2-BatchNorm2d/FusionOp_Conv2D_BNTrainingReduce-op9183
+1 533
+3 545 745 748
+545 Default/network-TrainOneStepCell/network-WithLossCell/_backbone-ResNet/layer4-SequentialCell/0-ResidualBlock/relu-ReLU/FusionOp_BNTrainingUpdate_ReLUV2-op9184
+1 537
+5 549 742 745 748 1247
+549 Default/network-TrainOneStepCell/network-WithLossCell/_backbone-ResNet/layer4-SequentialCell/0-ResidualBlock/bn3-BatchNorm2d/FusionOp_Conv2D_BNTrainingReduce-op9186
+1 545
+3 569 737 740
+559 Default/network-TrainOneStepCell/network-WithLossCell/_backbone-ResNet/layer4-SequentialCell/0-ResidualBlock/bn3-BatchNorm2d/FusionOp_Conv2D_BNTrainingReduce-op9189
+1 521
+3 567 731 734
+567 Default/network-TrainOneStepCell/network-WithLossCell/_backbone-ResNet/layer4-SequentialCell/0-ResidualBlock/bn3-BatchNorm2d/BNTrainingUpdate-op2685
+1 559
+3 569 731 734
+569 Default/network-TrainOneStepCell/network-WithLossCell/_backbone-ResNet/layer4-SequentialCell/0-ResidualBlock/relu-ReLU/FusionOp_BNTrainingUpdate_Add_ReLUV2-op9187
+2 549 567
+6 573 605 728 737 740 1219
+573 Default/network-TrainOneStepCell/network-WithLossCell/_backbone-ResNet/layer4-SequentialCell/0-ResidualBlock/bn2-BatchNorm2d/FusionOp_Conv2D_BNTrainingReduce-op9190
+1 569
+3 581 723 726
+581 Default/network-TrainOneStepCell/network-WithLossCell/_backbone-ResNet/layer4-SequentialCell/1-ResidualBlock/relu-ReLU/FusionOp_BNTrainingUpdate_ReLUV2-op9191
+1 573
+5 585 720 723 726 1205
+585 Default/network-TrainOneStepCell/network-WithLossCell/_backbone-ResNet/layer4-SequentialCell/0-ResidualBlock/bn2-BatchNorm2d/FusionOp_Conv2D_BNTrainingReduce-op9193
+1 581
+3 593 715 718
+593 Default/network-TrainOneStepCell/network-WithLossCell/_backbone-ResNet/layer4-SequentialCell/1-ResidualBlock/relu-ReLU/FusionOp_BNTrainingUpdate_ReLUV2-op9194
+1 585
+5 597 712 715 718 1191
+597 Default/network-TrainOneStepCell/network-WithLossCell/_backbone-ResNet/layer4-SequentialCell/0-ResidualBlock/bn3-BatchNorm2d/FusionOp_Conv2D_BNTrainingReduce-op9196
+1 593
+3 605 707 710
+605 Default/network-TrainOneStepCell/network-WithLossCell/_backbone-ResNet/layer4-SequentialCell/1-ResidualBlock/relu-ReLU/FusionOp_BNTrainingUpdate_Add_ReLUV2-op9197
+2 597 569
+6 609 641 704 707 710 1177
+609 Default/network-TrainOneStepCell/network-WithLossCell/_backbone-ResNet/layer4-SequentialCell/0-ResidualBlock/bn2-BatchNorm2d/FusionOp_Conv2D_BNTrainingReduce-op9199
+1 605
+3 617 699 702
+617 Default/network-TrainOneStepCell/network-WithLossCell/_backbone-ResNet/layer4-SequentialCell/2-ResidualBlock/relu-ReLU/FusionOp_BNTrainingUpdate_ReLUV2-op9200
+1 609
+5 621 696 699 702 1163
+621 Default/network-TrainOneStepCell/network-WithLossCell/_backbone-ResNet/layer4-SequentialCell/0-ResidualBlock/bn2-BatchNorm2d/FusionOp_Conv2D_BNTrainingReduce-op9202
+1 617
+3 629 691 694
+629 Default/network-TrainOneStepCell/network-WithLossCell/_backbone-ResNet/layer4-SequentialCell/2-ResidualBlock/relu-ReLU/FusionOp_BNTrainingUpdate_ReLUV2-op9203
+1 621
+5 633 688 691 694 1149
+633 Default/network-TrainOneStepCell/network-WithLossCell/_backbone-ResNet/layer4-SequentialCell/0-ResidualBlock/bn3-BatchNorm2d/FusionOp_Conv2D_BNTrainingReduce-op9205
+1 629
+3 641 683 686
+641 Default/network-TrainOneStepCell/network-WithLossCell/_backbone-ResNet/layer4-SequentialCell/2-ResidualBlock/relu-ReLU/FusionOp_BNTrainingUpdate_Add_ReLUV2-op9206
+2 633 605
+4 644 680 683 686
+644 Default/network-TrainOneStepCell/network-WithLossCell/_backbone-ResNet/TransData-op4832
+1 641
+1 646
+646 Default/network-TrainOneStepCell/network-WithLossCell/_backbone-ResNet/flatten-Flatten/TransData-op4001
+1 644
+2 652 1134
+649 Default/network-TrainOneStepCell/network-WithLossCell/_backbone-ResNet/end_point-Dense/TransData-op4002
+0
+2 652 673
+652 Default/network-TrainOneStepCell/network-WithLossCell/_backbone-ResNet/end_point-Dense/MatMul-op3351
+2 646 649
+1 653
+653 Default/network-TrainOneStepCell/network-WithLossCell/_backbone-ResNet/end_point-Dense/TransData-op4003
+1 652
+1 672
+672 Gradients/Default/network-TrainOneStepCell/network-WithLossCell/gradCast/TransData-op5545
+1 653
+2 673 1134
+673 Gradients/Default/network-TrainOneStepCell/network-WithLossCell/_backbone-ResNet/end_point-Dense/gradMatMul/MatMul-op682
+2 672 649
+1 674
+674 Gradients/Default/network-TrainOneStepCell/network-WithLossCell/_backbone-ResNet/end_point-Dense/gradMatMul/TransData-op5547
+1 673
+1 678
+678 Gradients/Default/network-TrainOneStepCell/network-WithLossCell/_backbone-ResNet/gradReduceMean/TransData-op5186
+1 674
+1 680
+680 Gradients/Default/network-TrainOneStepCell/network-WithLossCell/_backbone-ResNet/gradReLU/ReluGradV2-op3451
+2 678 641
+3 683 686 704
+683 Gradients/Default/network-TrainOneStepCell/network-WithLossCell/_backbone-ResNet/bn1-BatchNorm2d/gradBatchNorm/BNTrainingUpdateGrad-op2710
+3 680 633 641
+1 686
+686 Gradients/Default/network-TrainOneStepCell/network-WithLossCell/_backbone-ResNet/bn1-BatchNorm2d/gradBatchNorm/BNTrainingReduceGrad-op2713
+4 680 633 683 641
+2 688 1149
+688 Gradients/Default/network-TrainOneStepCell/network-WithLossCell/_backbone-ResNet/gradReLU/FusionOp_Conv2DBackpropInput_ReluGradV2-op9158
+2 686 629
+2 691 694
+691 Gradients/Default/network-TrainOneStepCell/network-WithLossCell/_backbone-ResNet/bn1-BatchNorm2d/gradBatchNorm/BNTrainingUpdateGrad-op2715
+3 688 621 629
+1 694
+694 Gradients/Default/network-TrainOneStepCell/network-WithLossCell/_backbone-ResNet/bn1-BatchNorm2d/gradBatchNorm/BNTrainingReduceGrad-op2718
+4 688 621 691 629
+2 696 1163
+696 Gradients/Default/network-TrainOneStepCell/network-WithLossCell/_backbone-ResNet/gradReLU/FusionOp_Conv2DBackpropInput_ReluGradV2-op9165
+2 694 617
+2 699 702
+699 Gradients/Default/network-TrainOneStepCell/network-WithLossCell/_backbone-ResNet/bn1-BatchNorm2d/gradBatchNorm/BNTrainingUpdateGrad-op2720
+3 696 609 617
+1 702
+702 Gradients/Default/network-TrainOneStepCell/network-WithLossCell/_backbone-ResNet/bn1-BatchNorm2d/gradBatchNorm/BNTrainingReduceGrad-op2723
+4 696 609 699 617
+2 704 1177
+704 Gradients/Default/network-TrainOneStepCell/network-WithLossCell/_backbone-ResNet/gradReLU/FusionOp_Conv2DBackpropInput_AddN_ReluGradV2-op9182
+3 702 680 605
+3 707 710 728
+707 Gradients/Default/network-TrainOneStepCell/network-WithLossCell/_backbone-ResNet/bn1-BatchNorm2d/gradBatchNorm/BNTrainingUpdateGrad-op2725
+3 704 597 605
+1 710
+710 Gradients/Default/network-TrainOneStepCell/network-WithLossCell/_backbone-ResNet/bn1-BatchNorm2d/gradBatchNorm/BNTrainingReduceGrad-op2728
+4 704 597 707 605
+2 712 1191
+712 Gradients/Default/network-TrainOneStepCell/network-WithLossCell/_backbone-ResNet/gradReLU/FusionOp_Conv2DBackpropInput_ReluGradV2-op9172
+2 710 593
+2 715 718
+715 Gradients/Default/network-TrainOneStepCell/network-WithLossCell/_backbone-ResNet/bn1-BatchNorm2d/gradBatchNorm/BNTrainingUpdateGrad-op2730
+3 712 585 593
+1 718
+718 Gradients/Default/network-TrainOneStepCell/network-WithLossCell/_backbone-ResNet/bn1-BatchNorm2d/gradBatchNorm/BNTrainingReduceGrad-op2733
+4 712 585 715 593
+2 720 1205
+720 Gradients/Default/network-TrainOneStepCell/network-WithLossCell/_backbone-ResNet/gradReLU/FusionOp_Conv2DBackpropInput_ReluGradV2-op9179
+2 718 581
+2 723 726
+723 Gradients/Default/network-TrainOneStepCell/network-WithLossCell/_backbone-ResNet/bn1-BatchNorm2d/gradBatchNorm/BNTrainingUpdateGrad-op2735
+3 720 573 581
+1 726
+726 Gradients/Default/network-TrainOneStepCell/network-WithLossCell/_backbone-ResNet/bn1-BatchNorm2d/gradBatchNorm/BNTrainingReduceGrad-op2738
+4 720 573 723 581
+2 728 1219
+728 Gradients/Default/network-TrainOneStepCell/network-WithLossCell/_backbone-ResNet/gradReLU/FusionOp_Conv2DBackpropInput_AddN_ReluGradV2-op9185
+3 726 704 569
+4 731 734 737 740
+731 Gradients/Default/network-TrainOneStepCell/network-WithLossCell/_backbone-ResNet/bn1-BatchNorm2d/gradBatchNorm/BNTrainingUpdateGrad-op2755
+3 728 559 567
+1 734
+734 Gradients/Default/network-TrainOneStepCell/network-WithLossCell/_backbone-ResNet/bn1-BatchNorm2d/gradBatchNorm/BNTrainingReduceGrad-op2758
+4 728 559 731 567
+2 759 1233
+737 Gradients/Default/network-TrainOneStepCell/network-WithLossCell/_backbone-ResNet/bn1-BatchNorm2d/gradBatchNorm/BNTrainingUpdateGrad-op2740
+3 728 549 569
+1 740
+740 Gradients/Default/network-TrainOneStepCell/network-WithLossCell/_backbone-ResNet/bn1-BatchNorm2d/gradBatchNorm/BNTrainingReduceGrad-op2743
+4 728 549 737 569
+2 742 1247
+742 Gradients/Default/network-TrainOneStepCell/network-WithLossCell/_backbone-ResNet/gradReLU/FusionOp_Conv2DBackpropInput_ReluGradV2-op9188
+2 740 545
+2 745 748
+745 Gradients/Default/network-TrainOneStepCell/network-WithLossCell/_backbone-ResNet/bn1-BatchNorm2d/gradBatchNorm/BNTrainingUpdateGrad-op2745
+3 742 537 545
+1 748
+748 Gradients/Default/network-TrainOneStepCell/network-WithLossCell/_backbone-ResNet/bn1-BatchNorm2d/gradBatchNorm/BNTrainingReduceGrad-op2748
+4 742 537 745 545
+2 750 1261
+750 Gradients/Default/network-TrainOneStepCell/network-WithLossCell/_backbone-ResNet/gradReLU/FusionOp_Conv2DBackpropInput_ReluGradV2-op9198
+2 748 533
+2 753 756
+753 Gradients/Default/network-TrainOneStepCell/network-WithLossCell/_backbone-ResNet/bn1-BatchNorm2d/gradBatchNorm/BNTrainingUpdateGrad-op2750
+3 750 525 533
+1 756
+756 Gradients/Default/network-TrainOneStepCell/network-WithLossCell/_backbone-ResNet/bn1-BatchNorm2d/gradBatchNorm/BNTrainingReduceGrad-op2753
+4 750 525 753 533
+2 757 1275
+757 Gradients/Default/network-TrainOneStepCell/network-WithLossCell/_backbone-ResNet/layer4-SequentialCell/1-ResidualBlock/conv1-Conv2d/gradConv2D/Conv2DBackpropInput-op752
+1 756
+1 759
+759 Gradients/Default/network-TrainOneStepCell/network-WithLossCell/_backbone-ResNet/gradReLU/FusionOp_Conv2DBackpropInput_AddN_ReluGradV2-op9192
+3 734 757 521
+3 762 765 783
+762 Gradients/Default/network-TrainOneStepCell/network-WithLossCell/_backbone-ResNet/bn1-BatchNorm2d/gradBatchNorm/BNTrainingUpdateGrad-op2760
+3 759 513 521
+1 765
+765 Gradients/Default/network-TrainOneStepCell/network-WithLossCell/_backbone-ResNet/bn1-BatchNorm2d/gradBatchNorm/BNTrainingReduceGrad-op2763
+4 759 513 762 521
+2 767 1289
+767 Gradients/Default/network-TrainOneStepCell/network-WithLossCell/_backbone-ResNet/gradReLU/FusionOp_Conv2DBackpropInput_ReluGradV2-op9207
+2 765 509
+2 770 773
+770 Gradients/Default/network-TrainOneStepCell/network-WithLossCell/_backbone-ResNet/bn1-BatchNorm2d/gradBatchNorm/BNTrainingUpdateGrad-op2765
+3 767 501 509
+1 773
+773 Gradients/Default/network-TrainOneStepCell/network-WithLossCell/_backbone-ResNet/bn1-BatchNorm2d/gradBatchNorm/BNTrainingReduceGrad-op2768
+4 767 501 770 509
+2 775 1303
+775 Gradients/Default/network-TrainOneStepCell/network-WithLossCell/_backbone-ResNet/gradReLU/FusionOp_Conv2DBackpropInput_ReluGradV2-op9210
+2 773 497
+2 778 781
+778 Gradients/Default/network-TrainOneStepCell/network-WithLossCell/_backbone-ResNet/bn1-BatchNorm2d/gradBatchNorm/BNTrainingUpdateGrad-op2770
+3 775 489 497
+1 781
+781 Gradients/Default/network-TrainOneStepCell/network-WithLossCell/_backbone-ResNet/bn1-BatchNorm2d/gradBatchNorm/BNTrainingReduceGrad-op2773
+4 775 489 778 497
+2 783 1317
+783 Gradients/Default/network-TrainOneStepCell/network-WithLossCell/_backbone-ResNet/gradReLU/FusionOp_Conv2DBackpropInput_AddN_ReluGradV2-op9195
+3 781 759 485
+3 786 789 807
+786 Gradients/Default/network-TrainOneStepCell/network-WithLossCell/_backbone-ResNet/bn1-BatchNorm2d/gradBatchNorm/BNTrainingUpdateGrad-op2775
+3 783 477 485
+1 789
+789 Gradients/Default/network-TrainOneStepCell/network-WithLossCell/_backbone-ResNet/bn1-BatchNorm2d/gradBatchNorm/BNTrainingReduceGrad-op2778
+4 783 477 786 485
+2 791 1331
+791 Gradients/Default/network-TrainOneStepCell/network-WithLossCell/_backbone-ResNet/gradReLU/FusionOp_Conv2DBackpropInput_ReluGradV2-op9209
+2 789 473
+2 794 797
+794 Gradients/Default/network-TrainOneStepCell/network-WithLossCell/_backbone-ResNet/bn1-BatchNorm2d/gradBatchNorm/BNTrainingUpdateGrad-op2780
+3 791 465 473
+1 797
+797 Gradients/Default/network-TrainOneStepCell/network-WithLossCell/_backbone-ResNet/bn1-BatchNorm2d/gradBatchNorm/BNTrainingReduceGrad-op2783
+4 791 465 794 473
+2 799 1345
+799 Gradients/Default/network-TrainOneStepCell/network-WithLossCell/_backbone-ResNet/gradReLU/FusionOp_Conv2DBackpropInput_ReluGradV2-op9211
+2 797 461
+2 802 805
+802 Gradients/Default/network-TrainOneStepCell/network-WithLossCell/_backbone-ResNet/bn1-BatchNorm2d/gradBatchNorm/BNTrainingUpdateGrad-op2785
+3 799 453 461
+1 805
+805 Gradients/Default/network-TrainOneStepCell/network-WithLossCell/_backbone-ResNet/bn1-BatchNorm2d/gradBatchNorm/BNTrainingReduceGrad-op2788
+4 799 453 802 461
+2 807 1359
+807 Gradients/Default/network-TrainOneStepCell/network-WithLossCell/_backbone-ResNet/gradReLU/FusionOp_Conv2DBackpropInput_AddN_ReluGradV2-op9201
+3 805 783 449
+3 810 813 831
+810 Gradients/Default/network-TrainOneStepCell/network-WithLossCell/_backbone-ResNet/bn1-BatchNorm2d/gradBatchNorm/BNTrainingUpdateGrad-op2790
+3 807 441 449
+1 813
+813 Gradients/Default/network-TrainOneStepCell/network-WithLossCell/_backbone-ResNet/bn1-BatchNorm2d/gradBatchNorm/BNTrainingReduceGrad-op2793
+4 807 441 810 449
+2 815 1373
+815 Gradients/Default/network-TrainOneStepCell/network-WithLossCell/_backbone-ResNet/gradReLU/FusionOp_Conv2DBackpropInput_ReluGradV2-op9212
+2 813 437
+2 818 821
+818 Gradients/Default/network-TrainOneStepCell/network-WithLossCell/_backbone-ResNet/bn1-BatchNorm2d/gradBatchNorm/BNTrainingUpdateGrad-op2795
+3 815 429 437
+1 821
+821 Gradients/Default/network-TrainOneStepCell/network-WithLossCell/_backbone-ResNet/bn1-BatchNorm2d/gradBatchNorm/BNTrainingReduceGrad-op2798
+4 815 429 818 437
+2 823 1387
+823 Gradients/Default/network-TrainOneStepCell/network-WithLossCell/_backbone-ResNet/gradReLU/FusionOp_Conv2DBackpropInput_ReluGradV2-op9213
+2 821 425
+2 826 829
+826 Gradients/Default/network-TrainOneStepCell/network-WithLossCell/_backbone-ResNet/bn1-BatchNorm2d/gradBatchNorm/BNTrainingUpdateGrad-op2800
+3 823 417 425
+1 829
+829 Gradients/Default/network-TrainOneStepCell/network-WithLossCell/_backbone-ResNet/bn1-BatchNorm2d/gradBatchNorm/BNTrainingReduceGrad-op2803
+4 823 417 826 425
+2 831 1401
+831 Gradients/Default/network-TrainOneStepCell/network-WithLossCell/_backbone-ResNet/gradReLU/FusionOp_Conv2DBackpropInput_AddN_ReluGradV2-op9204
+3 829 807 413
+3 834 837 855
+834 Gradients/Default/network-TrainOneStepCell/network-WithLossCell/_backbone-ResNet/bn1-BatchNorm2d/gradBatchNorm/BNTrainingUpdateGrad-op2805
+3 831 405 413
+1 837
+837 Gradients/Default/network-TrainOneStepCell/network-WithLossCell/_backbone-ResNet/bn1-BatchNorm2d/gradBatchNorm/BNTrainingReduceGrad-op2808
+4 831 405 834 413
+2 839 1415
+839 Gradients/Default/network-TrainOneStepCell/network-WithLossCell/_backbone-ResNet/gradReLU/FusionOp_Conv2DBackpropInput_ReluGradV2-op9214
+2 837 401
+2 842 845
+842 Gradients/Default/network-TrainOneStepCell/network-WithLossCell/_backbone-ResNet/bn1-BatchNorm2d/gradBatchNorm/BNTrainingUpdateGrad-op2810
+3 839 393 401
+1 845
+845 Gradients/Default/network-TrainOneStepCell/network-WithLossCell/_backbone-ResNet/bn1-BatchNorm2d/gradBatchNorm/BNTrainingReduceGrad-op2813
+4 839 393 842 401
+2 847 1429
+847 Gradients/Default/network-TrainOneStepCell/network-WithLossCell/_backbone-ResNet/gradReLU/FusionOp_Conv2DBackpropInput_ReluGradV2-op9215
+2 845 389
+2 850 853
+850 Gradients/Default/network-TrainOneStepCell/network-WithLossCell/_backbone-ResNet/bn1-BatchNorm2d/gradBatchNorm/BNTrainingUpdateGrad-op2815
+3 847 381 389
+1 853
+853 Gradients/Default/network-TrainOneStepCell/network-WithLossCell/_backbone-ResNet/bn1-BatchNorm2d/gradBatchNorm/BNTrainingReduceGrad-op2818
+4 847 381 850 389
+2 855 1443
+855 Gradients/Default/network-TrainOneStepCell/network-WithLossCell/_backbone-ResNet/gradReLU/FusionOp_Conv2DBackpropInput_AddN_ReluGradV2-op9112
+3 853 831 377
+3 858 861 879
+858 Gradients/Default/network-TrainOneStepCell/network-WithLossCell/_backbone-ResNet/bn1-BatchNorm2d/gradBatchNorm/BNTrainingUpdateGrad-op2820
+3 855 369 377
+1 861
+861 Gradients/Default/network-TrainOneStepCell/network-WithLossCell/_backbone-ResNet/bn1-BatchNorm2d/gradBatchNorm/BNTrainingReduceGrad-op2823
+4 855 369 858 377
+2 863 1457
+863 Gradients/Default/network-TrainOneStepCell/network-WithLossCell/_backbone-ResNet/gradReLU/FusionOp_Conv2DBackpropInput_ReluGradV2-op9216
+2 861 365
+2 866 869
+866 Gradients/Default/network-TrainOneStepCell/network-WithLossCell/_backbone-ResNet/bn1-BatchNorm2d/gradBatchNorm/BNTrainingUpdateGrad-op2825
+3 863 357 365
+1 869
+869 Gradients/Default/network-TrainOneStepCell/network-WithLossCell/_backbone-ResNet/bn1-BatchNorm2d/gradBatchNorm/BNTrainingReduceGrad-op2828
+4 863 357 866 365
+2 871 1471
+871 Gradients/Default/network-TrainOneStepCell/network-WithLossCell/_backbone-ResNet/gradReLU/FusionOp_Conv2DBackpropInput_ReluGradV2-op9217
+2 869 353
+2 874 877
+874 Gradients/Default/network-TrainOneStepCell/network-WithLossCell/_backbone-ResNet/bn1-BatchNorm2d/gradBatchNorm/BNTrainingUpdateGrad-op2830
+3 871 345 353
+1 877
+877 Gradients/Default/network-TrainOneStepCell/network-WithLossCell/_backbone-ResNet/bn1-BatchNorm2d/gradBatchNorm/BNTrainingReduceGrad-op2833
+4 871 345 874 353
+2 879 1485
+879 Gradients/Default/network-TrainOneStepCell/network-WithLossCell/_backbone-ResNet/gradReLU/FusionOp_Conv2DBackpropInput_AddN_ReluGradV2-op9135
+3 877 855 341
+4 882 885 888 891
+882 Gradients/Default/network-TrainOneStepCell/network-WithLossCell/_backbone-ResNet/bn1-BatchNorm2d/gradBatchNorm/BNTrainingUpdateGrad-op2850
+3 879 331 339
+1 885
+885 Gradients/Default/network-TrainOneStepCell/network-WithLossCell/_backbone-ResNet/bn1-BatchNorm2d/gradBatchNorm/BNTrainingReduceGrad-op2853
+4 879 331 882 339
+2 910 1499
+888 Gradients/Default/network-TrainOneStepCell/network-WithLossCell/_backbone-ResNet/bn1-BatchNorm2d/gradBatchNorm/BNTrainingUpdateGrad-op2835
+3 879 321 341
+1 891
+891 Gradients/Default/network-TrainOneStepCell/network-WithLossCell/_backbone-ResNet/bn1-BatchNorm2d/gradBatchNorm/BNTrainingReduceGrad-op2838
+4 879 321 888 341
+2 893 1513
+893 Gradients/Default/network-TrainOneStepCell/network-WithLossCell/_backbone-ResNet/gradReLU/FusionOp_Conv2DBackpropInput_ReluGradV2-op9090
+2 891 317
+2 896 899
+896 Gradients/Default/network-TrainOneStepCell/network-WithLossCell/_backbone-ResNet/bn1-BatchNorm2d/gradBatchNorm/BNTrainingUpdateGrad-op2840
+3 893 309 317
+1 899
+899 Gradients/Default/network-TrainOneStepCell/network-WithLossCell/_backbone-ResNet/bn1-BatchNorm2d/gradBatchNorm/BNTrainingReduceGrad-op2843
+4 893 309 896 317
+2 901 1527
+901 Gradients/Default/network-TrainOneStepCell/network-WithLossCell/_backbone-ResNet/gradReLU/FusionOp_Conv2DBackpropInput_ReluGradV2-op9089
+2 899 305
+2 904 907
+904 Gradients/Default/network-TrainOneStepCell/network-WithLossCell/_backbone-ResNet/bn1-BatchNorm2d/gradBatchNorm/BNTrainingUpdateGrad-op2845
+3 901 297 305
+1 907
+907 Gradients/Default/network-TrainOneStepCell/network-WithLossCell/_backbone-ResNet/bn1-BatchNorm2d/gradBatchNorm/BNTrainingReduceGrad-op2848
+4 901 297 904 305
+2 908 1541
+908 Gradients/Default/network-TrainOneStepCell/network-WithLossCell/_backbone-ResNet/layer3-SequentialCell/1-ResidualBlock/conv1-Conv2d/gradConv2D/Conv2DBackpropInput-op896
+1 907
+1 910
+910 Gradients/Default/network-TrainOneStepCell/network-WithLossCell/_backbone-ResNet/gradReLU/FusionOp_Conv2DBackpropInput_AddN_ReluGradV2-op9088
+3 885 908 293
+3 913 919 936
+913 Gradients/Default/network-TrainOneStepCell/network-WithLossCell/_backbone-ResNet/bn1-BatchNorm2d/gradBatchNorm/BNTrainingUpdateGrad-op2855
+3 910 285 293
+1 919
+919 Gradients/Default/network-TrainOneStepCell/network-WithLossCell/_backbone-ResNet/gradReLU/FusionOp_Conv2DBackpropInput_ReluGradV2-op9087
+5 281 910 285 913 293
+2 922 925
+922 Gradients/Default/network-TrainOneStepCell/network-WithLossCell/_backbone-ResNet/bn1-BatchNorm2d/gradBatchNorm/BNTrainingUpdateGrad-op2860
+3 919 273 281
+1 925
+925 Gradients/Default/network-TrainOneStepCell/network-WithLossCell/_backbone-ResNet/bn1-BatchNorm2d/gradBatchNorm/BNTrainingReduceGrad-op2863
+4 919 273 922 281
+2 927 1569
+927 Gradients/Default/network-TrainOneStepCell/network-WithLossCell/_backbone-ResNet/gradReLU/FusionOp_Conv2DBackpropInput_ReluGradV2-op9086
+2 925 269
+2 930 936
+930 Gradients/Default/network-TrainOneStepCell/network-WithLossCell/_backbone-ResNet/bn1-BatchNorm2d/gradBatchNorm/BNTrainingUpdateGrad-op2865
+3 927 261 269
+1 936
+936 Gradients/Default/network-TrainOneStepCell/network-WithLossCell/_backbone-ResNet/gradReLU/FusionOp_Conv2DBackpropInput_AddN_ReluGradV2-op9085
+6 257 927 261 930 269 910
+3 939 945 962
+939 Gradients/Default/network-TrainOneStepCell/network-WithLossCell/_backbone-ResNet/bn1-BatchNorm2d/gradBatchNorm/BNTrainingUpdateGrad-op2870
+3 936 249 257
+1 945
+945 Gradients/Default/network-TrainOneStepCell/network-WithLossCell/_backbone-ResNet/gradReLU/FusionOp_Conv2DBackpropInput_ReluGradV2-op9084
+5 245 936 249 939 257
+2 948 951
+948 Gradients/Default/network-TrainOneStepCell/network-WithLossCell/_backbone-ResNet/bn1-BatchNorm2d/gradBatchNorm/BNTrainingUpdateGrad-op2875
+3 945 237 245
+1 951
+951 Gradients/Default/network-TrainOneStepCell/network-WithLossCell/_backbone-ResNet/bn1-BatchNorm2d/gradBatchNorm/BNTrainingReduceGrad-op2878
+4 945 237 948 245
+2 953 1611
+953 Gradients/Default/network-TrainOneStepCell/network-WithLossCell/_backbone-ResNet/gradReLU/FusionOp_Conv2DBackpropInput_ReluGradV2-op9083
+2 951 233
+2 956 962
+956 Gradients/Default/network-TrainOneStepCell/network-WithLossCell/_backbone-ResNet/bn1-BatchNorm2d/gradBatchNorm/BNTrainingUpdateGrad-op2880
+3 953 225 233
+1 962
+962 Gradients/Default/network-TrainOneStepCell/network-WithLossCell/_backbone-ResNet/gradReLU/FusionOp_Conv2DBackpropInput_AddN_ReluGradV2-op9082
+6 221 953 225 956 233 936
+3 965 971 988
+965 Gradients/Default/network-TrainOneStepCell/network-WithLossCell/_backbone-ResNet/bn1-BatchNorm2d/gradBatchNorm/BNTrainingUpdateGrad-op2885
+3 962 213 221
+1 971
+971 Gradients/Default/network-TrainOneStepCell/network-WithLossCell/_backbone-ResNet/gradReLU/FusionOp_Conv2DBackpropInput_ReluGradV2-op9081
+5 209 962 213 965 221
+2 974 977
+974 Gradients/Default/network-TrainOneStepCell/network-WithLossCell/_backbone-ResNet/bn1-BatchNorm2d/gradBatchNorm/BNTrainingUpdateGrad-op2890
+3 971 201 209
+1 977
+977 Gradients/Default/network-TrainOneStepCell/network-WithLossCell/_backbone-ResNet/bn1-BatchNorm2d/gradBatchNorm/BNTrainingReduceGrad-op2893
+4 971 201 974 209
+2 979 1653
+979 Gradients/Default/network-TrainOneStepCell/network-WithLossCell/_backbone-ResNet/gradReLU/FusionOp_Conv2DBackpropInput_ReluGradV2-op9080
+2 977 197
+2 982 988
+982 Gradients/Default/network-TrainOneStepCell/network-WithLossCell/_backbone-ResNet/bn1-BatchNorm2d/gradBatchNorm/BNTrainingUpdateGrad-op2895
+3 979 189 197
+1 988
+988 Gradients/Default/network-TrainOneStepCell/network-WithLossCell/_backbone-ResNet/gradReLU/FusionOp_Conv2DBackpropInput_AddN_ReluGradV2-op9079
+6 185 979 189 982 197 962
+4 991 998 1004 1022
+991 Gradients/Default/network-TrainOneStepCell/network-WithLossCell/_backbone-ResNet/bn1-BatchNorm2d/gradBatchNorm/BNTrainingUpdateGrad-op2915
+3 988 175 183
+1 1022
+998 Gradients/Default/network-TrainOneStepCell/network-WithLossCell/_backbone-ResNet/bn1-BatchNorm2d/gradBatchNorm/BNTrainingUpdateGrad-op2900
+3 988 165 185
+1 1004
+1004 Gradients/Default/network-TrainOneStepCell/network-WithLossCell/_backbone-ResNet/gradReLU/FusionOp_Conv2DBackpropInput_ReluGradV2-op9078
+5 161 988 165 998 185
+2 1007 1010
+1007 Gradients/Default/network-TrainOneStepCell/network-WithLossCell/_backbone-ResNet/bn1-BatchNorm2d/gradBatchNorm/BNTrainingUpdateGrad-op2905
+3 1004 153 161
+1 1010
+1010 Gradients/Default/network-TrainOneStepCell/network-WithLossCell/_backbone-ResNet/bn1-BatchNorm2d/gradBatchNorm/BNTrainingReduceGrad-op2908
+4 1004 153 1007 161
+2 1012 1709
+1012 Gradients/Default/network-TrainOneStepCell/network-WithLossCell/_backbone-ResNet/gradReLU/FusionOp_Conv2DBackpropInput_ReluGradV2-op9077
+2 1010 149
+2 1015 1020
+1015 Gradients/Default/network-TrainOneStepCell/network-WithLossCell/_backbone-ResNet/bn1-BatchNorm2d/gradBatchNorm/BNTrainingUpdateGrad-op2910
+3 1012 141 149
+1 1020
+1020 Gradients/Default/network-TrainOneStepCell/network-WithLossCell/_backbone-ResNet/layer2-SequentialCell/1-ResidualBlock/conv1-Conv2d/gradConv2D/Conv2DBackpropInput-op994
+5 137 1012 141 1015 149
+1 1022
+1022 Gradients/Default/network-TrainOneStepCell/network-WithLossCell/_backbone-ResNet/gradReLU/FusionOp_Conv2DBackpropInput_AddN_ReluGradV2-op9076
+6 137 988 175 991 183 1020
+3 1025 1031 1049
+1025 Gradients/Default/network-TrainOneStepCell/network-WithLossCell/_backbone-ResNet/bn1-BatchNorm2d/gradBatchNorm/BNTrainingUpdateGrad-op2920
+3 1022 129 137
+1 1031
+1031 Gradients/Default/network-TrainOneStepCell/network-WithLossCell/_backbone-ResNet/gradReLU/FusionOp_Conv2DBackpropInput_ReluGradV2-op9075
+5 125 1022 129 1025 137
+2 1034 1040
+1034 Gradients/Default/network-TrainOneStepCell/network-WithLossCell/_backbone-ResNet/bn1-BatchNorm2d/gradBatchNorm/BNTrainingUpdateGrad-op2925
+3 1031 117 125
+1 1040
+1040 Gradients/Default/network-TrainOneStepCell/network-WithLossCell/_backbone-ResNet/gradReLU/FusionOp_Conv2DBackpropInput_ReluGradV2-op9074
+5 113 1031 117 1034 125
+2 1043 1049
+1043 Gradients/Default/network-TrainOneStepCell/network-WithLossCell/_backbone-ResNet/bn1-BatchNorm2d/gradBatchNorm/BNTrainingUpdateGrad-op2930
+3 1040 105 113
+1 1049
+1049 Gradients/Default/network-TrainOneStepCell/network-WithLossCell/_backbone-ResNet/gradReLU/FusionOp_Conv2DBackpropInput_AddN_ReluGradV2-op9073
+6 101 1040 105 1043 113 1022
+3 1052 1058 1076
+1052 Gradients/Default/network-TrainOneStepCell/network-WithLossCell/_backbone-ResNet/bn1-BatchNorm2d/gradBatchNorm/BNTrainingUpdateGrad-op2935
+3 1049 93 101
+1 1058
+1058 Gradients/Default/network-TrainOneStepCell/network-WithLossCell/_backbone-ResNet/gradReLU/FusionOp_Conv2DBackpropInput_ReluGradV2-op9072
+5 89 1049 93 1052 101
+2 1061 1067
+1061 Gradients/Default/network-TrainOneStepCell/network-WithLossCell/_backbone-ResNet/bn1-BatchNorm2d/gradBatchNorm/BNTrainingUpdateGrad-op2940
+3 1058 81 89
+1 1067
+1067 Gradients/Default/network-TrainOneStepCell/network-WithLossCell/_backbone-ResNet/gradReLU/FusionOp_Conv2DBackpropInput_ReluGradV2-op9071
+5 77 1058 81 1061 89
+2 1070 1076
+1070 Gradients/Default/network-TrainOneStepCell/network-WithLossCell/_backbone-ResNet/bn1-BatchNorm2d/gradBatchNorm/BNTrainingUpdateGrad-op2945
+3 1067 69 77
+1 1076
+1076 Gradients/Default/network-TrainOneStepCell/network-WithLossCell/_backbone-ResNet/gradReLU/FusionOp_Conv2DBackpropInput_AddN_ReluGradV2-op9070
+6 65 1067 69 1070 77 1049
+4 1079 1085 1105 1110
+1079 Gradients/Default/network-TrainOneStepCell/network-WithLossCell/_backbone-ResNet/bn1-BatchNorm2d/gradBatchNorm/BNTrainingUpdateGrad-op2950
+3 1076 45 65
+1 1085
+1085 Gradients/Default/network-TrainOneStepCell/network-WithLossCell/_backbone-ResNet/gradReLU/FusionOp_Conv2DBackpropInput_ReluGradV2-op9069
+5 41 1076 45 1079 65
+2 1088 1094
+1088 Gradients/Default/network-TrainOneStepCell/network-WithLossCell/_backbone-ResNet/bn1-BatchNorm2d/gradBatchNorm/BNTrainingUpdateGrad-op2955
+3 1085 33 41
+1 1094
+1094 Gradients/Default/network-TrainOneStepCell/network-WithLossCell/_backbone-ResNet/gradReLU/FusionOp_Conv2DBackpropInput_ReluGradV2-op9068
+5 29 1085 33 1088 41
+2 1097 1102
+1097 Gradients/Default/network-TrainOneStepCell/network-WithLossCell/_backbone-ResNet/bn1-BatchNorm2d/gradBatchNorm/BNTrainingUpdateGrad-op2960
+3 1094 21 29
+1 1102
+1102 Gradients/Default/network-TrainOneStepCell/network-WithLossCell/_backbone-ResNet/layer1-SequentialCell/1-ResidualBlock/conv1-Conv2d/gradConv2D/Conv2DBackpropInput-op1069
+5 17 1094 21 1097 29
+1 1111
+1105 Gradients/Default/network-TrainOneStepCell/network-WithLossCell/_backbone-ResNet/bn1-BatchNorm2d/gradBatchNorm/BNTrainingUpdateGrad-op2965
+3 1076 55 63
+1 1110
+1110 Gradients/Default/network-TrainOneStepCell/network-WithLossCell/_backbone-ResNet/layer3-SequentialCell/1-ResidualBlock/conv1-Conv2d/gradConv2D/Conv2DBackpropInput-op1075
+5 17 1076 55 1105 63
+1 1111
+1111 Default/network-TrainOneStepCell/network-WithLossCell/_backbone-ResNet/layer1-SequentialCell/0-ResidualBlock/down_sample_layer-SequentialCell/0-Conv2d/AddN-op1077
+2 1102 1110
+1 1113
+1113 Gradients/Default/network-TrainOneStepCell/network-WithLossCell/_backbone-ResNet/maxpool-MaxPool2d/gradMaxPool/MaxPoolGradWithArgmax-op2113
+3 15 1111 17
+1 1115
+1115 Gradients/Default/network-TrainOneStepCell/network-WithLossCell/_backbone-ResNet/gradReLU/ReluGradV2-op3547
+2 1113 15
+1 1118
+1118 Gradients/Default/network-TrainOneStepCell/network-WithLossCell/_backbone-ResNet/bn1-BatchNorm2d/gradBatchNorm/BNTrainingUpdateGrad-op2970
+3 1115 7 15
+0
+1134 Gradients/Default/network-TrainOneStepCell/network-WithLossCell/_backbone-ResNet/end_point-Dense/gradMatMul/MatMul-op1100
+2 672 646
+1 1135
+1135 Gradients/Default/network-TrainOneStepCell/network-WithLossCell/_backbone-ResNet/end_point-Dense/gradMatMul/TransData-op4121
+1 1134
+0
+1149 Gradients/Default/network-TrainOneStepCell/network-WithLossCell/_backbone-ResNet/layer4-SequentialCell/0-ResidualBlock/conv3-Conv2d/gradConv2D/Conv2DBackpropFilter-op1116
+2 686 629
+0
+1163 Gradients/Default/network-TrainOneStepCell/network-WithLossCell/_backbone-ResNet/layer4-SequentialCell/1-ResidualBlock/conv2-Conv2d/gradConv2D/Conv2DBackpropFilter-op1132
+2 694 617
+0
+1177 Gradients/Default/network-TrainOneStepCell/network-WithLossCell/_backbone-ResNet/layer4-SequentialCell/1-ResidualBlock/conv1-Conv2d/gradConv2D/Conv2DBackpropFilter-op1148
+2 702 605
+0
+1191 Gradients/Default/network-TrainOneStepCell/network-WithLossCell/_backbone-ResNet/layer4-SequentialCell/0-ResidualBlock/conv3-Conv2d/gradConv2D/Conv2DBackpropFilter-op1164
+2 710 593
+0
+1205 Gradients/Default/network-TrainOneStepCell/network-WithLossCell/_backbone-ResNet/layer4-SequentialCell/1-ResidualBlock/conv2-Conv2d/gradConv2D/Conv2DBackpropFilter-op1180
+2 718 581
+0
+1219 Gradients/Default/network-TrainOneStepCell/network-WithLossCell/_backbone-ResNet/layer4-SequentialCell/1-ResidualBlock/conv1-Conv2d/gradConv2D/Conv2DBackpropFilter-op1196
+2 726 569
+0
+1233 Gradients/Default/network-TrainOneStepCell/network-WithLossCell/_backbone-ResNet/layer4-SequentialCell/0-ResidualBlock/down_sample_layer-SequentialCell/0-Conv2d/gradConv2D/Conv2DBackpropFilter-op1212
+2 734 521
+0
+1247 Gradients/Default/network-TrainOneStepCell/network-WithLossCell/_backbone-ResNet/layer4-SequentialCell/0-ResidualBlock/conv3-Conv2d/gradConv2D/Conv2DBackpropFilter-op1228
+2 740 545
+0
+1261 Gradients/Default/network-TrainOneStepCell/network-WithLossCell/_backbone-ResNet/layer4-SequentialCell/0-ResidualBlock/conv2-Conv2d/gradConv2D/Conv2DBackpropFilter-op1244
+2 748 533
+0
+1275 Gradients/Default/network-TrainOneStepCell/network-WithLossCell/_backbone-ResNet/layer4-SequentialCell/1-ResidualBlock/conv1-Conv2d/gradConv2D/Conv2DBackpropFilter-op1260
+2 756 521
+0
+1289 Gradients/Default/network-TrainOneStepCell/network-WithLossCell/_backbone-ResNet/layer3-SequentialCell/0-ResidualBlock/conv3-Conv2d/gradConv2D/Conv2DBackpropFilter-op1276
+2 765 509
+0
+1303 Gradients/Default/network-TrainOneStepCell/network-WithLossCell/_backbone-ResNet/layer3-SequentialCell/1-ResidualBlock/conv2-Conv2d/gradConv2D/Conv2DBackpropFilter-op1292
+2 773 497
+0
+1317 Gradients/Default/network-TrainOneStepCell/network-WithLossCell/_backbone-ResNet/layer3-SequentialCell/1-ResidualBlock/conv1-Conv2d/gradConv2D/Conv2DBackpropFilter-op1308
+2 781 485
+0
+1331 Gradients/Default/network-TrainOneStepCell/network-WithLossCell/_backbone-ResNet/layer3-SequentialCell/0-ResidualBlock/conv3-Conv2d/gradConv2D/Conv2DBackpropFilter-op1324
+2 789 473
+0
+1345 Gradients/Default/network-TrainOneStepCell/network-WithLossCell/_backbone-ResNet/layer3-SequentialCell/1-ResidualBlock/conv2-Conv2d/gradConv2D/Conv2DBackpropFilter-op1340
+2 797 461
+0
+1359 Gradients/Default/network-TrainOneStepCell/network-WithLossCell/_backbone-ResNet/layer3-SequentialCell/1-ResidualBlock/conv1-Conv2d/gradConv2D/Conv2DBackpropFilter-op1356
+2 805 449
+0
+1373 Gradients/Default/network-TrainOneStepCell/network-WithLossCell/_backbone-ResNet/layer3-SequentialCell/0-ResidualBlock/conv3-Conv2d/gradConv2D/Conv2DBackpropFilter-op1372
+2 813 437
+0
+1387 Gradients/Default/network-TrainOneStepCell/network-WithLossCell/_backbone-ResNet/layer3-SequentialCell/1-ResidualBlock/conv2-Conv2d/gradConv2D/Conv2DBackpropFilter-op1388
+2 821 425
+0
+1401 Gradients/Default/network-TrainOneStepCell/network-WithLossCell/_backbone-ResNet/layer3-SequentialCell/1-ResidualBlock/conv1-Conv2d/gradConv2D/Conv2DBackpropFilter-op1404
+2 829 413
+0
+1415 Gradients/Default/network-TrainOneStepCell/network-WithLossCell/_backbone-ResNet/layer3-SequentialCell/0-ResidualBlock/conv3-Conv2d/gradConv2D/Conv2DBackpropFilter-op1420
+2 837 401
+0
+1429 Gradients/Default/network-TrainOneStepCell/network-WithLossCell/_backbone-ResNet/layer3-SequentialCell/1-ResidualBlock/conv2-Conv2d/gradConv2D/Conv2DBackpropFilter-op1436
+2 845 389
+0
+1443 Gradients/Default/network-TrainOneStepCell/network-WithLossCell/_backbone-ResNet/layer3-SequentialCell/1-ResidualBlock/conv1-Conv2d/gradConv2D/Conv2DBackpropFilter-op1452
+2 853 377
+0
+1457 Gradients/Default/network-TrainOneStepCell/network-WithLossCell/_backbone-ResNet/layer3-SequentialCell/0-ResidualBlock/conv3-Conv2d/gradConv2D/Conv2DBackpropFilter-op1468
+2 861 365
+0
+1471 Gradients/Default/network-TrainOneStepCell/network-WithLossCell/_backbone-ResNet/layer3-SequentialCell/1-ResidualBlock/conv2-Conv2d/gradConv2D/Conv2DBackpropFilter-op1484
+2 869 353
+0
+1485 Gradients/Default/network-TrainOneStepCell/network-WithLossCell/_backbone-ResNet/layer3-SequentialCell/1-ResidualBlock/conv1-Conv2d/gradConv2D/Conv2DBackpropFilter-op1500
+2 877 341
+0
+1499 Gradients/Default/network-TrainOneStepCell/network-WithLossCell/_backbone-ResNet/layer3-SequentialCell/0-ResidualBlock/down_sample_layer-SequentialCell/0-Conv2d/gradConv2D/Conv2DBackpropFilter-op1516
+2 885 293
+0
+1513 Gradients/Default/network-TrainOneStepCell/network-WithLossCell/_backbone-ResNet/layer3-SequentialCell/0-ResidualBlock/conv3-Conv2d/gradConv2D/Conv2DBackpropFilter-op1532
+2 891 317
+0
+1527 Gradients/Default/network-TrainOneStepCell/network-WithLossCell/_backbone-ResNet/layer3-SequentialCell/0-ResidualBlock/conv2-Conv2d/gradConv2D/Conv2DBackpropFilter-op1548
+2 899 305
+0
+1541 Gradients/Default/network-TrainOneStepCell/network-WithLossCell/_backbone-ResNet/layer3-SequentialCell/1-ResidualBlock/conv1-Conv2d/gradConv2D/Conv2DBackpropFilter-op1564
+2 907 293
+0
+1569 Gradients/Default/network-TrainOneStepCell/network-WithLossCell/_backbone-ResNet/layer2-SequentialCell/1-ResidualBlock/conv2-Conv2d/gradConv2D/Conv2DBackpropFilter-op1596
+2 925 269
+0
+1611 Gradients/Default/network-TrainOneStepCell/network-WithLossCell/_backbone-ResNet/layer2-SequentialCell/1-ResidualBlock/conv2-Conv2d/gradConv2D/Conv2DBackpropFilter-op1644
+2 951 233
+0
+1653 Gradients/Default/network-TrainOneStepCell/network-WithLossCell/_backbone-ResNet/layer2-SequentialCell/1-ResidualBlock/conv2-Conv2d/gradConv2D/Conv2DBackpropFilter-op1692
+2 977 197
+0
+1709 Gradients/Default/network-TrainOneStepCell/network-WithLossCell/_backbone-ResNet/layer2-SequentialCell/0-ResidualBlock/conv2-Conv2d/gradConv2D/Conv2DBackpropFilter-op1756
+2 1010 149
+0
