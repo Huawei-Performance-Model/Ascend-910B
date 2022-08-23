@@ -1,0 +1,10 @@
+{
+    "readme":"这是在训练前所需的配置,算子在此种情况下也分开来编号,需要一个shape映射过程",
+    "max_dimension_for_all_operator": 2,
+    "max_input_output_num":4,
+    "dataset_path": "../Operator_dataset/2/",
+
+    "Operator_subset":{
+        "SoftmaxCrossEntropyWithLogits": 0
+    }
+}

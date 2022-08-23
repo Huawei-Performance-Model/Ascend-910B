@@ -1,0 +1,27 @@
+{
+    "readme":"这是在训练前所需的配置,算子在此种情况下也分开来编号,需要一个shape映射过程",
+    "max_dimension_for_all_operator": 5,
+    "max_input_output_num":14,
+    "dataset_path": "../Operator_dataset/5/",
+
+    "Operator_subset":{
+        "BNInfer":0,
+        "BNTrainingUpdate":1,
+        "BNTrainingReduceGrad":2,
+        "BNTrainingUpdateGrad":3,
+        "Conv2D":4,
+        "Conv2DBackpropFilter":5,
+        "Conv2DBackpropInput":6,
+        "FusionOp_BNTrainingUpdate_Add_ReLUV2":7,
+        "FusionOp_BNTrainingUpdate_ReLUV2":8,
+        "FusionOp_Conv2D_BNTrainingReduce":9,
+        "FusionOp_Conv2DBackpropInput_AddN_ReluGradV2":10,
+        "FusionOp_Conv2DBackpropInput_ReluGradV2":11,
+        "MaxPoolGradWithArgmax":12,
+        "MaxPoolWithArgmax":13,
+        "ReluGradV2":14,
+        "TransData":15,
+        "AddN":16,
+        "Mul":17
+    }
+}

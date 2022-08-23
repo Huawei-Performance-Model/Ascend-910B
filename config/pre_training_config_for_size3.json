@@ -1,0 +1,15 @@
+{
+    "readme":"这是在训练前所需的配置,算子在此种情况下也分开来编号,需要一个shape映射过程",
+    "max_dimension_for_all_operator": 3,
+    "max_input_output_num":7,
+    "dataset_path": "../Operator_dataset/3/",
+
+    "Operator_subset":{
+        "GeLU":0,
+        "GeLUGrad":1,
+        "LayerNorm":2,
+        "LayerNormXBackpropV2":3,
+        "AddN":4,
+        "Mul":5
+    }
+}
