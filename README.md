@@ -7,9 +7,13 @@
   
   ***Attention:***<br>
   Before running these two shell, we need to unzip the following files first for the limited storage space in github:<br>
+  file 1:<br>
   https://github.com/Huawei-Performance-Model/Ascend-910B/blob/main/application_test/final_test/vit64/graph.rar<br>
+  file 2:<br>
   https://github.com/Huawei-Performance-Model/Ascend-910B/blob/main/application_test/final_test/vit128/graph.rar<br>
+  file 3:<br>
   https://github.com/Huawei-Performance-Model/Ascend-910B/blob/main/application_test/final_test/vit256/graph.rar<br>
+  file 4:<br>
   https://github.com/Huawei-Performance-Model/Ascend-910B/blob/main/application_test/memorybound_app/resnet50_64_224_224/runtime.rar<br>
   and use runtime.db files in Releases.
   
