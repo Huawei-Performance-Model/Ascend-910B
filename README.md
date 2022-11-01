@@ -17,5 +17,11 @@
   https://github.com/Huawei-Performance-Model/Ascend-910B/blob/main/application_test/memorybound_app/resnet50_64_224_224/runtime.rar<br>
   
   ***Besides：***<br>
-  We need use runtime.db files in Releases.
-  
+  We need use runtime.db files in Releases：
+  https://github.com/Huawei-Performance-Model/Ascend-910B/releases<br>
+  Here we can find：<br>
+  file 5:<br>
+  resnet50_16_runtime.7z<br>
+  file 6:<br>
+  resnet50_32_runtime.rar<br>
+
