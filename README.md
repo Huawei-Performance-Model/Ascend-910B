@@ -6,7 +6,7 @@
   `bash memorybound.sh`<br>
   
   ***Attention:***<br>
-  Before running these two shell, we first need to unzip the following files:<br>
+  Before running these two shell, we need to unzip the following files first for the limited storage space in github:<br>
   https://github.com/Huawei-Performance-Model/Ascend-910B/blob/main/application_test/final_test/vit64/graph.rar<br>
   https://github.com/Huawei-Performance-Model/Ascend-910B/blob/main/application_test/final_test/vit128/graph.rar<br>
   https://github.com/Huawei-Performance-Model/Ascend-910B/blob/main/application_test/final_test/vit256/graph.rar<br>
