@@ -1,8 +1,8 @@
-  We can run end_2_end.sh that corresponds to Fig. 10 and memorybound.sh that corresponds to Fig. 11 in our paper.<br>
+  We can run *end_2_end.sh* that corresponds to *Fig. 10* and *memorybound.sh* that corresponds to *Fig. 11* in our paper.<br>
   For example:<br>
-  To get the result in Fig. 10, you should run:<br>
+  To get the result in *Fig. 10*, you should run:<br>
   `bash end_2_end.sh`<br>
-  To get the result in Fig. 11, you should run:<br>
+  To get the result in *Fig. 11*, you should run:<br>
   `bash memorybound.sh`<br>
   
   ***Attention:***<br>
