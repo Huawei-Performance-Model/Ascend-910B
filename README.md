@@ -6,7 +6,7 @@
   `bash memorybound.sh`<br>
   
   ***Attention:***<br>
-  Before running these two shell, we need to unzip the following files first for the limited storage space in github:<br>
+  Before running these two shell, we need to unzip the following files first **for the limited storage space in github**:<br>
   file 1:<br>
   https://github.com/Huawei-Performance-Model/Ascend-910B/blob/main/application_test/final_test/vit64/graph.rar<br>
   file 2:<br>
@@ -25,3 +25,7 @@
   file 6:<br>
   resnet50_32_runtime.rar<br>
 
+  We need to unzip both of these two files, and move file 5 to:
+  `application_test/memorybound_app/resnet50_16_224_224`<br>
+  and move file 6 to:
+  `application_test/memorybound_app/resnet50_32_224_224`<br>
