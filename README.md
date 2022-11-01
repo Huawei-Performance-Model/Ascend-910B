@@ -1,6 +1,8 @@
   We can run end_2_end.sh that corresponds to Fig. 10 and memorybound.sh that corresponds to Fig. 11 in our paper.<br>
   For example:
   
+  git clone https://github.com/mit-han-lab/inter-operator-scheduler.git ios
+  cd ios
   
   
   
